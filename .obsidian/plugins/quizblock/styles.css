@@ -1,0 +1,107 @@
+.quiz-block {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    background-color: var(--background-secondary);
+}
+
+.quiz-question {
+    margin-bottom: 10px;
+}
+
+.quiz-question--single {
+    font-weight: 600;
+}
+
+.quiz-question p {
+    margin: 0;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.quiz-option {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+    cursor: pointer;
+}
+
+.quiz-option:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.markdown-preview-view .quiz-option {
+    cursor: auto;
+}
+
+.markdown-preview-view .quiz-option:hover {
+    background-color: transparent;
+}
+
+.quiz-option__marker {
+    font-family: var(--font-monospace);
+    font-size: 0.85em;
+    opacity: 0.6;
+    flex-shrink: 0;
+}
+
+.quiz-option--wrong {
+    background-color: #FEE8E2 !important;
+    border-color: #982e04;
+    color: #982e04;
+}
+
+.quiz-option--right,
+.quiz-option--revealed {
+    background-color: #E2F5EE !important;
+    border-color: #007255;
+    color: #007255;
+}
+
+.theme-dark .quiz-option--wrong {
+    background-color: #3a1208 !important;
+    border-color: #d95030;
+    color: #f08878;
+}
+
+.theme-dark .quiz-option--right,
+.theme-dark .quiz-option--revealed {
+    background-color: #0a2a1a !important;
+    border-color: #1a9966;
+    color: #5ecda0;
+}
+
+.quiz-details {
+    display: none;
+    margin-top: -8px;
+    margin-bottom: -16px;
+    /* border-top: 1px solid var(--background-modifier-border); */
+    /* font-size: 0.9em; */
+    /* color: var(--text-muted); */
+    color: var(--text-primary);
+}
+
+.quiz-details--visible {
+    display: block;
+}
+
+.cm-embed-block:has(.quiz-block),
+.cm-embed-block:has(.quiz-block):hover {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.cm-embed-block:has(.quiz-block) .edit-block-button {
+    top: auto !important;
+    bottom: 16px !important;
+}
