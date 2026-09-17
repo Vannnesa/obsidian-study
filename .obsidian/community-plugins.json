@@ -1,8 +1,12 @@
 [
-  "github-sync",
   "obsidian-latex-suite",
   "quick-latex",
+  "media-extended",
   "quizblock",
+  "folder-notes",
+  "obsidian42-brat",
   "spoilers",
+  "github-sync",
+  "obsidian-advanced-codeblock",
   "codeblock-customizer"
 ]
