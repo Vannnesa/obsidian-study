@@ -1,0 +1,27 @@
+/* 阅读视图与实时预览中的内嵌图片 */
+.theme-dark .markdown-rendered img,
+.theme-dark .markdown-preview-view img,
+.theme-dark .markdown-source-view.mod-cm6 .cm-content img,
+.theme-dark .internal-embed img,
+.theme-dark .image-embed img {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* SVG 的透明底同样受影响，一起处理 */
+.theme-dark .markdown-rendered img[src$=".svg"],
+.theme-dark .markdown-rendered svg {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* 图片放大预览与悬浮弹窗 */
+.theme-dark .image-container img,
+.theme-dark .popover img {
+  background-color: #ffffff;
+}
+
+/* Canvas 中的图片节点 */
+.theme-dark .canvas-node-content img {
+  background-color: #ffffff;
+}
