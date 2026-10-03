@@ -1,0 +1,179 @@
+/* Neat File Tree — styles are gated on body classes toggled by the plugin.
+   --nft-row-h is set inline on <body> from settings (fallback 25px). */
+
+/* ===== 1. Sticky folder headers, stacked by depth (VSCode-style) ===== */
+body.nft-sticky .nav-files-container .nav-folder-title {
+  position: sticky;
+  /* --nft-pad lifts the WHOLE stack up by the scroller's padding-top, so the
+     top-level header covers the strip above it (where scrolling rows would
+     otherwise show). Every depth subtracts the same --nft-pad, so the stack
+     stays internally aligned — lifting only the top bar would open a gap below
+     it. The offset only affects the stuck position, never normal flow. */
+  --nft-pad: 6px;
+  top: calc(-1 * var(--nft-pad));
+  z-index: 10;
+  --nft-base-bg: var(--background-secondary);
+  background-color: var(--nft-base-bg);
+}
+/* Each deeper header sticks one row down, MINUS 1px (so it overlaps the header
+   above by ~1px rather than leaving a sub-pixel seam when --nft-row-h is a hair
+   off the real row height), MINUS --nft-pad (the shared upward lift). The
+   higher-z parent paints over the 1px overlap, so it is invisible. */
+body.nft-sticky .nav-folder-children .nav-folder-title { top: calc(1 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 9; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(2 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 8; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(3 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 7; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(4 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 6; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(5 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 5; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(6 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 4; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(7 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 3; }
+body.nft-sticky .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { top: calc(8 * (var(--nft-row-h, 25px) - 1px) - var(--nft-pad)); z-index: 2; }
+
+/* Keep hover / active highlights visible WITHOUT going transparent: Obsidian's
+   own :hover sets a TRANSLUCENT background-color, which on a pinned bar lets the
+   scrolling rows below bleed through. Re-assert the opaque base (--nft-base-bg,
+   which is the accent tint on top-level folders) and layer the translucent
+   highlight on top as a background-image gradient. */
+body.nft-sticky .nav-files-container .nav-folder-title:hover {
+  background-color: var(--nft-base-bg);
+  background-image: linear-gradient(
+    var(--nav-item-background-hover, var(--background-modifier-hover)),
+    var(--nav-item-background-hover, var(--background-modifier-hover)));
+}
+body.nft-sticky .nav-files-container .nav-folder-title.has-focus,
+body.nft-sticky .nav-files-container .nav-folder-title.is-active,
+body.nft-sticky .nav-files-container .nav-folder-title.is-selected {
+  background-color: var(--nft-base-bg);
+  background-image: linear-gradient(
+    var(--nav-item-background-active, var(--background-modifier-hover)),
+    var(--nav-item-background-active, var(--background-modifier-hover)));
+}
+
+/* ===== 2. Colorful folder bars (name + bar tint, by depth) ===== */
+/* The scheme colors each level on BOTH axes: the name in the level color, the bar tinted
+   with it. Both flow from a single per-depth var --nft-lvl (set by the chains below), fed
+   by the plugin's --nft-c0..--nft-c6 (each falling back to the theme accent). Scoped to
+   .nav-files-container so it ties + beats the sticky base bg rule (same specificity, later
+   in the file) — otherwise pinned bars would fall back to plain secondary. */
+body.nft-accent-top .nav-files-container .nav-folder-title {
+  color: var(--nft-lvl, var(--text-accent));
+  --nft-base-bg: color-mix(in srgb, var(--nft-lvl, var(--text-accent)) 8%, var(--background-secondary));
+  background-color: var(--nft-base-bg);
+}
+/* Chevron follows the name color at every level. */
+body.nft-accent-top .nav-folder-title .collapse-icon svg {
+  color: currentColor;
+}
+/* Set --nft-lvl per depth: the chain length IS the depth, deepest match wins (same trick
+   as the sticky `top` rules). Depth 0 (slash-free data-path == a root item) also stays
+   BOLD. Beyond depth 6 the palette cycles (the c-var wraps in the plugin). */
+body.nft-accent-top .nav-folder-title:not([data-path*="/"]) { --nft-lvl: var(--nft-c0, var(--text-accent)); font-weight: 700; }
+body.nft-accent-top .nav-folder-children .nav-folder-title { --nft-lvl: var(--nft-c1, var(--text-accent)); }
+body.nft-accent-top .nav-folder-children .nav-folder-children .nav-folder-title { --nft-lvl: var(--nft-c2, var(--text-accent)); }
+body.nft-accent-top .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { --nft-lvl: var(--nft-c3, var(--text-accent)); }
+body.nft-accent-top .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { --nft-lvl: var(--nft-c4, var(--text-accent)); }
+body.nft-accent-top .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { --nft-lvl: var(--nft-c5, var(--text-accent)); }
+body.nft-accent-top .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-title { --nft-lvl: var(--nft-c6, var(--text-accent)); }
+/* Keep the top level BOLD through hover / active / selected. Obsidian's own
+   `.tree-item-self.is-active:hover` sets font-weight: var(--nav-item-weight-active),
+   which is usually unset → resolves to normal and un-bolds the bar. Re-assert 700 with
+   higher specificity (leaf-scoped) so it wins over core + folder-note plugin rules. */
+body.nft-accent-top .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:not([data-path*="/"]):is(:hover, .is-active, .has-focus, .is-selected, .fn-is-active, .mod-active) {
+  font-weight: 700;
+}
+
+/* ===== 3. Colored indentation guides (by depth) ===== */
+/* Sticky OFF: color Obsidian's native guide with the top-level color (single tint —
+   per-depth needs the pseudo below). Real var is `--nav-indentation-guide-color`
+   (the bare `--indentation-guide-color` name is a no-op). */
+body.nft-accent-guides .workspace-leaf-content[data-type="file-explorer"] {
+  --nav-indentation-guide-color: color-mix(in srgb, var(--nft-c0, var(--text-accent)) 40%, transparent);
+  --nav-indentation-guide-color-active: color-mix(in srgb, var(--nft-c0, var(--text-accent)) 70%, transparent);
+}
+/* Sticky ON: show the guides ON the pinned bars too (the native border-inline-start guide
+   is painted over by the bar's opaque background, so the line breaks at every pinned
+   header). Re-draw each guide as a pseudo elevated above the bars... */
+body.nft-sticky.nft-accent-guides .nav-folder-children {
+  position: relative;
+  /* ...but ISOLATE each children container so its guide pseudo is trapped in its own
+     stacking context. The container stacks below its OWN folder's pinned title (z 10),
+     so that title paints over its own child-guide → the line no longer strikes through
+     the bold title text. The pseudo still paints over DEEPER pinned bars (in their left
+     gutter) and the scrolling rows, so the line stays continuous everywhere else.
+     Without isolation the pseudo escapes to z 11 globally and cuts through the title. */
+  isolation: isolate;
+  border-inline-start-color: transparent;
+  /* --nft-guide = the color of the folder this spine descends from. Base is depth-0
+     (--nft-c0); each extra nesting level overrides to the next color, deepest wins. */
+  --nft-guide: var(--nft-c0, var(--text-accent));
+}
+body.nft-sticky.nft-accent-guides .nav-folder-children .nav-folder-children { --nft-guide: var(--nft-c1, var(--text-accent)); }
+body.nft-sticky.nft-accent-guides .nav-folder-children .nav-folder-children .nav-folder-children { --nft-guide: var(--nft-c2, var(--text-accent)); }
+body.nft-sticky.nft-accent-guides .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children { --nft-guide: var(--nft-c3, var(--text-accent)); }
+body.nft-sticky.nft-accent-guides .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children { --nft-guide: var(--nft-c4, var(--text-accent)); }
+body.nft-sticky.nft-accent-guides .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children { --nft-guide: var(--nft-c5, var(--text-accent)); }
+body.nft-sticky.nft-accent-guides .nav-folder-children::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: -1px;
+  inline-size: 1px;
+  background: color-mix(in srgb, var(--nft-guide) 45%, transparent);
+  z-index: 11;
+  pointer-events: none;
+}
+
+/* ===== 4. Attention pulse ===== */
+/* A brief accent flash on the row/bar the tree just scrolled to (a revealed file
+   or a clicked sticky folder bar). Painted as an inset box-shadow so it layers
+   OVER the existing background (the tinted sticky bars) without replacing it, and
+   follows the element's own border-radius. The plugin adds .nft-attention then
+   removes it on animationend. */
+@keyframes nft-attention {
+  0%, 45% { box-shadow: inset 0 0 0 9999px hsla(var(--interactive-accent-hsl), 0.45); } /* hold bright */
+  100%    { box-shadow: inset 0 0 0 9999px hsla(var(--interactive-accent-hsl), 0); }    /* then fade */
+}
+.nav-files-container .nft-attention { animation: nft-attention 1.5s ease-out; }
+
+/* ===== 5. nft: links ===== */
+/* `[label](nft:some/path)` reveals a path in the file tree instead of navigating, so it
+   must not read as a normal link — a reader should be able to tell at a glance that
+   clicking it won't take them anywhere. It carries the colour scheme's colour for the
+   DEPTH it points at (set as --nft-link-c by markNftLink), so a link reads in the same
+   colour as the row it reveals; plus a dotted underline (dotted = acts in place, solid =
+   takes you away), a leading ▸ marker, and no external-link arrow.
+   Reading view exposes the href; Live Preview keeps the URL out of the DOM entirely, so
+   the plugin tags those spans .nft-link (see tagNftSpans in main.js). */
+/* !important because themes colour `.cm-link` / `.external-link` with selectors more
+   specific than anything scoped here, and the whole point is to NOT look like a link. */
+a[href^="nft:"],
+.cm-link.nft-link,
+.cm-link.nft-link .cm-underline {
+  color: var(--nft-link-c, var(--nft-c0, var(--text-accent))) !important;
+  text-decoration: underline dotted !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+a[href^="nft:"]::before,
+.cm-link.nft-link::before {
+  content: "\25B8"; /* ▸ — the file tree's own disclosure marker */
+  margin-inline-end: 0.3em;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+a[href^="nft:"]:hover,
+.cm-link.nft-link:hover,
+.cm-link.nft-link:hover .cm-underline {
+  color: var(--text-accent) !important;
+  text-decoration-style: solid !important;
+}
+/* Kill the external-link arrow: a background icon on the anchor in Reading view, and a
+   separate collapsed `](url)` widget span in Live Preview. */
+a[href^="nft:"] {
+  background-image: none !important;
+  padding-inline-end: 0 !important;
+}
+a[href^="nft:"]::after { content: none !important; }
+/* :empty matters — that selects only the COLLAPSED `](url)` widget (which is where the
+   arrow is painted). With the cursor on the line CodeMirror reveals the real URL text in
+   non-empty .cm-url spans, and those must stay visible or the link becomes uneditable. */
+.cm-url.nft-link:empty { display: none !important; }
