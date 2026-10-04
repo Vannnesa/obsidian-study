@@ -1,0 +1,18 @@
+## 使用指南
+
+-确保你有一个较好的网络环境用于使用https协议克隆该仓库(约3.8G) 或者使用ssh协议进行克隆(ssh不会因为超时而中断)
+-确保你在本机安装了Obsidian和Bun, 后者是使用grade评分系统需要用到的技术栈。
+
+1.克隆本仓库:
+````bash
+git clone git@github.com:vannnesa/obsidian-study ~/duke-study
+````
+
+2. 将本仓库作为Obsidian的仓库
+打开Obsidian,选择"打开本地文件夹"，选中所克隆的仓库即可
+
+3.配置grade评分系统:
+````bash
+bun src/index.ts install
+````
+当你需要grade时再去用它吧！详细grade使用方法就在DukeSolution/README里
