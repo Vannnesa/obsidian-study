@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>struct 与 typedef 用法对比</title>
+<style>
+  /* 基础深色主题 */
+  html, body {
+    margin: 0;
+    padding: 12px;
+    background: #282c34;
+    color: #abb2bf;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* 表格样式 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+  }
+
+  th, td {
+    border: 1px solid #3e4451;
+    padding: 10px 12px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  th {
+    background: #21252b;
+    color: #e5c07b;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  td {
+    background: #282c34;
+  }
+
+  /* 行内代码 */
+  code {
+    font-family: "Fira Code", Consolas, Monaco, "Courier New", monospace;
+    background: #21252b;
+    color: #e06c75;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  /* 代码块 */
+  pre {
+    margin: 0;
+    padding: 10px 12px;
+    background: #21252b;
+    border-radius: 6px;
+    overflow-x: auto;
+    border: 1px solid #3e4451;
+  }
+
+  pre code {
+    background: transparent;
+    padding: 0;
+    color: inherit;
+    font-size: 0.9em;
+    white-space: pre;
+  }
+
+  /* One Dark 语法高亮配色 */
+  .token.keyword    { color: #c678dd; }  /* 紫 */
+  .token.class-name { color: #e5c07b; }  /* 黄 */
+  .token.punctuation{ color: #abb2bf; }  /* 灰 */
+  .token.property   { color: #e06c75; }  /* 红 */
+  .token.function   { color: #61afef; }  /* 蓝 */
+  .token.variable   { color: #d19a66; }  /* 橙 */
+  .token.operator   { color: #56b6c2; }  /* 青 */
+  .token.number     { color: #d19a66; }  /* 橙 */
+  .token.string     { color: #98c379; }  /* 绿 */
+
+  /* 让加粗的序号更明显 */
+  b {
+    color: #e5c07b;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>选项</th>
+    <th>创建新标签（1-3）和类型（2-4）</th>
+    <th>实例化变量 <code>myRect</code></th>
+    <th>类型</th>
+  </tr>
+
+  <tr>
+    <td>
+      <b>1.</b> 仅定义标签（<code>rect_t</code>）。<br>
+      该标签只能与关键字 <code>struct</code> 一起作为前缀使用。
+    </td>
+    <td>
+      <pre><code><span class="token keyword">struct</span> <span class="token class-name">rect_t</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> <span class="token property">left</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">bottom</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">right</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">top</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+    </td>
+    <td>
+      <pre><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">struct</span> <span class="token class-name">rect_t</span> <span class="token variable">myRect</span><span class="token punctuation">;</span>
+
+    <span class="token variable">myRect</span><span class="token punctuation">.</span><span class="token property">left</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">...</span>
+<span class="token punctuation">}</span></code></pre>
+    </td>
+    <td><code>struct rect_t</code></td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>2.</b> 定义标签（<code>rect_tag</code>），<br>
+      然后定义其类型别名（<code>rect_t</code>）。<br>
+      <code>struct</code> 声明和 <code>typedef</code> 可以以任意顺序出现。<br>
+      该标签可以单独与 <code>struct</code> 前缀一起使用。
+    </td>
+    <td>
+      <pre><code><span class="token keyword">struct</span> <span class="token class-name">rect_tag</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> <span class="token property">left</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">bottom</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">right</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">top</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">typedef</span> <span class="token keyword">struct</span> <span class="token class-name">rect_tag</span> <span class="token class-name">rect_t</span><span class="token punctuation">;</span></code></pre>
+    </td>
+    <td>
+      <pre><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token class-name">rect_t</span> <span class="token variable">myRect</span><span class="token punctuation">;</span>
+
+    <span class="token variable">myRect</span><span class="token punctuation">.</span><span class="token property">left</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">...</span>
+<span class="token punctuation">}</span></code></pre>
+    </td>
+    <td><code>rect_t</code></td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>3.</b> 第 2 项的缩写形式。<br>
+      声明和定义出现在同一条语句中。
+    </td>
+    <td>
+      <pre><code><span class="token keyword">typedef</span> <span class="token keyword">struct</span> <span class="token class-name">rect_tag</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> <span class="token property">left</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">bottom</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">right</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">top</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token class-name">rect_t</span><span class="token punctuation">;</span></code></pre>
+    </td>
+    <td>
+      <pre><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token class-name">rect_t</span> <span class="token variable">myRect</span><span class="token punctuation">;</span>
+
+    <span class="token variable">myRect</span><span class="token punctuation">.</span><span class="token property">left</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">...</span>
+<span class="token punctuation">}</span></code></pre>
+    </td>
+    <td><code>rect_t</code></td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>4.</b> 没有标签声明的类型定义。<br>
+      缺点：<code>struct</code> 不能引用自身。
+    </td>
+    <td>
+      <pre><code><span class="token keyword">typedef</span> <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> <span class="token property">left</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">bottom</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">right</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token property">top</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token class-name">rect_t</span><span class="token punctuation">;</span></code></pre>
+    </td>
+    <td>
+      <pre><code><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token class-name">rect_t</span> <span class="token variable">myRect</span><span class="token punctuation">;</span>
+
+    <span class="token variable">myRect</span><span class="token punctuation">.</span><span class="token property">left</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">...</span>
+<span class="token punctuation">}</span></code></pre>
+    </td>
+    <td><code>rect_t</code></td>
+  </tr>
+</table>
+
+</body>
+</html>
