@@ -1,1 +1,86 @@
-{}
+{
+  "universal-cursor-hotkeys:cursor-up": [
+    {
+      "modifiers": [],
+      "key": "ArrowUp"
+    }
+  ],
+  "universal-cursor-hotkeys:cursor-down": [
+    {
+      "modifiers": [],
+      "key": "ArrowDown"
+    }
+  ],
+  "universal-cursor-hotkeys:cursor-home": [
+    {
+      "modifiers": [],
+      "key": "Home"
+    }
+  ],
+  "universal-cursor-hotkeys:cursor-end": [
+    {
+      "modifiers": [],
+      "key": "End"
+    }
+  ],
+  "universal-cursor-hotkeys:cursor-top": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "universal-cursor-hotkeys:cursor-bottom": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "universal-cursor-hotkeys:page-up": [
+    {
+      "modifiers": [],
+      "key": "PageUp"
+    }
+  ],
+  "universal-cursor-hotkeys:page-down": [
+    {
+      "modifiers": [],
+      "key": "PageDown"
+    }
+  ],
+  "universal-cursor-hotkeys:word-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "universal-cursor-hotkeys:word-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "universal-cursor-hotkeys:kill-word-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "universal-cursor-hotkeys:kill-word-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Delete"
+    }
+  ]
+}
