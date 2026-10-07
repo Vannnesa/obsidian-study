@@ -1,6 +1,9 @@
 {
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "image_bound"
-  ]
+    "image_bound",
+    "html_widen"
+  ],
+  "translucency": true,
+  "cssTheme": "Minimal"
 }

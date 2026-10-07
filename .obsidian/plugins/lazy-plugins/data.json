@@ -1,0 +1,56 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "enableDependencies": false,
+    "plugins": {
+      "obsidian-advanced-codeblock": {
+        "startupType": "instant"
+      },
+      "codeblock-customizer": {
+        "startupType": "instant"
+      },
+      "dynamic-wide-content": {
+        "startupType": "short"
+      },
+      "hide-folders": {
+        "startupType": "instant"
+      },
+      "obsidian-latex-suite": {
+        "startupType": "instant"
+      },
+      "media-extended": {
+        "startupType": "instant"
+      },
+      "neat-file-tree": {
+        "startupType": "instant"
+      },
+      "novel-word-count": {
+        "startupType": "instant"
+      },
+      "obsidian-pretext": {
+        "startupType": "instant"
+      },
+      "quick-latex": {
+        "startupType": "instant"
+      },
+      "quizblock": {
+        "startupType": "instant"
+      },
+      "spoilers": {
+        "startupType": "instant"
+      },
+      "universal-cursor-hotkeys": {
+        "startupType": "instant"
+      },
+      "html-viewer-plus": {
+        "startupType": "instant"
+      }
+    }
+  }
+}
