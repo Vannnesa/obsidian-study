@@ -1,0 +1,73 @@
+{
+ "path": "13_read_arr1/test.o",
+ "size": 2256,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "test.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": ".LC0",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": ".LC2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 22,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": ".LC1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 9,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 178,
+   "addr": 0,
+   "section": ".text.startup"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__printf_chk",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/13_read_arr1/test.o:\tfile format elf64-x86-64\n\nDisassembly of section .text.startup:\n\n0000000000000000 <main>:\n       0:      \tendbr64\n       4:      \tpushq\t%r12\n       6:      \tmovl\t$0x5, %edx\n       b:      \tmovl\t$0x1, %edi\n      10:      \tleaq\t(%rip), %rsi            # 0x17 <main+0x17>\n      17:      \tpushq\t%rbp\n      18:      \tleaq\t(%rip), %rbp            # 0x1f <main+0x1f>\n      1f:      \tpushq\t%rbx\n      20:      \txorl\t%ebx, %ebx\n      22:      \tsubq\t$0x20, %rsp\n      26:      \tmovq\t%fs:0x28, %rax\n      2f:      \tmovq\t%rax, 0x18(%rsp)\n      34:      \txorl\t%eax, %eax\n      36:      \tmovq\t%rsp, %r12\n      39:      \tcallq\t0x3e <main+0x3e>\n      3e:      \tmovl\t$0x10, %edx\n      43:      \tleaq\t(%rip), %rsi            # 0x4a <main+0x4a>\n      4a:      \txorl\t%eax, %eax\n      4c:      \tmovl\t$0x1, %edi\n      51:      \tcallq\t0x56 <main+0x56>\n      56:      \tmovabsq\t$0x2a00000005, %rax     # imm = 0x2A00000005\n      60:      \tmovq\t%rax, (%rsp)\n      64:      \tmovabsq\t$0xc00000009, %rax      # imm = 0xC00000009\n      6e:      \tmovq\t%rax, 0x8(%rsp)\n      73:      \tmovl\t(%r12,%rbx,4), %ecx\n      77:      \tmovl\t%ebx, %edx\n      79:      \tmovq\t%rbp, %rsi\n      7c:      \tmovl\t$0x1, %edi\n      81:      \txorl\t%eax, %eax\n      83:      \taddq\t$0x1, %rbx\n      87:      \tcallq\t0x8c <main+0x8c>\n      8c:      \tcmpq\t$0x4, %rbx\n      90:      \tjne\t0x73 <main+0x73>\n      92:      \tmovq\t0x18(%rsp), %rax\n      97:      \txorq\t%fs:0x28, %rax\n      a0:      \tjne\t0xad <main+0xad>\n      a2:      \taddq\t$0x20, %rsp\n      a6:      \txorl\t%eax, %eax\n      a8:      \tpopq\t%rbx\n      a9:      \tpopq\t%rbp\n      aa:      \tpopq\t%r12\n      ac:      \tretq\n      ad:      \tcallq\t0xb2 <main+0xb2>"
+}

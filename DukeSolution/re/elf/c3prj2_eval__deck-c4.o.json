@@ -1,0 +1,364 @@
+{
+ "path": "c3prj2_eval/deck-c4.o",
+ "size": 4752,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "deck-c4.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "CHECK_GRADER_ENV",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 127,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.2914",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 18,
+   "addr": 176,
+   "section": ".rodata"
+  },
+  {
+   "name": "make_deck_exclude",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 337,
+   "addr": 127,
+   "section": ".text"
+  },
+  {
+   "name": "add_card_to",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 204,
+   "addr": 464,
+   "section": ".text"
+  },
+  {
+   "name": "add_empty_card",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 232,
+   "addr": 668,
+   "section": ".text"
+  },
+  {
+   "name": "free_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 119,
+   "addr": 900,
+   "section": ".text"
+  },
+  {
+   "name": "build_remaining_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 288,
+   "addr": 1019,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getenv",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "atoi",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "abort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "malloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "card_from_num",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "deck_contains",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "realloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "PokerProjectStep"
+  },
+  {
+   "offset": 24,
+   "text": "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  },
+  {
+   "offset": 111,
+   "text": "deck-c4.c"
+  },
+  {
+   "offset": 121,
+   "text": "index < ans->n_cards"
+  },
+  {
+   "offset": 142,
+   "text": "index == ans->n_cards"
+  },
+  {
+   "offset": 176,
+   "text": "make_deck_exclude"
+  }
+ ],
+ "string_refs": {
+  "CHECK_GRADER_ENV": [
+   "PokerProjectStep",
+   "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  ],
+  "make_deck_exclude": [
+   "make_deck_exclude",
+   "deck-c4.c",
+   "index < ans->n_cards",
+   "index == ans->n_cards"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 31,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 36,
+    "symbol": "getenv",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 59,
+    "symbol": "atoi",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 77,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 102,
+    "symbol": ".rodata",
+    "addend": 20,
+    "type": 2
+   },
+   {
+    "offset": 115,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 120,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 165,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 213,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 253,
+    "symbol": "card_from_num",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 276,
+    "symbol": "deck_contains",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 309,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 361,
+    "symbol": ".rodata",
+    "addend": 172,
+    "type": 2
+   },
+   {
+    "offset": 373,
+    "symbol": ".rodata",
+    "addend": 107,
+    "type": 2
+   },
+   {
+    "offset": 380,
+    "symbol": ".rodata",
+    "addend": 117,
+    "type": 2
+   },
+   {
+    "offset": 385,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 425,
+    "symbol": ".rodata",
+    "addend": 172,
+    "type": 2
+   },
+   {
+    "offset": 437,
+    "symbol": ".rodata",
+    "addend": 107,
+    "type": 2
+   },
+   {
+    "offset": 444,
+    "symbol": ".rodata",
+    "addend": 138,
+    "type": 2
+   },
+   {
+    "offset": 449,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 515,
+    "symbol": "deck_contains",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 561,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 601,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 734,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 774,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 966,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1000,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1012,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1060,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1209,
+    "symbol": "add_card_to",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1281,
+    "symbol": "make_deck_exclude",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1297,
+    "symbol": "free_deck",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c3prj2_eval/deck-c4.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <CHECK_GRADER_ENV>:\n       0:      \tpushq\t%rbp\n       1:      \tmovq\t%rsp, %rbp\n       4:      \tsubq\t$0x20, %rsp\n       8:      \tmovl\t%edi, -0x14(%rbp)\n       b:      \tmovl\t%esi, -0x18(%rbp)\n       e:      \tmovl\t-0x14(%rbp), %eax\n      11:      \timull\t$0x64, %eax, %edx\n      14:      \tmovl\t-0x18(%rbp), %eax\n      17:      \taddl\t%edx, %eax\n      19:      \tmovl\t%eax, -0x10(%rbp)\n      1c:      \tleaq\t(%rip), %rdi            # 0x23 <CHECK_GRADER_ENV+0x23>\n;   .rodata -> \"PokerProjectStep\"\n      23:      \tcallq\t0x28 <CHECK_GRADER_ENV+0x28>\n;   getenv+-4\n      28:      \tmovq\t%rax, -0x8(%rbp)\n      2c:      \tcmpq\t$0x0, -0x8(%rbp)\n      31:      \tje\t0x7c <CHECK_GRADER_ENV+0x7c>\n      33:      \tmovq\t-0x8(%rbp), %rax\n      37:      \tmovq\t%rax, %rdi\n      3a:      \tcallq\t0x3f <CHECK_GRADER_ENV+0x3f>\n;   atoi+-4\n      3f:      \tmovl\t%eax, -0xc(%rbp)\n      42:      \tmovl\t-0x10(%rbp), %eax\n      45:      \tcmpl\t-0xc(%rbp), %eax\n      48:      \tjg\t0x7d <CHECK_GRADER_ENV+0x7d>\n      4a:      \tmovq\t(%rip), %rax            # 0x51 <CHECK_GRADER_ENV+0x51>\n;   stderr+-4\n      51:      \tmovl\t-0xc(%rbp), %edi\n      54:      \tmovl\t-0x10(%rbp), %esi\n      57:      \tmovl\t-0x18(%rbp), %ecx\n      5a:      \tmovl\t-0x14(%rbp), %edx\n      5d:      \tmovl\t%edi, %r9d\n      60:      \tmovl\t%esi, %r8d\n      63:      \tleaq\t(%rip), %rsi            # 0x6a <CHECK_GRADER_ENV+0x6a>\n;   .rodata -> \"Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\\n\"\n      6a:      \tmovq\t%rax, %rdi\n      6d:      \tmovl\t$0x0, %eax\n      72:      \tcallq\t0x77 <CHECK_GRADER_ENV+0x77>\n;   fprintf+-4\n      77:      \tcallq\t0x7c <CHECK_GRADER_ENV+0x7c>\n;   abort+-4\n      7c:      \tnop\n      7d:      \tleave\n      7e:      \tretq\n\n000000000000007f <make_deck_exclude>:\n      7f:      \tendbr64\n      83:      \tpushq\t%rbp\n      84:      \tmovq\t%rsp, %rbp\n      87:      \tpushq\t%rbx\n      88:      \tsubq\t$0x38, %rsp\n      8c:      \tmovq\t%rdi, -0x38(%rbp)\n      90:      \tmovl\t$0x1, %esi\n      95:      \tmovl\t$0x4, %edi\n      9a:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n      9f:      \tmovl\t$0x10, %edi\n      a4:      \tcallq\t0xa9 <make_deck_exclude+0x2a>\n;   malloc+-4\n      a9:      \tmovq\t%rax, -0x20(%rbp)\n      ad:      \tmovq\t-0x38(%rbp), %rax\n      b1:      \tmovq\t0x8(%rax), %rax\n      b5:      \tmovl\t$0x34, %edx\n      ba:      \tsubq\t%rax, %rdx\n      bd:      \tmovq\t-0x20(%rbp), %rax\n      c1:      \tmovq\t%rdx, 0x8(%rax)\n      c5:      \tmovq\t-0x20(%rbp), %rax\n      c9:      \tmovq\t0x8(%rax), %rax\n      cd:      \tshlq\t$0x3, %rax\n      d1:      \tmovq\t%rax, %rdi\n      d4:      \tcallq\t0xd9 <make_deck_exclude+0x5a>\n;   malloc+-4\n      d9:      \tmovq\t%rax, %rdx\n      dc:      \tmovq\t-0x20(%rbp), %rax\n      e0:      \tmovq\t%rdx, (%rax)\n      e3:      \tmovq\t$0x0, -0x28(%rbp)\n      eb:      \tmovl\t$0x0, -0x2c(%rbp)\n      f2:      \tjmp\t0x18e <make_deck_exclude+0x10f>\n      f7:      \tmovl\t-0x2c(%rbp), %eax\n      fa:      \tmovl\t%eax, %edi\n      fc:      \tcallq\t0x101 <make_deck_exclude+0x82>\n;   card_from_num+-4\n     101:      \tmovq\t%rax, -0x18(%rbp)\n     105:      \tmovq\t-0x18(%rbp), %rdx\n     109:      \tmovq\t-0x38(%rbp), %rax\n     10d:      \tmovq\t%rdx, %rsi\n     110:      \tmovq\t%rax, %rdi\n     113:      \tcallq\t0x118 <make_deck_exclude+0x99>\n;   deck_contains+-4\n     118:      \ttestl\t%eax, %eax\n     11a:      \tjne\t0x18a <make_deck_exclude+0x10b>\n     11c:      \tmovq\t-0x20(%rbp), %rax\n     120:      \tmovq\t(%rax), %rax\n     123:      \tmovq\t-0x28(%rbp), %rdx\n     127:      \tshlq\t$0x3, %rdx\n     12b:      \tleaq\t(%rax,%rdx), %rbx\n     12f:      \tmovl\t$0x8, %edi\n     134:      \tcallq\t0x139 <make_deck_exclude+0xba>\n;   malloc+-4\n     139:      \tmovq\t%rax, (%rbx)\n     13c:      \tmovq\t-0x20(%rbp), %rax\n     140:      \tmovq\t(%rax), %rax\n     143:      \tmovq\t-0x28(%rbp), %rdx\n     147:      \tshlq\t$0x3, %rdx\n     14b:      \taddq\t%rdx, %rax\n     14e:      \tmovq\t(%rax), %rax\n     151:      \tmovq\t-0x18(%rbp), %rdx\n     155:      \tmovq\t%rdx, (%rax)\n     158:      \tmovq\t-0x20(%rbp), %rax\n     15c:      \tmovq\t0x8(%rax), %rax\n     160:      \tcmpq\t%rax, -0x28(%rbp)\n     164:      \tjb\t0x185 <make_deck_exclude+0x106>\n     166:      \tleaq\t(%rip), %rcx            # 0x16d <make_deck_exclude+0xee>\n;   .rodata -> \"make_deck_exclude\"\n     16d:      \tmovl\t$0x12, %edx\n     172:      \tleaq\t(%rip), %rsi            # 0x179 <make_deck_exclude+0xfa>\n;   .rodata -> \"deck-c4.c\"\n     179:      \tleaq\t(%rip), %rdi            # 0x180 <make_deck_exclude+0x101>\n;   .rodata -> \"index < ans->n_cards\"\n     180:      \tcallq\t0x185 <make_deck_exclude+0x106>\n;   __assert_fail+-4\n     185:      \taddq\t$0x1, -0x28(%rbp)\n     18a:      \taddl\t$0x1, -0x2c(%rbp)\n     18e:      \tcmpl\t$0x33, -0x2c(%rbp)\n     192:      \tjbe\t0xf7 <make_deck_exclude+0x78>\n     198:      \tmovq\t-0x20(%rbp), %rax\n     19c:      \tmovq\t0x8(%rax), %rax\n     1a0:      \tcmpq\t%rax, -0x28(%rbp)\n     1a4:      \tje\t0x1c5 <make_deck_exclude+0x146>\n     1a6:      \tleaq\t(%rip), %rcx            # 0x1ad <make_deck_exclude+0x12e>\n;   .rodata -> \"make_deck_exclude\"\n     1ad:      \tmovl\t$0x16, %edx\n     1b2:      \tleaq\t(%rip), %rsi            # 0x1b9 <make_deck_exclude+0x13a>\n;   .rodata -> \"deck-c4.c\"\n     1b9:      \tleaq\t(%rip), %rdi            # 0x1c0 <make_deck_exclude+0x141>\n;   .rodata -> \"index == ans->n_cards\"\n     1c0:      \tcallq\t0x1c5 <make_deck_exclude+0x146>\n;   __assert_fail+-4\n     1c5:      \tmovq\t-0x20(%rbp), %rax\n     1c9:      \taddq\t$0x38, %rsp\n     1cd:      \tpopq\t%rbx\n     1ce:      \tpopq\t%rbp\n     1cf:      \tretq\n\n00000000000001d0 <add_card_to>:\n     1d0:      \tendbr64\n     1d4:      \tpushq\t%rbp\n     1d5:      \tmovq\t%rsp, %rbp\n     1d8:      \tpushq\t%rbx\n     1d9:      \tsubq\t$0x18, %rsp\n     1dd:      \tmovq\t%rdi, -0x18(%rbp)\n     1e1:      \tmovq\t%rsi, -0x20(%rbp)\n     1e5:      \tmovl\t$0x1, %esi\n     1ea:      \tmovl\t$0x4, %edi\n     1ef:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     1f4:      \tmovq\t-0x20(%rbp), %rdx\n     1f8:      \tmovq\t-0x18(%rbp), %rax\n     1fc:      \tmovq\t%rdx, %rsi\n     1ff:      \tmovq\t%rax, %rdi\n     202:      \tcallq\t0x207 <add_card_to+0x37>\n;   deck_contains+-4\n     207:      \ttestl\t%eax, %eax\n     209:      \tjne\t0x294 <add_card_to+0xc4>\n     20f:      \tmovq\t-0x18(%rbp), %rax\n     213:      \tmovq\t0x8(%rax), %rax\n     217:      \taddq\t$0x1, %rax\n     21b:      \tleaq\t(,%rax,8), %rdx\n     223:      \tmovq\t-0x18(%rbp), %rax\n     227:      \tmovq\t(%rax), %rax\n     22a:      \tmovq\t%rdx, %rsi\n     22d:      \tmovq\t%rax, %rdi\n     230:      \tcallq\t0x235 <add_card_to+0x65>\n;   realloc+-4\n     235:      \tmovq\t-0x18(%rbp), %rdx\n     239:      \tmovq\t%rax, (%rdx)\n     23c:      \tmovq\t-0x18(%rbp), %rax\n     240:      \tmovq\t(%rax), %rdx\n     243:      \tmovq\t-0x18(%rbp), %rax\n     247:      \tmovq\t0x8(%rax), %rax\n     24b:      \tshlq\t$0x3, %rax\n     24f:      \tleaq\t(%rdx,%rax), %rbx\n     253:      \tmovl\t$0x8, %edi\n     258:      \tcallq\t0x25d <add_card_to+0x8d>\n;   malloc+-4\n     25d:      \tmovq\t%rax, (%rbx)\n     260:      \tmovq\t-0x18(%rbp), %rax\n     264:      \tmovq\t(%rax), %rdx\n     267:      \tmovq\t-0x18(%rbp), %rax\n     26b:      \tmovq\t0x8(%rax), %rax\n     26f:      \tshlq\t$0x3, %rax\n     273:      \taddq\t%rdx, %rax\n     276:      \tmovq\t(%rax), %rax\n     279:      \tmovq\t-0x20(%rbp), %rdx\n     27d:      \tmovq\t%rdx, (%rax)\n     280:      \tmovq\t-0x18(%rbp), %rax\n     284:      \tmovq\t0x8(%rax), %rax\n     288:      \tleaq\t0x1(%rax), %rdx\n     28c:      \tmovq\t-0x18(%rbp), %rax\n     290:      \tmovq\t%rdx, 0x8(%rax)\n     294:      \tnop\n     295:      \taddq\t$0x18, %rsp\n     299:      \tpopq\t%rbx\n     29a:      \tpopq\t%rbp\n     29b:      \tretq\n\n000000000000029c <add_empty_card>:\n     29c:      \tendbr64\n     2a0:      \tpushq\t%rbp\n     2a1:      \tmovq\t%rsp, %rbp\n     2a4:      \tpushq\t%rbx\n     2a5:      \tsubq\t$0x18, %rsp\n     2a9:      \tmovq\t%rdi, -0x18(%rbp)\n     2ad:      \tmovl\t$0x1, %esi\n     2b2:      \tmovl\t$0x4, %edi\n     2b7:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     2bc:      \tmovq\t-0x18(%rbp), %rax\n     2c0:      \tmovq\t0x8(%rax), %rax\n     2c4:      \taddq\t$0x1, %rax\n     2c8:      \tleaq\t(,%rax,8), %rdx\n     2d0:      \tmovq\t-0x18(%rbp), %rax\n     2d4:      \tmovq\t(%rax), %rax\n     2d7:      \tmovq\t%rdx, %rsi\n     2da:      \tmovq\t%rax, %rdi\n     2dd:      \tcallq\t0x2e2 <add_empty_card+0x46>\n;   realloc+-4\n     2e2:      \tmovq\t-0x18(%rbp), %rdx\n     2e6:      \tmovq\t%rax, (%rdx)\n     2e9:      \tmovq\t-0x18(%rbp), %rax\n     2ed:      \tmovq\t(%rax), %rdx\n     2f0:      \tmovq\t-0x18(%rbp), %rax\n     2f4:      \tmovq\t0x8(%rax), %rax\n     2f8:      \tshlq\t$0x3, %rax\n     2fc:      \tleaq\t(%rdx,%rax), %rbx\n     300:      \tmovl\t$0x8, %edi\n     305:      \tcallq\t0x30a <add_empty_card+0x6e>\n;   malloc+-4\n     30a:      \tmovq\t%rax, (%rbx)\n     30d:      \tmovq\t-0x18(%rbp), %rax\n     311:      \tmovq\t(%rax), %rdx\n     314:      \tmovq\t-0x18(%rbp), %rax\n     318:      \tmovq\t0x8(%rax), %rax\n     31c:      \tshlq\t$0x3, %rax\n     320:      \taddq\t%rdx, %rax\n     323:      \tmovq\t(%rax), %rax\n     326:      \tmovl\t$0x0, (%rax)\n     32c:      \tmovq\t-0x18(%rbp), %rax\n     330:      \tmovq\t(%rax), %rdx\n     333:      \tmovq\t-0x18(%rbp), %rax\n     337:      \tmovq\t0x8(%rax), %rax\n     33b:      \tshlq\t$0x3, %rax\n     33f:      \taddq\t%rdx, %rax\n     342:      \tmovq\t(%rax), %rax\n     345:      \tmovl\t$0x0, 0x4(%rax)\n     34c:      \tmovq\t-0x18(%rbp), %rax\n     350:      \tmovq\t0x8(%rax), %rax\n     354:      \tleaq\t0x1(%rax), %rdx\n     358:      \tmovq\t-0x18(%rbp), %rax\n     35c:      \tmovq\t%rdx, 0x8(%rax)\n     360:      \tmovq\t-0x18(%rbp), %rax\n     364:      \tmovq\t(%rax), %rdx\n     367:      \tmovq\t-0x18(%rbp), %rax\n     36b:      \tmovq\t0x8(%rax), %rax\n     36f:      \tshlq\t$0x3, %rax\n     373:      \tsubq\t$0x8, %rax\n     377:      \taddq\t%rdx, %rax\n     37a:      \tmovq\t(%rax), %rax\n     37d:      \taddq\t$0x18, %rsp\n     381:      \tpopq\t%rbx\n     382:      \tpopq\t%rbp\n     383:      \tretq\n\n0000000000000384 <free_deck>:\n     384:      \tendbr64\n     388:      \tpushq\t%rbp\n     389:      \tmovq\t%rsp, %rbp\n     38c:      \tsubq\t$0x20, %rsp\n     390:      \tmovq\t%rdi, -0x18(%rbp)\n     394:      \tmovl\t$0x1, %esi\n     399:      \tmovl\t$0x4, %edi\n     39e:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     3a3:      \tmovq\t$0x0, -0x8(%rbp)\n     3ab:      \tjmp\t0x3cf <free_deck+0x4b>\n     3ad:      \tmovq\t-0x18(%rbp), %rax\n     3b1:      \tmovq\t(%rax), %rax\n     3b4:      \tmovq\t-0x8(%rbp), %rdx\n     3b8:      \tshlq\t$0x3, %rdx\n     3bc:      \taddq\t%rdx, %rax\n     3bf:      \tmovq\t(%rax), %rax\n     3c2:      \tmovq\t%rax, %rdi\n     3c5:      \tcallq\t0x3ca <free_deck+0x46>\n;   free+-4\n     3ca:      \taddq\t$0x1, -0x8(%rbp)\n     3cf:      \tmovq\t-0x18(%rbp), %rax\n     3d3:      \tmovq\t0x8(%rax), %rax\n     3d7:      \tcmpq\t%rax, -0x8(%rbp)\n     3db:      \tjb\t0x3ad <free_deck+0x29>\n     3dd:      \tmovq\t-0x18(%rbp), %rax\n     3e1:      \tmovq\t(%rax), %rax\n     3e4:      \tmovq\t%rax, %rdi\n     3e7:      \tcallq\t0x3ec <free_deck+0x68>\n;   free+-4\n     3ec:      \tmovq\t-0x18(%rbp), %rax\n     3f0:      \tmovq\t%rax, %rdi\n     3f3:      \tcallq\t0x3f8 <free_deck+0x74>\n;   free+-4\n     3f8:      \tnop\n     3f9:      \tleave\n     3fa:      \tretq\n\n00000000000003fb <build_remaining_deck>:\n     3fb:      \tendbr64\n     3ff:      \tpushq\t%rbp\n     400:      \tmovq\t%rsp, %rbp\n     403:      \tsubq\t$0x30, %rsp\n     407:      \tmovq\t%rdi, -0x28(%rbp)\n     40b:      \tmovq\t%rsi, -0x30(%rbp)\n     40f:      \tmovl\t$0x1, %esi\n     414:      \tmovl\t$0x4, %edi\n     419:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     41e:      \tmovl\t$0x10, %edi\n     423:      \tcallq\t0x428 <build_remaining_deck+0x2d>\n;   malloc+-4\n     428:      \tmovq\t%rax, -0x10(%rbp)\n     42c:      \tmovq\t-0x10(%rbp), %rax\n     430:      \tmovq\t$0x0, (%rax)\n     437:      \tmovq\t-0x10(%rbp), %rax\n     43b:      \tmovq\t$0x0, 0x8(%rax)\n     443:      \tmovq\t$0x0, -0x20(%rbp)\n     44b:      \tjmp\t0x4eb <build_remaining_deck+0xf0>\n     450:      \tmovq\t$0x0, -0x18(%rbp)\n     458:      \tjmp\t0x4c2 <build_remaining_deck+0xc7>\n     45a:      \tmovq\t-0x20(%rbp), %rax\n     45e:      \tleaq\t(,%rax,8), %rdx\n     466:      \tmovq\t-0x28(%rbp), %rax\n     46a:      \taddq\t%rdx, %rax\n     46d:      \tmovq\t(%rax), %rax\n     470:      \tmovq\t(%rax), %rax\n     473:      \tmovq\t-0x18(%rbp), %rdx\n     477:      \tshlq\t$0x3, %rdx\n     47b:      \taddq\t%rdx, %rax\n     47e:      \tmovq\t(%rax), %rax\n     481:      \tmovl\t(%rax), %eax\n     483:      \ttestl\t%eax, %eax\n     485:      \tje\t0x4bd <build_remaining_deck+0xc2>\n     487:      \tmovq\t-0x20(%rbp), %rax\n     48b:      \tleaq\t(,%rax,8), %rdx\n     493:      \tmovq\t-0x28(%rbp), %rax\n     497:      \taddq\t%rdx, %rax\n     49a:      \tmovq\t(%rax), %rax\n     49d:      \tmovq\t(%rax), %rax\n     4a0:      \tmovq\t-0x18(%rbp), %rdx\n     4a4:      \tshlq\t$0x3, %rdx\n     4a8:      \taddq\t%rdx, %rax\n     4ab:      \tmovq\t(%rax), %rdx\n     4ae:      \tmovq\t-0x10(%rbp), %rax\n     4b2:      \tmovq\t(%rdx), %rsi\n     4b5:      \tmovq\t%rax, %rdi\n     4b8:      \tcallq\t0x4bd <build_remaining_deck+0xc2>\n;   add_card_to+-4\n     4bd:      \taddq\t$0x1, -0x18(%rbp)\n     4c2:      \tmovq\t-0x20(%rbp), %rax\n     4c6:      \tleaq\t(,%rax,8), %rdx\n     4ce:      \tmovq\t-0x28(%rbp), %rax\n     4d2:      \taddq\t%rdx, %rax\n     4d5:      \tmovq\t(%rax), %rax\n     4d8:      \tmovq\t0x8(%rax), %rax\n     4dc:      \tcmpq\t%rax, -0x18(%rbp)\n     4e0:      \tjb\t0x45a <build_remaining_deck+0x5f>\n     4e6:      \taddq\t$0x1, -0x20(%rbp)\n     4eb:      \tmovq\t-0x20(%rbp), %rax\n     4ef:      \tcmpq\t-0x30(%rbp), %rax\n     4f3:      \tjb\t0x450 <build_remaining_deck+0x55>\n     4f9:      \tmovq\t-0x10(%rbp), %rax\n     4fd:      \tmovq\t%rax, %rdi\n     500:      \tcallq\t0x505 <build_remaining_deck+0x10a>\n;   make_deck_exclude+-4\n     505:      \tmovq\t%rax, -0x8(%rbp)\n     509:      \tmovq\t-0x10(%rbp), %rax\n     50d:      \tmovq\t%rax, %rdi\n     510:      \tcallq\t0x515 <build_remaining_deck+0x11a>\n;   free_deck+-4\n     515:      \tmovq\t-0x8(%rbp), %rax\n     519:      \tleave\n     51a:      \tretq"
+}

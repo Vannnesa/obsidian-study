@@ -1,0 +1,2106 @@
+{
+ "path": "34_put_together/kv.o",
+ "size": 80240,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "kv.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.24.5c1b97eef3c86b7a2549420f69f4f128",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.features.h.19.3042b63a76022a6d39c0cfc1936a7a01",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.19.a8ffc9250e5bdadaabc998d2b2f3d734",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.wordsize.h.4.baf119258a1e53d8dba67ceac44ab6bc",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.475.fb75d2e4416aa349344e6f45f683bf28",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stubs64.h.10.6ce4c34010988db072c080326a6b6319",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.37.d9274df4cc0172452960ad9644fa5579",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.181.c3f52a3b0f4c288bddb5dda1562858e2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.109.56eb9ae966b255288cc544f18746a7ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.typesizes.h.24.2c64f817c0dc4b6fb2a2c619d717be26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.time64.h.24.a8166ae916ec910dab0d8987098d42ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_FILE.h.19.0888ac70396abe1031c03d393554032f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.53.78a7f18f3bc87ded52f05aa6f6a64310",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio_lim.h.19.e4b00b560d878dcfbc6635b3406640c5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.141.d7a290e19ca077c9e4aa7c43ede17a73",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.31.87b3c285aeba93fe355ad19123070832",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.28.2cffa49d94c5d85f4538f55f7b59771d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.ac1e89356001c54fbeb8aaa0d15e8b3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitflags.h.25.41934de4af99038521c2782f418699b1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitstatus.h.28.93f167f49d64e2b9b99f98d1162a93bf",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.43.9fa4f727a2f1cb8d2450a574c9195553",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatn.h.20.80c7cf8a8dfad237004b28d051d5afda",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatncommon.h.34.7e1840d7dfb19e9bdb51aeb077d76637",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.71.2927e068ec678159b4f68ec2f089f7e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.23.882ecbf54662e1f16e101552381a65da",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.0adce5c8c1fd8096aaff50981b3d1f0f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.20.efabd1018df5d7b4052c27dc6bdd5ce5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endianness.h.2.2c6a211f7909f3af5e9e9cfa3b6b63c8",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.40.9e5d395adda2f4eb53ae69b69b664084",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.27.4c4f94262c4eaee2982fe00ed1b4f173",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.byteswap.h.24.5363c019348146aada5aeadf51456576",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.39.30a606dbd99b6c3df61c1f06dbdabd4e",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.28.eb2f3debdbcffd1442ebddaebc4fb6ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.__sigset_t.h.2.6b1ab6ff3d7b8fd9c0c42b0d80afbd80",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.44.887a4ff60aa97fcd9c1be017735e1675",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.186.489a4ed8f2d29cd358843490f54ddea5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.pthreadtypesarch.h.25.6063cba99664c916e22d3a912bcc348a",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_mutex.h.20.ed51f515172b9be99e450ba83eb5dd99",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_rwlock.h.21.0254880f2904e3833fb8ae683e0f0330",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.19.edefa922a76c1cbaaf1e416903ba2d1c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.29.156e12058824cc23d961c4d3b13031f6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.string.h.23.93403f89af7dba8212345449bb14b09d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.string.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.8136eebbab3406dbf57a7ec475dd5d83",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.strings.h.19.a259f126920b1bb5ef76bc62b3984a3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "keyGen",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 203,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "valueGen",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 238,
+   "addr": 203,
+   "section": ".text"
+  },
+  {
+   "name": "readKVs",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 501,
+   "addr": 441,
+   "section": ".text"
+  },
+  {
+   "name": "freeKVs",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 173,
+   "addr": 942,
+   "section": ".text"
+  },
+  {
+   "name": "printKVs",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 119,
+   "addr": 1115,
+   "section": ".text"
+  },
+  {
+   "name": "lookupValue",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 196,
+   "addr": 1234,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strchr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "malloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strncpy",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "perror",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fopen",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "realloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getline",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fclose",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "printf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strcmp",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "could not allocate memory for key"
+  },
+  {
+   "offset": 40,
+   "text": "could not allocate memory for value"
+  },
+  {
+   "offset": 76,
+   "text": "fname equals to NULL\n"
+  },
+  {
+   "offset": 104,
+   "text": "Could not open file: %s. Exiting...\n"
+  },
+  {
+   "offset": 144,
+   "text": "Could not close file: %s. Exiting...\n"
+  },
+  {
+   "offset": 182,
+   "text": "key = '%s' value = '%s'\n"
+  }
+ ],
+ "string_refs": {
+  "keyGen": [
+   "could not allocate memory for key"
+  ],
+  "valueGen": [
+   "could not allocate memory for value"
+  ],
+  "readKVs": [
+   "fname equals to NULL\n",
+   "r",
+   "Could not open file: %s. Exiting...\n",
+   "Could not close file: %s. Exiting...\n"
+  ],
+  "printKVs": [
+   "key = '%s' value = '%s'\n"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 57,
+    "symbol": "strchr",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 103,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 121,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 141,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 146,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 156,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 179,
+    "symbol": "strncpy",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 232,
+    "symbol": "strchr",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 337,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 355,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 375,
+    "symbol": ".rodata",
+    "addend": 36,
+    "type": 2
+   },
+   {
+    "offset": 380,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 390,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 417,
+    "symbol": "strncpy",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 483,
+    "symbol": ".rodata",
+    "addend": 72,
+    "type": 2
+   },
+   {
+    "offset": 488,
+    "symbol": "perror",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 509,
+    "symbol": ".rodata",
+    "addend": 94,
+    "type": 2
+   },
+   {
+    "offset": 517,
+    "symbol": "fopen",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 535,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 546,
+    "symbol": ".rodata",
+    "addend": 100,
+    "type": 2
+   },
+   {
+    "offset": 559,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 569,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 579,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 664,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 706,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 748,
+    "symbol": "keyGen",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 790,
+    "symbol": "valueGen",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 832,
+    "symbol": "getline",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 853,
+    "symbol": "fclose",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 864,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 875,
+    "symbol": ".rodata",
+    "addend": 140,
+    "type": 2
+   },
+   {
+    "offset": 888,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 907,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 931,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 997,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1031,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1061,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1096,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1108,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1201,
+    "symbol": ".rodata",
+    "addend": 178,
+    "type": 2
+   },
+   {
+    "offset": 1211,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1364,
+    "symbol": "strcmp",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [
+   {
+    "name": "kv.c",
+    "comp_dir": "/home/student/learn2prog/34_put_together",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "lookupValue",
+      "decl_file": 1,
+      "decl_line": 106,
+      "type": 143,
+      "params": [
+       {
+        "name": "pairs",
+        "type": 968,
+        "decl_line": 106
+       },
+       {
+        "name": "key",
+        "type": 719,
+        "decl_line": 106
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "printKVs",
+      "decl_file": 1,
+      "decl_line": 99,
+      "type": null,
+      "params": [
+       {
+        "name": "pairs",
+        "type": 968,
+        "decl_line": 99
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "freeKVs",
+      "decl_file": 1,
+      "decl_line": 88,
+      "type": null,
+      "params": [
+       {
+        "name": "pairs",
+        "type": 968,
+        "decl_line": 88
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "readKVs",
+      "decl_file": 1,
+      "decl_line": 56,
+      "type": 968,
+      "params": [
+       {
+        "name": "fname",
+        "type": 719,
+        "decl_line": 56
+       }
+      ],
+      "locals": [
+       {
+        "name": "file",
+        "type": 661,
+        "decl_line": 62
+       },
+       {
+        "name": "ans",
+        "type": 968,
+        "decl_line": 67
+       },
+       {
+        "name": "line",
+        "type": 143,
+        "decl_line": 71
+       },
+       {
+        "name": "sz",
+        "type": 49,
+        "decl_line": 72
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "valueGen",
+      "decl_file": 1,
+      "decl_line": 32,
+      "type": 143,
+      "params": [
+       {
+        "name": "line",
+        "type": 143,
+        "decl_line": 32
+       }
+      ],
+      "locals": [
+       {
+        "name": "igual",
+        "type": 143,
+        "decl_line": 33
+       },
+       {
+        "name": "end",
+        "type": 143,
+        "decl_line": 38
+       },
+       {
+        "name": "valueLength",
+        "type": 49,
+        "decl_line": 41
+       },
+       {
+        "name": "value",
+        "type": 143,
+        "decl_line": 44
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "keyGen",
+      "decl_file": 1,
+      "decl_line": 7,
+      "type": 143,
+      "params": [
+       {
+        "name": "line",
+        "type": 143,
+        "decl_line": 7
+       }
+      ],
+      "locals": [
+       {
+        "name": "igual",
+        "type": 143,
+        "decl_line": 11
+       },
+       {
+        "name": "keyLength",
+        "type": 49,
+        "decl_line": 17
+       },
+       {
+        "name": "key",
+        "type": 143,
+        "decl_line": 20
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 661
+     },
+     {
+      "name": "stdout",
+      "type": 661
+     },
+     {
+      "name": "stderr",
+      "type": 661
+     },
+     {
+      "name": "sys_nerr",
+      "type": 105
+     },
+     {
+      "name": "sys_errlist",
+      "type": 714
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 61
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 112
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 112
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 577,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 119,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 84,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 91,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 589,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 605,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 131,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "_codecvt",
+      "type": 616,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "_wide_data",
+      "type": 627,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "_freeres_list",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "_freeres_buf",
+      "type": 75,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 633,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "FILE",
+    "type": 161
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_codecvt",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_wide_data",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_kvpair_t",
+    "byte_size": 16,
+    "members": [
+     {
+      "name": "key",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "value",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "kvpair_t",
+    "type": 756
+   },
+   {
+    "kind": "structure_type",
+    "name": "_kvarray_t",
+    "byte_size": 16,
+    "members": [
+     {
+      "name": "length",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "array",
+      "type": 848,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "kvarray_t",
+    "type": 808
+   }
+  ],
+  "lines": {
+   "kv.c": {
+    "files": [
+     "kv.c",
+     "stddef.h",
+     "types.h",
+     "struct_FILE.h",
+     "FILE.h",
+     "stdio.h",
+     "sys_errlist.h",
+     "kv.h",
+     "stdc-predef.h",
+     "libc-header-start.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "long-double.h",
+     "stubs.h",
+     "stubs-64.h",
+     "stdarg.h",
+     "timesize.h",
+     "typesizes.h",
+     "time64.h",
+     "__fpos_t.h",
+     "__mbstate_t.h",
+     "__fpos64_t.h",
+     "__FILE.h",
+     "stdio_lim.h",
+     "stdlib.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "floatn.h",
+     "floatn-common.h",
+     "types.h",
+     "clock_t.h",
+     "clockid_t.h",
+     "time_t.h",
+     "timer_t.h",
+     "stdint-intn.h",
+     "endian.h",
+     "endian.h",
+     "endianness.h",
+     "byteswap.h",
+     "uintn-identity.h",
+     "select.h",
+     "select.h",
+     "sigset_t.h",
+     "__sigset_t.h",
+     "struct_timeval.h",
+     "struct_timespec.h",
+     "pthreadtypes.h",
+     "thread-shared-types.h",
+     "pthreadtypes-arch.h",
+     "struct_mutex.h",
+     "struct_rwlock.h",
+     "alloca.h",
+     "stdlib-float.h",
+     "string.h",
+     "locale_t.h",
+     "__locale_t.h",
+     "strings.h"
+    ],
+    "rows": [
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 16
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 23
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 30
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 34
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 44
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 65
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 72
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 79
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 87
+     },
+     {
+      "line": 20,
+      "file": 1,
+      "addr": 91
+     },
+     {
+      "line": 20,
+      "file": 1,
+      "addr": 99
+     },
+     {
+      "line": 21,
+      "file": 1,
+      "addr": 111
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 118
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 150
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 160
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 183
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 194
+     },
+     {
+      "line": 29,
+      "file": 1,
+      "addr": 197
+     },
+     {
+      "line": 30,
+      "file": 1,
+      "addr": 201
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 203
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 219
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 240
+     },
+     {
+      "line": 35,
+      "file": 1,
+      "addr": 247
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 257
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 302
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 310
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 317
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 321
+     },
+     {
+      "line": 44,
+      "file": 1,
+      "addr": 325
+     },
+     {
+      "line": 44,
+      "file": 1,
+      "addr": 333
+     },
+     {
+      "line": 45,
+      "file": 1,
+      "addr": 345
+     },
+     {
+      "line": 46,
+      "file": 1,
+      "addr": 352
+     },
+     {
+      "line": 47,
+      "file": 1,
+      "addr": 384
+     },
+     {
+      "line": 51,
+      "file": 1,
+      "addr": 394
+     },
+     {
+      "line": 51,
+      "file": 1,
+      "addr": 402
+     },
+     {
+      "line": 52,
+      "file": 1,
+      "addr": 421
+     },
+     {
+      "line": 52,
+      "file": 1,
+      "addr": 432
+     },
+     {
+      "line": 53,
+      "file": 1,
+      "addr": 435
+     },
+     {
+      "line": 54,
+      "file": 1,
+      "addr": 439
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 441
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 458
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 473
+     },
+     {
+      "line": 59,
+      "file": 1,
+      "addr": 480
+     },
+     {
+      "line": 60,
+      "file": 1,
+      "addr": 492
+     },
+     {
+      "line": 62,
+      "file": 1,
+      "addr": 502
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 525
+     },
+     {
+      "line": 64,
+      "file": 1,
+      "addr": 532
+     },
+     {
+      "line": 65,
+      "file": 1,
+      "addr": 563
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 573
+     },
+     {
+      "line": 68,
+      "file": 1,
+      "addr": 587
+     },
+     {
+      "line": 69,
+      "file": 1,
+      "addr": 599
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 609
+     },
+     {
+      "line": 72,
+      "file": 1,
+      "addr": 617
+     },
+     {
+      "line": 73,
+      "file": 1,
+      "addr": 625
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 630
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 636
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 641
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 649
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 657
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 668
+     },
+     {
+      "line": 75,
+      "file": 1,
+      "addr": 676
+     },
+     {
+      "line": 75,
+      "file": 1,
+      "addr": 684
+     },
+     {
+      "line": 75,
+      "file": 1,
+      "addr": 692
+     },
+     {
+      "line": 75,
+      "file": 1,
+      "addr": 700
+     },
+     {
+      "line": 75,
+      "file": 1,
+      "addr": 710
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 713
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 717
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 725
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 734
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 744
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 752
+     },
+     {
+      "line": 77,
+      "file": 1,
+      "addr": 755
+     },
+     {
+      "line": 77,
+      "file": 1,
+      "addr": 759
+     },
+     {
+      "line": 77,
+      "file": 1,
+      "addr": 767
+     },
+     {
+      "line": 77,
+      "file": 1,
+      "addr": 776
+     },
+     {
+      "line": 77,
+      "file": 1,
+      "addr": 786
+     },
+     {
+      "line": 77,
+      "file": 1,
+      "addr": 794
+     },
+     {
+      "line": 78,
+      "file": 1,
+      "addr": 798
+     },
+     {
+      "line": 78,
+      "file": 1,
+      "addr": 804
+     },
+     {
+      "line": 73,
+      "file": 1,
+      "addr": 813
+     },
+     {
+      "line": 73,
+      "file": 1,
+      "addr": 836
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 845
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 857
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 861
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 892
+     },
+     {
+      "line": 84,
+      "file": 1,
+      "addr": 899
+     },
+     {
+      "line": 85,
+      "file": 1,
+      "addr": 911
+     },
+     {
+      "line": 86,
+      "file": 1,
+      "addr": 915
+     },
+     {
+      "line": 86,
+      "file": 1,
+      "addr": 930
+     },
+     {
+      "line": 88,
+      "file": 1,
+      "addr": 942
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 958
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 966
+     },
+     {
+      "line": 91,
+      "file": 1,
+      "addr": 968
+     },
+     {
+      "line": 91,
+      "file": 1,
+      "addr": 976
+     },
+     {
+      "line": 91,
+      "file": 1,
+      "addr": 990
+     },
+     {
+      "line": 91,
+      "file": 1,
+      "addr": 993
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 1001
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 1009
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 1023
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 1027
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 1035
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 1043
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 1054
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 1065
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 1070
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 1078
+     },
+     {
+      "line": 95,
+      "file": 1,
+      "addr": 1084
+     },
+     {
+      "line": 95,
+      "file": 1,
+      "addr": 1092
+     },
+     {
+      "line": 96,
+      "file": 1,
+      "addr": 1100
+     },
+     {
+      "line": 97,
+      "file": 1,
+      "addr": 1112
+     },
+     {
+      "line": 99,
+      "file": 1,
+      "addr": 1115
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 1131
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 1138
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 1140
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 1148
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 1164
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 1168
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 1176
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 1192
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 1215
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 1219
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 1225
+     },
+     {
+      "line": 104,
+      "file": 1,
+      "addr": 1230
+     },
+     {
+      "line": 106,
+      "file": 1,
+      "addr": 1234
+     },
+     {
+      "line": 108,
+      "file": 1,
+      "addr": 1254
+     },
+     {
+      "line": 108,
+      "file": 1,
+      "addr": 1262
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1267
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1275
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1289
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1292
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1297
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1305
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1319
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 1323
+     },
+     {
+      "line": 110,
+      "file": 1,
+      "addr": 1328
+     },
+     {
+      "line": 110,
+      "file": 1,
+      "addr": 1336
+     },
+     {
+      "line": 110,
+      "file": 1,
+      "addr": 1350
+     },
+     {
+      "line": 110,
+      "file": 1,
+      "addr": 1353
+     },
+     {
+      "line": 110,
+      "file": 1,
+      "addr": 1368
+     },
+     {
+      "line": 111,
+      "file": 1,
+      "addr": 1372
+     },
+     {
+      "line": 111,
+      "file": 1,
+      "addr": 1380
+     },
+     {
+      "line": 111,
+      "file": 1,
+      "addr": 1394
+     },
+     {
+      "line": 108,
+      "file": 1,
+      "addr": 1400
+     },
+     {
+      "line": 108,
+      "file": 1,
+      "addr": 1405
+     },
+     {
+      "line": 108,
+      "file": 1,
+      "addr": 1413
+     },
+     {
+      "line": 115,
+      "file": 1,
+      "addr": 1423
+     },
+     {
+      "line": 116,
+      "file": 1,
+      "addr": 1428
+     },
+     {
+      "line": 116,
+      "file": 1,
+      "addr": 1430
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/34_put_together/kv.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <keyGen>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tsubq\t$0x30, %rsp\n       c:      \tmovq\t%rdi, -0x28(%rbp)\n      10:      \tcmpq\t$0x0, -0x28(%rbp)\n      15:      \tje\t0x22 <keyGen+0x22>\n      17:      \tmovq\t-0x28(%rbp), %rax\n      1b:      \tmovzbl\t(%rax), %eax\n      1e:      \ttestb\t%al, %al\n      20:      \tjne\t0x2c <keyGen+0x2c>\n      22:      \tmovl\t$0x0, %eax\n      27:      \tjmp\t0xc9 <keyGen+0xc9>\n      2c:      \tmovq\t-0x28(%rbp), %rax\n      30:      \tmovl\t$0x3d, %esi\n      35:      \tmovq\t%rax, %rdi\n      38:      \tcallq\t0x3d <keyGen+0x3d>\n;   strchr+-4\n      3d:      \tmovq\t%rax, -0x18(%rbp)\n      41:      \tcmpq\t$0x0, -0x18(%rbp)\n      46:      \tjne\t0x4f <keyGen+0x4f>\n      48:      \tmovl\t$0x0, %eax\n      4d:      \tjmp\t0xc9 <keyGen+0xc9>\n      4f:      \tmovq\t-0x18(%rbp), %rax\n      53:      \tsubq\t-0x28(%rbp), %rax\n      57:      \tmovq\t%rax, -0x10(%rbp)\n      5b:      \tmovq\t-0x10(%rbp), %rax\n      5f:      \taddq\t$0x1, %rax\n      63:      \tmovq\t%rax, %rdi\n      66:      \tcallq\t0x6b <keyGen+0x6b>\n;   malloc+-4\n      6b:      \tmovq\t%rax, -0x8(%rbp)\n      6f:      \tcmpq\t$0x0, -0x8(%rbp)\n      74:      \tjne\t0xa0 <keyGen+0xa0>\n      76:      \tmovq\t(%rip), %rax            # 0x7d <keyGen+0x7d>\n;   stderr+-4\n      7d:      \tmovq\t%rax, %rcx\n      80:      \tmovl\t$0x21, %edx\n      85:      \tmovl\t$0x1, %esi\n      8a:      \tleaq\t(%rip), %rdi            # 0x91 <keyGen+0x91>\n;   .rodata -> \"could not allocate memory for key\"\n      91:      \tcallq\t0x96 <keyGen+0x96>\n;   fwrite+-4\n      96:      \tmovl\t$0x1, %edi\n      9b:      \tcallq\t0xa0 <keyGen+0xa0>\n;   exit+-4\n      a0:      \tmovq\t-0x10(%rbp), %rdx\n      a4:      \tmovq\t-0x28(%rbp), %rcx\n      a8:      \tmovq\t-0x8(%rbp), %rax\n      ac:      \tmovq\t%rcx, %rsi\n      af:      \tmovq\t%rax, %rdi\n      b2:      \tcallq\t0xb7 <keyGen+0xb7>\n;   strncpy+-4\n      b7:      \tmovq\t-0x8(%rbp), %rdx\n      bb:      \tmovq\t-0x10(%rbp), %rax\n      bf:      \taddq\t%rdx, %rax\n      c2:      \tmovb\t$0x0, (%rax)\n      c5:      \tmovq\t-0x8(%rbp), %rax\n      c9:      \tleave\n      ca:      \tretq\n\n00000000000000cb <valueGen>:\n      cb:      \tendbr64\n      cf:      \tpushq\t%rbp\n      d0:      \tmovq\t%rsp, %rbp\n      d3:      \tsubq\t$0x30, %rsp\n      d7:      \tmovq\t%rdi, -0x28(%rbp)\n      db:      \tmovq\t-0x28(%rbp), %rax\n      df:      \tmovl\t$0x3d, %esi\n      e4:      \tmovq\t%rax, %rdi\n      e7:      \tcallq\t0xec <valueGen+0x21>\n;   strchr+-4\n      ec:      \tmovq\t%rax, -0x20(%rbp)\n      f0:      \tcmpq\t$0x0, -0x20(%rbp)\n      f5:      \tjne\t0x101 <valueGen+0x36>\n      f7:      \tmovl\t$0x0, %eax\n      fc:      \tjmp\t0x1b7 <valueGen+0xec>\n     101:      \tmovq\t-0x28(%rbp), %rax\n     105:      \tmovq\t$-0x1, %rcx\n     10c:      \tmovq\t%rax, %rdx\n     10f:      \tmovl\t$0x0, %eax\n     114:      \tmovq\t%rdx, %rdi\n     117:      \trepne\t\tscasb\t%es:(%rdi), %al\n     119:      \tmovq\t%rcx, %rax\n     11c:      \tnotq\t%rax\n     11f:      \tleaq\t-0x1(%rax), %rdx\n     123:      \tmovq\t-0x28(%rbp), %rax\n     127:      \taddq\t%rdx, %rax\n     12a:      \tmovq\t%rax, -0x18(%rbp)\n     12e:      \tmovq\t-0x20(%rbp), %rax\n     132:      \tleaq\t0x1(%rax), %rdx\n     136:      \tmovq\t-0x18(%rbp), %rax\n     13a:      \tsubq\t%rdx, %rax\n     13d:      \tsubq\t$0x1, %rax\n     141:      \tmovq\t%rax, -0x10(%rbp)\n     145:      \tmovq\t-0x10(%rbp), %rax\n     149:      \taddq\t$0x1, %rax\n     14d:      \tmovq\t%rax, %rdi\n     150:      \tcallq\t0x155 <valueGen+0x8a>\n;   malloc+-4\n     155:      \tmovq\t%rax, -0x8(%rbp)\n     159:      \tcmpq\t$0x0, -0x8(%rbp)\n     15e:      \tjne\t0x18a <valueGen+0xbf>\n     160:      \tmovq\t(%rip), %rax            # 0x167 <valueGen+0x9c>\n;   stderr+-4\n     167:      \tmovq\t%rax, %rcx\n     16a:      \tmovl\t$0x23, %edx\n     16f:      \tmovl\t$0x1, %esi\n     174:      \tleaq\t(%rip), %rdi            # 0x17b <valueGen+0xb0>\n;   .rodata -> \"could not allocate memory for value\"\n     17b:      \tcallq\t0x180 <valueGen+0xb5>\n;   fwrite+-4\n     180:      \tmovl\t$0x1, %edi\n     185:      \tcallq\t0x18a <valueGen+0xbf>\n;   exit+-4\n     18a:      \tmovq\t-0x20(%rbp), %rax\n     18e:      \tleaq\t0x1(%rax), %rcx\n     192:      \tmovq\t-0x10(%rbp), %rdx\n     196:      \tmovq\t-0x8(%rbp), %rax\n     19a:      \tmovq\t%rcx, %rsi\n     19d:      \tmovq\t%rax, %rdi\n     1a0:      \tcallq\t0x1a5 <valueGen+0xda>\n;   strncpy+-4\n     1a5:      \tmovq\t-0x8(%rbp), %rdx\n     1a9:      \tmovq\t-0x10(%rbp), %rax\n     1ad:      \taddq\t%rdx, %rax\n     1b0:      \tmovb\t$0x0, (%rax)\n     1b3:      \tmovq\t-0x8(%rbp), %rax\n     1b7:      \tleave\n     1b8:      \tretq\n\n00000000000001b9 <readKVs>:\n     1b9:      \tendbr64\n     1bd:      \tpushq\t%rbp\n     1be:      \tmovq\t%rsp, %rbp\n     1c1:      \tpushq\t%rbx\n     1c2:      \tsubq\t$0x48, %rsp\n     1c6:      \tmovq\t%rdi, -0x48(%rbp)\n     1ca:      \tmovq\t%fs:0x28, %rax\n     1d3:      \tmovq\t%rax, -0x18(%rbp)\n     1d7:      \txorl\t%eax, %eax\n     1d9:      \tcmpq\t$0x0, -0x48(%rbp)\n     1de:      \tjne\t0x1f6 <readKVs+0x3d>\n     1e0:      \tleaq\t(%rip), %rdi            # 0x1e7 <readKVs+0x2e>\n;   .rodata -> \"fname equals to NULL\\n\"\n     1e7:      \tcallq\t0x1ec <readKVs+0x33>\n;   perror+-4\n     1ec:      \tmovl\t$0x0, %eax\n     1f1:      \tjmp\t0x393 <readKVs+0x1da>\n     1f6:      \tmovq\t-0x48(%rbp), %rax\n     1fa:      \tleaq\t(%rip), %rsi            # 0x201 <readKVs+0x48>\n;   .rodata -> \"r\"\n     201:      \tmovq\t%rax, %rdi\n     204:      \tcallq\t0x209 <readKVs+0x50>\n;   fopen+-4\n     209:      \tmovq\t%rax, -0x28(%rbp)\n     20d:      \tcmpq\t$0x0, -0x28(%rbp)\n     212:      \tjne\t0x23d <readKVs+0x84>\n     214:      \tmovq\t(%rip), %rax            # 0x21b <readKVs+0x62>\n;   stderr+-4\n     21b:      \tmovq\t-0x48(%rbp), %rdx\n     21f:      \tleaq\t(%rip), %rsi            # 0x226 <readKVs+0x6d>\n;   .rodata -> \"Could not open file: %s. Exiting...\\n\"\n     226:      \tmovq\t%rax, %rdi\n     229:      \tmovl\t$0x0, %eax\n     22e:      \tcallq\t0x233 <readKVs+0x7a>\n;   fprintf+-4\n     233:      \tmovl\t$0x1, %edi\n     238:      \tcallq\t0x23d <readKVs+0x84>\n;   exit+-4\n     23d:      \tmovl\t$0x10, %edi\n     242:      \tcallq\t0x247 <readKVs+0x8e>\n;   malloc+-4\n     247:      \tmovq\t%rax, -0x20(%rbp)\n     24b:      \tmovq\t-0x20(%rbp), %rax\n     24f:      \tmovq\t$0x0, 0x8(%rax)\n     257:      \tmovq\t-0x20(%rbp), %rax\n     25b:      \tmovl\t$0x0, (%rax)\n     261:      \tmovq\t$0x0, -0x38(%rbp)\n     269:      \tmovq\t$0x0, -0x30(%rbp)\n     271:      \tjmp\t0x32d <readKVs+0x174>\n     276:      \tmovq\t-0x20(%rbp), %rax\n     27a:      \tmovl\t(%rax), %eax\n     27c:      \taddl\t$0x1, %eax\n     27f:      \tcltq\n     281:      \tleaq\t(,%rax,8), %rdx\n     289:      \tmovq\t-0x20(%rbp), %rax\n     28d:      \tmovq\t0x8(%rax), %rax\n     291:      \tmovq\t%rdx, %rsi\n     294:      \tmovq\t%rax, %rdi\n     297:      \tcallq\t0x29c <readKVs+0xe3>\n;   realloc+-4\n     29c:      \tmovq\t-0x20(%rbp), %rdx\n     2a0:      \tmovq\t%rax, 0x8(%rdx)\n     2a4:      \tmovq\t-0x20(%rbp), %rax\n     2a8:      \tmovq\t0x8(%rax), %rdx\n     2ac:      \tmovq\t-0x20(%rbp), %rax\n     2b0:      \tmovl\t(%rax), %eax\n     2b2:      \tcltq\n     2b4:      \tshlq\t$0x3, %rax\n     2b8:      \tleaq\t(%rdx,%rax), %rbx\n     2bc:      \tmovl\t$0x10, %edi\n     2c1:      \tcallq\t0x2c6 <readKVs+0x10d>\n;   malloc+-4\n     2c6:      \tmovq\t%rax, (%rbx)\n     2c9:      \tmovq\t-0x38(%rbp), %rax\n     2cd:      \tmovq\t-0x20(%rbp), %rdx\n     2d1:      \tmovq\t0x8(%rdx), %rcx\n     2d5:      \tmovq\t-0x20(%rbp), %rdx\n     2d9:      \tmovl\t(%rdx), %edx\n     2db:      \tmovslq\t%edx, %rdx\n     2de:      \tshlq\t$0x3, %rdx\n     2e2:      \taddq\t%rcx, %rdx\n     2e5:      \tmovq\t(%rdx), %rbx\n     2e8:      \tmovq\t%rax, %rdi\n     2eb:      \tcallq\t0x2f0 <readKVs+0x137>\n;   keyGen+-4\n     2f0:      \tmovq\t%rax, (%rbx)\n     2f3:      \tmovq\t-0x38(%rbp), %rax\n     2f7:      \tmovq\t-0x20(%rbp), %rdx\n     2fb:      \tmovq\t0x8(%rdx), %rcx\n     2ff:      \tmovq\t-0x20(%rbp), %rdx\n     303:      \tmovl\t(%rdx), %edx\n     305:      \tmovslq\t%edx, %rdx\n     308:      \tshlq\t$0x3, %rdx\n     30c:      \taddq\t%rcx, %rdx\n     30f:      \tmovq\t(%rdx), %rbx\n     312:      \tmovq\t%rax, %rdi\n     315:      \tcallq\t0x31a <readKVs+0x161>\n;   valueGen+-4\n     31a:      \tmovq\t%rax, 0x8(%rbx)\n     31e:      \tmovq\t-0x20(%rbp), %rax\n     322:      \tmovl\t(%rax), %eax\n     324:      \tleal\t0x1(%rax), %edx\n     327:      \tmovq\t-0x20(%rbp), %rax\n     32b:      \tmovl\t%edx, (%rax)\n     32d:      \tmovq\t-0x28(%rbp), %rdx\n     331:      \tleaq\t-0x30(%rbp), %rcx\n     335:      \tleaq\t-0x38(%rbp), %rax\n     339:      \tmovq\t%rcx, %rsi\n     33c:      \tmovq\t%rax, %rdi\n     33f:      \tcallq\t0x344 <readKVs+0x18b>\n;   getline+-4\n     344:      \ttestq\t%rax, %rax\n     347:      \tjns\t0x276 <readKVs+0xbd>\n     34d:      \tmovq\t-0x28(%rbp), %rax\n     351:      \tmovq\t%rax, %rdi\n     354:      \tcallq\t0x359 <readKVs+0x1a0>\n;   fclose+-4\n     359:      \ttestl\t%eax, %eax\n     35b:      \tje\t0x383 <readKVs+0x1ca>\n     35d:      \tmovq\t(%rip), %rax            # 0x364 <readKVs+0x1ab>\n;   stderr+-4\n     364:      \tmovq\t-0x48(%rbp), %rdx\n     368:      \tleaq\t(%rip), %rsi            # 0x36f <readKVs+0x1b6>\n;   .rodata -> \"Could not close file: %s. Exiting...\\n\"\n     36f:      \tmovq\t%rax, %rdi\n     372:      \tmovl\t$0x0, %eax\n     377:      \tcallq\t0x37c <readKVs+0x1c3>\n;   fprintf+-4\n     37c:      \tmovl\t$0x0, %eax\n     381:      \tjmp\t0x393 <readKVs+0x1da>\n     383:      \tmovq\t-0x38(%rbp), %rax\n     387:      \tmovq\t%rax, %rdi\n     38a:      \tcallq\t0x38f <readKVs+0x1d6>\n;   free+-4\n     38f:      \tmovq\t-0x20(%rbp), %rax\n     393:      \tmovq\t-0x18(%rbp), %rsi\n     397:      \txorq\t%fs:0x28, %rsi\n     3a0:      \tje\t0x3a7 <readKVs+0x1ee>\n     3a2:      \tcallq\t0x3a7 <readKVs+0x1ee>\n;   __stack_chk_fail+-4\n     3a7:      \taddq\t$0x48, %rsp\n     3ab:      \tpopq\t%rbx\n     3ac:      \tpopq\t%rbp\n     3ad:      \tretq\n\n00000000000003ae <freeKVs>:\n     3ae:      \tendbr64\n     3b2:      \tpushq\t%rbp\n     3b3:      \tmovq\t%rsp, %rbp\n     3b6:      \tsubq\t$0x20, %rsp\n     3ba:      \tmovq\t%rdi, -0x18(%rbp)\n     3be:      \tmovq\t$0x0, -0x8(%rbp)\n     3c6:      \tjmp\t0x42e <freeKVs+0x80>\n     3c8:      \tmovq\t-0x18(%rbp), %rax\n     3cc:      \tmovq\t0x8(%rax), %rax\n     3d0:      \tmovq\t-0x8(%rbp), %rdx\n     3d4:      \tshlq\t$0x3, %rdx\n     3d8:      \taddq\t%rdx, %rax\n     3db:      \tmovq\t(%rax), %rax\n     3de:      \tmovq\t(%rax), %rax\n     3e1:      \tmovq\t%rax, %rdi\n     3e4:      \tcallq\t0x3e9 <freeKVs+0x3b>\n;   free+-4\n     3e9:      \tmovq\t-0x18(%rbp), %rax\n     3ed:      \tmovq\t0x8(%rax), %rax\n     3f1:      \tmovq\t-0x8(%rbp), %rdx\n     3f5:      \tshlq\t$0x3, %rdx\n     3f9:      \taddq\t%rdx, %rax\n     3fc:      \tmovq\t(%rax), %rax\n     3ff:      \tmovq\t0x8(%rax), %rax\n     403:      \tmovq\t%rax, %rdi\n     406:      \tcallq\t0x40b <freeKVs+0x5d>\n;   free+-4\n     40b:      \tmovq\t-0x18(%rbp), %rax\n     40f:      \tmovq\t0x8(%rax), %rax\n     413:      \tmovq\t-0x8(%rbp), %rdx\n     417:      \tshlq\t$0x3, %rdx\n     41b:      \taddq\t%rdx, %rax\n     41e:      \tmovq\t(%rax), %rax\n     421:      \tmovq\t%rax, %rdi\n     424:      \tcallq\t0x429 <freeKVs+0x7b>\n;   free+-4\n     429:      \taddq\t$0x1, -0x8(%rbp)\n     42e:      \tmovq\t-0x18(%rbp), %rax\n     432:      \tmovl\t(%rax), %eax\n     434:      \tcltq\n     436:      \tcmpq\t%rax, -0x8(%rbp)\n     43a:      \tjb\t0x3c8 <freeKVs+0x1a>\n     43c:      \tmovq\t-0x18(%rbp), %rax\n     440:      \tmovq\t0x8(%rax), %rax\n     444:      \tmovq\t%rax, %rdi\n     447:      \tcallq\t0x44c <freeKVs+0x9e>\n;   free+-4\n     44c:      \tmovq\t-0x18(%rbp), %rax\n     450:      \tmovq\t%rax, %rdi\n     453:      \tcallq\t0x458 <freeKVs+0xaa>\n;   free+-4\n     458:      \tnop\n     459:      \tleave\n     45a:      \tretq\n\n000000000000045b <printKVs>:\n     45b:      \tendbr64\n     45f:      \tpushq\t%rbp\n     460:      \tmovq\t%rsp, %rbp\n     463:      \tsubq\t$0x20, %rsp\n     467:      \tmovq\t%rdi, -0x18(%rbp)\n     46b:      \tmovl\t$0x0, -0x4(%rbp)\n     472:      \tjmp\t0x4c3 <printKVs+0x68>\n     474:      \tmovq\t-0x18(%rbp), %rax\n     478:      \tmovq\t0x8(%rax), %rax\n     47c:      \tmovl\t-0x4(%rbp), %edx\n     47f:      \tmovslq\t%edx, %rdx\n     482:      \tshlq\t$0x3, %rdx\n     486:      \taddq\t%rdx, %rax\n     489:      \tmovq\t(%rax), %rax\n     48c:      \tmovq\t0x8(%rax), %rdx\n     490:      \tmovq\t-0x18(%rbp), %rax\n     494:      \tmovq\t0x8(%rax), %rax\n     498:      \tmovl\t-0x4(%rbp), %ecx\n     49b:      \tmovslq\t%ecx, %rcx\n     49e:      \tshlq\t$0x3, %rcx\n     4a2:      \taddq\t%rcx, %rax\n     4a5:      \tmovq\t(%rax), %rax\n     4a8:      \tmovq\t(%rax), %rax\n     4ab:      \tmovq\t%rax, %rsi\n     4ae:      \tleaq\t(%rip), %rdi            # 0x4b5 <printKVs+0x5a>\n;   .rodata -> \"key = '%s' value = '%s'\\n\"\n     4b5:      \tmovl\t$0x0, %eax\n     4ba:      \tcallq\t0x4bf <printKVs+0x64>\n;   printf+-4\n     4bf:      \taddl\t$0x1, -0x4(%rbp)\n     4c3:      \tmovq\t-0x18(%rbp), %rax\n     4c7:      \tmovl\t(%rax), %eax\n     4c9:      \tcmpl\t%eax, -0x4(%rbp)\n     4cc:      \tjl\t0x474 <printKVs+0x19>\n     4ce:      \tnop\n     4cf:      \tnop\n     4d0:      \tleave\n     4d1:      \tretq\n\n00000000000004d2 <lookupValue>:\n     4d2:      \tendbr64\n     4d6:      \tpushq\t%rbp\n     4d7:      \tmovq\t%rsp, %rbp\n     4da:      \tsubq\t$0x20, %rsp\n     4de:      \tmovq\t%rdi, -0x18(%rbp)\n     4e2:      \tmovq\t%rsi, -0x20(%rbp)\n     4e6:      \tmovq\t$0x0, -0x8(%rbp)\n     4ee:      \tjmp\t0x57d <lookupValue+0xab>\n     4f3:      \tmovq\t-0x18(%rbp), %rax\n     4f7:      \tmovq\t0x8(%rax), %rax\n     4fb:      \tmovq\t-0x8(%rbp), %rdx\n     4ff:      \tshlq\t$0x3, %rdx\n     503:      \taddq\t%rdx, %rax\n     506:      \tmovq\t(%rax), %rax\n     509:      \tmovq\t(%rax), %rax\n     50c:      \ttestq\t%rax, %rax\n     50f:      \tje\t0x578 <lookupValue+0xa6>\n     511:      \tmovq\t-0x18(%rbp), %rax\n     515:      \tmovq\t0x8(%rax), %rax\n     519:      \tmovq\t-0x8(%rbp), %rdx\n     51d:      \tshlq\t$0x3, %rdx\n     521:      \taddq\t%rdx, %rax\n     524:      \tmovq\t(%rax), %rax\n     527:      \tmovq\t0x8(%rax), %rax\n     52b:      \ttestq\t%rax, %rax\n     52e:      \tje\t0x578 <lookupValue+0xa6>\n     530:      \tmovq\t-0x18(%rbp), %rax\n     534:      \tmovq\t0x8(%rax), %rax\n     538:      \tmovq\t-0x8(%rbp), %rdx\n     53c:      \tshlq\t$0x3, %rdx\n     540:      \taddq\t%rdx, %rax\n     543:      \tmovq\t(%rax), %rax\n     546:      \tmovq\t(%rax), %rax\n     549:      \tmovq\t-0x20(%rbp), %rdx\n     54d:      \tmovq\t%rdx, %rsi\n     550:      \tmovq\t%rax, %rdi\n     553:      \tcallq\t0x558 <lookupValue+0x86>\n;   strcmp+-4\n     558:      \ttestl\t%eax, %eax\n     55a:      \tjne\t0x578 <lookupValue+0xa6>\n     55c:      \tmovq\t-0x18(%rbp), %rax\n     560:      \tmovq\t0x8(%rax), %rax\n     564:      \tmovq\t-0x8(%rbp), %rdx\n     568:      \tshlq\t$0x3, %rdx\n     56c:      \taddq\t%rdx, %rax\n     56f:      \tmovq\t(%rax), %rax\n     572:      \tmovq\t0x8(%rax), %rax\n     576:      \tjmp\t0x594 <lookupValue+0xc2>\n     578:      \taddq\t$0x1, -0x8(%rbp)\n     57d:      \tmovq\t-0x18(%rbp), %rax\n     581:      \tmovl\t(%rax), %eax\n     583:      \tcltq\n     585:      \tcmpq\t%rax, -0x8(%rbp)\n     589:      \tjb\t0x4f3 <lookupValue+0x21>\n     58f:      \tmovl\t$0x0, %eax\n     594:      \tleave\n     595:      \tretq"
+}

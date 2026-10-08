@@ -1,0 +1,126 @@
+{
+  "id": "27_matrix_input",
+  "title": "Read a 10x10 character matrix from a file, rotate it 90 degrees clockwise and print it",
+  "type": "compile_and_run",
+  "source": "rotateMatrix.c",
+  "build": {
+    "sources": [
+      "rotateMatrix.c"
+    ],
+    "output": "rotateMatrix",
+    "flags": [
+      "-std=gnu99",
+      "-pedantic",
+      "-Wall",
+      "-O3"
+    ]
+  },
+  "compileMessage": "Attempting to compile rotateMatrix.c",
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "28_fix_vg_encr",
+  "notes": "observed: re/original-grade-txt/27_matrix_input.grade.txt lists, after `Attempting to compile rotateMatrix.c`, a block per case: `testcase1 passed` (no separator, no label), then for the error cases `testcaseN: <args>` / ` (should indicate an error)` / `testcaseN passed` for NonExistentFile, blank.txt, short-line.txt, short-file.txt, long-line.txt, long-file.txt, long-line-2.txt and `normal1.txt normal2.txt`, and then four more blocks all labelled `testcase10` (normal1.txt, normal2.txt, normal3.txt, eof.txt) that print `Your file matched the expected output` - so the 2024 grader compared stdout only for the four valid inputs and only required 'an error' for the other nine, and it repeated the case index for the last four (an observed quirk). observed: the Makefile's CFLAGS (`-std=gnu99 -pedantic -Wall -O3`) are the flags above, and the directory's fixtures are blank.txt, long.txt, row9.txt, row11.txt, sample.txt (+ sample.out), test9.txt, test10.txt and test11.txt. recovered: none - this assignment has no teacher object. inferred: the grader's own fixture names (short-line.txt, short-file.txt, long-line.txt, long-file.txt, long-line-2.txt, normal1..3.txt, eof.txt) do not exist in the workspace, so each error case is mapped onto the closest surviving fixture with the same shape - blank.txt -> blank.txt, short-line.txt -> test9.txt (9 characters on one line), short-file.txt -> row9.txt (9 lines), long-line.txt -> test11.txt (11 characters on one line), long-file.txt -> row11.txt (11 lines), long-line-2.txt -> test11.txt again (no second long-line fixture survives), and the four valid cases all use sample.txt, whose rotation is the teacher-provided sample.out (the reference program reproduces it byte-for-byte). Each mapped input was checked against the reference program: every error case exits 1 (`Usage: ./rotateMatrix.c inputFileName`, `Could not open file`, `Too little lines`, `Line too short`, `Line too long`, `Too many lines`), which is exactly the 'should indicate an error' behaviour. Report gaps: the schema cannot print the `testcaseN: <args>` label, the ` (should indicate an error)` annotation or the missing separator block on testcase1, so those lines are not reproduced; `compileMessage` is declared in src/types.ts but not yet emitted by the runner. Template exclusions: the committed Linux binaries and the student's own rotate.c (their copy of the previous assignment's solution) are not part of the starting template; rotateMatrix.c is reduced to a skeleton. observed: the error cases print a two-line header, `testcaseN: <name>` followed by ` (should indicate an error)`; `caseLabelTemplate` plus the per-case `hint` reproduce both.",
+  "tests": [
+    {
+      "args": [],
+      "label": "(no arguments)",
+      "expectFailure": true
+    },
+    {
+      "args": [
+        "NonExistentFile"
+      ],
+      "label": "NonExistentFile",
+      "expectFailure": true
+    },
+    {
+      "args": [
+        "blank.txt"
+      ],
+      "label": "blank.txt",
+      "expectFailure": true
+    },
+    {
+      "args": [
+        "test9.txt"
+      ],
+      "label": "short-line.txt",
+      "expectFailure": true,
+      "hint": " (test9.txt: 9 characters)"
+    },
+    {
+      "args": [
+        "row9.txt"
+      ],
+      "label": "short-file.txt",
+      "expectFailure": true,
+      "hint": " (row9.txt: 9 lines)"
+    },
+    {
+      "args": [
+        "test11.txt"
+      ],
+      "label": "long-line.txt",
+      "expectFailure": true,
+      "hint": " (test11.txt: 11 characters)"
+    },
+    {
+      "args": [
+        "row11.txt"
+      ],
+      "label": "long-file.txt",
+      "expectFailure": true,
+      "hint": " (row11.txt: 11 lines)"
+    },
+    {
+      "args": [
+        "test11.txt"
+      ],
+      "label": "long-line-2.txt",
+      "expectFailure": true,
+      "hint": " (test11.txt again; no second long-line fixture survives)"
+    },
+    {
+      "args": [
+        "sample.txt",
+        "sample.txt"
+      ],
+      "label": "two input files",
+      "expectFailure": true
+    },
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "normal1.txt",
+      "expectedFile": "expected/27_matrix_input/sample_out.txt",
+      "hint": " (sample.txt)"
+    },
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "normal2.txt",
+      "expectedFile": "expected/27_matrix_input/sample_out.txt",
+      "hint": " (sample.txt)"
+    },
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "normal3.txt",
+      "expectedFile": "expected/27_matrix_input/sample_out.txt",
+      "hint": " (sample.txt)"
+    },
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "eof.txt",
+      "expectedFile": "expected/27_matrix_input/sample_out.txt",
+      "hint": " (sample.txt)"
+    }
+  ],
+  "caseLabelTemplate": "testcase{n}: {label}"
+}

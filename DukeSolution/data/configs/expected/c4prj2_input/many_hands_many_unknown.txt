@@ -1,0 +1,10 @@
+Here are the input hands:
+0h 0d ?s ?s ?s ?s ?s 
+Ah 9h ?s ?s ?s ?s ?s 
+2 hands read
+Here's the remaining deck:
+48 cards
+As Ad Ac Ks Kh Kd Kc Qs Qh Qd Qc Js Jh Jd Jc 0s 0c 9s 9d 9c 8s 8h 8d 8c 7s 7h 7d 7c 6s 6h 6d 6c 5s 5h 5d 5c 4s 4h 4d 4c 3s 3h 3d 3c 2s 2h 2d 2c 
+And here are the resulting hands:
+0h 0d As Ks Qs Js 0s 
+Ah 9h As Ks Qs Js 0s 

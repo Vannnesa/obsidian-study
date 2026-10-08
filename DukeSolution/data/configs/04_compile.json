@@ -1,0 +1,23 @@
+{
+  "id": "04_compile",
+  "title": "Write, compile and run hello.c so that it prints \"Hello World\"",
+  "type": "compile_and_run",
+  "source": "hello.c",
+  "build": {
+    "output": "hello"
+  },
+  "compileMessage": "Compiling your code",
+  "header": "Checking if your program prints \"Hello World\"",
+  "reportStyle": "message",
+  "timeoutMs": 5000,
+  "next": "05_squares",
+  "tests": [
+    {
+      "label": "Checking if your program prints \"Hello World\"",
+      "expected": "Hello World\n",
+      "message": "Your file matched the expected output"
+    }
+  ],
+  "notes": "observed -- re/original-grade-txt/04_compile.grade.txt is exactly `Compiling your code`, `Checking if your program prints \"Hello World\"`, `Your file matched the expected output`, `Overall Grade: PASSED`; the 2024 submission 04_compile/hello.c prints `Hello World\\n` (12 bytes, confirmed by compiling and running it here). The check is therefore: build hello.c, run it with no arguments and no stdin, compare stdout byte-for-byte with `Hello World\\n`. recovered -- not applicable: 04_compile/hello is the student's own Linux x86-64 binary, not a teacher object. inferred -- the 2024 report echoes no compiler invocation, so no flags are observable and none are configured (the default `cc -o hello hello.c` is used); the README asks main to return EXIT_SUCCESS but the only observed check is the printed output, so the exit status is not constrained. Divergence resolved: reportStyle \"message\" emits only the verdict sentence, so the report is now byte-identical to the 2024 artifact.",
+  "successVerdict": "PASSED"
+}

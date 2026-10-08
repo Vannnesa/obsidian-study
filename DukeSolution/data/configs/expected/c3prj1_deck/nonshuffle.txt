@@ -1,0 +1,14 @@
+hand of 7 cards: As Ks Qs Js 0s 9s 8s 
+empty hand of 0 cards: 
+one card hand: As 
+deck_contains(As) = 1
+deck_contains(0s) = 1
+deck_contains(8s) = 1
+deck_contains(Ah) = 0
+deck_contains(Ac) = 0
+deck_contains(2s) = 0
+deck_contains(2h) = 0
+deck_contains(As) = 0
+deck_contains(As) = 1
+deck_contains(Ks) = 0
+assert_full_deck on a 52 card deck: ok

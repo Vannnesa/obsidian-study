@@ -1,0 +1,6 @@
+# Write your test cases here, one per line, in the form
+#
+#   hand1 ; hand2
+#
+# where a hand is a space separated list of cards such as `Kc Ac Jh 8s 9c 2s`,
+# as `print_hand` would output it.  Run ./run_all.sh when you are ready.

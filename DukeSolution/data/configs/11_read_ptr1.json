@@ -1,0 +1,23 @@
+{
+  "id": "11_read_ptr1",
+  "title": "Predict what the pointer-passing program test.c prints",
+  "type": "predict_output",
+  "program": "test.c",
+  "file": "answer.txt",
+  "expectedFile": "expected/11_read_ptr1/stdout.txt",
+  "build": {
+    "make": {
+      "args": [
+        "-B"
+      ]
+    },
+    "output": "test"
+  },
+  "header": "Attempting to compile test.c",
+  "compileMessage": "compiled",
+  "showCompileCommands": true,
+  "successVerdict": "PASSED",
+  "timeoutMs": 5000,
+  "next": "12_read_ptr2",
+  "notes": "observed -- re/original-grade-txt/11_read_ptr1.grade.txt: `Attempting to compile test.c`, then four gcc lines, `compiled`, then `Your file matched the expected output` and `Your output matched what we expected`, ending `Overall Grade: PASSED`. The four lines are the student's own Makefile being run (CC=gcc, CFLAGS=-std=gnu99 -pedantic -Wall -O3); the three spaces after `-O3` in the first one are GNU make's built-in %.o:%.c rule with empty $(CPPFLAGS)/$(TARGET_ARCH), which is why the report is reproduced by driving `make` (build.make) rather than by naming flags. 11_read_ptr1/answer.txt (87 bytes) is the submission that passed, and configs/expected/11_read_ptr1/stdout.txt was generated from test.c with tools/re/gen_expected.py and VERIFIED byte-for-byte against it. recovered -- nothing here needed ELF work; 11_read_ptr1/test.o is the student's own gcc 9.3.0 compile of test.c (re/elf/11_read_ptr1__test.o.md) and only re-confirms the provided source. inferred -- `make` is driven with -B so that the stale `test` binary sitting in the assignment directory cannot satisfy make and get run instead of a fresh build (plain make reports `'test' is up to date`); -B does not change the recipes make echoes. `next` follows the numeric id order; the 2024 artifact does not name the assignment it unlocked."
+}

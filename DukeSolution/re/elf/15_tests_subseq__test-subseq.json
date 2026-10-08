@@ -1,0 +1,362 @@
+{
+ "path": "15_tests_subseq/test-subseq",
+ "size": 16728,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_DYN",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0\nGCC: (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609",
+ "defined_symbols": [
+  {
+   "name": "crtstuff.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "deregister_tm_clones",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4256,
+   "section": ".text"
+  },
+  {
+   "name": "register_tm_clones",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4304,
+   "section": ".text"
+  },
+  {
+   "name": "__do_global_dtors_aux",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4368,
+   "section": ".text"
+  },
+  {
+   "name": "completed.8060",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 1,
+   "addr": 16400,
+   "section": ".bss"
+  },
+  {
+   "name": "__do_global_dtors_aux_fini_array_entry",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 15792,
+   "section": ".fini_array"
+  },
+  {
+   "name": "frame_dummy",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4432,
+   "section": ".text"
+  },
+  {
+   "name": "__frame_dummy_init_array_entry",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 15784,
+   "section": ".init_array"
+  },
+  {
+   "name": "test-subseq.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "subseq.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "crtstuff.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__FRAME_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 8780,
+   "section": ".eh_frame"
+  },
+  {
+   "name": "__init_array_end",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 15792,
+   "section": ".init_array"
+  },
+  {
+   "name": "_DYNAMIC",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 15800,
+   "section": ".dynamic"
+  },
+  {
+   "name": "__init_array_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 15784,
+   "section": ".init_array"
+  },
+  {
+   "name": "__GNU_EH_FRAME_HDR",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 8404,
+   "section": ".eh_frame_hdr"
+  },
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 16296,
+   "section": ".got"
+  },
+  {
+   "name": "_init",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4096,
+   "section": ".init"
+  },
+  {
+   "name": "__libc_csu_fini",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 5,
+   "addr": 6112,
+   "section": ".text"
+  },
+  {
+   "name": "data_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_WEAK",
+   "size": 0,
+   "addr": 16384,
+   "section": ".data"
+  },
+  {
+   "name": "subseq_at",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 101,
+   "addr": 5794,
+   "section": ".text"
+  },
+  {
+   "name": "maxSeq",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 100,
+   "addr": 5895,
+   "section": ".text"
+  },
+  {
+   "name": "_edata",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 16400,
+   "section": ".data"
+  },
+  {
+   "name": "_fini",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6120,
+   "section": ".fini"
+  },
+  {
+   "name": "__data_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 16384,
+   "section": ".data"
+  },
+  {
+   "name": "__dso_handle",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 16392,
+   "section": ".data"
+  },
+  {
+   "name": "_IO_stdin_used",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 4,
+   "addr": 8192,
+   "section": ".rodata"
+  },
+  {
+   "name": "__libc_csu_init",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 101,
+   "addr": 6000,
+   "section": ".text"
+  },
+  {
+   "name": "_end",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 16408,
+   "section": ".bss"
+  },
+  {
+   "name": "_start",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 47,
+   "addr": 4208,
+   "section": ".text"
+  },
+  {
+   "name": "__bss_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 16400,
+   "section": ".bss"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 1353,
+   "addr": 4441,
+   "section": ".text"
+  },
+  {
+   "name": "__TMC_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 16400,
+   "section": ".data"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_ITM_deregisterTMCloneTable",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "puts@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__stack_chk_fail@@GLIBC_2.4",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__libc_start_main@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__gmon_start__",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "_ITM_registerTMCloneTable",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__cxa_finalize@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 4,
+   "text": "Failure on array0"
+  },
+  {
+   "offset": 22,
+   "text": "Failure on array1"
+  },
+  {
+   "offset": 40,
+   "text": "Failure on array2 con n=0"
+  },
+  {
+   "offset": 66,
+   "text": "Failure on array2"
+  },
+  {
+   "offset": 84,
+   "text": "Failure on array3"
+  },
+  {
+   "offset": 102,
+   "text": "Failure on array4"
+  },
+  {
+   "offset": 120,
+   "text": "Failure on array5"
+  },
+  {
+   "offset": 138,
+   "text": "Failure on array6"
+  },
+  {
+   "offset": 156,
+   "text": "Failure on array7"
+  },
+  {
+   "offset": 174,
+   "text": "Failure on array8"
+  },
+  {
+   "offset": 192,
+   "text": "Failure on array9"
+  }
+ ],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/15_tests_subseq/test-subseq:\tfile format elf64-x86-64\n\nDisassembly of section .init:\n\n0000000000001000 <_init>:\n    1000:      \tendbr64\n    1004:      \tsubq\t$0x8, %rsp\n    1008:      \tmovq\t0x2fd9(%rip), %rax      # 0x3fe8 <_GLOBAL_OFFSET_TABLE_+0x40>\n    100f:      \ttestq\t%rax, %rax\n    1012:      \tje\t0x1016 <_init+0x16>\n    1014:      \tcallq\t*%rax\n    1016:      \taddq\t$0x8, %rsp\n    101a:      \tretq\n\nDisassembly of section .plt:\n\n0000000000001020 <.plt>:\n    1020:      \tpushq\t0x2f8a(%rip)            # 0x3fb0 <_GLOBAL_OFFSET_TABLE_+0x8>\n    1026:      \tjmpq\t*0x2f8c(%rip)           # 0x3fb8 <_GLOBAL_OFFSET_TABLE_+0x10>\n    102c:      \tnopl\t(%rax)\n\n0000000000001030 <puts@plt>:\n    1030:      \tjmpq\t*0x2f8a(%rip)           # 0x3fc0 <_GLOBAL_OFFSET_TABLE_+0x18>\n    1036:      \tpushq\t$0x0\n    103b:      \tjmp\t0x1020 <.plt>\n\n0000000000001040 <__stack_chk_fail@plt>:\n    1040:      \tjmpq\t*0x2f82(%rip)           # 0x3fc8 <_GLOBAL_OFFSET_TABLE_+0x20>\n    1046:      \tpushq\t$0x1\n    104b:      \tjmp\t0x1020 <.plt>\n\n0000000000001050 <exit@plt>:\n    1050:      \tjmpq\t*0x2f7a(%rip)           # 0x3fd0 <_GLOBAL_OFFSET_TABLE_+0x28>\n    1056:      \tpushq\t$0x2\n    105b:      \tjmp\t0x1020 <.plt>\n\nDisassembly of section .plt.got:\n\n0000000000001060 <__cxa_finalize@plt>:\n    1060:      \tjmpq\t*0x2f92(%rip)           # 0x3ff8 <_GLOBAL_OFFSET_TABLE_+0x50>\n    1066:      \tnop\n\nDisassembly of section .text:\n\n0000000000001070 <_start>:\n    1070:      \tendbr64\n    1074:      \txorl\t%ebp, %ebp\n    1076:      \tmovq\t%rdx, %r9\n    1079:      \tpopq\t%rsi\n    107a:      \tmovq\t%rsp, %rdx\n    107d:      \tandq\t$-0x10, %rsp\n    1081:      \tpushq\t%rax\n    1082:      \tpushq\t%rsp\n    1083:      \tleaq\t0x756(%rip), %r8        # 0x17e0 <__libc_csu_fini>\n    108a:      \tleaq\t0x6df(%rip), %rcx       # 0x1770 <__libc_csu_init>\n    1091:      \tleaq\t0xc1(%rip), %rdi        # 0x1159 <main>\n    1098:      \tcallq\t*0x2f42(%rip)           # 0x3fe0 <_GLOBAL_OFFSET_TABLE_+0x38>\n    109e:      \thlt\n    109f:      \tnop\n\n00000000000010a0 <deregister_tm_clones>:\n    10a0:      \tleaq\t0x2f69(%rip), %rdi      # 0x4010 <completed.8060>\n    10a7:      \tleaq\t0x2f62(%rip), %rax      # 0x4010 <completed.8060>\n    10ae:      \tcmpq\t%rdi, %rax\n    10b1:      \tje\t0x10c8 <deregister_tm_clones+0x28>\n    10b3:      \tmovq\t0x2f1e(%rip), %rax      # 0x3fd8 <_GLOBAL_OFFSET_TABLE_+0x30>\n    10ba:      \ttestq\t%rax, %rax\n    10bd:      \tje\t0x10c8 <deregister_tm_clones+0x28>\n    10bf:      \tjmpq\t*%rax\n    10c1:      \tnopl\t(%rax)\n    10c8:      \tretq\n    10c9:      \tnopl\t(%rax)\n\n00000000000010d0 <register_tm_clones>:\n    10d0:      \tleaq\t0x2f39(%rip), %rdi      # 0x4010 <completed.8060>\n    10d7:      \tleaq\t0x2f32(%rip), %rsi      # 0x4010 <completed.8060>\n    10de:      \tsubq\t%rdi, %rsi\n    10e1:      \tmovq\t%rsi, %rax\n    10e4:      \tshrq\t$0x3f, %rsi\n    10e8:      \tsarq\t$0x3, %rax\n    10ec:      \taddq\t%rax, %rsi\n    10ef:      \tsarq\t%rsi\n    10f2:      \tje\t0x1108 <register_tm_clones+0x38>\n    10f4:      \tmovq\t0x2ef5(%rip), %rax      # 0x3ff0 <_GLOBAL_OFFSET_TABLE_+0x48>\n    10fb:      \ttestq\t%rax, %rax\n    10fe:      \tje\t0x1108 <register_tm_clones+0x38>\n    1100:      \tjmpq\t*%rax\n    1102:      \tnopw\t(%rax,%rax)\n    1108:      \tretq\n    1109:      \tnopl\t(%rax)\n\n0000000000001110 <__do_global_dtors_aux>:\n    1110:      \tendbr64\n    1114:      \tcmpb\t$0x0, 0x2ef5(%rip)      # 0x4010 <completed.8060>\n    111b:      \tjne\t0x1148 <__do_global_dtors_aux+0x38>\n    111d:      \tpushq\t%rbp\n    111e:      \tcmpq\t$0x0, 0x2ed2(%rip)      # 0x3ff8 <_GLOBAL_OFFSET_TABLE_+0x50>\n    1126:      \tmovq\t%rsp, %rbp\n    1129:      \tje\t0x1137 <__do_global_dtors_aux+0x27>\n    112b:      \tmovq\t0x2ed6(%rip), %rdi      # 0x4008 <__dso_handle>\n    1132:      \tcallq\t0x1060 <__cxa_finalize@plt>\n    1137:      \tcallq\t0x10a0 <deregister_tm_clones>\n    113c:      \tmovb\t$0x1, 0x2ecd(%rip)      # 0x4010 <completed.8060>\n    1143:      \tpopq\t%rbp\n    1144:      \tretq\n    1145:      \tnopl\t(%rax)\n    1148:      \tretq\n    1149:      \tnopl\t(%rax)\n\n0000000000001150 <frame_dummy>:\n    1150:      \tendbr64\n    1154:      \tjmp\t0x10d0 <register_tm_clones>\n\n0000000000001159 <main>:\n    1159:      \tendbr64\n    115d:      \tpushq\t%rbp\n    115e:      \tmovq\t%rsp, %rbp\n    1161:      \tsubq\t$0x1a0, %rsp            # imm = 0x1A0\n    1168:      \tmovq\t%fs:0x28, %rax\n    1171:      \tmovq\t%rax, -0x8(%rbp)\n    1175:      \txorl\t%eax, %eax\n    1177:      \tmovl\t$0x2, -0x194(%rbp)\n    1181:      \tmovl\t$0x0, -0x18c(%rbp)\n    118b:      \tmovl\t$0x0, -0x188(%rbp)\n    1195:      \tmovl\t$0x0, -0x184(%rbp)\n    119f:      \tmovl\t$0x0, -0x190(%rbp)\n    11a9:      \tmovl\t$0x1, -0x180(%rbp)\n    11b3:      \tmovl\t$0x2, -0x17c(%rbp)\n    11bd:      \tmovl\t$0x3, -0x178(%rbp)\n    11c7:      \tmovl\t$0x1, -0x174(%rbp)\n    11d1:      \tmovl\t$0x2, -0x170(%rbp)\n    11db:      \tmovl\t$0x3, -0x16c(%rbp)\n    11e5:      \tmovl\t$0x1, -0x168(%rbp)\n    11ef:      \tmovl\t$0x2, -0x164(%rbp)\n    11f9:      \tmovl\t$0x3, -0x160(%rbp)\n    1203:      \tmovl\t$0x1, -0x15c(%rbp)\n    120d:      \tmovl\t$0x1, -0x150(%rbp)\n    1217:      \tmovl\t$0x2, -0x14c(%rbp)\n    1221:      \tmovl\t$0x1, -0x148(%rbp)\n    122b:      \tmovl\t$0x3, -0x144(%rbp)\n    1235:      \tmovl\t$0x5, -0x140(%rbp)\n    123f:      \tmovl\t$0x7, -0x13c(%rbp)\n    1249:      \tmovl\t$0x2, -0x138(%rbp)\n    1253:      \tmovl\t$0x4, -0x134(%rbp)\n    125d:      \tmovl\t$0x6, -0x130(%rbp)\n    1267:      \tmovl\t$0x9, -0x12c(%rbp)\n    1271:      \tmovl\t$0x1, -0x120(%rbp)\n    127b:      \tmovl\t$0x3, -0x11c(%rbp)\n    1285:      \tmovl\t$0x6, -0x118(%rbp)\n    128f:      \tmovl\t$0x8, -0x114(%rbp)\n    1299:      \tmovl\t$0x1, -0x110(%rbp)\n    12a3:      \tmovl\t$0x2, -0x10c(%rbp)\n    12ad:      \tmovl\t$0x4, -0x108(%rbp)\n    12b7:      \tmovl\t$0x1, -0x104(%rbp)\n    12c1:      \tmovl\t$0x63, -0x100(%rbp)\n    12cb:      \tmovl\t$0x0, -0xfc(%rbp)\n    12d5:      \tmovl\t$0x1, -0xf0(%rbp)\n    12df:      \tmovl\t$0x3, -0xec(%rbp)\n    12e9:      \tmovl\t$0x6, -0xe8(%rbp)\n    12f3:      \tmovl\t$0x8, -0xe4(%rbp)\n    12fd:      \tmovl\t$0x3, -0xe0(%rbp)\n    1307:      \tmovl\t$0x2, -0xdc(%rbp)\n    1311:      \tmovl\t$0x3, -0xd8(%rbp)\n    131b:      \tmovl\t$0x4, -0xd4(%rbp)\n    1325:      \tmovl\t$0xa, -0xd0(%rbp)\n    132f:      \tmovl\t$0x63, -0xcc(%rbp)\n    1339:      \tmovq\t$0x0, -0xc0(%rbp)\n    1344:      \tmovq\t$0x0, -0xb8(%rbp)\n    134f:      \tmovq\t$0x0, -0xb0(%rbp)\n    135a:      \tmovq\t$0x0, -0xa8(%rbp)\n    1365:      \tmovq\t$0x0, -0xa0(%rbp)\n    1370:      \tmovl\t$0xa, -0x90(%rbp)\n    137a:      \tmovl\t$0x9, -0x8c(%rbp)\n    1384:      \tmovl\t$0x8, -0x88(%rbp)\n    138e:      \tmovl\t$0x7, -0x84(%rbp)\n    1398:      \tmovl\t$0x6, -0x80(%rbp)\n    139f:      \tmovl\t$0x5, -0x7c(%rbp)\n    13a6:      \tmovl\t$0x4, -0x78(%rbp)\n    13ad:      \tmovl\t$0x3, -0x74(%rbp)\n    13b4:      \tmovl\t$0x2, -0x70(%rbp)\n    13bb:      \tmovl\t$0x1, -0x6c(%rbp)\n    13c2:      \tmovl\t$0xfffffffd, -0x60(%rbp) # imm = 0xFFFFFFFD\n    13c9:      \tmovl\t$0xfffffffe, -0x5c(%rbp) # imm = 0xFFFFFFFE\n    13d0:      \tmovl\t$0xffffffff, -0x58(%rbp) # imm = 0xFFFFFFFF\n    13d7:      \tmovl\t$0x0, -0x54(%rbp)\n    13de:      \tmovl\t$0x1, -0x50(%rbp)\n    13e5:      \tmovl\t$0x2, -0x4c(%rbp)\n    13ec:      \tmovl\t$0x3, -0x48(%rbp)\n    13f3:      \tmovl\t$0x0, -0x44(%rbp)\n    13fa:      \tmovl\t$0x0, -0x40(%rbp)\n    1401:      \tmovl\t$0x0, -0x3c(%rbp)\n    1408:      \tmovl\t$0x0, -0x30(%rbp)\n    140f:      \tmovl\t$0x1, -0x2c(%rbp)\n    1416:      \tmovl\t$0x2, -0x28(%rbp)\n    141d:      \tmovl\t$0xfffffffd, -0x24(%rbp) # imm = 0xFFFFFFFD\n    1424:      \tmovl\t$0xfffffffc, -0x20(%rbp) # imm = 0xFFFFFFFC\n    142b:      \tmovl\t$0xfffffffb, -0x1c(%rbp) # imm = 0xFFFFFFFB\n    1432:      \tmovl\t$0x0, -0x18(%rbp)\n    1439:      \tmovl\t$0x0, -0x14(%rbp)\n    1440:      \tmovl\t$0x0, -0x10(%rbp)\n    1447:      \tmovl\t$0x0, -0xc(%rbp)\n    144e:      \tleaq\t-0x194(%rbp), %rax\n    1455:      \tmovl\t$0x1, %esi\n    145a:      \tmovq\t%rax, %rdi\n    145d:      \tcallq\t0x1707 <maxSeq>\n    1462:      \tcmpq\t$0x1, %rax\n    1466:      \tje\t0x147e <main+0x325>\n    1468:      \tleaq\t0xb95(%rip), %rdi       # 0x2004 <_IO_stdin_used+0x4>\n    146f:      \tcallq\t0x1030 <puts@plt>\n    1474:      \tmovl\t$0x1, %edi\n    1479:      \tcallq\t0x1050 <exit@plt>\n    147e:      \tleaq\t-0x18c(%rbp), %rax\n    1485:      \tmovl\t$0x3, %esi\n    148a:      \tmovq\t%rax, %rdi\n    148d:      \tcallq\t0x1707 <maxSeq>\n    1492:      \tcmpq\t$0x1, %rax\n    1496:      \tje\t0x14ae <main+0x355>\n    1498:      \tleaq\t0xb77(%rip), %rdi       # 0x2016 <_IO_stdin_used+0x16>\n    149f:      \tcallq\t0x1030 <puts@plt>\n    14a4:      \tmovl\t$0x1, %edi\n    14a9:      \tcallq\t0x1050 <exit@plt>\n    14ae:      \tleaq\t-0x190(%rbp), %rax\n    14b5:      \tmovl\t$0x0, %esi\n    14ba:      \tmovq\t%rax, %rdi\n    14bd:      \tcallq\t0x1707 <maxSeq>\n    14c2:      \ttestq\t%rax, %rax\n    14c5:      \tje\t0x14dd <main+0x384>\n    14c7:      \tleaq\t0xb5a(%rip), %rdi       # 0x2028 <_IO_stdin_used+0x28>\n    14ce:      \tcallq\t0x1030 <puts@plt>\n    14d3:      \tmovl\t$0x1, %edi\n    14d8:      \tcallq\t0x1050 <exit@plt>\n    14dd:      \tleaq\t-0x190(%rbp), %rax\n    14e4:      \tmovl\t$0x1, %esi\n    14e9:      \tmovq\t%rax, %rdi\n    14ec:      \tcallq\t0x1707 <maxSeq>\n    14f1:      \tcmpq\t$0x1, %rax\n    14f5:      \tje\t0x150d <main+0x3b4>\n    14f7:      \tleaq\t0xb44(%rip), %rdi       # 0x2042 <_IO_stdin_used+0x42>\n    14fe:      \tcallq\t0x1030 <puts@plt>\n    1503:      \tmovl\t$0x1, %edi\n    1508:      \tcallq\t0x1050 <exit@plt>\n    150d:      \tleaq\t-0x180(%rbp), %rax\n    1514:      \tmovl\t$0xa, %esi\n    1519:      \tmovq\t%rax, %rdi\n    151c:      \tcallq\t0x1707 <maxSeq>\n    1521:      \tcmpq\t$0x3, %rax\n    1525:      \tje\t0x153d <main+0x3e4>\n    1527:      \tleaq\t0xb26(%rip), %rdi       # 0x2054 <_IO_stdin_used+0x54>\n    152e:      \tcallq\t0x1030 <puts@plt>\n    1533:      \tmovl\t$0x1, %edi\n    1538:      \tcallq\t0x1050 <exit@plt>\n    153d:      \tleaq\t-0x150(%rbp), %rax\n    1544:      \tmovl\t$0xa, %esi\n    1549:      \tmovq\t%rax, %rdi\n    154c:      \tcallq\t0x1707 <maxSeq>\n    1551:      \tcmpq\t$0x4, %rax\n    1555:      \tje\t0x156d <main+0x414>\n    1557:      \tleaq\t0xb08(%rip), %rdi       # 0x2066 <_IO_stdin_used+0x66>\n    155e:      \tcallq\t0x1030 <puts@plt>\n    1563:      \tmovl\t$0x1, %edi\n    1568:      \tcallq\t0x1050 <exit@plt>\n    156d:      \tleaq\t-0x120(%rbp), %rax\n    1574:      \tmovl\t$0xa, %esi\n    1579:      \tmovq\t%rax, %rdi\n    157c:      \tcallq\t0x1707 <maxSeq>\n    1581:      \tcmpq\t$0x4, %rax\n    1585:      \tje\t0x159d <main+0x444>\n    1587:      \tleaq\t0xaea(%rip), %rdi       # 0x2078 <_IO_stdin_used+0x78>\n    158e:      \tcallq\t0x1030 <puts@plt>\n    1593:      \tmovl\t$0x1, %edi\n    1598:      \tcallq\t0x1050 <exit@plt>\n    159d:      \tleaq\t-0xf0(%rbp), %rax\n    15a4:      \tmovl\t$0xa, %esi\n    15a9:      \tmovq\t%rax, %rdi\n    15ac:      \tcallq\t0x1707 <maxSeq>\n    15b1:      \tcmpq\t$0x5, %rax\n    15b5:      \tje\t0x15cd <main+0x474>\n    15b7:      \tleaq\t0xacc(%rip), %rdi       # 0x208a <_IO_stdin_used+0x8a>\n    15be:      \tcallq\t0x1030 <puts@plt>\n    15c3:      \tmovl\t$0x1, %edi\n    15c8:      \tcallq\t0x1050 <exit@plt>\n    15cd:      \tleaq\t-0xc0(%rbp), %rax\n    15d4:      \tmovl\t$0xa, %esi\n    15d9:      \tmovq\t%rax, %rdi\n    15dc:      \tcallq\t0x1707 <maxSeq>\n    15e1:      \tcmpq\t$0x1, %rax\n    15e5:      \tje\t0x15fd <main+0x4a4>\n    15e7:      \tleaq\t0xaae(%rip), %rdi       # 0x209c <_IO_stdin_used+0x9c>\n    15ee:      \tcallq\t0x1030 <puts@plt>\n    15f3:      \tmovl\t$0x1, %edi\n    15f8:      \tcallq\t0x1050 <exit@plt>\n    15fd:      \tleaq\t-0x90(%rbp), %rax\n    1604:      \tmovl\t$0xa, %esi\n    1609:      \tmovq\t%rax, %rdi\n    160c:      \tcallq\t0x1707 <maxSeq>\n    1611:      \tcmpq\t$0x1, %rax\n    1615:      \tje\t0x162d <main+0x4d4>\n    1617:      \tleaq\t0xa90(%rip), %rdi       # 0x20ae <_IO_stdin_used+0xae>\n    161e:      \tcallq\t0x1030 <puts@plt>\n    1623:      \tmovl\t$0x1, %edi\n    1628:      \tcallq\t0x1050 <exit@plt>\n    162d:      \tleaq\t-0x60(%rbp), %rax\n    1631:      \tmovl\t$0xa, %esi\n    1636:      \tmovq\t%rax, %rdi\n    1639:      \tcallq\t0x1707 <maxSeq>\n    163e:      \tcmpq\t$0x7, %rax\n    1642:      \tje\t0x165a <main+0x501>\n    1644:      \tleaq\t0xa75(%rip), %rdi       # 0x20c0 <_IO_stdin_used+0xc0>\n    164b:      \tcallq\t0x1030 <puts@plt>\n    1650:      \tmovl\t$0x1, %edi\n    1655:      \tcallq\t0x1050 <exit@plt>\n    165a:      \tleaq\t-0x30(%rbp), %rax\n    165e:      \tmovl\t$0xa, %esi\n    1663:      \tmovq\t%rax, %rdi\n    1666:      \tcallq\t0x1707 <maxSeq>\n    166b:      \tcmpq\t$0x3, %rax\n    166f:      \tje\t0x1687 <main+0x52e>\n    1671:      \tleaq\t0xa48(%rip), %rdi       # 0x20c0 <_IO_stdin_used+0xc0>\n    1678:      \tcallq\t0x1030 <puts@plt>\n    167d:      \tmovl\t$0x1, %edi\n    1682:      \tcallq\t0x1050 <exit@plt>\n    1687:      \tmovl\t$0x0, %eax\n    168c:      \tmovq\t-0x8(%rbp), %rdx\n    1690:      \txorq\t%fs:0x28, %rdx\n    1699:      \tje\t0x16a0 <main+0x547>\n    169b:      \tcallq\t0x1040 <__stack_chk_fail@plt>\n    16a0:      \tleave\n    16a1:      \tretq\n\n00000000000016a2 <subseq_at>:\n    16a2:      \tpushq\t%rbp\n    16a3:      \tmovq\t%rsp, %rbp\n    16a6:      \tmovq\t%rdi, -0x18(%rbp)\n    16aa:      \tmovq\t%rsi, -0x20(%rbp)\n    16ae:      \tmovq\t%rdx, -0x28(%rbp)\n    16b2:      \tmovq\t-0x20(%rbp), %rax\n    16b6:      \taddq\t$0x1, %rax\n    16ba:      \tmovq\t%rax, -0x8(%rbp)\n    16be:      \tjmp\t0x16c5 <subseq_at+0x23>\n    16c0:      \taddq\t$0x1, -0x8(%rbp)\n    16c5:      \tmovq\t-0x8(%rbp), %rax\n    16c9:      \tcmpq\t-0x28(%rbp), %rax\n    16cd:      \tjae\t0x16fd <subseq_at+0x5b>\n    16cf:      \tmovq\t-0x8(%rbp), %rax\n    16d3:      \tleaq\t(,%rax,4), %rdx\n    16db:      \tmovq\t-0x18(%rbp), %rax\n    16df:      \taddq\t%rdx, %rax\n    16e2:      \tmovl\t(%rax), %edx\n    16e4:      \tmovq\t-0x8(%rbp), %rax\n    16e8:      \tshlq\t$0x2, %rax\n    16ec:      \tleaq\t-0x4(%rax), %rcx\n    16f0:      \tmovq\t-0x18(%rbp), %rax\n    16f4:      \taddq\t%rcx, %rax\n    16f7:      \tmovl\t(%rax), %eax\n    16f9:      \tcmpl\t%eax, %edx\n    16fb:      \tjg\t0x16c0 <subseq_at+0x1e>\n    16fd:      \tmovq\t-0x8(%rbp), %rax\n    1701:      \tsubq\t-0x20(%rbp), %rax\n    1705:      \tpopq\t%rbp\n    1706:      \tretq\n\n0000000000001707 <maxSeq>:\n    1707:      \tpushq\t%rbp\n    1708:      \tmovq\t%rsp, %rbp\n    170b:      \tsubq\t$0x30, %rsp\n    170f:      \tmovq\t%rdi, -0x28(%rbp)\n    1713:      \tmovq\t%rsi, -0x30(%rbp)\n    1717:      \tmovq\t$0x0, -0x18(%rbp)\n    171f:      \tmovq\t$0x0, -0x10(%rbp)\n    1727:      \tjmp\t0x175b <maxSeq+0x54>\n    1729:      \tmovq\t-0x30(%rbp), %rdx\n    172d:      \tmovq\t-0x10(%rbp), %rcx\n    1731:      \tmovq\t-0x28(%rbp), %rax\n    1735:      \tmovq\t%rcx, %rsi\n    1738:      \tmovq\t%rax, %rdi\n    173b:      \tcallq\t0x16a2 <subseq_at>\n    1740:      \tmovq\t%rax, -0x8(%rbp)\n    1744:      \tmovq\t-0x8(%rbp), %rax\n    1748:      \tcmpq\t-0x18(%rbp), %rax\n    174c:      \tjbe\t0x1756 <maxSeq+0x4f>\n    174e:      \tmovq\t-0x8(%rbp), %rax\n    1752:      \tmovq\t%rax, -0x18(%rbp)\n    1756:      \taddq\t$0x1, -0x10(%rbp)\n    175b:      \tmovq\t-0x10(%rbp), %rax\n    175f:      \tcmpq\t-0x30(%rbp), %rax\n    1763:      \tjb\t0x1729 <maxSeq+0x22>\n    1765:      \tmovq\t-0x18(%rbp), %rax\n    1769:      \tleave\n    176a:      \tretq\n    176b:      \tnopl\t(%rax,%rax)\n\n0000000000001770 <__libc_csu_init>:\n    1770:      \tendbr64\n    1774:      \tpushq\t%r15\n    1776:      \tleaq\t0x262b(%rip), %r15      # 0x3da8 <__init_array_start>\n    177d:      \tpushq\t%r14\n    177f:      \tmovq\t%rdx, %r14\n    1782:      \tpushq\t%r13\n    1784:      \tmovq\t%rsi, %r13\n    1787:      \tpushq\t%r12\n    1789:      \tmovl\t%edi, %r12d\n    178c:      \tpushq\t%rbp\n    178d:      \tleaq\t0x261c(%rip), %rbp      # 0x3db0 <__do_global_dtors_aux_fini_array_entry>\n    1794:      \tpushq\t%rbx\n    1795:      \tsubq\t%r15, %rbp\n    1798:      \tsubq\t$0x8, %rsp\n    179c:      \tcallq\t0x1000 <_init>\n    17a1:      \tsarq\t$0x3, %rbp\n    17a5:      \tje\t0x17c6 <__libc_csu_init+0x56>\n    17a7:      \txorl\t%ebx, %ebx\n    17a9:      \tnopl\t(%rax)\n    17b0:      \tmovq\t%r14, %rdx\n    17b3:      \tmovq\t%r13, %rsi\n    17b6:      \tmovl\t%r12d, %edi\n    17b9:      \tcallq\t*(%r15,%rbx,8)\n    17bd:      \taddq\t$0x1, %rbx\n    17c1:      \tcmpq\t%rbx, %rbp\n    17c4:      \tjne\t0x17b0 <__libc_csu_init+0x40>\n    17c6:      \taddq\t$0x8, %rsp\n    17ca:      \tpopq\t%rbx\n    17cb:      \tpopq\t%rbp\n    17cc:      \tpopq\t%r12\n    17ce:      \tpopq\t%r13\n    17d0:      \tpopq\t%r14\n    17d2:      \tpopq\t%r15\n    17d4:      \tretq\n    17d5:      \tnopw\t%cs:(%rax,%rax)\n\n00000000000017e0 <__libc_csu_fini>:\n    17e0:      \tendbr64\n    17e4:      \tretq\n\nDisassembly of section .fini:\n\n00000000000017e8 <_fini>:\n    17e8:      \tendbr64\n    17ec:      \tsubq\t$0x8, %rsp\n    17f0:      \taddq\t$0x8, %rsp\n    17f4:      \tretq"
+}

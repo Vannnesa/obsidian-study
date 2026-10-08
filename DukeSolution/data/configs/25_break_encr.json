@@ -1,0 +1,52 @@
+{
+  "id": "25_break_encr",
+  "title": "Break a Caesar cipher by counting letter frequencies and print the key",
+  "type": "compile_and_run",
+  "source": "breaker.c",
+  "build": {
+    "sources": [
+      "breaker.c"
+    ],
+    "output": "breaker",
+    "flags": [
+      "-std=gnu99",
+      "-pedantic",
+      "-Wall",
+      "-O3"
+    ]
+  },
+  "compileMessage": "Attempting to compile breaker.c ",
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "26_tests_matrix_input",
+  "notes": "observed: re/original-grade-txt/25_break_encr.grade.txt reads `Attempting to compile breaker.c ` (the trailing space is in the artifact, verified byte-wise), then `make: 'breaker' is up to date.`, then `testcase1 passed` with NO separator block, then the `#################################################` separator with `testcase2:`, `testcase3:` and `testcase4:` - each printing `testcaseN passed` - and `Overall Grade: A`. observed: the Makefile is Makefile-driven (`CC = gcc`, `CFLAGS = -std=gnu99 -pedantic -Wall -O3`, target `breaker: breaker.c`), the flags above are its CFLAGS, and `a.txt` / `input.txt` are the only input fixtures in the directory. observed: the README's contract - one command line argument naming a file, one decimal key in [0,26) on stdout, an error message on stderr plus EXIT_FAILURE on failure, and a Makefile producing `breaker`. inferred: the original's testcase1 is the only one without a `###` block and it follows the make line immediately, so it is most likely the build check itself; since the runner cannot model 'the build succeeded' as a case, all four configured cases are program runs. inferred: the original's four inputs are not recorded anywhere in the workspace, so the cases below use the two surviving fixtures plus the two failure paths the README specifies (no argument; unreadable file) - the expected keys 22 and 4 are the reference solution's output for those two files (25_break_encr/breaker.c), which is exactly the value the 2024 run must have produced since it passed. Report gaps: `make: 'breaker' is up to date.` is not reproduced because the tool must not drive the build through the assignment's Makefile (it would rewrite .o files in the assignment directory and can pick up the stale Linux-ELF `breaker` binary committed there); `compileMessage` is declared in src/types.ts but not yet emitted by the runner. Template exclusions: the committed Linux binaries `breaker` and `breaker-debug` are not part of the starting template; breaker.c is reduced to a skeleton.",
+  "tests": [
+    {
+      "args": [],
+      "label": "no arguments (usage error)",
+      "expectFailure": true
+    },
+    {
+      "args": [
+        "a.txt"
+      ],
+      "label": "a.txt",
+      "expectedFile": "expected/25_break_encr/a.txt.txt"
+    },
+    {
+      "args": [
+        "input.txt"
+      ],
+      "label": "input.txt",
+      "expectedFile": "expected/25_break_encr/input.txt.txt"
+    },
+    {
+      "args": [
+        "no-such-file.txt"
+      ],
+      "label": "unreadable input file",
+      "expectFailure": true
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+ "path": "11_read_ptr1/test.o",
+ "size": 2784,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "test.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": ".LC0",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": ".LC1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 23,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": ".LC2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 46,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": ".LC3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 74,
+   "section": ".rodata.str1.1"
+  },
+  {
+   "name": "g",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 51,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "f",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 108,
+   "addr": 64,
+   "section": ".text"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 103,
+   "addr": 0,
+   "section": ".text.startup"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__printf_chk",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [],
+ "string_refs": {},
+ "relocations": {
+  ".text": [
+   {
+    "offset": 32,
+    "symbol": ".LC0",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 37,
+    "symbol": "__printf_chk",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 91,
+    "symbol": ".LC1",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 96,
+    "symbol": "__printf_chk",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 114,
+    "symbol": ".LC0",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 137,
+    "symbol": "__printf_chk",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 154,
+    "symbol": ".LC2",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 168,
+    "symbol": "__printf_chk",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/11_read_ptr1/test.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <g>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovl\t%edi, %edx\n       7:      \tmovq\t%rsi, %rbp\n       a:      \txorl\t%eax, %eax\n       c:      \tpushq\t%rbx\n       d:      \tmovl\t%edi, %ebx\n       f:      \tmovl\t$0x1, %edi\n      14:      \taddl\t$0x1, %ebx\n      17:      \tsubq\t$0x8, %rsp\n      1b:      \tmovl\t(%rsi), %ecx\n      1d:      \tleaq\t(%rip), %rsi            # 0x24 <g+0x24>\n;   .LC0+-4\n      24:      \tcallq\t0x29 <g+0x29>\n;   __printf_chk+-4\n      29:      \tsubl\t%ebx, (%rbp)\n      2c:      \taddq\t$0x8, %rsp\n      30:      \tpopq\t%rbx\n      31:      \tpopq\t%rbp\n      32:      \tretq\n      33:      \tnopw\t%cs:(%rax,%rax)\n      3e:      \tnop\n\n0000000000000040 <f>:\n      40:      \tendbr64\n      44:      \tpushq\t%r12\n      46:      \tmovl\t%esi, %ecx\n      48:      \txorl\t%eax, %eax\n      4a:      \tpushq\t%rbp\n      4b:      \tmovq\t%rdi, %rbp\n      4e:      \tpushq\t%rbx\n      4f:      \tmovl\t(%rdi), %edx\n      51:      \tmovl\t%esi, %ebx\n      53:      \tmovl\t$0x1, %edi\n      58:      \tleaq\t(%rip), %rsi            # 0x5f <f+0x1f>\n;   .LC1+-4\n      5f:      \tcallq\t0x64 <f+0x24>\n;   __printf_chk+-4\n      64:      \tmovl\t(%rbp), %r12d\n      68:      \tmovl\t$0x1, %edi\n      6d:      \txorl\t%eax, %eax\n      6f:      \tleaq\t(%rip), %rsi            # 0x76 <f+0x36>\n;   .LC0+-4\n      76:      \taddl\t%ebx, %r12d\n      79:      \taddl\t%ebx, %ebx\n      7b:      \tmovl\t%r12d, (%rbp)\n      7f:      \tmovl\t%ebx, %ecx\n      81:      \tmovl\t%r12d, %edx\n      84:      \taddl\t$0x1, %r12d\n      88:      \tcallq\t0x8d <f+0x4d>\n;   __printf_chk+-4\n      8d:      \tmovl\t%ebx, %ecx\n      8f:      \tmovl\t(%rbp), %edx\n      92:      \tpopq\t%rbx\n      93:      \tsubl\t%r12d, %ecx\n      96:      \tpopq\t%rbp\n      97:      \tleaq\t(%rip), %rsi            # 0x9e <f+0x5e>\n;   .LC2+-4\n      9e:      \tmovl\t$0x1, %edi\n      a3:      \txorl\t%eax, %eax\n      a5:      \tpopq\t%r12\n      a7:      \tjmp\t0xac <f+0x6c>\n\nDisassembly of section .text.startup:\n\n0000000000000000 <main>:\n       0:      \tendbr64\n       4:      \tsubq\t$0x18, %rsp\n       8:      \tmovl\t$0x4, %esi\n       d:      \tmovq\t%fs:0x28, %rax\n      16:      \tmovq\t%rax, 0x8(%rsp)\n      1b:      \txorl\t%eax, %eax\n      1d:      \tleaq\t0x4(%rsp), %rdi\n      22:      \tmovl\t$0x3, 0x4(%rsp)\n      2a:      \tcallq\t0x2f <main+0x2f>\n      2f:      \tmovl\t0x4(%rsp), %edx\n      33:      \txorl\t%eax, %eax\n      35:      \tmovl\t$0x4, %ecx\n      3a:      \tleaq\t(%rip), %rsi            # 0x41 <main+0x41>\n      41:      \tmovl\t$0x1, %edi\n      46:      \tcallq\t0x4b <main+0x4b>\n      4b:      \tmovq\t0x8(%rsp), %rax\n      50:      \txorq\t%fs:0x28, %rax\n      59:      \tjne\t0x62 <main+0x62>\n      5b:      \txorl\t%eax, %eax\n      5d:      \taddq\t$0x18, %rsp\n      61:      \tretq\n      62:      \tcallq\t0x67 <main+0x67>\n;   __printf_chk+-4"
+}

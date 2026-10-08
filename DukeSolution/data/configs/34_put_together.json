@@ -1,0 +1,70 @@
+{
+  "id": "34_put_together",
+  "title": "count_values: count the values that appear in a list of files",
+  "type": "memory_check",
+  "source": "main.c",
+  "compileMessage": "Attempting to compile:",
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "showCompileCommands": true,
+  "next": "c2prj1_cards",
+  "timeoutMs": 30000,
+  "build": {
+    "driver": "drivers/34_put_together/count_values_check.c",
+    "sources": [
+      "outname.c",
+      "counts.c",
+      "main.c",
+      "kv.c"
+    ],
+    "separateCompile": true,
+    "output": "count_values",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "--pedantic",
+      "-ggdb3",
+      "-Dmain=student_main"
+    ]
+  },
+  "tests": [
+    {
+      "label": "no arguments (error checking)",
+      "args": [],
+      "expectFailure": true,
+      "message": "testcase1 passed, your program successfully indicated a failure"
+    },
+    {
+      "label": "kvs1.txt list1a.txt list1b.txt",
+      "args": [
+        "kvs1.txt",
+        "list1a.txt",
+        "list1b.txt"
+      ],
+      "message": "Your file matched the expected output",
+      "expectedFile": "expected/34_put_together/kvs1_list1a_list1b.txt"
+    },
+    {
+      "label": "kvs2.txt list2a.txt list2b.txt list2c.txt",
+      "args": [
+        "kvs2.txt",
+        "list2a.txt",
+        "list2b.txt",
+        "list2c.txt"
+      ],
+      "message": "Your file matched the expected output",
+      "expectedFile": "expected/34_put_together/kvs2_list2a_list2b_list2c.txt"
+    },
+    {
+      "label": "kvs1.txt list1a.txt (single file, as the original's fourth case was)",
+      "args": [
+        "kvs1.txt",
+        "list1a.txt"
+      ],
+      "message": "Your file matched the expected output",
+      "expectedFile": "expected/34_put_together/kvs1_list1a.txt"
+    }
+  ],
+  "notes": "Confidence: observed -- the report lines, the four gcc commands, the case shapes and the valgrind clauses, all read from re/original-grade-txt/34_put_together.grade.txt; recovered -- the driver's check (compare each X.counts with X.ans, in the original's M,C,Y / C,M,Y line order) is reconstructed from those observed lines and validated by rebuilding the recorded solution, whose .counts files match every provided .ans except the '<unknown>' spacing; inferred -- that whitespace tolerance and the substitution of list1a.txt for the missing list3a.txt. Observed in re/original-grade-txt/34_put_together.grade.txt: the 'Attempting to compile:' header and the four gcc -c ... / gcc -o count_values lines; the '###...' separators and 'testcaseN:' numbering; 'testcase1 passed, your program successfully indicated a failure' for the error-checking case; 'Your file matched the expected output' / 'Comparing file list1a.txt.counts with answer' / 'Your output is correct' per compared file; '  - Valgrind was clean (no errors, no memory leaks)' / 'valgrind was clean'; 'Overall Grade: A'. The original was `make`-driven (count_values built from outname.o counts.o main.o kv.o with cards.c-style symlinks to 29_outname/32_kvs/33_counts), so the build compiles the same four sources separately in the same order; the commands are echoed (showCompileCommands) but clang spells them slightly differently and prefixes temp paths, so those lines differ from 2024's. The driver wraps the student's own main (-Dmain=student_main) so the program under test is the student's real program, and per case it deletes X.counts before the run (a stale file must not look like a pass), then compares X.counts with X.ans -- 'answer' in the original's own wording, and the file the README names for list1a/list1b/list2a-c. The comparison ignores whitespace runs because the recorded solution prints '<unknown>: 2' where list1a.txt.ans says '<unknown> : 2' (verified by rebuilding the recorded solution: the only difference from every provided .ans is that space, and 33_counts.grade.txt shows the 2024 grader accepting the same difference against the README's '<unknown> : 1' format). Nothing else is normalised. CASE 4 IS A SUBSTITUTE: the original compared 'list3a.txt.counts' and list3a.txt is not in the workspace (only list1a/1b, list2a/b/c and test.txt exist; test.txt has no .ans), so the single-file shape is reproduced with list1a.txt. memory_check matches the original exactly here -- valgrind clauses appear in this grade.txt -- so leaks and memory errors are real failures. Message fields reproduce the original's first line after each 'testcaseN:'; the tool still appends its own 'testcaseN passed'. Neither engine reports uninitialised reads, which valgrind did, so that class of defect is not detected here."
+}

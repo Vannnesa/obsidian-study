@@ -1,0 +1,403 @@
+{
+  "id": "23_power_rec",
+  "title": "unsigned power(unsigned x, unsigned y) -- recursive exponentiation, 0^0 == 1, no iteration",
+  "type": "source_check",
+  "source": "power.c",
+  "build": {
+    "driver": "drivers/23_power_rec/power_test.c",
+    "sources": [],
+    "output": "power",
+    "flags": [
+      "-std=gnu99",
+      "-pedantic",
+      "-Wall",
+      "-O3"
+    ],
+    "separateCompile": true
+  },
+  "requiredPatterns": [
+    {
+      "label": "Checking for unsigned power (unsigned x, unsigned y)",
+      "pattern": "unsigned\\s+power\\s*\\(\\s*unsigned\\s+x\\s*,\\s*unsigned\\s+y\\s*\\)"
+    },
+    {
+      "label": "Checking that power is recursive",
+      "pattern": "unsigned\\s+power\\s*\\([^)]*\\)\\s*\\{[\\s\\S]*?\\bpower\\s*\\("
+    }
+  ],
+  "forbiddenPatterns": [
+    {
+      "label": "Checking for no iteration (do, while, for)",
+      "pattern": "\\b(do|while|for)\\b"
+    }
+  ],
+  "header": "Attempting to compile power.o with our main",
+  "reportStyle": "message",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "24_read_arr3",
+  "notes": "observed: re/original-grade-txt/23_power_rec.grade.txt supplies every report line quoted here -- 'Attempting to compile power.c' and 'Attempting to compile power.o with our main' (the latter recorded as header), the checklist 'Checking for unsigned power (unsigned x, unsigned y)' / 'Found on line 4, column 1 ' / 'Checking for no iteration (do, while, for)' / 'Checking that power is recursive', the 36 '<x>^<y> was Correct' lines (x over 0,1,4,5,9,12 and y over 0,1,2,6,8,11, x-major) and 'Overall Grade: A' (recorded as successVerdict). 23_power_rec/README gives the contract unsigned power(unsigned x, unsigned y) with 0^0 == 1 and 'You MUST use recursion (no iteration)'; 23_power_rec/Makefile supplies the flags and the separate compilation (compile each .c to its own .o, then link), which is what the original's 'compile power.o with our main' describes. inferred: drivers/23_power_rec/power_test.c -- 23_power_rec/test-power.o is present but is NOT the grader's main: re/elf/23_power_rec__test-power.o.md shows the format string '%d elevado a %d en power da %d' and the constants a[]={0,1,2,3,0,-2}, b[]={0,1,2,3,4,3}, res[]={1,1,4,27,0,-8}, i.e. the student's own 22_tests_power/test-power.c (which the README tells them to symlink in), and no grader object exists anywhere in the workspace. The driver therefore computes the reference value with ordinary unsigned arithmetic (wrapping modulo 2^32, as the recursive definition does), prints '%u^%u was Correct/Incorrect' and exits non-zero when the value is wrong; 'Incorrect' and the reference computation are inferred, while the 36 case pairs and the success wording are observed. The forbiddenPatterns regex is the natural reading of the observed label 'Checking for no iteration (do, while, for)'; the recursivePattern requires the definition to be followed by a call of power, so a non-recursive implementation matches neither. There is no selfTest: power.c has no main and the original printed no 'Your file matched the expected output' line. Differences from the original: the successful forbidden check prints ' - satisfied' where the original printed nothing, the recursive check prints its 'Found on line 4, column 1 ' (identical to the line the first check already printed, so it adds no new text), and reportStyle 'message' is used because the original printed each verdict sentence on its own line with neither a '#####' separator nor a 'Testing ...' line; the only remaining differences are the two described above plus ' - satisfied'.",
+  "tests": [
+    {
+      "args": [
+        "0",
+        "0"
+      ],
+      "expectedFile": "expected/23_power_rec/0_0.txt",
+      "expectedExit": 0,
+      "message": "0^0 was Correct",
+      "label": "0^0"
+    },
+    {
+      "args": [
+        "0",
+        "1"
+      ],
+      "expectedFile": "expected/23_power_rec/0_1.txt",
+      "expectedExit": 0,
+      "message": "0^1 was Correct",
+      "label": "0^1"
+    },
+    {
+      "args": [
+        "0",
+        "2"
+      ],
+      "expectedFile": "expected/23_power_rec/0_2.txt",
+      "expectedExit": 0,
+      "message": "0^2 was Correct",
+      "label": "0^2"
+    },
+    {
+      "args": [
+        "0",
+        "6"
+      ],
+      "expectedFile": "expected/23_power_rec/0_6.txt",
+      "expectedExit": 0,
+      "message": "0^6 was Correct",
+      "label": "0^6"
+    },
+    {
+      "args": [
+        "0",
+        "8"
+      ],
+      "expectedFile": "expected/23_power_rec/0_8.txt",
+      "expectedExit": 0,
+      "message": "0^8 was Correct",
+      "label": "0^8"
+    },
+    {
+      "args": [
+        "0",
+        "11"
+      ],
+      "expectedFile": "expected/23_power_rec/0_11.txt",
+      "expectedExit": 0,
+      "message": "0^11 was Correct",
+      "label": "0^11"
+    },
+    {
+      "args": [
+        "1",
+        "0"
+      ],
+      "expectedFile": "expected/23_power_rec/1_0.txt",
+      "expectedExit": 0,
+      "message": "1^0 was Correct",
+      "label": "1^0"
+    },
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "expectedFile": "expected/23_power_rec/1_1.txt",
+      "expectedExit": 0,
+      "message": "1^1 was Correct",
+      "label": "1^1"
+    },
+    {
+      "args": [
+        "1",
+        "2"
+      ],
+      "expectedFile": "expected/23_power_rec/1_2.txt",
+      "expectedExit": 0,
+      "message": "1^2 was Correct",
+      "label": "1^2"
+    },
+    {
+      "args": [
+        "1",
+        "6"
+      ],
+      "expectedFile": "expected/23_power_rec/1_6.txt",
+      "expectedExit": 0,
+      "message": "1^6 was Correct",
+      "label": "1^6"
+    },
+    {
+      "args": [
+        "1",
+        "8"
+      ],
+      "expectedFile": "expected/23_power_rec/1_8.txt",
+      "expectedExit": 0,
+      "message": "1^8 was Correct",
+      "label": "1^8"
+    },
+    {
+      "args": [
+        "1",
+        "11"
+      ],
+      "expectedFile": "expected/23_power_rec/1_11.txt",
+      "expectedExit": 0,
+      "message": "1^11 was Correct",
+      "label": "1^11"
+    },
+    {
+      "args": [
+        "4",
+        "0"
+      ],
+      "expectedFile": "expected/23_power_rec/4_0.txt",
+      "expectedExit": 0,
+      "message": "4^0 was Correct",
+      "label": "4^0"
+    },
+    {
+      "args": [
+        "4",
+        "1"
+      ],
+      "expectedFile": "expected/23_power_rec/4_1.txt",
+      "expectedExit": 0,
+      "message": "4^1 was Correct",
+      "label": "4^1"
+    },
+    {
+      "args": [
+        "4",
+        "2"
+      ],
+      "expectedFile": "expected/23_power_rec/4_2.txt",
+      "expectedExit": 0,
+      "message": "4^2 was Correct",
+      "label": "4^2"
+    },
+    {
+      "args": [
+        "4",
+        "6"
+      ],
+      "expectedFile": "expected/23_power_rec/4_6.txt",
+      "expectedExit": 0,
+      "message": "4^6 was Correct",
+      "label": "4^6"
+    },
+    {
+      "args": [
+        "4",
+        "8"
+      ],
+      "expectedFile": "expected/23_power_rec/4_8.txt",
+      "expectedExit": 0,
+      "message": "4^8 was Correct",
+      "label": "4^8"
+    },
+    {
+      "args": [
+        "4",
+        "11"
+      ],
+      "expectedFile": "expected/23_power_rec/4_11.txt",
+      "expectedExit": 0,
+      "message": "4^11 was Correct",
+      "label": "4^11"
+    },
+    {
+      "args": [
+        "5",
+        "0"
+      ],
+      "expectedFile": "expected/23_power_rec/5_0.txt",
+      "expectedExit": 0,
+      "message": "5^0 was Correct",
+      "label": "5^0"
+    },
+    {
+      "args": [
+        "5",
+        "1"
+      ],
+      "expectedFile": "expected/23_power_rec/5_1.txt",
+      "expectedExit": 0,
+      "message": "5^1 was Correct",
+      "label": "5^1"
+    },
+    {
+      "args": [
+        "5",
+        "2"
+      ],
+      "expectedFile": "expected/23_power_rec/5_2.txt",
+      "expectedExit": 0,
+      "message": "5^2 was Correct",
+      "label": "5^2"
+    },
+    {
+      "args": [
+        "5",
+        "6"
+      ],
+      "expectedFile": "expected/23_power_rec/5_6.txt",
+      "expectedExit": 0,
+      "message": "5^6 was Correct",
+      "label": "5^6"
+    },
+    {
+      "args": [
+        "5",
+        "8"
+      ],
+      "expectedFile": "expected/23_power_rec/5_8.txt",
+      "expectedExit": 0,
+      "message": "5^8 was Correct",
+      "label": "5^8"
+    },
+    {
+      "args": [
+        "5",
+        "11"
+      ],
+      "expectedFile": "expected/23_power_rec/5_11.txt",
+      "expectedExit": 0,
+      "message": "5^11 was Correct",
+      "label": "5^11"
+    },
+    {
+      "args": [
+        "9",
+        "0"
+      ],
+      "expectedFile": "expected/23_power_rec/9_0.txt",
+      "expectedExit": 0,
+      "message": "9^0 was Correct",
+      "label": "9^0"
+    },
+    {
+      "args": [
+        "9",
+        "1"
+      ],
+      "expectedFile": "expected/23_power_rec/9_1.txt",
+      "expectedExit": 0,
+      "message": "9^1 was Correct",
+      "label": "9^1"
+    },
+    {
+      "args": [
+        "9",
+        "2"
+      ],
+      "expectedFile": "expected/23_power_rec/9_2.txt",
+      "expectedExit": 0,
+      "message": "9^2 was Correct",
+      "label": "9^2"
+    },
+    {
+      "args": [
+        "9",
+        "6"
+      ],
+      "expectedFile": "expected/23_power_rec/9_6.txt",
+      "expectedExit": 0,
+      "message": "9^6 was Correct",
+      "label": "9^6"
+    },
+    {
+      "args": [
+        "9",
+        "8"
+      ],
+      "expectedFile": "expected/23_power_rec/9_8.txt",
+      "expectedExit": 0,
+      "message": "9^8 was Correct",
+      "label": "9^8"
+    },
+    {
+      "args": [
+        "9",
+        "11"
+      ],
+      "expectedFile": "expected/23_power_rec/9_11.txt",
+      "expectedExit": 0,
+      "message": "9^11 was Correct",
+      "label": "9^11"
+    },
+    {
+      "args": [
+        "12",
+        "0"
+      ],
+      "expectedFile": "expected/23_power_rec/12_0.txt",
+      "expectedExit": 0,
+      "message": "12^0 was Correct",
+      "label": "12^0"
+    },
+    {
+      "args": [
+        "12",
+        "1"
+      ],
+      "expectedFile": "expected/23_power_rec/12_1.txt",
+      "expectedExit": 0,
+      "message": "12^1 was Correct",
+      "label": "12^1"
+    },
+    {
+      "args": [
+        "12",
+        "2"
+      ],
+      "expectedFile": "expected/23_power_rec/12_2.txt",
+      "expectedExit": 0,
+      "message": "12^2 was Correct",
+      "label": "12^2"
+    },
+    {
+      "args": [
+        "12",
+        "6"
+      ],
+      "expectedFile": "expected/23_power_rec/12_6.txt",
+      "expectedExit": 0,
+      "message": "12^6 was Correct",
+      "label": "12^6"
+    },
+    {
+      "args": [
+        "12",
+        "8"
+      ],
+      "expectedFile": "expected/23_power_rec/12_8.txt",
+      "expectedExit": 0,
+      "message": "12^8 was Correct",
+      "label": "12^8"
+    },
+    {
+      "args": [
+        "12",
+        "11"
+      ],
+      "expectedFile": "expected/23_power_rec/12_11.txt",
+      "expectedExit": 0,
+      "message": "12^11 was Correct",
+      "label": "12^11"
+    }
+  ],
+  "compileMessage": "Attempting to compile power.c"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "c4prj2_input",
+  "title": "Course 4 poker project, part 2: future/unknown cards and reading the input",
+  "type": "compile_and_run",
+  "source": "input.c",
+  "compileMessage": "Compiling cards.c -> cards.o",
+  "header": "Linking input.o, future.o deck.o, cards.o, and our tester",
+  "reportStyle": "squares",
+  "successVerdict": "A",
+  "next": "c4prj3_finish",
+  "timeoutMs": 30000,
+  "build": {
+    "driver": "drivers/c4prj2_input/input_check.c",
+    "sources": [
+      "input.c",
+      "future.c",
+      "deck.c",
+      "cards.c"
+    ],
+    "separateCompile": true,
+    "output": "test_future_input",
+    "flags": [
+      "-ggdb3",
+      "-Wall",
+      "-Werror",
+      "--pedantic",
+      "-std=gnu99",
+      "-Wno-error=non-literal-null-conversion"
+    ]
+  },
+  "tests": [
+    {
+      "label": "with input file with \n o 1 hand\n o No unknown/future cards",
+      "stdin": "As Kd Qh Js 9c 7d 5h\n",
+      "expectedFile": "expected/c4prj2_input/one_hand_no_unknown.txt"
+    },
+    {
+      "label": "with input file with \n o Many hands\n o No unknown/future cards",
+      "args": [
+        "test1.txt"
+      ],
+      "expectedFile": "expected/c4prj2_input/many_hands_no_unknown.txt"
+    },
+    {
+      "label": "with input file with \n o Many hands\n o 1 unknown/future cards per hand",
+      "args": [
+        "test2.txt"
+      ],
+      "expectedFile": "expected/c4prj2_input/many_hands_one_unknown.txt"
+    },
+    {
+      "label": "with input file with \n o Many hands\n o Many unknown/future cards per hand",
+      "args": [
+        "test.txt"
+      ],
+      "expectedFile": "expected/c4prj2_input/many_hands_many_unknown.txt"
+    }
+  ],
+  "notes": "Confidence: observed -- every report line quoted, the four-case shapes and 'Overall Grade: A'; inferred -- the driver (the grader's tester did not survive: c4prj2_input/main.o is the student's main.c) and the two fixture decisions below (sorted remaining deck, fixed probe deck). Report wording observed verbatim in re/original-grade-txt/c4prj2_input.grade.txt: 'Compiling cards.c -> cards.o' (first of four compile lines), 'Linking input.o, future.o deck.o, cards.o, and our tester', the four-case 'Testing with input file with \\n o <shape>\\n o <unknowns>' labels, 'Your file matched the expected output', 'Test case passed', 'Overall Grade: A'. The four-case shape is reproduced by the case labels; the success lines read 'PASSED'/' - Correct' instead of 'Your file matched the expected output'/'Test case passed' because that wording is not expressible per case. The grader's tester did NOT survive: c4prj2_input/main.o is the student's own main.c (re/elf/c4prj2_input__main.o.md lists exactly its four section headers and no 'Testing with input file' strings), so drivers/c4prj2_input/input_check.c is INFERRED from that recovered main.c and exercises the same three functions the original linked: read_input, build_remaining_deck, future_cards_from_deck (from future.c). Test inputs: the original's own files were not preserved; the category-2/3/4 files are the student's own copies, whose contents match the original's descriptions exactly (test1.txt = 4 hands with no '?'; test2.txt = 4 hands with one '?0..?3' each; test.txt = 2 hands with '?0..?4' each), and category 1 (one hand, no unknown) is supplied on stdin because no such file exists in the directory (test3.txt has a '?11'). Two deliberate fixture decisions, to avoid over-constraining: the remaining deck is printed sorted by value/suit (card_from_num's mapping is explicitly the student's choice per the c2prj1_cards README, and an unsorted dump would pin it), and the future cards are drawn from a fixed card_from_letters probe deck rather than the unshuffled remaining deck, so what lands on ?0 depends only on future_cards_from_deck's documented contract. NOT memory-checked: c4prj2_input.grade.txt has no valgrind clause, so compile_and_run is used exactly as the 2024 grader did; leaks in read_input/add_future_card are therefore not detected here."
+}

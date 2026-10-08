@@ -1,0 +1,2059 @@
+{
+ "path": "c4prj1_deck/deck.o",
+ "size": 80392,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "deck.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.2966",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 17,
+   "addr": 48,
+   "section": ".rodata"
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.24.5c1b97eef3c86b7a2549420f69f4f128",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.features.h.19.3042b63a76022a6d39c0cfc1936a7a01",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.19.a8ffc9250e5bdadaabc998d2b2f3d734",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.wordsize.h.4.baf119258a1e53d8dba67ceac44ab6bc",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.475.fb75d2e4416aa349344e6f45f683bf28",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stubs64.h.10.6ce4c34010988db072c080326a6b6319",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.37.d9274df4cc0172452960ad9644fa5579",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.181.c3f52a3b0f4c288bddb5dda1562858e2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.109.56eb9ae966b255288cc544f18746a7ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.typesizes.h.24.2c64f817c0dc4b6fb2a2c619d717be26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.time64.h.24.a8166ae916ec910dab0d8987098d42ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_FILE.h.19.0888ac70396abe1031c03d393554032f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.53.78a7f18f3bc87ded52f05aa6f6a64310",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio_lim.h.19.e4b00b560d878dcfbc6635b3406640c5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.141.d7a290e19ca077c9e4aa7c43ede17a73",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.31.87b3c285aeba93fe355ad19123070832",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.28.2cffa49d94c5d85f4538f55f7b59771d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.ac1e89356001c54fbeb8aaa0d15e8b3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitflags.h.25.41934de4af99038521c2782f418699b1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitstatus.h.28.93f167f49d64e2b9b99f98d1162a93bf",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.43.9fa4f727a2f1cb8d2450a574c9195553",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatn.h.20.80c7cf8a8dfad237004b28d051d5afda",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatncommon.h.34.7e1840d7dfb19e9bdb51aeb077d76637",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.71.2927e068ec678159b4f68ec2f089f7e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.23.882ecbf54662e1f16e101552381a65da",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.0adce5c8c1fd8096aaff50981b3d1f0f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.20.efabd1018df5d7b4052c27dc6bdd5ce5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endianness.h.2.2c6a211f7909f3af5e9e9cfa3b6b63c8",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.40.9e5d395adda2f4eb53ae69b69b664084",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.27.4c4f94262c4eaee2982fe00ed1b4f173",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.byteswap.h.24.5363c019348146aada5aeadf51456576",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.39.30a606dbd99b6c3df61c1f06dbdabd4e",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.28.eb2f3debdbcffd1442ebddaebc4fb6ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.__sigset_t.h.2.6b1ab6ff3d7b8fd9c0c42b0d80afbd80",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.44.887a4ff60aa97fcd9c1be017735e1675",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.186.489a4ed8f2d29cd358843490f54ddea5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.pthreadtypesarch.h.25.6063cba99664c916e22d3a912bcc348a",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_mutex.h.20.ed51f515172b9be99e450ba83eb5dd99",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_rwlock.h.21.0254880f2904e3833fb8ae683e0f0330",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.19.edefa922a76c1cbaaf1e416903ba2d1c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.29.156e12058824cc23d961c4d3b13031f6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.assert.h.34.dce7822bb80c73e7bb3b7e09935edebe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cards.h.2.6ea1f97048b453bd9249855c897949b6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "add_card_to",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 191,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "add_empty_card",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 80,
+   "addr": 191,
+   "section": ".text"
+  },
+  {
+   "name": "make_deck_exclude",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 138,
+   "addr": 271,
+   "section": ".text"
+  },
+  {
+   "name": "deck_contains",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 127,
+   "addr": 940,
+   "section": ".text"
+  },
+  {
+   "name": "build_remaining_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 334,
+   "addr": 409,
+   "section": ".text"
+  },
+  {
+   "name": "free_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 104,
+   "addr": 743,
+   "section": ".text"
+  },
+  {
+   "name": "print_hand",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 93,
+   "addr": 847,
+   "section": ".text"
+  },
+  {
+   "name": "shuffle",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 200,
+   "addr": 1067,
+   "section": ".text"
+  },
+  {
+   "name": "assert_full_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 116,
+   "addr": 1267,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "realloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "malloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "card_from_num",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "print_card",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "putchar",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "rand",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "deck.c"
+  },
+  {
+   "offset": 8,
+   "text": "deck_contains(d, card_from_num(i)) == 1"
+  },
+  {
+   "offset": 48,
+   "text": "assert_full_deck"
+  }
+ ],
+ "string_refs": {
+  "assert_full_deck": [
+   "assert_full_deck",
+   "deck.c",
+   "deck_contains(d, card_from_num(i)) == 1"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 55,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 95,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 236,
+    "symbol": "add_card_to",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 293,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 341,
+    "symbol": "card_from_num",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 364,
+    "symbol": "deck_contains",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 387,
+    "symbol": "add_card_to",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 435,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 587,
+    "symbol": "deck_contains",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 645,
+    "symbol": "add_card_to",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 717,
+    "symbol": "make_deck_exclude",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 733,
+    "symbol": "free_deck",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 794,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 828,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 840,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 899,
+    "symbol": "print_card",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 909,
+    "symbol": "putchar",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1096,
+    "symbol": "rand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1298,
+    "symbol": "card_from_num",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1316,
+    "symbol": "deck_contains",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1328,
+    "symbol": ".rodata",
+    "addend": 44,
+    "type": 2
+   },
+   {
+    "offset": 1340,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1347,
+    "symbol": ".rodata",
+    "addend": 4,
+    "type": 2
+   },
+   {
+    "offset": 1352,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [
+   {
+    "name": "deck.c",
+    "comp_dir": "/home/student/learn2prog/c4prj1_deck",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -g -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "assert_full_deck",
+      "decl_file": 1,
+      "decl_line": 88,
+      "type": null,
+      "params": [
+       {
+        "name": "d",
+        "type": 1023,
+        "decl_line": 88
+       }
+      ],
+      "locals": [
+       {
+        "name": "__PRETTY_FUNCTION__",
+        "type": 1045,
+        "decl_line": null
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "shuffle",
+      "decl_file": 1,
+      "decl_line": 78,
+      "type": null,
+      "params": [
+       {
+        "name": "d",
+        "type": 1023,
+        "decl_line": 78
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "deck_contains",
+      "decl_file": 1,
+      "decl_line": 69,
+      "type": 105,
+      "params": [
+       {
+        "name": "d",
+        "type": 1023,
+        "decl_line": 69
+       },
+       {
+        "name": "c",
+        "type": 853,
+        "decl_line": 69
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "print_hand",
+      "decl_file": 1,
+      "decl_line": 62,
+      "type": null,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1023,
+        "decl_line": 62
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "free_deck",
+      "decl_file": 1,
+      "decl_line": 54,
+      "type": null,
+      "params": [
+       {
+        "name": "deck",
+        "type": 1023,
+        "decl_line": 54
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "build_remaining_deck",
+      "decl_file": 1,
+      "decl_line": 34,
+      "type": 1023,
+      "params": [
+       {
+        "name": "hands",
+        "type": 1576,
+        "decl_line": 34
+       },
+       {
+        "name": "n_hands",
+        "type": 49,
+        "decl_line": 34
+       }
+      ],
+      "locals": [
+       {
+        "name": "excluded_cards",
+        "type": 1023,
+        "decl_line": 35
+       },
+       {
+        "name": "remaining_deck",
+        "type": 1023,
+        "decl_line": 47
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "make_deck_exclude",
+      "decl_file": 1,
+      "decl_line": 21,
+      "type": 1023,
+      "params": [
+       {
+        "name": "excluded_cards",
+        "type": 1023,
+        "decl_line": 21
+       }
+      ],
+      "locals": [
+       {
+        "name": "deck_exclude",
+        "type": 1023,
+        "decl_line": 22
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "add_empty_card",
+      "decl_file": 1,
+      "decl_line": 14,
+      "type": 911,
+      "params": [
+       {
+        "name": "deck",
+        "type": 1023,
+        "decl_line": 14
+       }
+      ],
+      "locals": [
+       {
+        "name": "empty_card",
+        "type": 853,
+        "decl_line": 15
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "add_card_to",
+      "decl_file": 1,
+      "decl_line": 6,
+      "type": null,
+      "params": [
+       {
+        "name": "deck",
+        "type": 1023,
+        "decl_line": 6
+       },
+       {
+        "name": "c",
+        "type": 853,
+        "decl_line": 6
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 661
+     },
+     {
+      "name": "stdout",
+      "type": 661
+     },
+     {
+      "name": "stderr",
+      "type": 661
+     },
+     {
+      "name": "sys_nerr",
+      "type": 105
+     },
+     {
+      "name": "sys_errlist",
+      "type": 714
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 61
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 112
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 112
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 577,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 119,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 84,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 91,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 589,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 605,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 131,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "_codecvt",
+      "type": 616,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "_wide_data",
+      "type": 627,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "_freeres_list",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "_freeres_buf",
+      "type": 75,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 633,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "FILE",
+    "type": 161
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_codecvt",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_wide_data",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "enumeration_type",
+    "name": null,
+    "byte_size": 4,
+    "members": [
+     {
+      "name": "SPADES",
+      "const_value": 0
+     },
+     {
+      "name": "HEARTS",
+      "const_value": 1
+     },
+     {
+      "name": "DIAMONDS",
+      "const_value": 2
+     },
+     {
+      "name": "CLUBS",
+      "const_value": 3
+     },
+     {
+      "name": "NUM_SUITS",
+      "const_value": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "suit_t",
+    "type": 756
+   },
+   {
+    "kind": "structure_type",
+    "name": "card_tag",
+    "byte_size": 8,
+    "members": [
+     {
+      "name": "value",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "suit",
+      "type": 801,
+      "byte_size": null,
+      "data_member_location": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "card_t",
+    "type": 813
+   },
+   {
+    "kind": "structure_type",
+    "name": "deck_tag",
+    "byte_size": 16,
+    "members": [
+     {
+      "name": "cards",
+      "type": 905,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "n_cards",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "deck_t",
+    "type": 865
+   }
+  ],
+  "lines": {
+   "deck.c": {
+    "files": [
+     "deck.c",
+     "stddef.h",
+     "types.h",
+     "struct_FILE.h",
+     "FILE.h",
+     "stdio.h",
+     "sys_errlist.h",
+     "cards.h",
+     "deck.h",
+     "stdc-predef.h",
+     "libc-header-start.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "long-double.h",
+     "stubs.h",
+     "stubs-64.h",
+     "stdarg.h",
+     "timesize.h",
+     "typesizes.h",
+     "time64.h",
+     "__fpos_t.h",
+     "__mbstate_t.h",
+     "__fpos64_t.h",
+     "__FILE.h",
+     "stdio_lim.h",
+     "stdlib.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "floatn.h",
+     "floatn-common.h",
+     "types.h",
+     "clock_t.h",
+     "clockid_t.h",
+     "time_t.h",
+     "timer_t.h",
+     "stdint-intn.h",
+     "endian.h",
+     "endian.h",
+     "endianness.h",
+     "byteswap.h",
+     "uintn-identity.h",
+     "select.h",
+     "select.h",
+     "sigset_t.h",
+     "__sigset_t.h",
+     "struct_timeval.h",
+     "struct_timespec.h",
+     "pthreadtypes.h",
+     "thread-shared-types.h",
+     "pthreadtypes-arch.h",
+     "struct_mutex.h",
+     "struct_rwlock.h",
+     "alloca.h",
+     "stdlib-float.h",
+     "assert.h"
+    ],
+    "rows": [
+     {
+      "line": 6,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 21
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 29
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 33
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 41
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 48
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 59
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 66
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 73
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 81
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 89
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 99
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 102
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 109
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 117
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 127
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 130
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 132
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 139
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 147
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 157
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 160
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 163
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 171
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 183
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 191
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 207
+     },
+     {
+      "line": 16,
+      "file": 1,
+      "addr": 221
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 240
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 247
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 255
+     },
+     {
+      "line": 19,
+      "file": 1,
+      "addr": 269
+     },
+     {
+      "line": 21,
+      "file": 1,
+      "addr": 271
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 287
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 301
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 312
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 324
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 332
+     },
+     {
+      "line": 26,
+      "file": 1,
+      "addr": 334
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 349
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 368
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 372
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 391
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 396
+     },
+     {
+      "line": 31,
+      "file": 1,
+      "addr": 403
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 407
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 409
+     },
+     {
+      "line": 35,
+      "file": 1,
+      "addr": 429
+     },
+     {
+      "line": 36,
+      "file": 1,
+      "addr": 443
+     },
+     {
+      "line": 37,
+      "file": 1,
+      "addr": 454
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 466
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 474
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 479
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 487
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 492
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 514
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 517
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 531
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 533
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 537
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 559
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 562
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 576
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 591
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 595
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 617
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 620
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 634
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 649
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 654
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 676
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 680
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 690
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 695
+     },
+     {
+      "line": 47,
+      "file": 1,
+      "addr": 709
+     },
+     {
+      "line": 49,
+      "file": 1,
+      "addr": 725
+     },
+     {
+      "line": 51,
+      "file": 1,
+      "addr": 737
+     },
+     {
+      "line": 52,
+      "file": 1,
+      "addr": 741
+     },
+     {
+      "line": 54,
+      "file": 1,
+      "addr": 743
+     },
+     {
+      "line": 55,
+      "file": 1,
+      "addr": 759
+     },
+     {
+      "line": 55,
+      "file": 1,
+      "addr": 767
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 769
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 776
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 787
+     },
+     {
+      "line": 55,
+      "file": 1,
+      "addr": 798
+     },
+     {
+      "line": 55,
+      "file": 1,
+      "addr": 803
+     },
+     {
+      "line": 55,
+      "file": 1,
+      "addr": 811
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 817
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 824
+     },
+     {
+      "line": 59,
+      "file": 1,
+      "addr": 832
+     },
+     {
+      "line": 60,
+      "file": 1,
+      "addr": 844
+     },
+     {
+      "line": 62,
+      "file": 1,
+      "addr": 847
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 863
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 870
+     },
+     {
+      "line": 64,
+      "file": 1,
+      "addr": 872
+     },
+     {
+      "line": 64,
+      "file": 1,
+      "addr": 879
+     },
+     {
+      "line": 64,
+      "file": 1,
+      "addr": 895
+     },
+     {
+      "line": 65,
+      "file": 1,
+      "addr": 903
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 913
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 917
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 923
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 931
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 936
+     },
+     {
+      "line": 69,
+      "file": 1,
+      "addr": 940
+     },
+     {
+      "line": 70,
+      "file": 1,
+      "addr": 956
+     },
+     {
+      "line": 70,
+      "file": 1,
+      "addr": 963
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 965
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 972
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 988
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 990
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 993
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 997
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 1004
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 1020
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 1023
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 1026
+     },
+     {
+      "line": 72,
+      "file": 1,
+      "addr": 1030
+     },
+     {
+      "line": 70,
+      "file": 1,
+      "addr": 1037
+     },
+     {
+      "line": 70,
+      "file": 1,
+      "addr": 1041
+     },
+     {
+      "line": 70,
+      "file": 1,
+      "addr": 1047
+     },
+     {
+      "line": 70,
+      "file": 1,
+      "addr": 1055
+     },
+     {
+      "line": 75,
+      "file": 1,
+      "addr": 1060
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 1065
+     },
+     {
+      "line": 78,
+      "file": 1,
+      "addr": 1067
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 1083
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 1090
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 1095
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 1102
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 1110
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 1121
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 1124
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 1131
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 1147
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 1154
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 1161
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 1177
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 1184
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 1200
+     },
+     {
+      "line": 83,
+      "file": 1,
+      "addr": 1206
+     },
+     {
+      "line": 83,
+      "file": 1,
+      "addr": 1213
+     },
+     {
+      "line": 83,
+      "file": 1,
+      "addr": 1229
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 1236
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 1240
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 1246
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 1254
+     },
+     {
+      "line": 85,
+      "file": 1,
+      "addr": 1263
+     },
+     {
+      "line": 88,
+      "file": 1,
+      "addr": 1267
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 1283
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 1290
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 1292
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 1325
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 1356
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 1360
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 1366
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 1374
+     },
+     {
+      "line": 95,
+      "file": 1,
+      "addr": 1379
+     },
+     {
+      "line": 95,
+      "file": 1,
+      "addr": 1383
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c4prj1_deck/deck.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <add_card_to>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tpushq\t%rbx\n       9:      \tsubq\t$0x18, %rsp\n       d:      \tmovq\t%rdi, -0x18(%rbp)\n      11:      \tmovq\t%rsi, -0x20(%rbp)\n      15:      \tmovq\t-0x18(%rbp), %rax\n      19:      \tmovq\t0x8(%rax), %rax\n      1d:      \taddq\t$0x1, %rax\n      21:      \tleaq\t(,%rax,8), %rdx\n      29:      \tmovq\t-0x18(%rbp), %rax\n      2d:      \tmovq\t(%rax), %rax\n      30:      \tmovq\t%rdx, %rsi\n      33:      \tmovq\t%rax, %rdi\n      36:      \tcallq\t0x3b <add_card_to+0x3b>\n;   realloc+-4\n      3b:      \tmovq\t-0x18(%rbp), %rdx\n      3f:      \tmovq\t%rax, (%rdx)\n      42:      \tmovq\t-0x18(%rbp), %rax\n      46:      \tmovq\t(%rax), %rdx\n      49:      \tmovq\t-0x18(%rbp), %rax\n      4d:      \tmovq\t0x8(%rax), %rax\n      51:      \tshlq\t$0x3, %rax\n      55:      \tleaq\t(%rdx,%rax), %rbx\n      59:      \tmovl\t$0x8, %edi\n      5e:      \tcallq\t0x63 <add_card_to+0x63>\n;   malloc+-4\n      63:      \tmovq\t%rax, (%rbx)\n      66:      \tmovq\t-0x18(%rbp), %rax\n      6a:      \tmovq\t(%rax), %rdx\n      6d:      \tmovq\t-0x18(%rbp), %rax\n      71:      \tmovq\t0x8(%rax), %rax\n      75:      \tshlq\t$0x3, %rax\n      79:      \taddq\t%rdx, %rax\n      7c:      \tmovq\t(%rax), %rax\n      7f:      \tmovl\t-0x20(%rbp), %edx\n      82:      \tmovl\t%edx, (%rax)\n      84:      \tmovq\t-0x18(%rbp), %rax\n      88:      \tmovq\t(%rax), %rdx\n      8b:      \tmovq\t-0x18(%rbp), %rax\n      8f:      \tmovq\t0x8(%rax), %rax\n      93:      \tshlq\t$0x3, %rax\n      97:      \taddq\t%rdx, %rax\n      9a:      \tmovq\t(%rax), %rax\n      9d:      \tmovl\t-0x1c(%rbp), %edx\n      a0:      \tmovl\t%edx, 0x4(%rax)\n      a3:      \tmovq\t-0x18(%rbp), %rax\n      a7:      \tmovq\t0x8(%rax), %rax\n      ab:      \tleaq\t0x1(%rax), %rdx\n      af:      \tmovq\t-0x18(%rbp), %rax\n      b3:      \tmovq\t%rdx, 0x8(%rax)\n      b7:      \tnop\n      b8:      \taddq\t$0x18, %rsp\n      bc:      \tpopq\t%rbx\n      bd:      \tpopq\t%rbp\n      be:      \tretq\n\n00000000000000bf <add_empty_card>:\n      bf:      \tendbr64\n      c3:      \tpushq\t%rbp\n      c4:      \tmovq\t%rsp, %rbp\n      c7:      \tsubq\t$0x20, %rsp\n      cb:      \tmovq\t%rdi, -0x18(%rbp)\n      cf:      \tmovl\t$0x0, -0x8(%rbp)\n      d6:      \tmovl\t$0x0, -0x4(%rbp)\n      dd:      \tmovq\t-0x8(%rbp), %rdx\n      e1:      \tmovq\t-0x18(%rbp), %rax\n      e5:      \tmovq\t%rdx, %rsi\n      e8:      \tmovq\t%rax, %rdi\n      eb:      \tcallq\t0xf0 <add_empty_card+0x31>\n;   add_card_to+-4\n      f0:      \tmovq\t-0x18(%rbp), %rax\n      f4:      \tmovq\t(%rax), %rdx\n      f7:      \tmovq\t-0x18(%rbp), %rax\n      fb:      \tmovq\t0x8(%rax), %rax\n      ff:      \tshlq\t$0x3, %rax\n     103:      \tsubq\t$0x8, %rax\n     107:      \taddq\t%rdx, %rax\n     10a:      \tmovq\t(%rax), %rax\n     10d:      \tleave\n     10e:      \tretq\n\n000000000000010f <make_deck_exclude>:\n     10f:      \tendbr64\n     113:      \tpushq\t%rbp\n     114:      \tmovq\t%rsp, %rbp\n     117:      \tsubq\t$0x30, %rsp\n     11b:      \tmovq\t%rdi, -0x28(%rbp)\n     11f:      \tmovl\t$0x10, %edi\n     124:      \tcallq\t0x129 <make_deck_exclude+0x1a>\n;   malloc+-4\n     129:      \tmovq\t%rax, -0x10(%rbp)\n     12d:      \tmovq\t-0x10(%rbp), %rax\n     131:      \tmovq\t$0x0, (%rax)\n     138:      \tmovq\t-0x10(%rbp), %rax\n     13c:      \tmovq\t$0x0, 0x8(%rax)\n     144:      \tmovq\t$0x0, -0x18(%rbp)\n     14c:      \tjmp\t0x18c <make_deck_exclude+0x7d>\n     14e:      \tmovq\t-0x18(%rbp), %rax\n     152:      \tmovl\t%eax, %edi\n     154:      \tcallq\t0x159 <make_deck_exclude+0x4a>\n;   card_from_num+-4\n     159:      \tmovq\t%rax, -0x8(%rbp)\n     15d:      \tmovq\t-0x8(%rbp), %rdx\n     161:      \tmovq\t-0x28(%rbp), %rax\n     165:      \tmovq\t%rdx, %rsi\n     168:      \tmovq\t%rax, %rdi\n     16b:      \tcallq\t0x170 <make_deck_exclude+0x61>\n;   deck_contains+-4\n     170:      \ttestl\t%eax, %eax\n     172:      \tjne\t0x187 <make_deck_exclude+0x78>\n     174:      \tmovq\t-0x8(%rbp), %rdx\n     178:      \tmovq\t-0x10(%rbp), %rax\n     17c:      \tmovq\t%rdx, %rsi\n     17f:      \tmovq\t%rax, %rdi\n     182:      \tcallq\t0x187 <make_deck_exclude+0x78>\n;   add_card_to+-4\n     187:      \taddq\t$0x1, -0x18(%rbp)\n     18c:      \tcmpq\t$0x33, -0x18(%rbp)\n     191:      \tjbe\t0x14e <make_deck_exclude+0x3f>\n     193:      \tmovq\t-0x10(%rbp), %rax\n     197:      \tleave\n     198:      \tretq\n\n0000000000000199 <build_remaining_deck>:\n     199:      \tendbr64\n     19d:      \tpushq\t%rbp\n     19e:      \tmovq\t%rsp, %rbp\n     1a1:      \tsubq\t$0x30, %rsp\n     1a5:      \tmovq\t%rdi, -0x28(%rbp)\n     1a9:      \tmovq\t%rsi, -0x30(%rbp)\n     1ad:      \tmovl\t$0x10, %edi\n     1b2:      \tcallq\t0x1b7 <build_remaining_deck+0x1e>\n;   malloc+-4\n     1b7:      \tmovq\t%rax, -0x10(%rbp)\n     1bb:      \tmovq\t-0x10(%rbp), %rax\n     1bf:      \tmovq\t$0x0, (%rax)\n     1c6:      \tmovq\t-0x10(%rbp), %rax\n     1ca:      \tmovq\t$0x0, 0x8(%rax)\n     1d2:      \tmovq\t$0x0, -0x20(%rbp)\n     1da:      \tjmp\t0x2b7 <build_remaining_deck+0x11e>\n     1df:      \tmovq\t$0x0, -0x18(%rbp)\n     1e7:      \tjmp\t0x28e <build_remaining_deck+0xf5>\n     1ec:      \tmovq\t-0x20(%rbp), %rax\n     1f0:      \tleaq\t(,%rax,8), %rdx\n     1f8:      \tmovq\t-0x28(%rbp), %rax\n     1fc:      \taddq\t%rdx, %rax\n     1ff:      \tmovq\t(%rax), %rax\n     202:      \tmovq\t(%rax), %rax\n     205:      \tmovq\t-0x18(%rbp), %rdx\n     209:      \tshlq\t$0x3, %rdx\n     20d:      \taddq\t%rdx, %rax\n     210:      \tmovq\t(%rax), %rax\n     213:      \tmovl\t(%rax), %eax\n     215:      \ttestl\t%eax, %eax\n     217:      \tje\t0x289 <build_remaining_deck+0xf0>\n     219:      \tmovq\t-0x20(%rbp), %rax\n     21d:      \tleaq\t(,%rax,8), %rdx\n     225:      \tmovq\t-0x28(%rbp), %rax\n     229:      \taddq\t%rdx, %rax\n     22c:      \tmovq\t(%rax), %rax\n     22f:      \tmovq\t(%rax), %rax\n     232:      \tmovq\t-0x18(%rbp), %rdx\n     236:      \tshlq\t$0x3, %rdx\n     23a:      \taddq\t%rdx, %rax\n     23d:      \tmovq\t(%rax), %rdx\n     240:      \tmovq\t-0x10(%rbp), %rax\n     244:      \tmovq\t(%rdx), %rsi\n     247:      \tmovq\t%rax, %rdi\n     24a:      \tcallq\t0x24f <build_remaining_deck+0xb6>\n;   deck_contains+-4\n     24f:      \ttestl\t%eax, %eax\n     251:      \tjne\t0x289 <build_remaining_deck+0xf0>\n     253:      \tmovq\t-0x20(%rbp), %rax\n     257:      \tleaq\t(,%rax,8), %rdx\n     25f:      \tmovq\t-0x28(%rbp), %rax\n     263:      \taddq\t%rdx, %rax\n     266:      \tmovq\t(%rax), %rax\n     269:      \tmovq\t(%rax), %rax\n     26c:      \tmovq\t-0x18(%rbp), %rdx\n     270:      \tshlq\t$0x3, %rdx\n     274:      \taddq\t%rdx, %rax\n     277:      \tmovq\t(%rax), %rdx\n     27a:      \tmovq\t-0x10(%rbp), %rax\n     27e:      \tmovq\t(%rdx), %rsi\n     281:      \tmovq\t%rax, %rdi\n     284:      \tcallq\t0x289 <build_remaining_deck+0xf0>\n;   add_card_to+-4\n     289:      \taddq\t$0x1, -0x18(%rbp)\n     28e:      \tmovq\t-0x20(%rbp), %rax\n     292:      \tleaq\t(,%rax,8), %rdx\n     29a:      \tmovq\t-0x28(%rbp), %rax\n     29e:      \taddq\t%rdx, %rax\n     2a1:      \tmovq\t(%rax), %rax\n     2a4:      \tmovq\t0x8(%rax), %rax\n     2a8:      \tcmpq\t%rax, -0x18(%rbp)\n     2ac:      \tjb\t0x1ec <build_remaining_deck+0x53>\n     2b2:      \taddq\t$0x1, -0x20(%rbp)\n     2b7:      \tmovq\t-0x20(%rbp), %rax\n     2bb:      \tcmpq\t-0x30(%rbp), %rax\n     2bf:      \tjb\t0x1df <build_remaining_deck+0x46>\n     2c5:      \tmovq\t-0x10(%rbp), %rax\n     2c9:      \tmovq\t%rax, %rdi\n     2cc:      \tcallq\t0x2d1 <build_remaining_deck+0x138>\n;   make_deck_exclude+-4\n     2d1:      \tmovq\t%rax, -0x8(%rbp)\n     2d5:      \tmovq\t-0x10(%rbp), %rax\n     2d9:      \tmovq\t%rax, %rdi\n     2dc:      \tcallq\t0x2e1 <build_remaining_deck+0x148>\n;   free_deck+-4\n     2e1:      \tmovq\t-0x8(%rbp), %rax\n     2e5:      \tleave\n     2e6:      \tretq\n\n00000000000002e7 <free_deck>:\n     2e7:      \tendbr64\n     2eb:      \tpushq\t%rbp\n     2ec:      \tmovq\t%rsp, %rbp\n     2ef:      \tsubq\t$0x20, %rsp\n     2f3:      \tmovq\t%rdi, -0x18(%rbp)\n     2f7:      \tmovq\t$0x0, -0x8(%rbp)\n     2ff:      \tjmp\t0x323 <free_deck+0x3c>\n     301:      \tmovq\t-0x18(%rbp), %rax\n     305:      \tmovq\t(%rax), %rax\n     308:      \tmovq\t-0x8(%rbp), %rdx\n     30c:      \tshlq\t$0x3, %rdx\n     310:      \taddq\t%rdx, %rax\n     313:      \tmovq\t(%rax), %rax\n     316:      \tmovq\t%rax, %rdi\n     319:      \tcallq\t0x31e <free_deck+0x37>\n;   free+-4\n     31e:      \taddq\t$0x1, -0x8(%rbp)\n     323:      \tmovq\t-0x18(%rbp), %rax\n     327:      \tmovq\t0x8(%rax), %rax\n     32b:      \tcmpq\t%rax, -0x8(%rbp)\n     32f:      \tjb\t0x301 <free_deck+0x1a>\n     331:      \tmovq\t-0x18(%rbp), %rax\n     335:      \tmovq\t(%rax), %rax\n     338:      \tmovq\t%rax, %rdi\n     33b:      \tcallq\t0x340 <free_deck+0x59>\n;   free+-4\n     340:      \tmovq\t-0x18(%rbp), %rax\n     344:      \tmovq\t%rax, %rdi\n     347:      \tcallq\t0x34c <free_deck+0x65>\n;   free+-4\n     34c:      \tnop\n     34d:      \tleave\n     34e:      \tretq\n\n000000000000034f <print_hand>:\n     34f:      \tendbr64\n     353:      \tpushq\t%rbp\n     354:      \tmovq\t%rsp, %rbp\n     357:      \tsubq\t$0x20, %rsp\n     35b:      \tmovq\t%rdi, -0x18(%rbp)\n     35f:      \tmovl\t$0x0, -0x4(%rbp)\n     366:      \tjmp\t0x395 <print_hand+0x46>\n     368:      \tmovq\t-0x18(%rbp), %rax\n     36c:      \tmovq\t(%rax), %rax\n     36f:      \tmovl\t-0x4(%rbp), %edx\n     372:      \tmovslq\t%edx, %rdx\n     375:      \tshlq\t$0x3, %rdx\n     379:      \taddq\t%rdx, %rax\n     37c:      \tmovq\t(%rax), %rax\n     37f:      \tmovq\t(%rax), %rdi\n     382:      \tcallq\t0x387 <print_hand+0x38>\n;   print_card+-4\n     387:      \tmovl\t$0x20, %edi\n     38c:      \tcallq\t0x391 <print_hand+0x42>\n;   putchar+-4\n     391:      \taddl\t$0x1, -0x4(%rbp)\n     395:      \tmovl\t-0x4(%rbp), %eax\n     398:      \tmovslq\t%eax, %rdx\n     39b:      \tmovq\t-0x18(%rbp), %rax\n     39f:      \tmovq\t0x8(%rax), %rax\n     3a3:      \tcmpq\t%rax, %rdx\n     3a6:      \tjb\t0x368 <print_hand+0x19>\n     3a8:      \tnop\n     3a9:      \tnop\n     3aa:      \tleave\n     3ab:      \tretq\n\n00000000000003ac <deck_contains>:\n     3ac:      \tendbr64\n     3b0:      \tpushq\t%rbp\n     3b1:      \tmovq\t%rsp, %rbp\n     3b4:      \tmovq\t%rdi, -0x18(%rbp)\n     3b8:      \tmovq\t%rsi, -0x20(%rbp)\n     3bc:      \tmovl\t$0x0, -0x4(%rbp)\n     3c3:      \tjmp\t0x411 <deck_contains+0x65>\n     3c5:      \tmovq\t-0x18(%rbp), %rax\n     3c9:      \tmovq\t(%rax), %rax\n     3cc:      \tmovl\t-0x4(%rbp), %edx\n     3cf:      \tmovslq\t%edx, %rdx\n     3d2:      \tshlq\t$0x3, %rdx\n     3d6:      \taddq\t%rdx, %rax\n     3d9:      \tmovq\t(%rax), %rax\n     3dc:      \tmovl\t(%rax), %edx\n     3de:      \tmovl\t-0x20(%rbp), %eax\n     3e1:      \tcmpl\t%eax, %edx\n     3e3:      \tjne\t0x40d <deck_contains+0x61>\n     3e5:      \tmovq\t-0x18(%rbp), %rax\n     3e9:      \tmovq\t(%rax), %rax\n     3ec:      \tmovl\t-0x4(%rbp), %edx\n     3ef:      \tmovslq\t%edx, %rdx\n     3f2:      \tshlq\t$0x3, %rdx\n     3f6:      \taddq\t%rdx, %rax\n     3f9:      \tmovq\t(%rax), %rax\n     3fc:      \tmovl\t0x4(%rax), %edx\n     3ff:      \tmovl\t-0x1c(%rbp), %eax\n     402:      \tcmpl\t%eax, %edx\n     404:      \tjne\t0x40d <deck_contains+0x61>\n     406:      \tmovl\t$0x1, %eax\n     40b:      \tjmp\t0x429 <deck_contains+0x7d>\n     40d:      \taddl\t$0x1, -0x4(%rbp)\n     411:      \tmovl\t-0x4(%rbp), %eax\n     414:      \tmovslq\t%eax, %rdx\n     417:      \tmovq\t-0x18(%rbp), %rax\n     41b:      \tmovq\t0x8(%rax), %rax\n     41f:      \tcmpq\t%rax, %rdx\n     422:      \tjb\t0x3c5 <deck_contains+0x19>\n     424:      \tmovl\t$0x0, %eax\n     429:      \tpopq\t%rbp\n     42a:      \tretq\n\n000000000000042b <shuffle>:\n     42b:      \tendbr64\n     42f:      \tpushq\t%rbp\n     430:      \tmovq\t%rsp, %rbp\n     433:      \tsubq\t$0x20, %rsp\n     437:      \tmovq\t%rdi, -0x18(%rbp)\n     43b:      \tmovl\t$0x0, -0x10(%rbp)\n     442:      \tjmp\t0x4d8 <shuffle+0xad>\n     447:      \tcallq\t0x44c <shuffle+0x21>\n;   rand+-4\n     44c:      \tcltq\n     44e:      \tmovq\t-0x18(%rbp), %rdx\n     452:      \tmovq\t0x8(%rdx), %rcx\n     456:      \tmovl\t$0x0, %edx\n     45b:      \tdivq\t%rcx\n     45e:      \tmovq\t%rdx, %rax\n     461:      \tmovl\t%eax, -0xc(%rbp)\n     464:      \tmovq\t-0x18(%rbp), %rax\n     468:      \tmovq\t(%rax), %rax\n     46b:      \tmovl\t-0x10(%rbp), %edx\n     46e:      \tmovslq\t%edx, %rdx\n     471:      \tshlq\t$0x3, %rdx\n     475:      \taddq\t%rdx, %rax\n     478:      \tmovq\t(%rax), %rax\n     47b:      \tmovq\t(%rax), %rax\n     47e:      \tmovq\t%rax, -0x8(%rbp)\n     482:      \tmovq\t-0x18(%rbp), %rax\n     486:      \tmovq\t(%rax), %rax\n     489:      \tmovl\t-0xc(%rbp), %edx\n     48c:      \tmovslq\t%edx, %rdx\n     48f:      \tshlq\t$0x3, %rdx\n     493:      \taddq\t%rdx, %rax\n     496:      \tmovq\t(%rax), %rdx\n     499:      \tmovq\t-0x18(%rbp), %rax\n     49d:      \tmovq\t(%rax), %rax\n     4a0:      \tmovl\t-0x10(%rbp), %ecx\n     4a3:      \tmovslq\t%ecx, %rcx\n     4a6:      \tshlq\t$0x3, %rcx\n     4aa:      \taddq\t%rcx, %rax\n     4ad:      \tmovq\t(%rax), %rax\n     4b0:      \tmovq\t(%rdx), %rdx\n     4b3:      \tmovq\t%rdx, (%rax)\n     4b6:      \tmovq\t-0x18(%rbp), %rax\n     4ba:      \tmovq\t(%rax), %rax\n     4bd:      \tmovl\t-0xc(%rbp), %edx\n     4c0:      \tmovslq\t%edx, %rdx\n     4c3:      \tshlq\t$0x3, %rdx\n     4c7:      \taddq\t%rdx, %rax\n     4ca:      \tmovq\t(%rax), %rax\n     4cd:      \tmovq\t-0x8(%rbp), %rdx\n     4d1:      \tmovq\t%rdx, (%rax)\n     4d4:      \taddl\t$0x1, -0x10(%rbp)\n     4d8:      \tmovl\t-0x10(%rbp), %eax\n     4db:      \tmovslq\t%eax, %rdx\n     4de:      \tmovq\t-0x18(%rbp), %rax\n     4e2:      \tmovq\t0x8(%rax), %rax\n     4e6:      \tcmpq\t%rax, %rdx\n     4e9:      \tjb\t0x447 <shuffle+0x1c>\n     4ef:      \tnop\n     4f0:      \tnop\n     4f1:      \tleave\n     4f2:      \tretq\n\n00000000000004f3 <assert_full_deck>:\n     4f3:      \tendbr64\n     4f7:      \tpushq\t%rbp\n     4f8:      \tmovq\t%rsp, %rbp\n     4fb:      \tsubq\t$0x20, %rsp\n     4ff:      \tmovq\t%rdi, -0x18(%rbp)\n     503:      \tmovl\t$0x0, -0x4(%rbp)\n     50a:      \tjmp\t0x550 <assert_full_deck+0x5d>\n     50c:      \tmovl\t-0x4(%rbp), %eax\n     50f:      \tmovl\t%eax, %edi\n     511:      \tcallq\t0x516 <assert_full_deck+0x23>\n;   card_from_num+-4\n     516:      \tmovq\t%rax, %rdx\n     519:      \tmovq\t-0x18(%rbp), %rax\n     51d:      \tmovq\t%rdx, %rsi\n     520:      \tmovq\t%rax, %rdi\n     523:      \tcallq\t0x528 <assert_full_deck+0x35>\n;   deck_contains+-4\n     528:      \tcmpl\t$0x1, %eax\n     52b:      \tje\t0x54c <assert_full_deck+0x59>\n     52d:      \tleaq\t(%rip), %rcx            # 0x534 <assert_full_deck+0x41>\n;   .rodata -> \"assert_full_deck\"\n     534:      \tmovl\t$0x5c, %edx\n     539:      \tleaq\t(%rip), %rsi            # 0x540 <assert_full_deck+0x4d>\n;   .rodata -> \"deck.c\"\n     540:      \tleaq\t(%rip), %rdi            # 0x547 <assert_full_deck+0x54>\n;   .rodata -> \"deck_contains(d, card_from_num(i)) == 1\"\n     547:      \tcallq\t0x54c <assert_full_deck+0x59>\n;   __assert_fail+-4\n     54c:      \taddl\t$0x1, -0x4(%rbp)\n     550:      \tmovl\t-0x4(%rbp), %eax\n     553:      \tmovslq\t%eax, %rdx\n     556:      \tmovq\t-0x18(%rbp), %rax\n     55a:      \tmovq\t0x8(%rax), %rax\n     55e:      \tcmpq\t%rax, %rdx\n     561:      \tjb\t0x50c <assert_full_deck+0x19>\n     563:      \tnop\n     564:      \tnop\n     565:      \tleave\n     566:      \tretq"
+}

@@ -1,0 +1,621 @@
+{
+  "id": "02_code1",
+  "title": "int max (int num1, int num2) -- write the function from the commented algorithm and add the hex print",
+  "type": "source_check",
+  "source": "code1.c",
+  "build": {
+    "driver": "drivers/02_code1/max_test.c",
+    "sources": [],
+    "output": "code1",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=gnu99",
+      "-include",
+      "stdio.h",
+      "-include",
+      "stdlib.h"
+    ]
+  },
+  "requiredPatterns": [
+    {
+      "label": "Checking for int max (int num1, int num2)",
+      "pattern": "int\\s+max\\s*\\(\\s*int\\s+num1\\s*,\\s*int\\s+num2\\s*\\)"
+    }
+  ],
+  "requireMain": true,
+  "header": "Trying to run the code..",
+  "selfTest": {
+    "expectedFile": "expected/02_code1/main.txt",
+    "successMessage": "Your file matched the expected output",
+    "replaceMessage": "Removing your main() and replacing it with our own to run more tests..."
+  },
+  "reportStyle": "inline",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "03_code2",
+  "notes": "observed: re/original-grade-txt/02_code1.grade.txt supplies the whole report -- 'Checking code1.c for legal syntax'; the checklist labels 'Checking for int max (int num1, int num2)' and 'Checking for int main(void)' with 'Found on line 3, column 1 ' and 'Found on line 10, column 1 '; 'Trying to run the code..'; 'Your file matched the expected output'; 'Removing your main() and replacing it with our own to run more tests...'; the 64 'Testing max(<x>, <y>) ... Correct' lines (x over -999,-87,0,1,240,345,999999,2147483647 and y over -2147483648,123,567,891,0,1,-999,123123123, x-major); and 'Overall Grade: A' (recorded as successVerdict from the artifact rather than inferred from the type). 02_code1/README and 02_code1/test.sh give the function to write and the program's expected output; test.sh prepends '#include <stdio.h>' and '#include <stdlib.h>' to code1.c before compiling it, which is exactly why the original's reported line numbers are two higher than the file's own -- build.flags force the same two headers with -include so that the standalone selfTest build links, at the cost of reporting the file's real line numbers. configs/expected/02_code1/main.txt is the reference program's stdout; its four values match test.sh's documented answers 42, 33, 1193046 and 1158813103 (test.sh's own text omits the space after the comma, the program prints 'max(42, -69)'). inferred: drivers/02_code1/max_test.c -- no teacher object for this assignment exists anywhere (re/elf/ has no 02_code1 entry and the directory holds no .o), so the driver body is inferred from the case list above; it calls the student's max(), prints 'max(x, y) is <result>' so every fixture records the expected value, and exits non-zero when the answer is not the larger argument. reportStyle 'inline' reproduces the original's per-case line byte for byte. observed: the 2024 report numbers the declarations at lines 3 and 10 (02_code1) / 3 and 25 (03_code2), two more than the student's file, because the grader prepended '#include <stdio.h>' and '#include <stdlib.h>' before checking - which is what this assignment's own test.sh does. `prependLines` reproduces that shift so the reported line numbers are the original's, not ours.",
+  "tests": [
+    {
+      "args": [
+        "-999",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/-999_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(-999, -2147483648)"
+    },
+    {
+      "args": [
+        "-999",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/-999_123.txt",
+      "expectedExit": 0,
+      "label": "max(-999, 123)"
+    },
+    {
+      "args": [
+        "-999",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/-999_567.txt",
+      "expectedExit": 0,
+      "label": "max(-999, 567)"
+    },
+    {
+      "args": [
+        "-999",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/-999_891.txt",
+      "expectedExit": 0,
+      "label": "max(-999, 891)"
+    },
+    {
+      "args": [
+        "-999",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/-999_0.txt",
+      "expectedExit": 0,
+      "label": "max(-999, 0)"
+    },
+    {
+      "args": [
+        "-999",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/-999_1.txt",
+      "expectedExit": 0,
+      "label": "max(-999, 1)"
+    },
+    {
+      "args": [
+        "-999",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/-999_-999.txt",
+      "expectedExit": 0,
+      "label": "max(-999, -999)"
+    },
+    {
+      "args": [
+        "-999",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/-999_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(-999, 123123123)"
+    },
+    {
+      "args": [
+        "-87",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/-87_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(-87, -2147483648)"
+    },
+    {
+      "args": [
+        "-87",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/-87_123.txt",
+      "expectedExit": 0,
+      "label": "max(-87, 123)"
+    },
+    {
+      "args": [
+        "-87",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/-87_567.txt",
+      "expectedExit": 0,
+      "label": "max(-87, 567)"
+    },
+    {
+      "args": [
+        "-87",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/-87_891.txt",
+      "expectedExit": 0,
+      "label": "max(-87, 891)"
+    },
+    {
+      "args": [
+        "-87",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/-87_0.txt",
+      "expectedExit": 0,
+      "label": "max(-87, 0)"
+    },
+    {
+      "args": [
+        "-87",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/-87_1.txt",
+      "expectedExit": 0,
+      "label": "max(-87, 1)"
+    },
+    {
+      "args": [
+        "-87",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/-87_-999.txt",
+      "expectedExit": 0,
+      "label": "max(-87, -999)"
+    },
+    {
+      "args": [
+        "-87",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/-87_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(-87, 123123123)"
+    },
+    {
+      "args": [
+        "0",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/0_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(0, -2147483648)"
+    },
+    {
+      "args": [
+        "0",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/0_123.txt",
+      "expectedExit": 0,
+      "label": "max(0, 123)"
+    },
+    {
+      "args": [
+        "0",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/0_567.txt",
+      "expectedExit": 0,
+      "label": "max(0, 567)"
+    },
+    {
+      "args": [
+        "0",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/0_891.txt",
+      "expectedExit": 0,
+      "label": "max(0, 891)"
+    },
+    {
+      "args": [
+        "0",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/0_0.txt",
+      "expectedExit": 0,
+      "label": "max(0, 0)"
+    },
+    {
+      "args": [
+        "0",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/0_1.txt",
+      "expectedExit": 0,
+      "label": "max(0, 1)"
+    },
+    {
+      "args": [
+        "0",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/0_-999.txt",
+      "expectedExit": 0,
+      "label": "max(0, -999)"
+    },
+    {
+      "args": [
+        "0",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/0_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(0, 123123123)"
+    },
+    {
+      "args": [
+        "1",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/1_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(1, -2147483648)"
+    },
+    {
+      "args": [
+        "1",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/1_123.txt",
+      "expectedExit": 0,
+      "label": "max(1, 123)"
+    },
+    {
+      "args": [
+        "1",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/1_567.txt",
+      "expectedExit": 0,
+      "label": "max(1, 567)"
+    },
+    {
+      "args": [
+        "1",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/1_891.txt",
+      "expectedExit": 0,
+      "label": "max(1, 891)"
+    },
+    {
+      "args": [
+        "1",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/1_0.txt",
+      "expectedExit": 0,
+      "label": "max(1, 0)"
+    },
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/1_1.txt",
+      "expectedExit": 0,
+      "label": "max(1, 1)"
+    },
+    {
+      "args": [
+        "1",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/1_-999.txt",
+      "expectedExit": 0,
+      "label": "max(1, -999)"
+    },
+    {
+      "args": [
+        "1",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/1_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(1, 123123123)"
+    },
+    {
+      "args": [
+        "240",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/240_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(240, -2147483648)"
+    },
+    {
+      "args": [
+        "240",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/240_123.txt",
+      "expectedExit": 0,
+      "label": "max(240, 123)"
+    },
+    {
+      "args": [
+        "240",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/240_567.txt",
+      "expectedExit": 0,
+      "label": "max(240, 567)"
+    },
+    {
+      "args": [
+        "240",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/240_891.txt",
+      "expectedExit": 0,
+      "label": "max(240, 891)"
+    },
+    {
+      "args": [
+        "240",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/240_0.txt",
+      "expectedExit": 0,
+      "label": "max(240, 0)"
+    },
+    {
+      "args": [
+        "240",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/240_1.txt",
+      "expectedExit": 0,
+      "label": "max(240, 1)"
+    },
+    {
+      "args": [
+        "240",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/240_-999.txt",
+      "expectedExit": 0,
+      "label": "max(240, -999)"
+    },
+    {
+      "args": [
+        "240",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/240_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(240, 123123123)"
+    },
+    {
+      "args": [
+        "345",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/345_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(345, -2147483648)"
+    },
+    {
+      "args": [
+        "345",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/345_123.txt",
+      "expectedExit": 0,
+      "label": "max(345, 123)"
+    },
+    {
+      "args": [
+        "345",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/345_567.txt",
+      "expectedExit": 0,
+      "label": "max(345, 567)"
+    },
+    {
+      "args": [
+        "345",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/345_891.txt",
+      "expectedExit": 0,
+      "label": "max(345, 891)"
+    },
+    {
+      "args": [
+        "345",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/345_0.txt",
+      "expectedExit": 0,
+      "label": "max(345, 0)"
+    },
+    {
+      "args": [
+        "345",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/345_1.txt",
+      "expectedExit": 0,
+      "label": "max(345, 1)"
+    },
+    {
+      "args": [
+        "345",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/345_-999.txt",
+      "expectedExit": 0,
+      "label": "max(345, -999)"
+    },
+    {
+      "args": [
+        "345",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/345_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(345, 123123123)"
+    },
+    {
+      "args": [
+        "999999",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/999999_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(999999, -2147483648)"
+    },
+    {
+      "args": [
+        "999999",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/999999_123.txt",
+      "expectedExit": 0,
+      "label": "max(999999, 123)"
+    },
+    {
+      "args": [
+        "999999",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/999999_567.txt",
+      "expectedExit": 0,
+      "label": "max(999999, 567)"
+    },
+    {
+      "args": [
+        "999999",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/999999_891.txt",
+      "expectedExit": 0,
+      "label": "max(999999, 891)"
+    },
+    {
+      "args": [
+        "999999",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/999999_0.txt",
+      "expectedExit": 0,
+      "label": "max(999999, 0)"
+    },
+    {
+      "args": [
+        "999999",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/999999_1.txt",
+      "expectedExit": 0,
+      "label": "max(999999, 1)"
+    },
+    {
+      "args": [
+        "999999",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/999999_-999.txt",
+      "expectedExit": 0,
+      "label": "max(999999, -999)"
+    },
+    {
+      "args": [
+        "999999",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/999999_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(999999, 123123123)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "-2147483648"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_-2147483648.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, -2147483648)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "123"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_123.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, 123)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "567"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_567.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, 567)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "891"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_891.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, 891)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "0"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_0.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, 0)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "1"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_1.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, 1)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "-999"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_-999.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, -999)"
+    },
+    {
+      "args": [
+        "2147483647",
+        "123123123"
+      ],
+      "expectedFile": "expected/02_code1/2147483647_123123123.txt",
+      "expectedExit": 0,
+      "label": "max(2147483647, 123123123)"
+    }
+  ],
+  "prependLines": [
+    "#include <stdio.h>",
+    "#include <stdlib.h>"
+  ]
+}

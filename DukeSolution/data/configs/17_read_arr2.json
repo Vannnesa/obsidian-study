@@ -1,0 +1,23 @@
+{
+  "id": "17_read_arr2",
+  "title": "Predict what the string-library program test.c prints",
+  "type": "predict_output",
+  "program": "test.c",
+  "file": "answer.txt",
+  "expectedFile": "expected/17_read_arr2/stdout.txt",
+  "build": {
+    "make": {
+      "args": [
+        "-B"
+      ]
+    },
+    "output": "test"
+  },
+  "header": "Attempting to compile test.c",
+  "compileMessage": "compiled",
+  "showCompileCommands": true,
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "18_reverse_str",
+  "notes": "observed -- re/original-grade-txt/17_read_arr2.grade.txt: `Attempting to compile test.c`, one gcc line (`gcc -std=gnu99 -pedantic -Wall -O3 -o test test.c`) and `compiled`. That single line is this assignment's much shorter Makefile (`test: test.c` + `$(CC) $(CFLAGS) -o $@ $<`), so once again the echo is produced by running the student's own Makefile, not by a hard-coded command. 17_read_arr2/answer.txt (58 bytes) is the passing submission; configs/expected/17_read_arr2/stdout.txt was generated from test.c with tools/re/gen_expected.py and VERIFIED against it. The README's hint (\"consult the man pages\") points at strchr/strstr, which is what the program calls. inferred -- `-B` so a stale `test` cannot satisfy make; `next` follows the numeric id order."
+}

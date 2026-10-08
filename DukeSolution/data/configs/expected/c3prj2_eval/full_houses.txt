@@ -1,0 +1,40 @@
+Hand 1:
+--------
+Ac Ah As Jd 5d 5s 2d 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value A)
+ - Secondary pair at index 4 (value 5)
+ - evaluate_hand's ranking: FULL_HOUSE
+ - 5 cards used for hand: Ac Ah As 5d 5s 
+Hand 2:
+--------
+Kd Kh Ks 9d 9s 3d 2c 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value K)
+ - Secondary pair at index 3 (value 9)
+ - evaluate_hand's ranking: FULL_HOUSE
+ - 5 cards used for hand: Kd Kh Ks 9d 9s 
+Comparison : 
+--------------
+Hand 1 wins!
+============================
+Hand 1:
+--------
+Kd Kh Ks 9d 9h 9s 2c 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value K)
+ - Secondary pair at index 3 (value 9)
+ - evaluate_hand's ranking: FULL_HOUSE
+ - 5 cards used for hand: Kd Kh Ks 9d 9h 
+Hand 2:
+--------
+Ac Ah As Jd 5d 5s 2d 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value A)
+ - Secondary pair at index 4 (value 5)
+ - evaluate_hand's ranking: FULL_HOUSE
+ - 5 cards used for hand: Ac Ah As 5d 5s 
+Comparison : 
+--------------
+Hand 2 wins!
+============================

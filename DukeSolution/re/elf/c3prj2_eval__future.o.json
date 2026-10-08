@@ -1,0 +1,205 @@
+{
+ "path": "c3prj2_eval/future.o",
+ "size": 3216,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "future.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "CHECK_GRADER_ENV",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 127,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.2932",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 23,
+   "addr": 160,
+   "section": ".rodata"
+  },
+  {
+   "name": "add_future_card",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 312,
+   "addr": 127,
+   "section": ".text"
+  },
+  {
+   "name": "future_cards_from_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 219,
+   "addr": 439,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getenv",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "atoi",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "abort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "realloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "PokerProjectStep"
+  },
+  {
+   "offset": 24,
+   "text": "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  },
+  {
+   "offset": 111,
+   "text": "future.c"
+  },
+  {
+   "offset": 120,
+   "text": "fc->n_decks <= deck->n_cards"
+  },
+  {
+   "offset": 160,
+   "text": "future_cards_from_deck"
+  }
+ ],
+ "string_refs": {
+  "CHECK_GRADER_ENV": [
+   "PokerProjectStep",
+   "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  ],
+  "future_cards_from_deck": [
+   "future_cards_from_deck",
+   "future.c",
+   "fc->n_decks <= deck->n_cards"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 31,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 36,
+    "symbol": "getenv",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 59,
+    "symbol": "atoi",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 77,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 102,
+    "symbol": ".rodata",
+    "addend": 20,
+    "type": 2
+   },
+   {
+    "offset": 115,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 120,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 213,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 376,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 498,
+    "symbol": ".rodata",
+    "addend": 156,
+    "type": 2
+   },
+   {
+    "offset": 510,
+    "symbol": ".rodata",
+    "addend": 107,
+    "type": 2
+   },
+   {
+    "offset": 517,
+    "symbol": ".rodata",
+    "addend": 116,
+    "type": 2
+   },
+   {
+    "offset": 522,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c3prj2_eval/future.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <CHECK_GRADER_ENV>:\n       0:      \tpushq\t%rbp\n       1:      \tmovq\t%rsp, %rbp\n       4:      \tsubq\t$0x20, %rsp\n       8:      \tmovl\t%edi, -0x14(%rbp)\n       b:      \tmovl\t%esi, -0x18(%rbp)\n       e:      \tmovl\t-0x14(%rbp), %eax\n      11:      \timull\t$0x64, %eax, %edx\n      14:      \tmovl\t-0x18(%rbp), %eax\n      17:      \taddl\t%edx, %eax\n      19:      \tmovl\t%eax, -0x10(%rbp)\n      1c:      \tleaq\t(%rip), %rdi            # 0x23 <CHECK_GRADER_ENV+0x23>\n;   .rodata -> \"PokerProjectStep\"\n      23:      \tcallq\t0x28 <CHECK_GRADER_ENV+0x28>\n;   getenv+-4\n      28:      \tmovq\t%rax, -0x8(%rbp)\n      2c:      \tcmpq\t$0x0, -0x8(%rbp)\n      31:      \tje\t0x7c <CHECK_GRADER_ENV+0x7c>\n      33:      \tmovq\t-0x8(%rbp), %rax\n      37:      \tmovq\t%rax, %rdi\n      3a:      \tcallq\t0x3f <CHECK_GRADER_ENV+0x3f>\n;   atoi+-4\n      3f:      \tmovl\t%eax, -0xc(%rbp)\n      42:      \tmovl\t-0x10(%rbp), %eax\n      45:      \tcmpl\t-0xc(%rbp), %eax\n      48:      \tjg\t0x7d <CHECK_GRADER_ENV+0x7d>\n      4a:      \tmovq\t(%rip), %rax            # 0x51 <CHECK_GRADER_ENV+0x51>\n;   stderr+-4\n      51:      \tmovl\t-0xc(%rbp), %edi\n      54:      \tmovl\t-0x10(%rbp), %esi\n      57:      \tmovl\t-0x18(%rbp), %ecx\n      5a:      \tmovl\t-0x14(%rbp), %edx\n      5d:      \tmovl\t%edi, %r9d\n      60:      \tmovl\t%esi, %r8d\n      63:      \tleaq\t(%rip), %rsi            # 0x6a <CHECK_GRADER_ENV+0x6a>\n;   .rodata -> \"Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\\n\"\n      6a:      \tmovq\t%rax, %rdi\n      6d:      \tmovl\t$0x0, %eax\n      72:      \tcallq\t0x77 <CHECK_GRADER_ENV+0x77>\n;   fprintf+-4\n      77:      \tcallq\t0x7c <CHECK_GRADER_ENV+0x7c>\n;   abort+-4\n      7c:      \tnop\n      7d:      \tleave\n      7e:      \tretq\n\n000000000000007f <add_future_card>:\n      7f:      \tendbr64\n      83:      \tpushq\t%rbp\n      84:      \tmovq\t%rsp, %rbp\n      87:      \tsubq\t$0x30, %rsp\n      8b:      \tmovq\t%rdi, -0x18(%rbp)\n      8f:      \tmovq\t%rsi, -0x20(%rbp)\n      93:      \tmovq\t%rdx, -0x28(%rbp)\n      97:      \tmovl\t$0x2, %esi\n      9c:      \tmovl\t$0x4, %edi\n      a1:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n      a6:      \tmovq\t-0x18(%rbp), %rax\n      aa:      \tmovq\t0x8(%rax), %rax\n      ae:      \tcmpq\t%rax, -0x20(%rbp)\n      b2:      \tjb\t0x140 <add_future_card+0xc1>\n      b8:      \tmovq\t-0x20(%rbp), %rax\n      bc:      \taddq\t$0x1, %rax\n      c0:      \tshlq\t$0x4, %rax\n      c4:      \tmovq\t%rax, %rdx\n      c7:      \tmovq\t-0x18(%rbp), %rax\n      cb:      \tmovq\t(%rax), %rax\n      ce:      \tmovq\t%rdx, %rsi\n      d1:      \tmovq\t%rax, %rdi\n      d4:      \tcallq\t0xd9 <add_future_card+0x5a>\n;   realloc+-4\n      d9:      \tmovq\t-0x18(%rbp), %rdx\n      dd:      \tmovq\t%rax, (%rdx)\n      e0:      \tmovq\t-0x18(%rbp), %rax\n      e4:      \tmovq\t0x8(%rax), %rax\n      e8:      \tmovq\t%rax, -0x10(%rbp)\n      ec:      \tjmp\t0x126 <add_future_card+0xa7>\n      ee:      \tmovq\t-0x18(%rbp), %rax\n      f2:      \tmovq\t(%rax), %rax\n      f5:      \tmovq\t-0x10(%rbp), %rdx\n      f9:      \tshlq\t$0x4, %rdx\n      fd:      \taddq\t%rdx, %rax\n     100:      \tmovq\t$0x0, (%rax)\n     107:      \tmovq\t-0x18(%rbp), %rax\n     10b:      \tmovq\t(%rax), %rax\n     10e:      \tmovq\t-0x10(%rbp), %rdx\n     112:      \tshlq\t$0x4, %rdx\n     116:      \taddq\t%rdx, %rax\n     119:      \tmovq\t$0x0, 0x8(%rax)\n     121:      \taddq\t$0x1, -0x10(%rbp)\n     126:      \tmovq\t-0x10(%rbp), %rax\n     12a:      \tcmpq\t-0x20(%rbp), %rax\n     12e:      \tjbe\t0xee <add_future_card+0x6f>\n     130:      \tmovq\t-0x20(%rbp), %rax\n     134:      \tleaq\t0x1(%rax), %rdx\n     138:      \tmovq\t-0x18(%rbp), %rax\n     13c:      \tmovq\t%rdx, 0x8(%rax)\n     140:      \tmovq\t-0x18(%rbp), %rax\n     144:      \tmovq\t(%rax), %rax\n     147:      \tmovq\t-0x20(%rbp), %rdx\n     14b:      \tshlq\t$0x4, %rdx\n     14f:      \taddq\t%rdx, %rax\n     152:      \tmovq\t%rax, -0x8(%rbp)\n     156:      \tmovq\t-0x8(%rbp), %rax\n     15a:      \tmovq\t0x8(%rax), %rax\n     15e:      \taddq\t$0x1, %rax\n     162:      \tleaq\t(,%rax,8), %rdx\n     16a:      \tmovq\t-0x8(%rbp), %rax\n     16e:      \tmovq\t(%rax), %rax\n     171:      \tmovq\t%rdx, %rsi\n     174:      \tmovq\t%rax, %rdi\n     177:      \tcallq\t0x17c <add_future_card+0xfd>\n;   realloc+-4\n     17c:      \tmovq\t-0x8(%rbp), %rdx\n     180:      \tmovq\t%rax, (%rdx)\n     183:      \tmovq\t-0x8(%rbp), %rax\n     187:      \tmovq\t(%rax), %rdx\n     18a:      \tmovq\t-0x8(%rbp), %rax\n     18e:      \tmovq\t0x8(%rax), %rax\n     192:      \tshlq\t$0x3, %rax\n     196:      \taddq\t%rax, %rdx\n     199:      \tmovq\t-0x28(%rbp), %rax\n     19d:      \tmovq\t%rax, (%rdx)\n     1a0:      \tmovq\t-0x8(%rbp), %rax\n     1a4:      \tmovq\t0x8(%rax), %rax\n     1a8:      \tleaq\t0x1(%rax), %rdx\n     1ac:      \tmovq\t-0x8(%rbp), %rax\n     1b0:      \tmovq\t%rdx, 0x8(%rax)\n     1b4:      \tnop\n     1b5:      \tleave\n     1b6:      \tretq\n\n00000000000001b7 <future_cards_from_deck>:\n     1b7:      \tendbr64\n     1bb:      \tpushq\t%rbp\n     1bc:      \tmovq\t%rsp, %rbp\n     1bf:      \tsubq\t$0x30, %rsp\n     1c3:      \tmovq\t%rdi, -0x28(%rbp)\n     1c7:      \tmovq\t%rsi, -0x30(%rbp)\n     1cb:      \tmovl\t$0x2, %esi\n     1d0:      \tmovl\t$0x4, %edi\n     1d5:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     1da:      \tmovq\t-0x30(%rbp), %rax\n     1de:      \tmovq\t0x8(%rax), %rdx\n     1e2:      \tmovq\t-0x28(%rbp), %rax\n     1e6:      \tmovq\t0x8(%rax), %rax\n     1ea:      \tcmpq\t%rax, %rdx\n     1ed:      \tjbe\t0x20e <future_cards_from_deck+0x57>\n     1ef:      \tleaq\t(%rip), %rcx            # 0x1f6 <future_cards_from_deck+0x3f>\n;   .rodata -> \"future_cards_from_deck\"\n     1f6:      \tmovl\t$0x1c, %edx\n     1fb:      \tleaq\t(%rip), %rsi            # 0x202 <future_cards_from_deck+0x4b>\n;   .rodata -> \"future.c\"\n     202:      \tleaq\t(%rip), %rdi            # 0x209 <future_cards_from_deck+0x52>\n;   .rodata -> \"fc->n_decks <= deck->n_cards\"\n     209:      \tcallq\t0x20e <future_cards_from_deck+0x57>\n;   __assert_fail+-4\n     20e:      \tmovq\t$0x0, -0x18(%rbp)\n     216:      \tjmp\t0x280 <future_cards_from_deck+0xc9>\n     218:      \tmovq\t-0x30(%rbp), %rax\n     21c:      \tmovq\t(%rax), %rax\n     21f:      \tmovq\t-0x18(%rbp), %rdx\n     223:      \tshlq\t$0x4, %rdx\n     227:      \taddq\t%rdx, %rax\n     22a:      \tmovq\t%rax, -0x8(%rbp)\n     22e:      \tmovq\t$0x0, -0x10(%rbp)\n     236:      \tjmp\t0x26d <future_cards_from_deck+0xb6>\n     238:      \tmovq\t-0x28(%rbp), %rax\n     23c:      \tmovq\t(%rax), %rax\n     23f:      \tmovq\t-0x18(%rbp), %rdx\n     243:      \tshlq\t$0x3, %rdx\n     247:      \taddq\t%rdx, %rax\n     24a:      \tmovq\t(%rax), %rdx\n     24d:      \tmovq\t-0x8(%rbp), %rax\n     251:      \tmovq\t(%rax), %rax\n     254:      \tmovq\t-0x10(%rbp), %rcx\n     258:      \tshlq\t$0x3, %rcx\n     25c:      \taddq\t%rcx, %rax\n     25f:      \tmovq\t(%rax), %rax\n     262:      \tmovq\t(%rdx), %rdx\n     265:      \tmovq\t%rdx, (%rax)\n     268:      \taddq\t$0x1, -0x10(%rbp)\n     26d:      \tmovq\t-0x8(%rbp), %rax\n     271:      \tmovq\t0x8(%rax), %rax\n     275:      \tcmpq\t%rax, -0x10(%rbp)\n     279:      \tjb\t0x238 <future_cards_from_deck+0x81>\n     27b:      \taddq\t$0x1, -0x18(%rbp)\n     280:      \tmovq\t-0x30(%rbp), %rax\n     284:      \tmovq\t0x8(%rax), %rax\n     288:      \tcmpq\t%rax, -0x18(%rbp)\n     28c:      \tjb\t0x218 <future_cards_from_deck+0x61>\n     28e:      \tnop\n     28f:      \tnop\n     290:      \tleave\n     291:      \tretq"
+}

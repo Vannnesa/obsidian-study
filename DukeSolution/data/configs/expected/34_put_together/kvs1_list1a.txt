@@ -1,0 +1,3 @@
+Your file matched the expected output
+Comparing file list1a.txt.counts with answer
+Your output is correct

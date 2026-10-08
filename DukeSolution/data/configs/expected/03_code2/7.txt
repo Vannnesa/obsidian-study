@@ -1,0 +1,1 @@
+printTriangle(7) returned 28

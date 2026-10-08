@@ -1,0 +1,1 @@
+printTriangle(143) returned 10296

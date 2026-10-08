@@ -1,0 +1,23 @@
+{
+  "id": "13_read_arr1",
+  "title": "Predict what the array/pointer program test.c prints",
+  "type": "predict_output",
+  "program": "test.c",
+  "file": "answer.txt",
+  "expectedFile": "expected/13_read_arr1/stdout.txt",
+  "build": {
+    "make": {
+      "args": [
+        "-B"
+      ]
+    },
+    "output": "test"
+  },
+  "header": "Attempting to compile test.c",
+  "compileMessage": "compiled",
+  "showCompileCommands": true,
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "14_array_max",
+  "notes": "observed -- re/original-grade-txt/13_read_arr1.grade.txt: `Attempting to compile test.c`, the same four Makefile recipe lines as 11/12, `compiled`, the two predict_output checks, and `Overall Grade: A` (the letter, not PASSED, even though 12_read_ptr2 -- graded the same day, earlier -- ended in PASSED). 13_read_arr1/answer.txt (81 bytes) is the passing submission; configs/expected/13_read_arr1/stdout.txt was generated from test.c with tools/re/gen_expected.py and VERIFIED against it. recovered -- re/elf/13_read_arr1__test.dbg.o.md is the student's own -ggdb3 compile of the provided source. inferred -- `-B` so a stale `test` cannot satisfy make; `next` follows the numeric id order."
+}

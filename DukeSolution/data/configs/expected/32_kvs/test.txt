@@ -1,0 +1,14 @@
+Printing all keys
+
+key = 'apple' value = 'r e d'
+key = 'banana' value = 'yellow'
+key = 'orange' value = 'orange'
+key = 'grapes' value = 'purple'
+key = 'carrot' value = 'orange'
+key = 'eggplant' value = 'purple'
+key = 'a' value = 'b=c'
+lookupValue('banana')=yellow
+lookupValue('grapes')=purple
+lookupValue('cantaloupe')=(null)
+lookupValue('lettuce')=(null)
+lookupValue('orange')=orange

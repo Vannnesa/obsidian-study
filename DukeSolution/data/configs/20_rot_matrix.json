@@ -1,0 +1,48 @@
+{
+  "id": "20_rot_matrix",
+  "title": "Rotate a 10x10 character matrix 90 degrees clockwise (read-matrix.o driver)",
+  "type": "compile_and_run",
+  "source": "rotate.c",
+  "build": {
+    "driver": "drivers/20_rot_matrix/read-matrix.c",
+    "sources": [
+      "rotate.c"
+    ],
+    "output": "rotate-matrix",
+    "flags": [
+      "-pedantic",
+      "-std=gnu99",
+      "-Wall",
+      "-Werror"
+    ]
+  },
+  "compileMessage": "Attempting to compile rotate.c",
+  "reportStyle": "running",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "21_read_rec1",
+  "notes": "observed: re/original-grade-txt/20_rot_matrix.grade.txt contains `Attempting to compile rotate.c`, then three identical blocks of `Running testcase 1` / `Your file matched the expected output` / `testcase1 passed` - the case index is literally 1 in all three, and the label `Running testcase 1` (not `testcase1:`) means the 2024 grader used a third dialect for this assignment - and `Overall Grade: A`. observed: the compile flags `-pedantic -std=gnu99 -Wall -Werror` and the link with read-matrix.o are 20_rot_matrix/Makefile's recipe for the target `rotate-matrix`; the README's `./rotate-matrix sample.txt` example and the sample.txt/sample.out fixture pair are read from the directory. recovered: drivers/20_rot_matrix/read-matrix.c is reconstructed from re/elf/20_rot_matrix__read-matrix.o.md (symbols readLine/main, the six .rodata format strings, the exit paths), and the reconstruction was validated by reproducing sample.out byte-for-byte from sample.txt - an independent teacher-provided fixture. inferred: the original ran the same shaped case three times and only one input fixture survives, so all three configured cases use `sample.txt`; the second and third inputs are unrecoverable. report dialect: SCHEMA.md's `running` style reproduces `Running testcase N` / `Your file matched the expected output` / `testcaseN passed`, which is this transcript's dialect; the 2024 grader printed `testcase 1` in all three blocks, and SCHEMA.md states that counter bug is deliberately not reproduced here, so this config numbers them 1, 2, 3. Template exclusions: the committed Linux `rotate-matrix` binary and the teacher object read-matrix.o (Linux x86-64 ELF, unlinkable here) are not part of the starting template; drivers/20_rot_matrix/read-matrix.c stands in for the object.",
+  "tests": [
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "Running testcase 1",
+      "expectedFile": "expected/20_rot_matrix/sample_out.txt"
+    },
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "Running testcase 1",
+      "expectedFile": "expected/20_rot_matrix/sample_out.txt"
+    },
+    {
+      "args": [
+        "sample.txt"
+      ],
+      "label": "Running testcase 1",
+      "expectedFile": "expected/20_rot_matrix/sample_out.txt"
+    }
+  ]
+}

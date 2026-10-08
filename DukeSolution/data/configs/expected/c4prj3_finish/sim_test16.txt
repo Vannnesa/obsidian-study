@@ -1,0 +1,8 @@
+Running a simulation with 20000 draws for 6 hands...
+Hand 0 was close enough to our answer
+Hand 1 was close enough to our answer
+Hand 2 was close enough to our answer
+Hand 3 was close enough to our answer
+Hand 4 was close enough to our answer
+Hand 5 was close enough to our answer
+Test case passed!

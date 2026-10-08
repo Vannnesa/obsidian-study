@@ -1,0 +1,45 @@
+{
+  "id": "06_rect",
+  "title": "Canonicalize two rectangles and return the rectangle in which they overlap",
+  "type": "compile_and_run",
+  "source": "rectangle.c",
+  "build": {
+    "driver": "drivers/06_rect/rect_test.c",
+    "sources": [],
+    "output": "rectangle",
+    "flags": [
+      "-pedantic",
+      "-std=gnu99",
+      "-Wall",
+      "-Werror"
+    ]
+  },
+  "compileMessage": "Attempting to compile rectangle.c",
+  "header": "Tring to run rectangle",
+  "selfTest": {
+    "expectedFile": "expected/06_rect/main.txt",
+    "successMessage": "Your file matched the expected output",
+    "replaceMessage": "removing your main() and replacing it with out own to run more tests..."
+  },
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "07_retirement",
+  "notes": "observed: every report line quoted here is verbatim from re/original-grade-txt/06_rect.grade.txt - `Attempting to compile rectangle.c`, `Tring to run rectangle` (the original's typo, kept), `Your file matched the expected output`, `removing your main() and replacing it with out own to run more tests...` (also its typo `out`, kept), the `#################################################` separators, the two `testcaseN passed` blocks and `Overall Grade: A`. observed: the compile flags `-pedantic -std=gnu99 -Wall -Werror` are 06_rect/Makefile's recipe for the target `rectangle`; the provided `main`, `printRectangle`, `min` and `max` are kept verbatim in the template because the README says 'You should not need to modify any code below this line'; rectangle_ans.txt is the teacher-provided correct output the README tells the student to diff against. recovered: the grader first ran the student's own program and then rebuilt with its main() replaced; `selfTest` reproduces the first half (the standalone build's stdout is compared with the same expected file, and it was validated byte-for-byte against rectangle_ans.txt), and drivers/06_rect/rect_test.c reproduces the second half in C by renaming the provided main() to providedMain() (#including the student's source, hence `build.sources: []`). inferred: there is no rectangle_test.o anywhere in the workspace, so the two extra checks could not be recovered from an object - they are reconstructed from the README's own corner cases (step 3's canonicalize example; step 4's 'no intersection' and shared-edge cases) and the original driver's actual assertions are unrecoverable. `compileMessage` is declared in src/types.ts but not yet emitted by the runner, so `Attempting to compile rectangle.c` is recorded here for when it is wired. Template exclusions: compare.txt (a byte-identical copy of rectangle_ans.txt the student left behind) and the committed Linux `rectangle` binary are not part of the starting template.",
+  "tests": [
+    {
+      "args": [
+        "test1"
+      ],
+      "label": "canonicalize() corner cases",
+      "expectedFile": "expected/06_rect/test1.txt"
+    },
+    {
+      "args": [
+        "test2"
+      ],
+      "label": "intersection() corner cases",
+      "expectedFile": "expected/06_rect/test2.txt"
+    }
+  ]
+}

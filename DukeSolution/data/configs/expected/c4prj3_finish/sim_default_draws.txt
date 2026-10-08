@@ -1,0 +1,4 @@
+Running a simulation with the default number of draws for 2 hands (expecting 10000 trials)...
+Hand 0 was close enough to our answer
+Hand 1 was close enough to our answer
+Test case passed!

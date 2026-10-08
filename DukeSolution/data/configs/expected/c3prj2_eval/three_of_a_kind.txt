@@ -1,0 +1,40 @@
+Hand 1:
+--------
+Kh 0s 9d 8c 4d 4h 4s 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 4 / value 4)
+ - No secondary pair
+ - evaluate_hand's ranking: THREE_OF_A_KIND
+ - 5 cards used for hand: 4d 4h 4s Kh 0s 
+Hand 2:
+--------
+Kh 0s 9d 8c 7d 7h 7s 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 4 / value 7)
+ - No secondary pair
+ - evaluate_hand's ranking: THREE_OF_A_KIND
+ - 5 cards used for hand: 7d 7h 7s Kh 0s 
+Comparison : 
+--------------
+Hand 2 wins!
+============================
+Hand 1:
+--------
+Ac Jd Jh Js 9s 5d 3h 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 1 / value J)
+ - No secondary pair
+ - evaluate_hand's ranking: THREE_OF_A_KIND
+ - 5 cards used for hand: Jd Jh Js Ac 9s 
+Hand 2:
+--------
+Kc Jd Jh Js 9s 5d 3h 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 1 / value J)
+ - No secondary pair
+ - evaluate_hand's ranking: THREE_OF_A_KIND
+ - 5 cards used for hand: Jd Jh Js Kc 9s 
+Comparison : 
+--------------
+Hand 1 wins!
+============================

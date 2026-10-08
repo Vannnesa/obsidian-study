@@ -1,0 +1,1301 @@
+{
+ "path": "c4prj3_finish/future.o",
+ "size": 75536,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "future.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.24.5c1b97eef3c86b7a2549420f69f4f128",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.features.h.19.3042b63a76022a6d39c0cfc1936a7a01",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.19.a8ffc9250e5bdadaabc998d2b2f3d734",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.wordsize.h.4.baf119258a1e53d8dba67ceac44ab6bc",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.475.fb75d2e4416aa349344e6f45f683bf28",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stubs64.h.10.6ce4c34010988db072c080326a6b6319",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.37.d9274df4cc0172452960ad9644fa5579",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.181.c3f52a3b0f4c288bddb5dda1562858e2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.109.56eb9ae966b255288cc544f18746a7ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.typesizes.h.24.2c64f817c0dc4b6fb2a2c619d717be26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.time64.h.24.a8166ae916ec910dab0d8987098d42ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_FILE.h.19.0888ac70396abe1031c03d393554032f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.53.78a7f18f3bc87ded52f05aa6f6a64310",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio_lim.h.19.e4b00b560d878dcfbc6635b3406640c5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.141.d7a290e19ca077c9e4aa7c43ede17a73",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.31.87b3c285aeba93fe355ad19123070832",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.28.2cffa49d94c5d85f4538f55f7b59771d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.ac1e89356001c54fbeb8aaa0d15e8b3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitflags.h.25.41934de4af99038521c2782f418699b1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitstatus.h.28.93f167f49d64e2b9b99f98d1162a93bf",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.43.9fa4f727a2f1cb8d2450a574c9195553",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatn.h.20.80c7cf8a8dfad237004b28d051d5afda",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatncommon.h.34.7e1840d7dfb19e9bdb51aeb077d76637",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.71.2927e068ec678159b4f68ec2f089f7e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.23.882ecbf54662e1f16e101552381a65da",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.0adce5c8c1fd8096aaff50981b3d1f0f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.20.efabd1018df5d7b4052c27dc6bdd5ce5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endianness.h.2.2c6a211f7909f3af5e9e9cfa3b6b63c8",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.40.9e5d395adda2f4eb53ae69b69b664084",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.27.4c4f94262c4eaee2982fe00ed1b4f173",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.byteswap.h.24.5363c019348146aada5aeadf51456576",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.39.30a606dbd99b6c3df61c1f06dbdabd4e",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.28.eb2f3debdbcffd1442ebddaebc4fb6ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.__sigset_t.h.2.6b1ab6ff3d7b8fd9c0c42b0d80afbd80",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.44.887a4ff60aa97fcd9c1be017735e1675",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.186.489a4ed8f2d29cd358843490f54ddea5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.pthreadtypesarch.h.25.6063cba99664c916e22d3a912bcc348a",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_mutex.h.20.ed51f515172b9be99e450ba83eb5dd99",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_rwlock.h.21.0254880f2904e3833fb8ae683e0f0330",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.19.edefa922a76c1cbaaf1e416903ba2d1c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.29.156e12058824cc23d961c4d3b13031f6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cards.h.2.6ea1f97048b453bd9249855c897949b6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "add_future_card",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 362,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "future_cards_from_deck",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 214,
+   "addr": 362,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "realloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "Not enough cards to assign for future cards"
+  }
+ ],
+ "string_refs": {
+  "future_cards_from_deck": [
+   "Not enough cards to assign for future cards"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 72,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 260,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 406,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 426,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 431,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [
+   {
+    "name": "future.c",
+    "comp_dir": "/home/student/learn2prog/c4prj3_finish",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "future_cards_from_deck",
+      "decl_file": 1,
+      "decl_line": 27,
+      "type": null,
+      "params": [
+       {
+        "name": "deck",
+        "type": 969,
+        "decl_line": 27
+       },
+       {
+        "name": "fc",
+        "type": 1109,
+        "decl_line": 27
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "add_future_card",
+      "decl_file": 1,
+      "decl_line": 12,
+      "type": null,
+      "params": [
+       {
+        "name": "fc",
+        "type": 1109,
+        "decl_line": 12
+       },
+       {
+        "name": "index",
+        "type": 49,
+        "decl_line": 12
+       },
+       {
+        "name": "ptr",
+        "type": 911,
+        "decl_line": 12
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 661
+     },
+     {
+      "name": "stdout",
+      "type": 661
+     },
+     {
+      "name": "stderr",
+      "type": 661
+     },
+     {
+      "name": "sys_nerr",
+      "type": 105
+     },
+     {
+      "name": "sys_errlist",
+      "type": 714
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 61
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 112
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 112
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 577,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 119,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 84,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 91,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 589,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 605,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 131,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "_codecvt",
+      "type": 616,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "_wide_data",
+      "type": 627,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "_freeres_list",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "_freeres_buf",
+      "type": 75,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 633,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "FILE",
+    "type": 161
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_codecvt",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_wide_data",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "enumeration_type",
+    "name": null,
+    "byte_size": 4,
+    "members": [
+     {
+      "name": "SPADES",
+      "const_value": 0
+     },
+     {
+      "name": "HEARTS",
+      "const_value": 1
+     },
+     {
+      "name": "DIAMONDS",
+      "const_value": 2
+     },
+     {
+      "name": "CLUBS",
+      "const_value": 3
+     },
+     {
+      "name": "NUM_SUITS",
+      "const_value": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "suit_t",
+    "type": 756
+   },
+   {
+    "kind": "structure_type",
+    "name": "card_tag",
+    "byte_size": 8,
+    "members": [
+     {
+      "name": "value",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "suit",
+      "type": 801,
+      "byte_size": null,
+      "data_member_location": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "card_t",
+    "type": 813
+   },
+   {
+    "kind": "structure_type",
+    "name": "deck_tag",
+    "byte_size": 16,
+    "members": [
+     {
+      "name": "cards",
+      "type": 905,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "n_cards",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "deck_t",
+    "type": 865
+   },
+   {
+    "kind": "structure_type",
+    "name": "future_cards_tag",
+    "byte_size": 16,
+    "members": [
+     {
+      "name": "decks",
+      "type": 969,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "n_decks",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "future_cards_t",
+    "type": 929
+   }
+  ],
+  "lines": {
+   "future.c": {
+    "files": [
+     "future.c",
+     "stddef.h",
+     "types.h",
+     "struct_FILE.h",
+     "FILE.h",
+     "stdio.h",
+     "sys_errlist.h",
+     "cards.h",
+     "deck.h",
+     "future.h",
+     "stdc-predef.h",
+     "libc-header-start.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "long-double.h",
+     "stubs.h",
+     "stubs-64.h",
+     "stdarg.h",
+     "timesize.h",
+     "typesizes.h",
+     "time64.h",
+     "__fpos_t.h",
+     "__mbstate_t.h",
+     "__fpos64_t.h",
+     "__FILE.h",
+     "stdio_lim.h",
+     "stdlib.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "floatn.h",
+     "floatn-common.h",
+     "types.h",
+     "clock_t.h",
+     "clockid_t.h",
+     "time_t.h",
+     "timer_t.h",
+     "stdint-intn.h",
+     "endian.h",
+     "endian.h",
+     "endianness.h",
+     "byteswap.h",
+     "uintn-identity.h",
+     "select.h",
+     "select.h",
+     "sigset_t.h",
+     "__sigset_t.h",
+     "struct_timeval.h",
+     "struct_timespec.h",
+     "pthreadtypes.h",
+     "thread-shared-types.h",
+     "pthreadtypes-arch.h",
+     "struct_mutex.h",
+     "struct_rwlock.h",
+     "alloca.h",
+     "stdlib-float.h"
+    ],
+    "rows": [
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 25
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 33
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 43
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 51
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 58
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 65
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 76
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 83
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 95
+     },
+     {
+      "line": 16,
+      "file": 1,
+      "addr": 97
+     },
+     {
+      "line": 16,
+      "file": 1,
+      "addr": 104
+     },
+     {
+      "line": 16,
+      "file": 1,
+      "addr": 115
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 122
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 129
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 140
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 148
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 153
+     },
+     {
+      "line": 19,
+      "file": 1,
+      "addr": 163
+     },
+     {
+      "line": 19,
+      "file": 1,
+      "addr": 171
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 179
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 186
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 197
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 201
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 205
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 213
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 220
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 231
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 234
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 241
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 253
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 264
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 267
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 274
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 285
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 288
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 295
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 306
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 310
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 317
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 324
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 331
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 342
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 346
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 354
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 362
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 382
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 390
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 398
+     },
+     {
+      "line": 29,
+      "file": 1,
+      "addr": 403
+     },
+     {
+      "line": 30,
+      "file": 1,
+      "addr": 435
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 440
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 448
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 450
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 458
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 460
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 467
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 481
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 488
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 499
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 502
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 516
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 522
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 527
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 534
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 545
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 549
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 555
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 560
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 568
+     },
+     {
+      "line": 37,
+      "file": 1,
+      "addr": 574
+     },
+     {
+      "line": 37,
+      "file": 1,
+      "addr": 576
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c4prj3_finish/future.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <add_future_card>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tpushq\t%rbx\n       9:      \tsubq\t$0x38, %rsp\n       d:      \tmovq\t%rdi, -0x28(%rbp)\n      11:      \tmovq\t%rsi, -0x30(%rbp)\n      15:      \tmovq\t%rdx, -0x38(%rbp)\n      19:      \tmovq\t-0x28(%rbp), %rax\n      1d:      \tmovq\t0x8(%rax), %rax\n      21:      \tcmpq\t%rax, -0x30(%rbp)\n      25:      \tjb\t0xb3 <add_future_card+0xb3>\n      2b:      \tmovq\t-0x30(%rbp), %rax\n      2f:      \taddq\t$0x1, %rax\n      33:      \tshlq\t$0x4, %rax\n      37:      \tmovq\t%rax, %rdx\n      3a:      \tmovq\t-0x28(%rbp), %rax\n      3e:      \tmovq\t(%rax), %rax\n      41:      \tmovq\t%rdx, %rsi\n      44:      \tmovq\t%rax, %rdi\n      47:      \tcallq\t0x4c <add_future_card+0x4c>\n;   realloc+-4\n      4c:      \tmovq\t-0x28(%rbp), %rdx\n      50:      \tmovq\t%rax, (%rdx)\n      53:      \tmovq\t-0x28(%rbp), %rax\n      57:      \tmovq\t0x8(%rax), %rax\n      5b:      \tmovq\t%rax, -0x18(%rbp)\n      5f:      \tjmp\t0x99 <add_future_card+0x99>\n      61:      \tmovq\t-0x28(%rbp), %rax\n      65:      \tmovq\t(%rax), %rax\n      68:      \tmovq\t-0x18(%rbp), %rdx\n      6c:      \tshlq\t$0x4, %rdx\n      70:      \taddq\t%rdx, %rax\n      73:      \tmovq\t$0x0, (%rax)\n      7a:      \tmovq\t-0x28(%rbp), %rax\n      7e:      \tmovq\t(%rax), %rax\n      81:      \tmovq\t-0x18(%rbp), %rdx\n      85:      \tshlq\t$0x4, %rdx\n      89:      \taddq\t%rdx, %rax\n      8c:      \tmovq\t$0x0, 0x8(%rax)\n      94:      \taddq\t$0x1, -0x18(%rbp)\n      99:      \tmovq\t-0x18(%rbp), %rax\n      9d:      \tcmpq\t-0x30(%rbp), %rax\n      a1:      \tjbe\t0x61 <add_future_card+0x61>\n      a3:      \tmovq\t-0x30(%rbp), %rax\n      a7:      \tleaq\t0x1(%rax), %rdx\n      ab:      \tmovq\t-0x28(%rbp), %rax\n      af:      \tmovq\t%rdx, 0x8(%rax)\n      b3:      \tmovq\t-0x28(%rbp), %rax\n      b7:      \tmovq\t(%rax), %rax\n      ba:      \tmovq\t-0x30(%rbp), %rdx\n      be:      \tshlq\t$0x4, %rdx\n      c2:      \taddq\t%rdx, %rax\n      c5:      \tmovq\t0x8(%rax), %rax\n      c9:      \taddq\t$0x1, %rax\n      cd:      \tleaq\t(,%rax,8), %rdx\n      d5:      \tmovq\t-0x28(%rbp), %rax\n      d9:      \tmovq\t(%rax), %rax\n      dc:      \tmovq\t-0x30(%rbp), %rcx\n      e0:      \tshlq\t$0x4, %rcx\n      e4:      \taddq\t%rcx, %rax\n      e7:      \tmovq\t(%rax), %rax\n      ea:      \tmovq\t-0x28(%rbp), %rcx\n      ee:      \tmovq\t(%rcx), %rcx\n      f1:      \tmovq\t-0x30(%rbp), %rsi\n      f5:      \tshlq\t$0x4, %rsi\n      f9:      \tleaq\t(%rcx,%rsi), %rbx\n      fd:      \tmovq\t%rdx, %rsi\n     100:      \tmovq\t%rax, %rdi\n     103:      \tcallq\t0x108 <add_future_card+0x108>\n;   realloc+-4\n     108:      \tmovq\t%rax, (%rbx)\n     10b:      \tmovq\t-0x28(%rbp), %rax\n     10f:      \tmovq\t(%rax), %rax\n     112:      \tmovq\t-0x30(%rbp), %rdx\n     116:      \tshlq\t$0x4, %rdx\n     11a:      \taddq\t%rdx, %rax\n     11d:      \tmovq\t(%rax), %rdx\n     120:      \tmovq\t-0x28(%rbp), %rax\n     124:      \tmovq\t(%rax), %rax\n     127:      \tmovq\t-0x30(%rbp), %rcx\n     12b:      \tshlq\t$0x4, %rcx\n     12f:      \taddq\t%rcx, %rax\n     132:      \tmovq\t0x8(%rax), %rax\n     136:      \tshlq\t$0x3, %rax\n     13a:      \taddq\t%rax, %rdx\n     13d:      \tmovq\t-0x38(%rbp), %rax\n     141:      \tmovq\t%rax, (%rdx)\n     144:      \tmovq\t-0x28(%rbp), %rax\n     148:      \tmovq\t(%rax), %rax\n     14b:      \tmovq\t-0x30(%rbp), %rdx\n     14f:      \tshlq\t$0x4, %rdx\n     153:      \taddq\t%rdx, %rax\n     156:      \tmovq\t0x8(%rax), %rdx\n     15a:      \taddq\t$0x1, %rdx\n     15e:      \tmovq\t%rdx, 0x8(%rax)\n     162:      \tnop\n     163:      \taddq\t$0x38, %rsp\n     167:      \tpopq\t%rbx\n     168:      \tpopq\t%rbp\n     169:      \tretq\n\n000000000000016a <future_cards_from_deck>:\n     16a:      \tendbr64\n     16e:      \tpushq\t%rbp\n     16f:      \tmovq\t%rsp, %rbp\n     172:      \tsubq\t$0x20, %rsp\n     176:      \tmovq\t%rdi, -0x18(%rbp)\n     17a:      \tmovq\t%rsi, -0x20(%rbp)\n     17e:      \tmovq\t-0x18(%rbp), %rax\n     182:      \tmovq\t0x8(%rax), %rdx\n     186:      \tmovq\t-0x20(%rbp), %rax\n     18a:      \tmovq\t0x8(%rax), %rax\n     18e:      \tcmpq\t%rax, %rdx\n     191:      \tjae\t0x1b8 <future_cards_from_deck+0x4e>\n     193:      \tmovq\t(%rip), %rax            # 0x19a <future_cards_from_deck+0x30>\n;   stderr+-4\n     19a:      \tmovq\t%rax, %rcx\n     19d:      \tmovl\t$0x2b, %edx\n     1a2:      \tmovl\t$0x1, %esi\n     1a7:      \tleaq\t(%rip), %rdi            # 0x1ae <future_cards_from_deck+0x44>\n;   .rodata -> \"Not enough cards to assign for future cards\"\n     1ae:      \tcallq\t0x1b3 <future_cards_from_deck+0x49>\n;   fwrite+-4\n     1b3:      \tjmp\t0x23e <future_cards_from_deck+0xd4>\n     1b8:      \tmovq\t$0x0, -0x10(%rbp)\n     1c0:      \tjmp\t0x230 <future_cards_from_deck+0xc6>\n     1c2:      \tmovq\t$0x0, -0x8(%rbp)\n     1ca:      \tjmp\t0x20f <future_cards_from_deck+0xa5>\n     1cc:      \tmovq\t-0x18(%rbp), %rax\n     1d0:      \tmovq\t(%rax), %rax\n     1d3:      \tmovq\t-0x10(%rbp), %rdx\n     1d7:      \tshlq\t$0x3, %rdx\n     1db:      \taddq\t%rdx, %rax\n     1de:      \tmovq\t(%rax), %rdx\n     1e1:      \tmovq\t-0x20(%rbp), %rax\n     1e5:      \tmovq\t(%rax), %rax\n     1e8:      \tmovq\t-0x10(%rbp), %rcx\n     1ec:      \tshlq\t$0x4, %rcx\n     1f0:      \taddq\t%rcx, %rax\n     1f3:      \tmovq\t(%rax), %rax\n     1f6:      \tmovq\t-0x8(%rbp), %rcx\n     1fa:      \tshlq\t$0x3, %rcx\n     1fe:      \taddq\t%rcx, %rax\n     201:      \tmovq\t(%rax), %rax\n     204:      \tmovq\t(%rdx), %rdx\n     207:      \tmovq\t%rdx, (%rax)\n     20a:      \taddq\t$0x1, -0x8(%rbp)\n     20f:      \tmovq\t-0x20(%rbp), %rax\n     213:      \tmovq\t(%rax), %rax\n     216:      \tmovq\t-0x10(%rbp), %rdx\n     21a:      \tshlq\t$0x4, %rdx\n     21e:      \taddq\t%rdx, %rax\n     221:      \tmovq\t0x8(%rax), %rax\n     225:      \tcmpq\t%rax, -0x8(%rbp)\n     229:      \tjb\t0x1cc <future_cards_from_deck+0x62>\n     22b:      \taddq\t$0x1, -0x10(%rbp)\n     230:      \tmovq\t-0x20(%rbp), %rax\n     234:      \tmovq\t0x8(%rax), %rax\n     238:      \tcmpq\t%rax, -0x10(%rbp)\n     23c:      \tjb\t0x1c2 <future_cards_from_deck+0x58>\n     23e:      \tleave\n     23f:      \tretq"
+}

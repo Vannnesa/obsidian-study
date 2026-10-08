@@ -1,0 +1,1 @@
+printTriangle(3) returned 6

@@ -1,0 +1,14 @@
+Here are the input hands:
+As Qd Qh 9s 7c 5d 5h 
+Kh Kd 9s 7c 5d 5h 2h 
+As Qd 9h 9d 9s 7c 7s 4h 4s 2d 2h 
+2s Ac 8d Jh 5d 
+4 hands read
+Here's the remaining deck:
+32 cards
+Ah Ad Ks Kc Qs Qc Js Jd Jc 0s 0h 0d 0c 9c 8s 8h 8c 7h 7d 6s 6h 6d 6c 5s 5c 4d 4c 3s 3h 3d 3c 2c 
+And here are the resulting hands:
+As Qd Qh 9s 7c 5d 5h 
+Kh Kd 9s 7c 5d 5h 2h 
+As Qd 9h 9d 9s 7c 7s 4h 4s 2d 2h 
+2s Ac 8d Jh 5d 

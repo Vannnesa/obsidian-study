@@ -1,0 +1,326 @@
+{
+ "path": "08_testing/isPrime-broken2",
+ "size": 8663,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_EXEC",
+ "comment": "GCC: (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4",
+ "defined_symbols": [
+  {
+   "name": "isPrime.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "crtstuff.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__JCR_LIST__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295072,
+   "section": ".jcr"
+  },
+  {
+   "name": "deregister_tm_clones",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4195872,
+   "section": ".text"
+  },
+  {
+   "name": "register_tm_clones",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4195920,
+   "section": ".text"
+  },
+  {
+   "name": "__do_global_dtors_aux",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4195984,
+   "section": ".text"
+  },
+  {
+   "name": "completed.6973",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 1,
+   "addr": 6295632,
+   "section": ".bss"
+  },
+  {
+   "name": "__do_global_dtors_aux_fini_array_entry",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295064,
+   "section": ".fini_array"
+  },
+  {
+   "name": "frame_dummy",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4196016,
+   "section": ".text"
+  },
+  {
+   "name": "__frame_dummy_init_array_entry",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295056,
+   "section": ".init_array"
+  },
+  {
+   "name": "crtstuff.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__FRAME_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4196752,
+   "section": ".eh_frame"
+  },
+  {
+   "name": "__JCR_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295072,
+   "section": ".jcr"
+  },
+  {
+   "name": "__init_array_end",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295064,
+   "section": ".init_array"
+  },
+  {
+   "name": "_DYNAMIC",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295080,
+   "section": ".dynamic"
+  },
+  {
+   "name": "__init_array_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295056,
+   "section": ".init_array"
+  },
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295552,
+   "section": ".got.plt"
+  },
+  {
+   "name": "__libc_csu_fini",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 2,
+   "addr": 4196256,
+   "section": ".text"
+  },
+  {
+   "name": "data_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_WEAK",
+   "size": 0,
+   "addr": 6295616,
+   "section": ".data"
+  },
+  {
+   "name": "_edata",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295632,
+   "section": ".data"
+  },
+  {
+   "name": "_fini",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 4196260,
+   "section": ".fini"
+  },
+  {
+   "name": "__data_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295616,
+   "section": ".data"
+  },
+  {
+   "name": "isPrime",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 67,
+   "addr": 4196064,
+   "section": ".text"
+  },
+  {
+   "name": "__dso_handle",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295624,
+   "section": ".data"
+  },
+  {
+   "name": "_IO_stdin_used",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 4,
+   "addr": 4196272,
+   "section": ".rodata"
+  },
+  {
+   "name": "__libc_csu_init",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 101,
+   "addr": 4196144,
+   "section": ".text"
+  },
+  {
+   "name": "_end",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295640,
+   "section": ".bss"
+  },
+  {
+   "name": "_start",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 4195818,
+   "section": ".text"
+  },
+  {
+   "name": "__bss_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295632,
+   "section": ".bss"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 234,
+   "addr": 4195584,
+   "section": ".text"
+  },
+  {
+   "name": "__TMC_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295632,
+   "section": ".data"
+  },
+  {
+   "name": "_init",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 4195448,
+   "section": ".init"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_ITM_deregisterTMCloneTable",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "puts@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__libc_start_main@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__gmon_start__",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strtol@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__printf_chk@@GLIBC_2.3.4",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "_Jv_RegisterClasses",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "_ITM_registerTMCloneTable",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 8,
+   "text": "Please provide exactly one number to test for primailty"
+  },
+  {
+   "offset": 64,
+   "text": "Ooops, %s does not seem to be a number!\n"
+  },
+  {
+   "offset": 112,
+   "text": "%ld is prime\n"
+  },
+  {
+   "offset": 126,
+   "text": "%ld is not prime\n"
+  }
+ ],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/08_testing/isPrime-broken2:\tfile format elf64-x86-64\n\nDisassembly of section .init:\n\n0000000000400478 <_init>:\n  400478:      \tsubq\t$0x8, %rsp\n  40047c:      \tmovq\t0x200b75(%rip), %rax    # 0x600ff8 <strtol@@GLIBC_2.2.5+0x600ff8>\n  400483:      \ttestq\t%rax, %rax\n  400486:      \tje\t0x40048d <_init+0x15>\n  400488:      \tcallq\t0x4004d0 <__gmon_start__@plt>\n  40048d:      \taddq\t$0x8, %rsp\n  400491:      \tretq\n\nDisassembly of section .plt:\n\n00000000004004a0 <.plt>:\n  4004a0:      \tpushq\t0x200b62(%rip)          # 0x601008 <_GLOBAL_OFFSET_TABLE_+0x8>\n  4004a6:      \tjmpq\t*0x200b64(%rip)         # 0x601010 <_GLOBAL_OFFSET_TABLE_+0x10>\n  4004ac:      \tnopl\t(%rax)\n\n00000000004004b0 <puts@plt>:\n  4004b0:      \tjmpq\t*0x200b62(%rip)         # 0x601018 <_GLOBAL_OFFSET_TABLE_+0x18>\n  4004b6:      \tpushq\t$0x0\n  4004bb:      \tjmp\t0x4004a0 <.plt>\n\n00000000004004c0 <__libc_start_main@plt>:\n  4004c0:      \tjmpq\t*0x200b5a(%rip)         # 0x601020 <_GLOBAL_OFFSET_TABLE_+0x20>\n  4004c6:      \tpushq\t$0x1\n  4004cb:      \tjmp\t0x4004a0 <.plt>\n\n00000000004004d0 <__gmon_start__@plt>:\n  4004d0:      \tjmpq\t*0x200b52(%rip)         # 0x601028 <_GLOBAL_OFFSET_TABLE_+0x28>\n  4004d6:      \tpushq\t$0x2\n  4004db:      \tjmp\t0x4004a0 <.plt>\n\n00000000004004e0 <strtol@plt>:\n  4004e0:      \tjmpq\t*0x200b4a(%rip)         # 0x601030 <_GLOBAL_OFFSET_TABLE_+0x30>\n  4004e6:      \tpushq\t$0x3\n  4004eb:      \tjmp\t0x4004a0 <.plt>\n\n00000000004004f0 <__printf_chk@plt>:\n  4004f0:      \tjmpq\t*0x200b42(%rip)         # 0x601038 <_GLOBAL_OFFSET_TABLE_+0x38>\n  4004f6:      \tpushq\t$0x4\n  4004fb:      \tjmp\t0x4004a0 <.plt>\n\nDisassembly of section .text:\n\n0000000000400500 <main>:\n  400500:      \tpushq\t%rbx\n  400501:      \tsubq\t$0x10, %rsp\n  400505:      \tcmpl\t$0x2, %edi\n  400508:      \tje\t0x40051f <main+0x1f>\n  40050a:      \tmovl\t$0x4007b8, %edi         # imm = 0x4007B8\n  40050f:      \tcallq\t0x4004b0 <puts@plt>\n  400514:      \tmovl\t$0x1, %eax\n  400519:      \taddq\t$0x10, %rsp\n  40051d:      \tpopq\t%rbx\n  40051e:      \tretq\n  40051f:      \tmovq\t0x8(%rsi), %rdi\n  400523:      \txorl\t%edx, %edx\n  400525:      \tmovq\t%rsi, %rbx\n  400528:      \tmovq\t%rsp, %rsi\n  40052b:      \tmovq\t$0x0, (%rsp)\n  400533:      \tcallq\t0x4004e0 <strtol@plt>\n  400538:      \tmovq\t0x8(%rbx), %rdx\n  40053c:      \tmovq\t%rax, %rdi\n  40053f:      \tmovq\t(%rsp), %rax\n  400543:      \tcmpq\t%rax, %rdx\n  400546:      \tje\t0x4005ac <main+0xac>\n  400548:      \tcmpb\t$0x0, (%rax)\n  40054b:      \tjne\t0x4005ac <main+0xac>\n  40054d:      \tcmpq\t$0x1, %rdi\n  400551:      \tjle\t0x400591 <main+0x91>\n  400553:      \tcmpq\t$0x2, %rdi\n  400557:      \tje\t0x4005cb <main+0xcb>\n  400559:      \ttestb\t$0x1, %dil\n  40055d:      \tje\t0x4005e6 <main+0xe6>\n  400563:      \tmovl\t$0x2, %ecx\n  400568:      \tjmp\t0x40057d <main+0x7d>\n  40056a:      \tnopw\t(%rax,%rax)\n  400570:      \tmovq\t%rdi, %rax\n  400573:      \tcqto\n  400575:      \tidivq\t%rcx\n  400578:      \ttestq\t%rdx, %rdx\n  40057b:      \tje\t0x4005e6 <main+0xe6>\n  40057d:      \taddq\t$0x1, %rcx\n  400581:      \tcmpq\t%rdi, %rcx\n  400584:      \tjne\t0x400570 <main+0x70>\n  400586:      \tmovl\t$0x1, %eax\n  40058b:      \tcmpq\t$0x64, %rdi\n  40058f:      \tjle\t0x4005c7 <main+0xc7>\n  400591:      \tmovq\t%rdi, %rdx\n  400594:      \tmovl\t$0x40082e, %esi         # imm = 0x40082E\n  400599:      \tmovl\t$0x1, %edi\n  40059e:      \txorl\t%eax, %eax\n  4005a0:      \tcallq\t0x4004f0 <__printf_chk@plt>\n  4005a5:      \txorl\t%eax, %eax\n  4005a7:      \tjmp\t0x400519 <main+0x19>\n  4005ac:      \tmovl\t$0x4007f0, %esi         # imm = 0x4007F0\n  4005b1:      \tmovl\t$0x1, %edi\n  4005b6:      \txorl\t%eax, %eax\n  4005b8:      \tcallq\t0x4004f0 <__printf_chk@plt>\n  4005bd:      \tmovl\t$0x1, %eax\n  4005c2:      \tjmp\t0x400519 <main+0x19>\n  4005c7:      \ttestl\t%eax, %eax\n  4005c9:      \tje\t0x400591 <main+0x91>\n  4005cb:      \tmovq\t%rdi, %rdx\n  4005ce:      \tmovl\t$0x400820, %esi         # imm = 0x400820\n  4005d3:      \tmovl\t$0x1, %edi\n  4005d8:      \txorl\t%eax, %eax\n  4005da:      \tcallq\t0x4004f0 <__printf_chk@plt>\n  4005df:      \txorl\t%eax, %eax\n  4005e1:      \tjmp\t0x400519 <main+0x19>\n  4005e6:      \txorl\t%eax, %eax\n  4005e8:      \tjmp\t0x40058b <main+0x8b>\n\n00000000004005ea <_start>:\n  4005ea:      \txorl\t%ebp, %ebp\n  4005ec:      \tmovq\t%rdx, %r9\n  4005ef:      \tpopq\t%rsi\n  4005f0:      \tmovq\t%rsp, %rdx\n  4005f3:      \tandq\t$-0x10, %rsp\n  4005f7:      \tpushq\t%rax\n  4005f8:      \tpushq\t%rsp\n  4005f9:      \tmovq\t$0x4007a0, %r8          # imm = 0x4007A0\n  400600:      \tmovq\t$0x400730, %rcx         # imm = 0x400730\n  400607:      \tmovq\t$0x400500, %rdi         # imm = 0x400500\n  40060e:      \tcallq\t0x4004c0 <__libc_start_main@plt>\n  400613:      \thlt\n  400614:      \tnopw\t%cs:(%rax,%rax)\n  40061e:      \tnop\n\n0000000000400620 <deregister_tm_clones>:\n  400620:      \tmovl\t$0x601057, %eax         # imm = 0x601057\n  400625:      \tpushq\t%rbp\n  400626:      \tsubq\t$0x601050, %rax         # imm = 0x601050\n  40062c:      \tcmpq\t$0xe, %rax\n  400630:      \tmovq\t%rsp, %rbp\n  400633:      \tja\t0x400637 <deregister_tm_clones+0x17>\n  400635:      \tpopq\t%rbp\n  400636:      \tretq\n  400637:      \tmovl\t$0x0, %eax\n  40063c:      \ttestq\t%rax, %rax\n  40063f:      \tje\t0x400635 <deregister_tm_clones+0x15>\n  400641:      \tpopq\t%rbp\n  400642:      \tmovl\t$0x601050, %edi         # imm = 0x601050\n  400647:      \tjmpq\t*%rax\n  400649:      \tnopl\t(%rax)\n\n0000000000400650 <register_tm_clones>:\n  400650:      \tmovl\t$0x601050, %eax         # imm = 0x601050\n  400655:      \tpushq\t%rbp\n  400656:      \tsubq\t$0x601050, %rax         # imm = 0x601050\n  40065c:      \tsarq\t$0x3, %rax\n  400660:      \tmovq\t%rsp, %rbp\n  400663:      \tmovq\t%rax, %rdx\n  400666:      \tshrq\t$0x3f, %rdx\n  40066a:      \taddq\t%rdx, %rax\n  40066d:      \tsarq\t%rax\n  400670:      \tjne\t0x400674 <register_tm_clones+0x24>\n  400672:      \tpopq\t%rbp\n  400673:      \tretq\n  400674:      \tmovl\t$0x0, %edx\n  400679:      \ttestq\t%rdx, %rdx\n  40067c:      \tje\t0x400672 <register_tm_clones+0x22>\n  40067e:      \tpopq\t%rbp\n  40067f:      \tmovq\t%rax, %rsi\n  400682:      \tmovl\t$0x601050, %edi         # imm = 0x601050\n  400687:      \tjmpq\t*%rdx\n  400689:      \tnopl\t(%rax)\n\n0000000000400690 <__do_global_dtors_aux>:\n  400690:      \tcmpb\t$0x0, 0x2009b9(%rip)    # 0x601050 <completed.6973>\n  400697:      \tjne\t0x4006aa <__do_global_dtors_aux+0x1a>\n  400699:      \tpushq\t%rbp\n  40069a:      \tmovq\t%rsp, %rbp\n  40069d:      \tcallq\t0x400620 <deregister_tm_clones>\n  4006a2:      \tpopq\t%rbp\n  4006a3:      \tmovb\t$0x1, 0x2009a6(%rip)    # 0x601050 <completed.6973>\n  4006aa:      \trep\t\tretq\n  4006ac:      \tnopl\t(%rax)\n\n00000000004006b0 <frame_dummy>:\n  4006b0:      \tcmpq\t$0x0, 0x200768(%rip)    # 0x600e20 <__JCR_LIST__>\n  4006b8:      \tje\t0x4006d8 <frame_dummy+0x28>\n  4006ba:      \tmovl\t$0x0, %eax\n  4006bf:      \ttestq\t%rax, %rax\n  4006c2:      \tje\t0x4006d8 <frame_dummy+0x28>\n  4006c4:      \tpushq\t%rbp\n  4006c5:      \tmovl\t$0x600e20, %edi         # imm = 0x600E20\n  4006ca:      \tmovq\t%rsp, %rbp\n  4006cd:      \tcallq\t*%rax\n  4006cf:      \tpopq\t%rbp\n  4006d0:      \tjmp\t0x400650 <register_tm_clones>\n  4006d5:      \tnopl\t(%rax)\n  4006d8:      \tjmp\t0x400650 <register_tm_clones>\n  4006dd:      \tnopl\t(%rax)\n\n00000000004006e0 <isPrime>:\n  4006e0:      \tcmpq\t$0x1, %rdi\n  4006e4:      \tjle\t0x400720 <isPrime+0x40>\n  4006e6:      \tcmpq\t$0x2, %rdi\n  4006ea:      \tje\t0x400716 <isPrime+0x36>\n  4006ec:      \ttestb\t$0x1, %dil\n  4006f0:      \tje\t0x400720 <isPrime+0x40>\n  4006f2:      \tmovl\t$0x2, %ecx\n  4006f7:      \tjmp\t0x40070d <isPrime+0x2d>\n  4006f9:      \tnopl\t(%rax)\n  400700:      \tmovq\t%rdi, %rax\n  400703:      \tcqto\n  400705:      \tidivq\t%rcx\n  400708:      \ttestq\t%rdx, %rdx\n  40070b:      \tje\t0x400720 <isPrime+0x40>\n  40070d:      \taddq\t$0x1, %rcx\n  400711:      \tcmpq\t%rdi, %rcx\n  400714:      \tjne\t0x400700 <isPrime+0x20>\n  400716:      \tmovl\t$0x1, %eax\n  40071b:      \tretq\n  40071c:      \tnopl\t(%rax)\n  400720:      \txorl\t%eax, %eax\n  400722:      \tretq\n  400723:      \tnopw\t%cs:(%rax,%rax)\n  40072d:      \tnopl\t(%rax)\n\n0000000000400730 <__libc_csu_init>:\n  400730:      \tpushq\t%r15\n  400732:      \tmovl\t%edi, %r15d\n  400735:      \tpushq\t%r14\n  400737:      \tmovq\t%rsi, %r14\n  40073a:      \tpushq\t%r13\n  40073c:      \tmovq\t%rdx, %r13\n  40073f:      \tpushq\t%r12\n  400741:      \tleaq\t0x2006c8(%rip), %r12    # 0x600e10 <__init_array_start>\n  400748:      \tpushq\t%rbp\n  400749:      \tleaq\t0x2006c8(%rip), %rbp    # 0x600e18 <__do_global_dtors_aux_fini_array_entry>\n  400750:      \tpushq\t%rbx\n  400751:      \tsubq\t%r12, %rbp\n  400754:      \txorl\t%ebx, %ebx\n  400756:      \tsarq\t$0x3, %rbp\n  40075a:      \tsubq\t$0x8, %rsp\n  40075e:      \tcallq\t0x400478 <_init>\n  400763:      \ttestq\t%rbp, %rbp\n  400766:      \tje\t0x400786 <__libc_csu_init+0x56>\n  400768:      \tnopl\t(%rax,%rax)\n  400770:      \tmovq\t%r13, %rdx\n  400773:      \tmovq\t%r14, %rsi\n  400776:      \tmovl\t%r15d, %edi\n  400779:      \tcallq\t*(%r12,%rbx,8)\n  40077d:      \taddq\t$0x1, %rbx\n  400781:      \tcmpq\t%rbp, %rbx\n  400784:      \tjne\t0x400770 <__libc_csu_init+0x40>\n  400786:      \taddq\t$0x8, %rsp\n  40078a:      \tpopq\t%rbx\n  40078b:      \tpopq\t%rbp\n  40078c:      \tpopq\t%r12\n  40078e:      \tpopq\t%r13\n  400790:      \tpopq\t%r14\n  400792:      \tpopq\t%r15\n  400794:      \tretq\n  400795:      \tnopw\t%cs:(%rax,%rax)\n\n00000000004007a0 <__libc_csu_fini>:\n  4007a0:      \trep\t\tretq\n\nDisassembly of section .fini:\n\n00000000004007a4 <_fini>:\n  4007a4:      \tsubq\t$0x8, %rsp\n  4007a8:      \taddq\t$0x8, %rsp\n  4007ac:      \tretq"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "00_hello",
+  "title": "Create hello.txt containing the single line \"hello\"",
+  "type": "file_compare",
+  "file": "hello.txt",
+  "expected": "hello\n",
+  "successMessage": "Your file matched the expected output",
+  "reportStyle": "squares",
+  "next": "01_apple",
+  "notes": "Byte-exact comparison including the trailing newline, verified against 00_hello/hello.txt (6 bytes).",
+  "successVerdict": "PASSED"
+}

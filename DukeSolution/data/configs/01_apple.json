@@ -1,0 +1,12 @@
+{
+  "id": "01_apple",
+  "title": "Create fruit.txt containing the single line \"apple\"",
+  "type": "file_compare",
+  "file": "fruit.txt",
+  "expected": "apple\n",
+  "successMessage": "Your file matched the expected output",
+  "reportStyle": "squares",
+  "next": "02_code1",
+  "notes": "Byte-exact comparison including the trailing newline, verified against 01_apple/fruit.txt (6 bytes).",
+  "successVerdict": "PASSED"
+}

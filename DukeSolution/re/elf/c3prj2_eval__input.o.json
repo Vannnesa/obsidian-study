@@ -1,0 +1,499 @@
+{
+ "path": "c3prj2_eval/input.o",
+ "size": 5504,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "input.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "CHECK_GRADER_ENV",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 127,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3050",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 17,
+   "addr": 512,
+   "section": ".rodata"
+  },
+  {
+   "name": "hand_from_string",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 950,
+   "addr": 127,
+   "section": ".text"
+  },
+  {
+   "name": "read_input",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 254,
+   "addr": 1077,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getenv",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "atoi",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "abort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "malloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__ctype_b_loc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strtoul",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "add_empty_card",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "add_future_card",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "card_from_letters",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "add_card_to",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "realloc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getline",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "PokerProjectStep"
+  },
+  {
+   "offset": 24,
+   "text": "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  },
+  {
+   "offset": 112,
+   "text": "Future random cards (%s) not supported in this mode\n"
+  },
+  {
+   "offset": 168,
+   "text": "This hand seems to have ?%lu twice.  That isn't allowed\n"
+  },
+  {
+   "offset": 232,
+   "text": "You seem to be playing with an unusual deck of cards! You expect more than 52 random future cards..\n"
+  },
+  {
+   "offset": 333,
+   "text": "input.c"
+  },
+  {
+   "offset": 341,
+   "text": "where > str"
+  },
+  {
+   "offset": 360,
+   "text": "*where == '\\0' || isspace(*where)"
+  },
+  {
+   "offset": 400,
+   "text": "A hand must have at  least 5 cards (this one has %zu)\n"
+  },
+  {
+   "offset": 456,
+   "text": "A hand must have at most 9 cards (this one has %zu)\n"
+  },
+  {
+   "offset": 512,
+   "text": "hand_from_string"
+  }
+ ],
+ "string_refs": {
+  "CHECK_GRADER_ENV": [
+   "PokerProjectStep",
+   "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  ],
+  "hand_from_string": [
+   "Future random cards (%s) not supported in this mode\n",
+   "This hand seems to have ?%lu twice.  That isn't allowed\n",
+   "You seem to be playing with an unusual deck of cards! You expect more than 52 random future cards..\n",
+   "hand_from_string",
+   "input.c",
+   "where > str",
+   "*where == '\\0' || isspace(*where)",
+   "A hand must have at  least 5 cards (this one has %zu)\n",
+   "A hand must have at most 9 cards (this one has %zu)\n"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 31,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 36,
+    "symbol": "getenv",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 59,
+    "symbol": "atoi",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 77,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 102,
+    "symbol": ".rodata",
+    "addend": 20,
+    "type": 2
+   },
+   {
+    "offset": 115,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 120,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 192,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 249,
+    "symbol": "__ctype_b_loc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 326,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 340,
+    "symbol": ".rodata",
+    "addend": 108,
+    "type": 2
+   },
+   {
+    "offset": 353,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 363,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 401,
+    "symbol": "strtoul",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 455,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 469,
+    "symbol": ".rodata",
+    "addend": 164,
+    "type": 2
+   },
+   {
+    "offset": 482,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 492,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 509,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 529,
+    "symbol": ".rodata",
+    "addend": 228,
+    "type": 2
+   },
+   {
+    "offset": 534,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 544,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 625,
+    "symbol": ".rodata",
+    "addend": 508,
+    "type": 2
+   },
+   {
+    "offset": 637,
+    "symbol": ".rodata",
+    "addend": 329,
+    "type": 2
+   },
+   {
+    "offset": 644,
+    "symbol": ".rodata",
+    "addend": 337,
+    "type": 2
+   },
+   {
+    "offset": 649,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 668,
+    "symbol": "__ctype_b_loc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 713,
+    "symbol": ".rodata",
+    "addend": 508,
+    "type": 2
+   },
+   {
+    "offset": 725,
+    "symbol": ".rodata",
+    "addend": 329,
+    "type": 2
+   },
+   {
+    "offset": 732,
+    "symbol": ".rodata",
+    "addend": 356,
+    "type": 2
+   },
+   {
+    "offset": 737,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 752,
+    "symbol": "add_empty_card",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 791,
+    "symbol": "add_future_card",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 846,
+    "symbol": "card_from_letters",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 878,
+    "symbol": "add_card_to",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 949,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 956,
+    "symbol": ".rodata",
+    "addend": 396,
+    "type": 2
+   },
+   {
+    "offset": 969,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 979,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1014,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1021,
+    "symbol": ".rodata",
+    "addend": 452,
+    "type": 2
+   },
+   {
+    "offset": 1034,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1044,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1071,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1180,
+    "symbol": "hand_from_string",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1215,
+    "symbol": "realloc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1273,
+    "symbol": "getline",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1290,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1325,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c3prj2_eval/input.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <CHECK_GRADER_ENV>:\n       0:      \tpushq\t%rbp\n       1:      \tmovq\t%rsp, %rbp\n       4:      \tsubq\t$0x20, %rsp\n       8:      \tmovl\t%edi, -0x14(%rbp)\n       b:      \tmovl\t%esi, -0x18(%rbp)\n       e:      \tmovl\t-0x14(%rbp), %eax\n      11:      \timull\t$0x64, %eax, %edx\n      14:      \tmovl\t-0x18(%rbp), %eax\n      17:      \taddl\t%edx, %eax\n      19:      \tmovl\t%eax, -0x10(%rbp)\n      1c:      \tleaq\t(%rip), %rdi            # 0x23 <CHECK_GRADER_ENV+0x23>\n;   .rodata -> \"PokerProjectStep\"\n      23:      \tcallq\t0x28 <CHECK_GRADER_ENV+0x28>\n;   getenv+-4\n      28:      \tmovq\t%rax, -0x8(%rbp)\n      2c:      \tcmpq\t$0x0, -0x8(%rbp)\n      31:      \tje\t0x7c <CHECK_GRADER_ENV+0x7c>\n      33:      \tmovq\t-0x8(%rbp), %rax\n      37:      \tmovq\t%rax, %rdi\n      3a:      \tcallq\t0x3f <CHECK_GRADER_ENV+0x3f>\n;   atoi+-4\n      3f:      \tmovl\t%eax, -0xc(%rbp)\n      42:      \tmovl\t-0x10(%rbp), %eax\n      45:      \tcmpl\t-0xc(%rbp), %eax\n      48:      \tjg\t0x7d <CHECK_GRADER_ENV+0x7d>\n      4a:      \tmovq\t(%rip), %rax            # 0x51 <CHECK_GRADER_ENV+0x51>\n;   stderr+-4\n      51:      \tmovl\t-0xc(%rbp), %edi\n      54:      \tmovl\t-0x10(%rbp), %esi\n      57:      \tmovl\t-0x18(%rbp), %ecx\n      5a:      \tmovl\t-0x14(%rbp), %edx\n      5d:      \tmovl\t%edi, %r9d\n      60:      \tmovl\t%esi, %r8d\n      63:      \tleaq\t(%rip), %rsi            # 0x6a <CHECK_GRADER_ENV+0x6a>\n;   .rodata -> \"Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\\n\"\n      6a:      \tmovq\t%rax, %rdi\n      6d:      \tmovl\t$0x0, %eax\n      72:      \tcallq\t0x77 <CHECK_GRADER_ENV+0x77>\n;   fprintf+-4\n      77:      \tcallq\t0x7c <CHECK_GRADER_ENV+0x7c>\n;   abort+-4\n      7c:      \tnop\n      7d:      \tleave\n      7e:      \tretq\n\n000000000000007f <hand_from_string>:\n      7f:      \tendbr64\n      83:      \tpushq\t%rbp\n      84:      \tmovq\t%rsp, %rbp\n      87:      \tsubq\t$0x250, %rsp            # imm = 0x250\n      8e:      \tmovq\t%rdi, -0x248(%rbp)\n      95:      \tmovq\t%rsi, -0x250(%rbp)\n      9c:      \tmovq\t%fs:0x28, %rax\n      a5:      \tmovq\t%rax, -0x8(%rbp)\n      a9:      \txorl\t%eax, %eax\n      ab:      \tmovl\t$0x2, %esi\n      b0:      \tmovl\t$0x4, %edi\n      b5:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n      ba:      \tmovl\t$0x10, %edi\n      bf:      \tcallq\t0xc4 <hand_from_string+0x45>\n;   malloc+-4\n      c4:      \tmovq\t%rax, -0x230(%rbp)\n      cb:      \tmovq\t-0x230(%rbp), %rax\n      d2:      \tmovq\t$0x0, (%rax)\n      d9:      \tmovq\t-0x230(%rbp), %rax\n      e0:      \tmovq\t$0x0, 0x8(%rax)\n      e8:      \tmovq\t$0x0, -0x240(%rbp)\n      f3:      \tjmp\t0x384 <hand_from_string+0x305>\n      f8:      \tcallq\t0xfd <hand_from_string+0x7e>\n;   __ctype_b_loc+-4\n      fd:      \tmovq\t(%rax), %rdx\n     100:      \tmovq\t-0x248(%rbp), %rax\n     107:      \tmovzbl\t(%rax), %eax\n     10a:      \tmovsbq\t%al, %rax\n     10e:      \taddq\t%rax, %rax\n     111:      \taddq\t%rdx, %rax\n     114:      \tmovzwl\t(%rax), %eax\n     117:      \tmovzwl\t%ax, %eax\n     11a:      \tandl\t$0x2000, %eax           # imm = 0x2000\n     11f:      \ttestl\t%eax, %eax\n     121:      \tjne\t0x37c <hand_from_string+0x2fd>\n     127:      \tmovq\t-0x248(%rbp), %rax\n     12e:      \tmovzbl\t(%rax), %eax\n     131:      \tcmpb\t$0x3f, %al\n     133:      \tjne\t0x32b <hand_from_string+0x2ac>\n     139:      \tcmpq\t$0x0, -0x250(%rbp)\n     141:      \tjne\t0x16f <hand_from_string+0xf0>\n     143:      \tmovq\t(%rip), %rax            # 0x14a <hand_from_string+0xcb>\n;   stderr+-4\n     14a:      \tmovq\t-0x248(%rbp), %rdx\n     151:      \tleaq\t(%rip), %rsi            # 0x158 <hand_from_string+0xd9>\n;   .rodata -> \"Future random cards (%s) not supported in this mode\\n\"\n     158:      \tmovq\t%rax, %rdi\n     15b:      \tmovl\t$0x0, %eax\n     160:      \tcallq\t0x165 <hand_from_string+0xe6>\n;   fprintf+-4\n     165:      \tmovl\t$0x1, %edi\n     16a:      \tcallq\t0x16f <hand_from_string+0xf0>\n;   exit+-4\n     16f:      \taddq\t$0x1, -0x248(%rbp)\n     177:      \tleaq\t-0x218(%rbp), %rcx\n     17e:      \tmovq\t-0x248(%rbp), %rax\n     185:      \tmovl\t$0x0, %edx\n     18a:      \tmovq\t%rcx, %rsi\n     18d:      \tmovq\t%rax, %rdi\n     190:      \tcallq\t0x195 <hand_from_string+0x116>\n;   strtoul+-4\n     195:      \tmovq\t%rax, -0x228(%rbp)\n     19c:      \tmovq\t$0x0, -0x238(%rbp)\n     1a7:      \tjmp\t0x24a <hand_from_string+0x1cb>\n     1ac:      \tmovq\t-0x238(%rbp), %rax\n     1b3:      \tmovq\t-0x210(%rbp,%rax,8), %rax\n     1bb:      \tcmpq\t%rax, -0x228(%rbp)\n     1c2:      \tjne\t0x1f0 <hand_from_string+0x171>\n     1c4:      \tmovq\t(%rip), %rax            # 0x1cb <hand_from_string+0x14c>\n;   stderr+-4\n     1cb:      \tmovq\t-0x228(%rbp), %rdx\n     1d2:      \tleaq\t(%rip), %rsi            # 0x1d9 <hand_from_string+0x15a>\n;   .rodata -> \"This hand seems to have ?%lu twice.  That isn't allowed\\n\"\n     1d9:      \tmovq\t%rax, %rdi\n     1dc:      \tmovl\t$0x0, %eax\n     1e1:      \tcallq\t0x1e6 <hand_from_string+0x167>\n;   fprintf+-4\n     1e6:      \tmovl\t$0x1, %edi\n     1eb:      \tcallq\t0x1f0 <hand_from_string+0x171>\n;   exit+-4\n     1f0:      \tcmpq\t$0x33, -0x240(%rbp)\n     1f8:      \tjbe\t0x224 <hand_from_string+0x1a5>\n     1fa:      \tmovq\t(%rip), %rax            # 0x201 <hand_from_string+0x182>\n;   stderr+-4\n     201:      \tmovq\t%rax, %rcx\n     204:      \tmovl\t$0x64, %edx\n     209:      \tmovl\t$0x1, %esi\n     20e:      \tleaq\t(%rip), %rdi            # 0x215 <hand_from_string+0x196>\n;   .rodata -> \"You seem to be playing with an unusual deck of cards! You expect more than 52 random future cards..\\n\"\n     215:      \tcallq\t0x21a <hand_from_string+0x19b>\n;   fwrite+-4\n     21a:      \tmovl\t$0x1, %edi\n     21f:      \tcallq\t0x224 <hand_from_string+0x1a5>\n;   exit+-4\n     224:      \tmovq\t-0x240(%rbp), %rax\n     22b:      \tmovq\t-0x228(%rbp), %rdx\n     232:      \tmovq\t%rdx, -0x210(%rbp,%rax,8)\n     23a:      \taddq\t$0x1, -0x240(%rbp)\n     242:      \taddq\t$0x1, -0x238(%rbp)\n     24a:      \tmovq\t-0x238(%rbp), %rax\n     251:      \tcmpq\t-0x240(%rbp), %rax\n     258:      \tjb\t0x1ac <hand_from_string+0x12d>\n     25e:      \tmovq\t-0x218(%rbp), %rax\n     265:      \tcmpq\t%rax, -0x248(%rbp)\n     26c:      \tjb\t0x28d <hand_from_string+0x20e>\n     26e:      \tleaq\t(%rip), %rcx            # 0x275 <hand_from_string+0x1f6>\n;   .rodata -> \"hand_from_string\"\n     275:      \tmovl\t$0x29, %edx\n     27a:      \tleaq\t(%rip), %rsi            # 0x281 <hand_from_string+0x202>\n;   .rodata -> \"input.c\"\n     281:      \tleaq\t(%rip), %rdi            # 0x288 <hand_from_string+0x209>\n;   .rodata -> \"where > str\"\n     288:      \tcallq\t0x28d <hand_from_string+0x20e>\n;   __assert_fail+-4\n     28d:      \tmovq\t-0x218(%rbp), %rax\n     294:      \tmovzbl\t(%rax), %eax\n     297:      \ttestb\t%al, %al\n     299:      \tje\t0x2e5 <hand_from_string+0x266>\n     29b:      \tcallq\t0x2a0 <hand_from_string+0x221>\n;   __ctype_b_loc+-4\n     2a0:      \tmovq\t(%rax), %rdx\n     2a3:      \tmovq\t-0x218(%rbp), %rax\n     2aa:      \tmovzbl\t(%rax), %eax\n     2ad:      \tmovsbq\t%al, %rax\n     2b1:      \taddq\t%rax, %rax\n     2b4:      \taddq\t%rdx, %rax\n     2b7:      \tmovzwl\t(%rax), %eax\n     2ba:      \tmovzwl\t%ax, %eax\n     2bd:      \tandl\t$0x2000, %eax           # imm = 0x2000\n     2c2:      \ttestl\t%eax, %eax\n     2c4:      \tjne\t0x2e5 <hand_from_string+0x266>\n     2c6:      \tleaq\t(%rip), %rcx            # 0x2cd <hand_from_string+0x24e>\n;   .rodata -> \"hand_from_string\"\n     2cd:      \tmovl\t$0x2a, %edx\n     2d2:      \tleaq\t(%rip), %rsi            # 0x2d9 <hand_from_string+0x25a>\n;   .rodata -> \"input.c\"\n     2d9:      \tleaq\t(%rip), %rdi            # 0x2e0 <hand_from_string+0x261>\n;   .rodata -> \"*where == '\\\\0' || isspace(*where)\"\n     2e0:      \tcallq\t0x2e5 <hand_from_string+0x266>\n;   __assert_fail+-4\n     2e5:      \tmovq\t-0x230(%rbp), %rax\n     2ec:      \tmovq\t%rax, %rdi\n     2ef:      \tcallq\t0x2f4 <hand_from_string+0x275>\n;   add_empty_card+-4\n     2f4:      \tmovq\t%rax, -0x220(%rbp)\n     2fb:      \tmovq\t-0x220(%rbp), %rdx\n     302:      \tmovq\t-0x228(%rbp), %rcx\n     309:      \tmovq\t-0x250(%rbp), %rax\n     310:      \tmovq\t%rcx, %rsi\n     313:      \tmovq\t%rax, %rdi\n     316:      \tcallq\t0x31b <hand_from_string+0x29c>\n;   add_future_card+-4\n     31b:      \tmovq\t-0x218(%rbp), %rax\n     322:      \tmovq\t%rax, -0x248(%rbp)\n     329:      \tjmp\t0x384 <hand_from_string+0x305>\n     32b:      \tmovq\t-0x248(%rbp), %rax\n     332:      \taddq\t$0x1, %rax\n     336:      \tmovzbl\t(%rax), %eax\n     339:      \tmovsbl\t%al, %edx\n     33c:      \tmovq\t-0x248(%rbp), %rax\n     343:      \tmovzbl\t(%rax), %eax\n     346:      \tmovsbl\t%al, %eax\n     349:      \tmovl\t%edx, %esi\n     34b:      \tmovl\t%eax, %edi\n     34d:      \tcallq\t0x352 <hand_from_string+0x2d3>\n;   card_from_letters+-4\n     352:      \tmovq\t%rax, -0x218(%rbp)\n     359:      \tmovq\t-0x218(%rbp), %rdx\n     360:      \tmovq\t-0x230(%rbp), %rax\n     367:      \tmovq\t%rdx, %rsi\n     36a:      \tmovq\t%rax, %rdi\n     36d:      \tcallq\t0x372 <hand_from_string+0x2f3>\n;   add_card_to+-4\n     372:      \taddq\t$0x2, -0x248(%rbp)\n     37a:      \tjmp\t0x384 <hand_from_string+0x305>\n     37c:      \taddq\t$0x1, -0x248(%rbp)\n     384:      \tmovq\t-0x248(%rbp), %rax\n     38b:      \tmovzbl\t(%rax), %eax\n     38e:      \ttestb\t%al, %al\n     390:      \tjne\t0xf8 <hand_from_string+0x79>\n     396:      \tmovq\t-0x230(%rbp), %rax\n     39d:      \tmovq\t0x8(%rax), %rax\n     3a1:      \tcmpq\t$0x4, %rax\n     3a5:      \tja\t0x3d7 <hand_from_string+0x358>\n     3a7:      \tmovq\t-0x230(%rbp), %rax\n     3ae:      \tmovq\t0x8(%rax), %rdx\n     3b2:      \tmovq\t(%rip), %rax            # 0x3b9 <hand_from_string+0x33a>\n;   stderr+-4\n     3b9:      \tleaq\t(%rip), %rsi            # 0x3c0 <hand_from_string+0x341>\n;   .rodata -> \"A hand must have at  least 5 cards (this one has %zu)\\n\"\n     3c0:      \tmovq\t%rax, %rdi\n     3c3:      \tmovl\t$0x0, %eax\n     3c8:      \tcallq\t0x3cd <hand_from_string+0x34e>\n;   fprintf+-4\n     3cd:      \tmovl\t$0x1, %edi\n     3d2:      \tcallq\t0x3d7 <hand_from_string+0x358>\n;   exit+-4\n     3d7:      \tmovq\t-0x230(%rbp), %rax\n     3de:      \tmovq\t0x8(%rax), %rax\n     3e2:      \tcmpq\t$0x9, %rax\n     3e6:      \tjbe\t0x418 <hand_from_string+0x399>\n     3e8:      \tmovq\t-0x230(%rbp), %rax\n     3ef:      \tmovq\t0x8(%rax), %rdx\n     3f3:      \tmovq\t(%rip), %rax            # 0x3fa <hand_from_string+0x37b>\n;   stderr+-4\n     3fa:      \tleaq\t(%rip), %rsi            # 0x401 <hand_from_string+0x382>\n;   .rodata -> \"A hand must have at most 9 cards (this one has %zu)\\n\"\n     401:      \tmovq\t%rax, %rdi\n     404:      \tmovl\t$0x0, %eax\n     409:      \tcallq\t0x40e <hand_from_string+0x38f>\n;   fprintf+-4\n     40e:      \tmovl\t$0x1, %edi\n     413:      \tcallq\t0x418 <hand_from_string+0x399>\n;   exit+-4\n     418:      \tmovq\t-0x230(%rbp), %rax\n     41f:      \tmovq\t-0x8(%rbp), %rcx\n     423:      \txorq\t%fs:0x28, %rcx\n     42c:      \tje\t0x433 <hand_from_string+0x3b4>\n     42e:      \tcallq\t0x433 <hand_from_string+0x3b4>\n;   __stack_chk_fail+-4\n     433:      \tleave\n     434:      \tretq\n\n0000000000000435 <read_input>:\n     435:      \tendbr64\n     439:      \tpushq\t%rbp\n     43a:      \tmovq\t%rsp, %rbp\n     43d:      \tsubq\t$0x50, %rsp\n     441:      \tmovq\t%rdi, -0x38(%rbp)\n     445:      \tmovq\t%rsi, -0x40(%rbp)\n     449:      \tmovq\t%rdx, -0x48(%rbp)\n     44d:      \tmovq\t%fs:0x28, %rax\n     456:      \tmovq\t%rax, -0x8(%rbp)\n     45a:      \txorl\t%eax, %eax\n     45c:      \tmovl\t$0x2, %esi\n     461:      \tmovl\t$0x4, %edi\n     466:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     46b:      \tmovq\t$0x0, -0x20(%rbp)\n     473:      \tmovq\t$0x0, -0x18(%rbp)\n     47b:      \tmovq\t$0x0, -0x30(%rbp)\n     483:      \tmovq\t$0x0, -0x28(%rbp)\n     48b:      \tjmp\t0x4e6 <read_input+0xb1>\n     48d:      \tmovq\t-0x28(%rbp), %rax\n     491:      \tmovq\t-0x48(%rbp), %rdx\n     495:      \tmovq\t%rdx, %rsi\n     498:      \tmovq\t%rax, %rdi\n     49b:      \tcallq\t0x4a0 <read_input+0x6b>\n;   hand_from_string+-4\n     4a0:      \tmovq\t%rax, -0x10(%rbp)\n     4a4:      \tmovq\t-0x20(%rbp), %rax\n     4a8:      \taddq\t$0x1, %rax\n     4ac:      \tleaq\t(,%rax,8), %rdx\n     4b4:      \tmovq\t-0x18(%rbp), %rax\n     4b8:      \tmovq\t%rdx, %rsi\n     4bb:      \tmovq\t%rax, %rdi\n     4be:      \tcallq\t0x4c3 <read_input+0x8e>\n;   realloc+-4\n     4c3:      \tmovq\t%rax, -0x18(%rbp)\n     4c7:      \tmovq\t-0x20(%rbp), %rax\n     4cb:      \tleaq\t(,%rax,8), %rdx\n     4d3:      \tmovq\t-0x18(%rbp), %rax\n     4d7:      \taddq\t%rax, %rdx\n     4da:      \tmovq\t-0x10(%rbp), %rax\n     4de:      \tmovq\t%rax, (%rdx)\n     4e1:      \taddq\t$0x1, -0x20(%rbp)\n     4e6:      \tmovq\t-0x38(%rbp), %rdx\n     4ea:      \tleaq\t-0x30(%rbp), %rcx\n     4ee:      \tleaq\t-0x28(%rbp), %rax\n     4f2:      \tmovq\t%rcx, %rsi\n     4f5:      \tmovq\t%rax, %rdi\n     4f8:      \tcallq\t0x4fd <read_input+0xc8>\n;   getline+-4\n     4fd:      \ttestq\t%rax, %rax\n     500:      \tjg\t0x48d <read_input+0x58>\n     502:      \tmovq\t-0x28(%rbp), %rax\n     506:      \tmovq\t%rax, %rdi\n     509:      \tcallq\t0x50e <read_input+0xd9>\n;   free+-4\n     50e:      \tmovq\t-0x40(%rbp), %rax\n     512:      \tmovq\t-0x20(%rbp), %rdx\n     516:      \tmovq\t%rdx, (%rax)\n     519:      \tmovq\t-0x18(%rbp), %rax\n     51d:      \tmovq\t-0x8(%rbp), %rcx\n     521:      \txorq\t%fs:0x28, %rcx\n     52a:      \tje\t0x531 <read_input+0xfc>\n     52c:      \tcallq\t0x531 <read_input+0xfc>\n;   __stack_chk_fail+-4\n     531:      \tleave\n     532:      \tretq"
+}

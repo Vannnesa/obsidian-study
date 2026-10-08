@@ -1,0 +1,138 @@
+{
+ "path": "c2prj1_cards/eval-c4.o",
+ "size": 2504,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "eval-c4.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "CHECK_GRADER_ENV",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 127,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "get_match_counts",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 208,
+   "addr": 127,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getenv",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "atoi",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "abort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "malloc",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "PokerProjectStep"
+  },
+  {
+   "offset": 24,
+   "text": "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  }
+ ],
+ "string_refs": {
+  "CHECK_GRADER_ENV": [
+   "PokerProjectStep",
+   "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 31,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 36,
+    "symbol": "getenv",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 59,
+    "symbol": "atoi",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 77,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 102,
+    "symbol": ".rodata",
+    "addend": 20,
+    "type": 2
+   },
+   {
+    "offset": 115,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 120,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 174,
+    "symbol": "malloc",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c2prj1_cards/eval-c4.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <CHECK_GRADER_ENV>:\n       0:      \tpushq\t%rbp\n       1:      \tmovq\t%rsp, %rbp\n       4:      \tsubq\t$0x20, %rsp\n       8:      \tmovl\t%edi, -0x14(%rbp)\n       b:      \tmovl\t%esi, -0x18(%rbp)\n       e:      \tmovl\t-0x14(%rbp), %eax\n      11:      \timull\t$0x64, %eax, %edx\n      14:      \tmovl\t-0x18(%rbp), %eax\n      17:      \taddl\t%edx, %eax\n      19:      \tmovl\t%eax, -0x10(%rbp)\n      1c:      \tleaq\t(%rip), %rdi            # 0x23 <CHECK_GRADER_ENV+0x23>\n;   .rodata -> \"PokerProjectStep\"\n      23:      \tcallq\t0x28 <CHECK_GRADER_ENV+0x28>\n;   getenv+-4\n      28:      \tmovq\t%rax, -0x8(%rbp)\n      2c:      \tcmpq\t$0x0, -0x8(%rbp)\n      31:      \tje\t0x7c <CHECK_GRADER_ENV+0x7c>\n      33:      \tmovq\t-0x8(%rbp), %rax\n      37:      \tmovq\t%rax, %rdi\n      3a:      \tcallq\t0x3f <CHECK_GRADER_ENV+0x3f>\n;   atoi+-4\n      3f:      \tmovl\t%eax, -0xc(%rbp)\n      42:      \tmovl\t-0x10(%rbp), %eax\n      45:      \tcmpl\t-0xc(%rbp), %eax\n      48:      \tjg\t0x7d <CHECK_GRADER_ENV+0x7d>\n      4a:      \tmovq\t(%rip), %rax            # 0x51 <CHECK_GRADER_ENV+0x51>\n;   stderr+-4\n      51:      \tmovl\t-0xc(%rbp), %edi\n      54:      \tmovl\t-0x10(%rbp), %esi\n      57:      \tmovl\t-0x18(%rbp), %ecx\n      5a:      \tmovl\t-0x14(%rbp), %edx\n      5d:      \tmovl\t%edi, %r9d\n      60:      \tmovl\t%esi, %r8d\n      63:      \tleaq\t(%rip), %rsi            # 0x6a <CHECK_GRADER_ENV+0x6a>\n;   .rodata -> \"Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\\n\"\n      6a:      \tmovq\t%rax, %rdi\n      6d:      \tmovl\t$0x0, %eax\n      72:      \tcallq\t0x77 <CHECK_GRADER_ENV+0x77>\n;   fprintf+-4\n      77:      \tcallq\t0x7c <CHECK_GRADER_ENV+0x7c>\n;   abort+-4\n      7c:      \tnop\n      7d:      \tleave\n      7e:      \tretq\n\n000000000000007f <get_match_counts>:\n      7f:      \tendbr64\n      83:      \tpushq\t%rbp\n      84:      \tmovq\t%rsp, %rbp\n      87:      \tsubq\t$0x30, %rsp\n      8b:      \tmovq\t%rdi, -0x28(%rbp)\n      8f:      \tmovl\t$0x1, %esi\n      94:      \tmovl\t$0x4, %edi\n      99:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n      9e:      \tmovq\t-0x28(%rbp), %rax\n      a2:      \tmovq\t0x8(%rax), %rax\n      a6:      \tshlq\t$0x2, %rax\n      aa:      \tmovq\t%rax, %rdi\n      ad:      \tcallq\t0xb2 <get_match_counts+0x33>\n;   malloc+-4\n      b2:      \tmovq\t%rax, -0x8(%rbp)\n      b6:      \tmovq\t$0x0, -0x18(%rbp)\n      be:      \tjmp\t0x137 <get_match_counts+0xb8>\n      c0:      \tmovl\t$0x0, -0x1c(%rbp)\n      c7:      \tmovq\t$0x0, -0x10(%rbp)\n      cf:      \tjmp\t0x10c <get_match_counts+0x8d>\n      d1:      \tmovq\t-0x28(%rbp), %rax\n      d5:      \tmovq\t(%rax), %rax\n      d8:      \tmovq\t-0x18(%rbp), %rdx\n      dc:      \tshlq\t$0x3, %rdx\n      e0:      \taddq\t%rdx, %rax\n      e3:      \tmovq\t(%rax), %rax\n      e6:      \tmovl\t(%rax), %edx\n      e8:      \tmovq\t-0x28(%rbp), %rax\n      ec:      \tmovq\t(%rax), %rax\n      ef:      \tmovq\t-0x10(%rbp), %rcx\n      f3:      \tshlq\t$0x3, %rcx\n      f7:      \taddq\t%rcx, %rax\n      fa:      \tmovq\t(%rax), %rax\n      fd:      \tmovl\t(%rax), %eax\n      ff:      \tcmpl\t%eax, %edx\n     101:      \tjne\t0x107 <get_match_counts+0x88>\n     103:      \taddl\t$0x1, -0x1c(%rbp)\n     107:      \taddq\t$0x1, -0x10(%rbp)\n     10c:      \tmovq\t-0x28(%rbp), %rax\n     110:      \tmovq\t0x8(%rax), %rax\n     114:      \tcmpq\t%rax, -0x10(%rbp)\n     118:      \tjb\t0xd1 <get_match_counts+0x52>\n     11a:      \tmovq\t-0x18(%rbp), %rax\n     11e:      \tleaq\t(,%rax,4), %rdx\n     126:      \tmovq\t-0x8(%rbp), %rax\n     12a:      \taddq\t%rax, %rdx\n     12d:      \tmovl\t-0x1c(%rbp), %eax\n     130:      \tmovl\t%eax, (%rdx)\n     132:      \taddq\t$0x1, -0x18(%rbp)\n     137:      \tmovq\t-0x28(%rbp), %rax\n     13b:      \tmovq\t0x8(%rax), %rax\n     13f:      \tcmpq\t%rax, -0x18(%rbp)\n     143:      \tjb\t0xc0 <get_match_counts+0x41>\n     149:      \tmovq\t-0x8(%rbp), %rax\n     14d:      \tleave\n     14e:      \tretq"
+}

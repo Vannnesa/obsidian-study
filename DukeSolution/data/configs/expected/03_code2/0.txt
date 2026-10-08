@@ -1,0 +1,1 @@
+printTriangle(0) returned 0

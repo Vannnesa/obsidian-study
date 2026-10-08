@@ -1,0 +1,54 @@
+{
+  "id": "30_sort_lines",
+  "title": "Sort the lines of stdin or of one or more input files",
+  "type": "memory_check",
+  "source": "sortLines.c",
+  "build": {
+    "sources": [
+      "sortLines.c"
+    ],
+    "output": "sortLines",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "-pedantic"
+    ]
+  },
+  "compileMessage": "Attempting to compile sortLines.c",
+  "reportStyle": "testcase",
+  "timeoutMs": 5000,
+  "next": "31_minesweeper",
+  "notes": "observed: re/original-grade-txt/30_sort_lines.grade.txt reads `Attempting to compile sortLines.c`, then four testcase blocks - testcase1 prints `testcase1 passed, your program successfully indicated a failure` (so an expected-failure case), testcases 2-4 print `Your output is correct` - each followed by `  - Valgrind was clean (no errors, no memory leaks)` and `valgrind was clean`, then `Overall Grade: A`. observed: the README fixes the two modes ('If no arguments (argc == 1) ... read from standard input' and 'If 1 or more arguments ... treat each argument as an input file name', with `EXIT_FAILURE` on error), the provided `stringOrder`/`sortData` helpers and their comments, the `getline` requirement and the `./test.sh` sample; the Makefile's CFLAGS are `-ggdb3 -Wall -Werror -std=gnu99 -pedantic`. recovered: none - this assignment has no teacher object and the whole program is the student's. inferred: the original's four inputs are not recorded anywhere in the workspace. The failure case is reconstructed as a file argument that does not exist (the README's documented error path, `Could not open file: %s. Exiting...` + EXIT_FAILURE). The three success cases follow the README's own modes: standard input, one input file, and two input files. The stdin case reuses the exact three lines that 30_sort_lines/test.sh already pipes into the program, so its input is an artifact rather than a guess; the file cases use files that exist in the assignment directory (Makefile and test.sh), because the directory ships no `.txt` fixture at all. Fixtures are the reference build's stdout. platform substitution: the 2024 grader used valgrind, which does not exist on macOS/arm64 and cannot be installed. `memory_check` builds twice - AddressSanitizer for out-of-bounds/use-after-free/double-free, and a plain build under Apple's `leaks --atExit --` for leaked allocations - and the original valgrind wording is kept so the reports stay comparable. Neither engine reports uninitialised reads, which valgrind did. The reference implementation is clean under both passes. Template exclusions: the committed Linux `sortLines` binary is not part of the starting template.",
+  "tests": [
+    {
+      "args": [
+        "no-such-file.txt"
+      ],
+      "label": "testcase1: unreadable input file",
+      "expectFailure": true,
+      "message": "testcase1 passed, your program successfully indicated a failure"
+    },
+    {
+      "label": "testcase2: standard input (the ./test.sh sample)",
+      "stdin": "This is a sample test case\nit checks your program's one argument behavior\ngo!\n",
+      "expectedFile": "expected/30_sort_lines/stdin.txt"
+    },
+    {
+      "args": [
+        "Makefile"
+      ],
+      "label": "testcase3: one input file",
+      "expectedFile": "expected/30_sort_lines/one_file.txt"
+    },
+    {
+      "args": [
+        "Makefile",
+        "test.sh"
+      ],
+      "label": "testcase4: two input files",
+      "expectedFile": "expected/30_sort_lines/two_files.txt"
+    }
+  ],
+  "successVerdict": "A"
+}

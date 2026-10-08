@@ -1,0 +1,70 @@
+{
+  "id": "c2prj1_cards",
+  "title": "Course 2 poker project: card_t helpers in cards.c",
+  "type": "compile_and_run",
+  "source": "cards.c",
+  "header": "Compiling cards.c",
+  "reportStyle": "squares",
+  "next": "c2prj2_testing",
+  "timeoutMs": 20000,
+  "build": {
+    "driver": "drivers/c2prj1_cards/cards_check.c",
+    "sources": [
+      "cards.c"
+    ],
+    "output": "cards_check",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "--pedantic",
+      "-Wno-error=non-literal-null-conversion"
+    ]
+  },
+  "tests": [
+    {
+      "label": "card_from_letters",
+      "args": [
+        "card_from_letters"
+      ],
+      "expected": ""
+    },
+    {
+      "label": "value_letter and suit_letter",
+      "args": [
+        "letters"
+      ],
+      "expected": ""
+    },
+    {
+      "label": "print_card",
+      "args": [
+        "print_card"
+      ],
+      "expected": ""
+    },
+    {
+      "label": "card_from_num",
+      "args": [
+        "card_from_num"
+      ],
+      "expected": ""
+    },
+    {
+      "label": "ranking_to_string",
+      "args": [
+        "ranking_to_string"
+      ],
+      "expected": ""
+    },
+    {
+      "label": "assert_card_valid",
+      "args": [
+        "assert_card_valid"
+      ],
+      "expected": ""
+    }
+  ],
+  "notes": "Checklist and wording observed verbatim in re/original-grade-txt/c2prj1_cards.grade.txt ('Compiling cards.c', 'Testing card_from_letters', 'Passed', ... 'Overall Grade: PASSED'). The teacher's test object did not survive anywhere in the workspace (the directory holds only the student's cards.o and the Course-4 poker objects), so drivers/c2prj1_cards/cards_check.c is INFERRED from the README's per-function specification; each requirement it enforces is quoted from c2prj1_cards/README (values 2..VALUE_ACE and suits SPADES..CLUBS for assert_card_valid; '0' for a ten, J/Q/K/A for the face cards; card_from_num is a bijection from [0,52) but the actual mapping is explicitly the student's choice, so only distinctness is required). The grader reported one 'Passed' line per function; this config reports one case per function with the same labels, so the lines read 'PASSED'/' - Correct' instead of 'Passed'. ranking_to_string's per-ranking detail lines ('ranking_to_string(STRAIGHT_FLUSH) resulted in STRAIGHT_FLUSH  (Correct)') are not reproducible with the schema and are only shown if the check fails. Nothing is memory-checked here, matching the original report (no valgrind clause in c2prj1_cards.grade.txt). Confidence: observed -- the checklist and its wording; inferred -- every test the driver performs.",
+  "successVerdict": "PASSED"
+}

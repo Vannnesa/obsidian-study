@@ -1,0 +1,8 @@
+{
+  "id": "09_testing2",
+  "title": "Black-box test the broken match5 implementations (tests.txt)",
+  "type": "unsupported",
+  "next": "10_gdb",
+  "notes": "unsupported -- the assignment is to write tests.txt so that the provided harness flags every broken implementation, but the programs it has to flag are not in this workspace. observed -- 09_testing2/README names the correct implementation at /usr/local/l2p/match5/correct-match5 and says 'If you look in /usr/local/l2p/match5, you will see that there are 296 broken implementations'; 09_testing2/run_all.sh iterates /usr/local/l2p/match5/match5-* and compares each one against correct-match5. observed -- re/original-grade-txt/09_testing2.grade.txt shows that the 2024 run identified the problem with 297 programs, match5-000 through match5-296. absent -- /usr/local/l2p/match5 does not exist here and no copy or symlink survived anywhere in the workspace (searched for match5*, and for any file or link outside the assignment directories): both correct-match5 and every match5-NNN are missing, so the student's tests.txt cannot be executed against anything. The assignment directory contains no C source either (only README, run_all.sh, tests.txt), so test_identify has no harness to compile and no subject to link; this config therefore reports the failure honestly rather than inventing a pass.",
+  "successVerdict": "PASSED"
+}

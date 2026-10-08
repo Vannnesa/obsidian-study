@@ -1,0 +1,54 @@
+Current board:
+    000
+    012
+-------
+ 0: ???
+ 1: ???
+ 2: ???
+
+-------
+    000
+    012
+Found 0 of 1 mines
+x coordinate:
+y coordinate:
+Oh no! That square had a mine. You lose!
+    000
+    012
+-------
+ 0: ???
+ 1: ?*?
+ 2: ???
+
+-------
+    000
+    012
+Found 1 of 1 mines
+Do you want to play again?
+Current board:
+    000
+    012
+-------
+ 0: ???
+ 1: ???
+ 2: ???
+
+-------
+    000
+    012
+Found 0 of 1 mines
+x coordinate:
+y coordinate:
+Oh no! That square had a mine. You lose!
+    000
+    012
+-------
+ 0: ???
+ 1: *??
+ 2: ???
+
+-------
+    000
+    012
+Found 1 of 1 mines
+Do you want to play again?

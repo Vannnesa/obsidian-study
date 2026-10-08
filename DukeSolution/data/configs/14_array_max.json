@@ -1,0 +1,74 @@
+{
+  "id": "14_array_max",
+  "title": "int * arrayMax(int * array, int n) -- a pointer to the largest element, NULL when n is 0",
+  "type": "compile_and_run",
+  "source": "arrayMax.c",
+  "build": {
+    "driver": "drivers/14_array_max/arrayMax_test.c",
+    "sources": [],
+    "output": "arrayMax",
+    "flags": [
+      "-pedantic",
+      "-std=gnu99",
+      "-Wall",
+      "-Werror"
+    ]
+  },
+  "compileMessage": "Attempting to compile arrayMax.c ",
+  "selfTest": {
+    "expectedFile": "expected/14_array_max/main.txt",
+    "successMessage": "Your file matched the expected output\nYour output matched what we expected",
+    "replaceMessage": "Removing your main() and replacing it with our own to run more tests..."
+  },
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "15_tests_subseq",
+  "notes": "observed: re/original-grade-txt/14_array_max.grade.txt supplies every report line quoted here -- 'Attempting to compile arrayMax.c ' (trailing space), the '#####...' separators, 'Your file matched the expected output', 'Your output matched what we expected', 'Removing your main() and replacing it with our own to run more tests...', the four driver lines 'array size:0/1/100/5000 was Correct' (testcase2..5) and 'Overall Grade: A' (recorded as successVerdict rather than inferred from the type). 14_array_max/README states the contract (int * arrayMax(int * array, int n); NULL when n is 0) and the provided main's five answers 99, -3, 425, NULL, NULL; 14_array_max/Makefile supplies the flags used here (-pedantic -std=gnu99 -Wall -Werror). inferred: drivers/14_array_max/arrayMax_test.c -- there is no teacher object for this assignment anywhere in the workspace (re/elf/ has no 14_array_max entry and the directory holds no .o), so the driver body is reasoned from those artifacts; the array contents, the RNG seed and the wrong-answer wording ('Incorrect') are inferred, while 'array size:%d was Correct' and the provided main itself are observed. selfTest compiles arrayMax.c standalone and compares its stdout with configs/expected/14_array_max/main.txt, which holds exactly the README's 99, -3, 425, NULL, NULL; the original reported that one byte-exact comparison against the teacher's answers as two consecutive lines, so both of its lines are kept verbatim in successMessage. build.sources is empty and the driver #includes arrayMax.c with main renamed to providedMain -- the C equivalent of the original's 'removing your main()' -- so case 'main' still runs the provided main and the sizes keep the original's testcase2..5 numbering. Differences from the original: the selfTest lines are printed before the '#####...' / 'testcase1:' block instead of inside it, and case 'main' carries no message of its own so the tool prints its verdict word there ('testcase1 passed'); every observed line is still reproduced, though the selfTest pair sits one block earlier than the original printed it.",
+  "tests": [
+    {
+      "args": [
+        "main"
+      ],
+      "expectedFile": "expected/14_array_max/main.txt",
+      "expectedExit": 0,
+      "label": "the five tests of the provided main"
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expectedFile": "expected/14_array_max/0.txt",
+      "expectedExit": 0,
+      "message": "array size:0 was Correct",
+      "label": "array size:0"
+    },
+    {
+      "args": [
+        "1"
+      ],
+      "expectedFile": "expected/14_array_max/1.txt",
+      "expectedExit": 0,
+      "message": "array size:1 was Correct",
+      "label": "array size:1"
+    },
+    {
+      "args": [
+        "100"
+      ],
+      "expectedFile": "expected/14_array_max/100.txt",
+      "expectedExit": 0,
+      "message": "array size:100 was Correct",
+      "label": "array size:100"
+    },
+    {
+      "args": [
+        "5000"
+      ],
+      "expectedFile": "expected/14_array_max/5000.txt",
+      "expectedExit": 0,
+      "message": "array size:5000 was Correct",
+      "label": "array size:5000"
+    }
+  ]
+}

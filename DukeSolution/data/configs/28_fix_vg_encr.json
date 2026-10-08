@@ -1,0 +1,81 @@
+{
+  "id": "28_fix_vg_encr",
+  "title": "Fix encrypt.c so that it valgrinds cleanly (no errors, no memory leaks)",
+  "type": "memory_check",
+  "source": "encrypt.c",
+  "build": {
+    "sources": [
+      "encrypt.c"
+    ],
+    "output": "encrypt",
+    "flags": [
+      "-ggdb3",
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "-pedantic"
+    ]
+  },
+  "compileMessage": "Attempting to compile encrypt.c",
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "29_outname",
+  "notes": "observed: re/original-grade-txt/28_fix_vg_encr.grade.txt reads `Attempting to compile encrypt.c`, then six testcase blocks; testcase1 prints `your output was correct` (lowercase, the only case whose output was compared) and testcases 2-6 print no success line before `  - Valgrind was clean (no errors, no memory leaks)` and `valgrind was clean`; `Overall Grade: A`. observed: 28_fix_vg_encr/valgrind_log.txt is the valgrind record of the code AS SHIPPED, `Command: ./encrypt 7 input.txt`, and it reports exactly two defects, both leaks - `14 bytes in 1 blocks are definitely lost ... by 0x1094ED: main (encrypt.c:43)` (the outFileName buffer; 14 = strlen(\"input.txt\") + 4 + 1) and `120 bytes in 1 blocks are definitely lost ... by getdelim ... by encrypt (encrypt.c:9)` (the getline buffer) - `ERROR SUMMARY: 2 errors from 2 contexts`. observed: the README says the shipped program 'makes a variety of errors---all of which valgrind will detect' and that the student must make it 'valgrind cleanly'; the Makefile's CFLAGS are `-ggdb3 -Wall -Werror -std=gnu99 -pedantic` and its target is `encrypt`; the only input fixture is input.txt. recovered: the starting file reconstructed in templates/28_fix_vg_encr/encrypt.c is the committed 28_fix_vg_encr/encrypt.c with the two frees removed (`free(line)` at the end of encrypt() and `free(outFileName)` at the end of main); the reconstruction is validated by three independent line numbers from the log - getline at encrypt.c:9, the outFileName malloc at encrypt.c:43 and the encrypt() call at encrypt.c:47 - which line up only when the earlier `free(line)` is absent, and by both leak sizes. inferred: the original's six inputs are not recorded - only the `7 input.txt` command is (from the valgrind log) - so all six configured cases use that one documented command, which also matches the observed shape (six cases, output compared only in the first). platform substitution: valgrind does not exist on macOS/arm64 and cannot be installed. `memory_check` builds twice - AddressSanitizer for out-of-bounds/use-after-free/double-free, and a plain build under Apple's `leaks --atExit --` for leaked allocations - and the original valgrind wording is kept so the reports stay comparable. Verified behaviour of that substitute on this assignment: the unfixed file reports `1 leak for 32 total leaked bytes` and fails, while the fixed reference reports `0 leaks for 0 total leaked bytes` and passes, so the getline-buffer leak (the first error valgrind reports, and the one the README tells the student to start from) IS caught. It is NOT a complete valgrind: measured on this machine, a file that frees the getline buffer but still leaks the 14-byte outFileName buffer reports 0 leaks and would pass (Apple's `leaks` appears to treat a pointer still present on the exiting stack as reachable), and no engine here reports uninitialised reads. Read `no memory leaks` in that report line with this caveat. Template exclusions: input.txt.enc (the program's own output), valgrind_log.txt (the student's valgrind evidence, which names the answer), the committed `encrypt` binary and the vgcore.* dumps are not part of the starting template. observed: testcase1 prints `your output was correct`, but testcases 2-6 print NO success line between `testcaseN:` and the valgrind verdict; `\"message\": \"\"` suppresses the line so the report matches.",
+  "tests": [
+    {
+      "args": [
+        "7",
+        "input.txt"
+      ],
+      "label": "testcase1",
+      "expected": "",
+      "message": "your output was correct"
+    },
+    {
+      "args": [
+        "7",
+        "input.txt"
+      ],
+      "label": "testcase2",
+      "expected": "",
+      "message": ""
+    },
+    {
+      "args": [
+        "7",
+        "input.txt"
+      ],
+      "label": "testcase3",
+      "expected": "",
+      "message": ""
+    },
+    {
+      "args": [
+        "7",
+        "input.txt"
+      ],
+      "label": "testcase4",
+      "expected": "",
+      "message": ""
+    },
+    {
+      "args": [
+        "7",
+        "input.txt"
+      ],
+      "label": "testcase5",
+      "expected": "",
+      "message": ""
+    },
+    {
+      "args": [
+        "7",
+        "input.txt"
+      ],
+      "label": "testcase6",
+      "expected": "",
+      "message": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "21_read_rec1",
+  "title": "Predict what the recursive printDigits program test.c prints",
+  "type": "predict_output",
+  "program": "test.c",
+  "file": "answer.txt",
+  "expectedFile": "expected/21_read_rec1/stdout.txt",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "22_tests_power",
+  "notes": "observed -- re/original-grade-txt/21_read_rec1.grade.txt contains no compile step whatsoever: after the timestamp it goes straight to `Your file matched the expected output`, `Your output matched what we expected`, `Overall Grade: A`. Its README names no Makefile either (`Execute the code in test.c (by hand) ... Check your work, and submit as usual`), so nothing is echoed and no `build.make`/`header`/`compileMessage`/`showCompileCommands` is configured; the strategy compiles test.c directly with its default flags (-std=gnu99 -pedantic -Wall -O3, the same set the sibling Makefiles use) and runs it once. 21_read_rec1/answer.txt (32 bytes) is the passing submission; configs/expected/21_read_rec1/stdout.txt was generated from test.c with tools/re/gen_expected.py and VERIFIED byte-for-byte against it. inferred -- the direct compile flags are not visible in the artifact (nothing is echoed), so they are taken from the strategy default and the course's standard CFLAGS; `next` follows the numeric id order."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "c2prj2_testing",
+  "title": "Black-box test the broken poker hand evaluators (tests.txt)",
+  "type": "unsupported",
+  "next": "c3prj1_deck",
+  "notes": "unsupported -- the assignment is to write tests.txt (lines of 'hand; hand') that expose every broken evaluator, but the evaluators it must expose are gone. observed -- c2prj2_testing/README: 'We have provided you with test-eval, which reads a file containing lines with one pair of hands on each line and prints out the details of evaluating that hand', and 'we have written some broken implementations and placed them in /usr/local/l2p/poker/'; run_all.sh compares each /usr/local/l2p/poker/test-eval-* against /usr/local/l2p/poker/correct-test-eval while feeding it tests.txt; re/original-grade-txt/c2prj2_testing.grade.txt shows 23 identified programs (test-eval-0000 .. test-eval-0022), Overall Grade: PASSED. absent -- /usr/local/l2p/poker does not exist here and no copy or symlink of correct-test-eval or any test-eval-NNNN survived in the workspace. observed -- the one evaluator that IS present, c2prj2_testing/test-eval, is the teacher-provided reference binary and is a Linux x86-64 ELF executable, so it cannot be run on this machine either; the assignment directory contains no C source (README, run_all.sh, example.txt, tests.txt, test-eval), so test_identify has no harness to compile and no subject to link. This config therefore reports the failure honestly rather than inventing a pass.",
+  "successVerdict": "PASSED"
+}

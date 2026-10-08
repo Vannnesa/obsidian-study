@@ -1,0 +1,895 @@
+{
+ "path": "29_outname/outname_test.o",
+ "size": 73256,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "outname_test.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.24.5c1b97eef3c86b7a2549420f69f4f128",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.features.h.19.3042b63a76022a6d39c0cfc1936a7a01",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.19.a8ffc9250e5bdadaabc998d2b2f3d734",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.wordsize.h.4.baf119258a1e53d8dba67ceac44ab6bc",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.475.fb75d2e4416aa349344e6f45f683bf28",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stubs64.h.10.6ce4c34010988db072c080326a6b6319",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.37.d9274df4cc0172452960ad9644fa5579",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.181.c3f52a3b0f4c288bddb5dda1562858e2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.109.56eb9ae966b255288cc544f18746a7ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.typesizes.h.24.2c64f817c0dc4b6fb2a2c619d717be26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.time64.h.24.a8166ae916ec910dab0d8987098d42ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_FILE.h.19.0888ac70396abe1031c03d393554032f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.53.78a7f18f3bc87ded52f05aa6f6a64310",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio_lim.h.19.e4b00b560d878dcfbc6635b3406640c5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.141.d7a290e19ca077c9e4aa7c43ede17a73",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.31.87b3c285aeba93fe355ad19123070832",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.28.2cffa49d94c5d85f4538f55f7b59771d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.ac1e89356001c54fbeb8aaa0d15e8b3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitflags.h.25.41934de4af99038521c2782f418699b1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitstatus.h.28.93f167f49d64e2b9b99f98d1162a93bf",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.43.9fa4f727a2f1cb8d2450a574c9195553",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatn.h.20.80c7cf8a8dfad237004b28d051d5afda",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatncommon.h.34.7e1840d7dfb19e9bdb51aeb077d76637",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.71.2927e068ec678159b4f68ec2f089f7e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.23.882ecbf54662e1f16e101552381a65da",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.0adce5c8c1fd8096aaff50981b3d1f0f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.20.efabd1018df5d7b4052c27dc6bdd5ce5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endianness.h.2.2c6a211f7909f3af5e9e9cfa3b6b63c8",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.40.9e5d395adda2f4eb53ae69b69b664084",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.27.4c4f94262c4eaee2982fe00ed1b4f173",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.byteswap.h.24.5363c019348146aada5aeadf51456576",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.39.30a606dbd99b6c3df61c1f06dbdabd4e",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.28.eb2f3debdbcffd1442ebddaebc4fb6ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.__sigset_t.h.2.6b1ab6ff3d7b8fd9c0c42b0d80afbd80",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.44.887a4ff60aa97fcd9c1be017735e1675",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.186.489a4ed8f2d29cd358843490f54ddea5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.pthreadtypesarch.h.25.6063cba99664c916e22d3a912bcc348a",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_mutex.h.20.ed51f515172b9be99e450ba83eb5dd99",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_rwlock.h.21.0254880f2904e3833fb8ae683e0f0330",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.19.edefa922a76c1cbaaf1e416903ba2d1c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.29.156e12058824cc23d961c4d3b13031f6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 174,
+   "addr": 0,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "computeOutputFileName",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "printf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "input.txt"
+  },
+  {
+   "offset": 10,
+   "text": "anotherTestFileName.txt"
+  },
+  {
+   "offset": 34,
+   "text": "somethingelse"
+  },
+  {
+   "offset": 48,
+   "text": "'%s' => '%s'\n"
+  }
+ ],
+ "string_refs": {
+  "main": [
+   "input.txt",
+   "anotherTestFileName.txt",
+   "somethingelse",
+   "'%s' => '%s'\n"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 30,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 41,
+    "symbol": ".rodata",
+    "addend": 6,
+    "type": 2
+   },
+   {
+    "offset": 52,
+    "symbol": ".rodata",
+    "addend": 30,
+    "type": 2
+   },
+   {
+    "offset": 83,
+    "symbol": "computeOutputFileName",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 111,
+    "symbol": ".rodata",
+    "addend": 44,
+    "type": 2
+   },
+   {
+    "offset": 121,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 133,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 168,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [
+   {
+    "name": "outname_test.c",
+    "comp_dir": "/home/student/learn2prog/29_outname",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "main",
+      "decl_file": 1,
+      "decl_line": 7,
+      "type": 105,
+      "params": [],
+      "locals": [
+       {
+        "name": "testNames",
+        "type": 870,
+        "decl_line": 8
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 661
+     },
+     {
+      "name": "stdout",
+      "type": 661
+     },
+     {
+      "name": "stderr",
+      "type": 661
+     },
+     {
+      "name": "sys_nerr",
+      "type": 105
+     },
+     {
+      "name": "sys_errlist",
+      "type": 714
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 61
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 112
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 112
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 577,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 119,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 84,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 91,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 589,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 605,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 131,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "_codecvt",
+      "type": 616,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "_wide_data",
+      "type": 627,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "_freeres_list",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "_freeres_buf",
+      "type": 75,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 633,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "FILE",
+    "type": 161
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_codecvt",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_wide_data",
+    "byte_size": null,
+    "members": []
+   }
+  ],
+  "lines": {
+   "outname_test.c": {
+    "files": [
+     "outname_test.c",
+     "stddef.h",
+     "types.h",
+     "struct_FILE.h",
+     "FILE.h",
+     "stdio.h",
+     "sys_errlist.h",
+     "stdc-predef.h",
+     "outname.h",
+     "libc-header-start.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "long-double.h",
+     "stubs.h",
+     "stubs-64.h",
+     "stdarg.h",
+     "timesize.h",
+     "typesizes.h",
+     "time64.h",
+     "__fpos_t.h",
+     "__mbstate_t.h",
+     "__fpos64_t.h",
+     "__FILE.h",
+     "stdio_lim.h",
+     "stdlib.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "floatn.h",
+     "floatn-common.h",
+     "types.h",
+     "clock_t.h",
+     "clockid_t.h",
+     "time_t.h",
+     "timer_t.h",
+     "stdint-intn.h",
+     "endian.h",
+     "endian.h",
+     "endianness.h",
+     "byteswap.h",
+     "uintn-identity.h",
+     "select.h",
+     "select.h",
+     "sigset_t.h",
+     "__sigset_t.h",
+     "struct_timeval.h",
+     "struct_timespec.h",
+     "pthreadtypes.h",
+     "thread-shared-types.h",
+     "pthreadtypes-arch.h",
+     "struct_mutex.h",
+     "struct_rwlock.h",
+     "alloca.h",
+     "stdlib-float.h"
+    ],
+    "rows": [
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 12
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 27
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 60
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 67
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 69
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 79
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 91
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 125
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 137
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 141
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 147
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 152
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 174
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/29_outname/outname_test.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <main>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tsubq\t$0x30, %rsp\n       c:      \tmovq\t%fs:0x28, %rax\n      15:      \tmovq\t%rax, -0x8(%rbp)\n      19:      \txorl\t%eax, %eax\n      1b:      \tleaq\t(%rip), %rax            # 0x22 <main+0x22>\n;   .rodata -> \"input.txt\"\n      22:      \tmovq\t%rax, -0x20(%rbp)\n      26:      \tleaq\t(%rip), %rax            # 0x2d <main+0x2d>\n;   .rodata -> \"anotherTestFileName.txt\"\n      2d:      \tmovq\t%rax, -0x18(%rbp)\n      31:      \tleaq\t(%rip), %rax            # 0x38 <main+0x38>\n;   .rodata -> \"somethingelse\"\n      38:      \tmovq\t%rax, -0x10(%rbp)\n      3c:      \tmovl\t$0x0, -0x2c(%rbp)\n      43:      \tjmp\t0x8d <main+0x8d>\n      45:      \tmovl\t-0x2c(%rbp), %eax\n      48:      \tcltq\n      4a:      \tmovq\t-0x20(%rbp,%rax,8), %rax\n      4f:      \tmovq\t%rax, %rdi\n      52:      \tcallq\t0x57 <main+0x57>\n;   computeOutputFileName+-4\n      57:      \tmovq\t%rax, -0x28(%rbp)\n      5b:      \tmovl\t-0x2c(%rbp), %eax\n      5e:      \tcltq\n      60:      \tmovq\t-0x20(%rbp,%rax,8), %rax\n      65:      \tmovq\t-0x28(%rbp), %rdx\n      69:      \tmovq\t%rax, %rsi\n      6c:      \tleaq\t(%rip), %rdi            # 0x73 <main+0x73>\n;   .rodata -> \"'%s' => '%s'\\n\"\n      73:      \tmovl\t$0x0, %eax\n      78:      \tcallq\t0x7d <main+0x7d>\n;   printf+-4\n      7d:      \tmovq\t-0x28(%rbp), %rax\n      81:      \tmovq\t%rax, %rdi\n      84:      \tcallq\t0x89 <main+0x89>\n;   free+-4\n      89:      \taddl\t$0x1, -0x2c(%rbp)\n      8d:      \tcmpl\t$0x2, -0x2c(%rbp)\n      91:      \tjle\t0x45 <main+0x45>\n      93:      \tmovl\t$0x0, %eax\n      98:      \tmovq\t-0x8(%rbp), %rcx\n      9c:      \txorq\t%fs:0x28, %rcx\n      a5:      \tje\t0xac <main+0xac>\n      a7:      \tcallq\t0xac <main+0xac>\n;   __stack_chk_fail+-4\n      ac:      \tleave\n      ad:      \tretq"
+}

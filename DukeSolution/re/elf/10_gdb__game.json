@@ -1,0 +1,862 @@
+{
+ "path": "10_gdb/game",
+ "size": 39117,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_EXEC",
+ "comment": "GCC: (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4",
+ "defined_symbols": [
+  {
+   "name": "crtstuff.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__JCR_LIST__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295072,
+   "section": ".jcr"
+  },
+  {
+   "name": "deregister_tm_clones",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4195904,
+   "section": ".text"
+  },
+  {
+   "name": "register_tm_clones",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4195952,
+   "section": ".text"
+  },
+  {
+   "name": "__do_global_dtors_aux",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4196016,
+   "section": ".text"
+  },
+  {
+   "name": "completed.6973",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 1,
+   "addr": 6295664,
+   "section": ".bss"
+  },
+  {
+   "name": "__do_global_dtors_aux_fini_array_entry",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295064,
+   "section": ".fini_array"
+  },
+  {
+   "name": "frame_dummy",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4196048,
+   "section": ".text"
+  },
+  {
+   "name": "__frame_dummy_init_array_entry",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295056,
+   "section": ".init_array"
+  },
+  {
+   "name": "game.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "secret.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "crtstuff.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__FRAME_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 4197336,
+   "section": ".eh_frame"
+  },
+  {
+   "name": "__JCR_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295072,
+   "section": ".jcr"
+  },
+  {
+   "name": "__init_array_end",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295064,
+   "section": ".init_array"
+  },
+  {
+   "name": "_DYNAMIC",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295080,
+   "section": ".dynamic"
+  },
+  {
+   "name": "__init_array_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295056,
+   "section": ".init_array"
+  },
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 6295552,
+   "section": ".got.plt"
+  },
+  {
+   "name": "__libc_csu_fini",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 2,
+   "addr": 4196656,
+   "section": ".text"
+  },
+  {
+   "name": "data_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_WEAK",
+   "size": 0,
+   "addr": 6295640,
+   "section": ".data"
+  },
+  {
+   "name": "stdin@@GLIBC_2.2.5",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 8,
+   "addr": 6295656,
+   "section": ".bss"
+  },
+  {
+   "name": "_edata",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295656,
+   "section": ".data"
+  },
+  {
+   "name": "_fini",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 4196660,
+   "section": ".fini"
+  },
+  {
+   "name": "getOtherSN",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 22,
+   "addr": 4196512,
+   "section": ".text"
+  },
+  {
+   "name": "__data_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295640,
+   "section": ".data"
+  },
+  {
+   "name": "__dso_handle",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295648,
+   "section": ".data"
+  },
+  {
+   "name": "_IO_stdin_used",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 4,
+   "addr": 4196672,
+   "section": ".rodata"
+  },
+  {
+   "name": "__libc_csu_init",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 101,
+   "addr": 4196544,
+   "section": ".text"
+  },
+  {
+   "name": "_end",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295672,
+   "section": ".bss"
+  },
+  {
+   "name": "_start",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 4195856,
+   "section": ".text"
+  },
+  {
+   "name": "getSecretNumber",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 6,
+   "addr": 4196496,
+   "section": ".text"
+  },
+  {
+   "name": "__bss_start",
+   "type": "STT_NOTYPE",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295656,
+   "section": ".bss"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 402,
+   "addr": 4196093,
+   "section": ".text"
+  },
+  {
+   "name": "__TMC_END__",
+   "type": "STT_OBJECT",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 6295656,
+   "section": ".data"
+  },
+  {
+   "name": "_init",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 0,
+   "addr": 4195680,
+   "section": ".init"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_ITM_deregisterTMCloneTable",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "puts@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__stack_chk_fail@@GLIBC_2.4",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__libc_start_main@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "srand@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "fgets@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "__gmon_start__",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "random@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "_Jv_RegisterClasses",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "atoi@@GLIBC_2.2.5",
+   "type": "STT_FUNC"
+  },
+  {
+   "name": "_ITM_registerTMCloneTable",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 8,
+   "text": "I'm thinking of a number..."
+  },
+  {
+   "offset": 36,
+   "text": "What number do you guess?"
+  },
+  {
+   "offset": 64,
+   "text": "Oh no, you are giving up?  You lose..."
+  },
+  {
+   "offset": 104,
+   "text": "I'm sorry, that is not right.  You lose"
+  },
+  {
+   "offset": 144,
+   "text": "Correct! You win round1!"
+  },
+  {
+   "offset": 176,
+   "text": "Ok, time for round 2. I have another secret number."
+  },
+  {
+   "offset": 228,
+   "text": "Your guess:"
+  },
+  {
+   "offset": 240,
+   "text": "You win round 2 also!"
+  },
+  {
+   "offset": 264,
+   "text": "Sorry, you did not win the second round"
+  }
+ ],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [
+   {
+    "name": "game.c",
+    "comp_dir": "/home/drew/assignments/23_debugging",
+    "producer": "GNU C 4.8.4 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fstack-protector",
+    "language": 1,
+    "functions": [
+     {
+      "name": "main",
+      "decl_file": 1,
+      "decl_line": 8,
+      "type": 102,
+      "params": [],
+      "locals": [
+       {
+        "name": "guessesMade",
+        "type": 102,
+        "decl_line": 9
+       },
+       {
+        "name": "yourGuess",
+        "type": 102,
+        "decl_line": 10
+       },
+       {
+        "name": "buffer",
+        "type": 804,
+        "decl_line": 11
+       },
+       {
+        "name": "myNumber",
+        "type": 102,
+        "decl_line": 12
+       },
+       {
+        "name": "total",
+        "type": 102,
+        "decl_line": 27
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 606
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 60
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 109
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 109
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 102,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 147,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 600,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 606,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 102,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 102,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 116,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 74,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 88,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 612,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 628,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 127,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "__pad1",
+      "type": 145,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "__pad2",
+      "type": 145,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "__pad3",
+      "type": 145,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "__pad4",
+      "type": 145,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 102,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 634,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": 24,
+    "members": [
+     {
+      "name": "_next",
+      "type": 600,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_sbuf",
+      "type": 606,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_pos",
+      "type": 102,
+      "byte_size": null,
+      "data_member_location": 16
+     }
+    ]
+   }
+  ],
+  "lines": {
+   "game.c": {
+    "files": [
+     "game.c",
+     "stddef.h",
+     "types.h",
+     "libio.h",
+     "stdio.h",
+     "stdc-predef.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "stubs.h",
+     "stubs-64.h",
+     "typesizes.h",
+     "_G_config.h",
+     "wchar.h",
+     "stdarg.h",
+     "stdio_lim.h",
+     "sys_errlist.h",
+     "stdlib.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "endian.h",
+     "endian.h",
+     "byteswap.h",
+     "byteswap-16.h",
+     "types.h",
+     "time.h",
+     "select.h",
+     "select.h",
+     "sigset.h",
+     "time.h",
+     "sysmacros.h",
+     "pthreadtypes.h",
+     "alloca.h",
+     "stdlib-float.h",
+     "time.h"
+    ],
+    "rows": [
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 4196093
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 4196104
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 4196119
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 4196129
+     },
+     {
+      "line": 14,
+      "file": 1,
+      "addr": 4196140
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 4196150
+     },
+     {
+      "line": 16,
+      "file": 1,
+      "addr": 4196160
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 4196192
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 4196202
+     },
+     {
+      "line": 20,
+      "file": 1,
+      "addr": 4196212
+     },
+     {
+      "line": 21,
+      "file": 1,
+      "addr": 4196233
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 4196247
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 4196257
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 4196267
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 4196277
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 4196287
+     },
+     {
+      "line": 29,
+      "file": 1,
+      "addr": 4196299
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 4196318
+     },
+     {
+      "line": 28,
+      "file": 1,
+      "addr": 4196325
+     },
+     {
+      "line": 31,
+      "file": 1,
+      "addr": 4196337
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 4196347
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 4196357
+     },
+     {
+      "line": 34,
+      "file": 1,
+      "addr": 4196389
+     },
+     {
+      "line": 35,
+      "file": 1,
+      "addr": 4196399
+     },
+     {
+      "line": 37,
+      "file": 1,
+      "addr": 4196406
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 4196427
+     },
+     {
+      "line": 39,
+      "file": 1,
+      "addr": 4196441
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 4196451
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 4196458
+     },
+     {
+      "line": 43,
+      "file": 1,
+      "addr": 4196468
+     },
+     {
+      "line": 44,
+      "file": 1,
+      "addr": 4196473
+     },
+     {
+      "line": 44,
+      "file": 1,
+      "addr": 4196495
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/10_gdb/game:\tfile format elf64-x86-64\n\nDisassembly of section .init:\n\n0000000000400560 <_init>:\n  400560:      \tsubq\t$0x8, %rsp\n  400564:      \tmovq\t0x200a8d(%rip), %rax    # 0x600ff8 <srand@@GLIBC_2.2.5+0x600ff8>\n  40056b:      \ttestq\t%rax, %rax\n  40056e:      \tje\t0x400575 <_init+0x15>\n  400570:      \tcallq\t0x4005e0 <__gmon_start__@plt>\n  400575:      \taddq\t$0x8, %rsp\n  400579:      \tretq\n\nDisassembly of section .plt:\n\n0000000000400580 <.plt>:\n  400580:      \tpushq\t0x200a82(%rip)          # 0x601008 <_GLOBAL_OFFSET_TABLE_+0x8>\n  400586:      \tjmpq\t*0x200a84(%rip)         # 0x601010 <_GLOBAL_OFFSET_TABLE_+0x10>\n  40058c:      \tnopl\t(%rax)\n\n0000000000400590 <puts@plt>:\n  400590:      \tjmpq\t*0x200a82(%rip)         # 0x601018 <_GLOBAL_OFFSET_TABLE_+0x18>\n  400596:      \tpushq\t$0x0\n  40059b:      \tjmp\t0x400580 <.plt>\n\n00000000004005a0 <__stack_chk_fail@plt>:\n  4005a0:      \tjmpq\t*0x200a7a(%rip)         # 0x601020 <_GLOBAL_OFFSET_TABLE_+0x20>\n  4005a6:      \tpushq\t$0x1\n  4005ab:      \tjmp\t0x400580 <.plt>\n\n00000000004005b0 <__libc_start_main@plt>:\n  4005b0:      \tjmpq\t*0x200a72(%rip)         # 0x601028 <_GLOBAL_OFFSET_TABLE_+0x28>\n  4005b6:      \tpushq\t$0x2\n  4005bb:      \tjmp\t0x400580 <.plt>\n\n00000000004005c0 <srand@plt>:\n  4005c0:      \tjmpq\t*0x200a6a(%rip)         # 0x601030 <_GLOBAL_OFFSET_TABLE_+0x30>\n  4005c6:      \tpushq\t$0x3\n  4005cb:      \tjmp\t0x400580 <.plt>\n\n00000000004005d0 <fgets@plt>:\n  4005d0:      \tjmpq\t*0x200a62(%rip)         # 0x601038 <_GLOBAL_OFFSET_TABLE_+0x38>\n  4005d6:      \tpushq\t$0x4\n  4005db:      \tjmp\t0x400580 <.plt>\n\n00000000004005e0 <__gmon_start__@plt>:\n  4005e0:      \tjmpq\t*0x200a5a(%rip)         # 0x601040 <_GLOBAL_OFFSET_TABLE_+0x40>\n  4005e6:      \tpushq\t$0x5\n  4005eb:      \tjmp\t0x400580 <.plt>\n\n00000000004005f0 <random@plt>:\n  4005f0:      \tjmpq\t*0x200a52(%rip)         # 0x601048 <_GLOBAL_OFFSET_TABLE_+0x48>\n  4005f6:      \tpushq\t$0x6\n  4005fb:      \tjmp\t0x400580 <.plt>\n\n0000000000400600 <atoi@plt>:\n  400600:      \tjmpq\t*0x200a4a(%rip)         # 0x601050 <_GLOBAL_OFFSET_TABLE_+0x50>\n  400606:      \tpushq\t$0x7\n  40060b:      \tjmp\t0x400580 <.plt>\n\nDisassembly of section .text:\n\n0000000000400610 <_start>:\n  400610:      \txorl\t%ebp, %ebp\n  400612:      \tmovq\t%rdx, %r9\n  400615:      \tpopq\t%rsi\n  400616:      \tmovq\t%rsp, %rdx\n  400619:      \tandq\t$-0x10, %rsp\n  40061d:      \tpushq\t%rax\n  40061e:      \tpushq\t%rsp\n  40061f:      \tmovq\t$0x400930, %r8          # imm = 0x400930\n  400626:      \tmovq\t$0x4008c0, %rcx         # imm = 0x4008C0\n  40062d:      \tmovq\t$0x4006fd, %rdi         # imm = 0x4006FD\n  400634:      \tcallq\t0x4005b0 <__libc_start_main@plt>\n  400639:      \thlt\n  40063a:      \tnopw\t(%rax,%rax)\n\n0000000000400640 <deregister_tm_clones>:\n  400640:      \tmovl\t$0x60106f, %eax         # imm = 0x60106F\n  400645:      \tpushq\t%rbp\n  400646:      \tsubq\t$0x601068, %rax         # imm = 0x601068\n  40064c:      \tcmpq\t$0xe, %rax\n  400650:      \tmovq\t%rsp, %rbp\n  400653:      \tja\t0x400657 <deregister_tm_clones+0x17>\n  400655:      \tpopq\t%rbp\n  400656:      \tretq\n  400657:      \tmovl\t$0x0, %eax\n  40065c:      \ttestq\t%rax, %rax\n  40065f:      \tje\t0x400655 <deregister_tm_clones+0x15>\n  400661:      \tpopq\t%rbp\n  400662:      \tmovl\t$0x601068, %edi         # imm = 0x601068\n  400667:      \tjmpq\t*%rax\n  400669:      \tnopl\t(%rax)\n\n0000000000400670 <register_tm_clones>:\n  400670:      \tmovl\t$0x601068, %eax         # imm = 0x601068\n  400675:      \tpushq\t%rbp\n  400676:      \tsubq\t$0x601068, %rax         # imm = 0x601068\n  40067c:      \tsarq\t$0x3, %rax\n  400680:      \tmovq\t%rsp, %rbp\n  400683:      \tmovq\t%rax, %rdx\n  400686:      \tshrq\t$0x3f, %rdx\n  40068a:      \taddq\t%rdx, %rax\n  40068d:      \tsarq\t%rax\n  400690:      \tjne\t0x400694 <register_tm_clones+0x24>\n  400692:      \tpopq\t%rbp\n  400693:      \tretq\n  400694:      \tmovl\t$0x0, %edx\n  400699:      \ttestq\t%rdx, %rdx\n  40069c:      \tje\t0x400692 <register_tm_clones+0x22>\n  40069e:      \tpopq\t%rbp\n  40069f:      \tmovq\t%rax, %rsi\n  4006a2:      \tmovl\t$0x601068, %edi         # imm = 0x601068\n  4006a7:      \tjmpq\t*%rdx\n  4006a9:      \tnopl\t(%rax)\n\n00000000004006b0 <__do_global_dtors_aux>:\n  4006b0:      \tcmpb\t$0x0, 0x2009b9(%rip)    # 0x601070 <completed.6973>\n  4006b7:      \tjne\t0x4006ca <__do_global_dtors_aux+0x1a>\n  4006b9:      \tpushq\t%rbp\n  4006ba:      \tmovq\t%rsp, %rbp\n  4006bd:      \tcallq\t0x400640 <deregister_tm_clones>\n  4006c2:      \tpopq\t%rbp\n  4006c3:      \tmovb\t$0x1, 0x2009a6(%rip)    # 0x601070 <completed.6973>\n  4006ca:      \trep\t\tretq\n  4006cc:      \tnopl\t(%rax)\n\n00000000004006d0 <frame_dummy>:\n  4006d0:      \tcmpq\t$0x0, 0x200748(%rip)    # 0x600e20 <__JCR_LIST__>\n  4006d8:      \tje\t0x4006f8 <frame_dummy+0x28>\n  4006da:      \tmovl\t$0x0, %eax\n  4006df:      \ttestq\t%rax, %rax\n  4006e2:      \tje\t0x4006f8 <frame_dummy+0x28>\n  4006e4:      \tpushq\t%rbp\n  4006e5:      \tmovl\t$0x600e20, %edi         # imm = 0x600E20\n  4006ea:      \tmovq\t%rsp, %rbp\n  4006ed:      \tcallq\t*%rax\n  4006ef:      \tpopq\t%rbp\n  4006f0:      \tjmp\t0x400670 <register_tm_clones>\n  4006f5:      \tnopl\t(%rax)\n  4006f8:      \tjmp\t0x400670 <register_tm_clones>\n\n00000000004006fd <main>:\n  4006fd:      \tpushq\t%rbp\n  4006fe:      \tmovq\t%rsp, %rbp\n  400701:      \tsubq\t$0x430, %rsp            # imm = 0x430\n  400708:      \tmovq\t%fs:0x28, %rax\n  400711:      \tmovq\t%rax, -0x8(%rbp)\n  400715:      \txorl\t%eax, %eax\n  400717:      \tmovl\t$0x0, -0x41c(%rbp)\n  400721:      \tcallq\t0x400890 <getSecretNumber>\n  400726:      \tmovl\t%eax, -0x418(%rbp)\n  40072c:      \tmovl\t$0x400948, %edi         # imm = 0x400948\n  400731:      \tcallq\t0x400590 <puts@plt>\n  400736:      \tmovl\t$0x400964, %edi         # imm = 0x400964\n  40073b:      \tcallq\t0x400590 <puts@plt>\n  400740:      \tmovq\t0x200921(%rip), %rdx    # 0x601068 <stdin@@GLIBC_2.2.5>\n  400747:      \tleaq\t-0x410(%rbp), %rax\n  40074e:      \tmovl\t$0x400, %esi            # imm = 0x400\n  400753:      \tmovq\t%rax, %rdi\n  400756:      \tcallq\t0x4005d0 <fgets@plt>\n  40075b:      \ttestq\t%rax, %rax\n  40075e:      \tjne\t0x400774 <main+0x77>\n  400760:      \tmovl\t$0x400980, %edi         # imm = 0x400980\n  400765:      \tcallq\t0x400590 <puts@plt>\n  40076a:      \tmovl\t$0x1, %eax\n  40076f:      \tjmp\t0x400879 <main+0x17c>\n  400774:      \tleaq\t-0x410(%rbp), %rax\n  40077b:      \tmovq\t%rax, %rdi\n  40077e:      \tcallq\t0x400600 <atoi@plt>\n  400783:      \tmovl\t%eax, -0x414(%rbp)\n  400789:      \tmovl\t-0x414(%rbp), %eax\n  40078f:      \tcmpl\t-0x418(%rbp), %eax\n  400795:      \tje\t0x4007ab <main+0xae>\n  400797:      \tmovl\t$0x4009a8, %edi         # imm = 0x4009A8\n  40079c:      \tcallq\t0x400590 <puts@plt>\n  4007a1:      \tmovl\t$0x1, %eax\n  4007a6:      \tjmp\t0x400879 <main+0x17c>\n  4007ab:      \tmovl\t$0x4009d0, %edi         # imm = 0x4009D0\n  4007b0:      \tcallq\t0x400590 <puts@plt>\n  4007b5:      \tmovl\t$0x0, -0x424(%rbp)\n  4007bf:      \tmovl\t$0x0, -0x420(%rbp)\n  4007c9:      \tjmp\t0x4007e5 <main+0xe8>\n  4007cb:      \tmovl\t-0x420(%rbp), %eax\n  4007d1:      \tmovl\t%eax, %edi\n  4007d3:      \tcallq\t0x4008a0 <getOtherSN>\n  4007d8:      \txorl\t%eax, -0x424(%rbp)\n  4007de:      \taddl\t$0x1, -0x420(%rbp)\n  4007e5:      \tcmpl\t$0x162e, -0x420(%rbp)   # imm = 0x162E\n  4007ef:      \tjle\t0x4007cb <main+0xce>\n  4007f1:      \tmovl\t$0x4009f0, %edi         # imm = 0x4009F0\n  4007f6:      \tcallq\t0x400590 <puts@plt>\n  4007fb:      \tmovl\t$0x400a24, %edi         # imm = 0x400A24\n  400800:      \tcallq\t0x400590 <puts@plt>\n  400805:      \tmovq\t0x20085c(%rip), %rdx    # 0x601068 <stdin@@GLIBC_2.2.5>\n  40080c:      \tleaq\t-0x410(%rbp), %rax\n  400813:      \tmovl\t$0x400, %esi            # imm = 0x400\n  400818:      \tmovq\t%rax, %rdi\n  40081b:      \tcallq\t0x4005d0 <fgets@plt>\n  400820:      \ttestq\t%rax, %rax\n  400823:      \tjne\t0x400836 <main+0x139>\n  400825:      \tmovl\t$0x400980, %edi         # imm = 0x400980\n  40082a:      \tcallq\t0x400590 <puts@plt>\n  40082f:      \tmovl\t$0x1, %eax\n  400834:      \tjmp\t0x400879 <main+0x17c>\n  400836:      \tleaq\t-0x410(%rbp), %rax\n  40083d:      \tmovq\t%rax, %rdi\n  400840:      \tcallq\t0x400600 <atoi@plt>\n  400845:      \tmovl\t%eax, -0x414(%rbp)\n  40084b:      \tmovl\t-0x414(%rbp), %eax\n  400851:      \tcmpl\t-0x424(%rbp), %eax\n  400857:      \tjne\t0x40086a <main+0x16d>\n  400859:      \tmovl\t$0x400a30, %edi         # imm = 0x400A30\n  40085e:      \tcallq\t0x400590 <puts@plt>\n  400863:      \tmovl\t$0x0, %eax\n  400868:      \tjmp\t0x400879 <main+0x17c>\n  40086a:      \tmovl\t$0x400a48, %edi         # imm = 0x400A48\n  40086f:      \tcallq\t0x400590 <puts@plt>\n  400874:      \tmovl\t$0x1, %eax\n  400879:      \tmovq\t-0x8(%rbp), %rcx\n  40087d:      \txorq\t%fs:0x28, %rcx\n  400886:      \tje\t0x40088d <main+0x190>\n  400888:      \tcallq\t0x4005a0 <__stack_chk_fail@plt>\n  40088d:      \tleave\n  40088e:      \tretq\n  40088f:      \tnop\n\n0000000000400890 <getSecretNumber>:\n  400890:      \tmovl\t$0x1badf00d, %eax       # imm = 0x1BADF00D\n  400895:      \tretq\n  400896:      \tnopw\t%cs:(%rax,%rax)\n\n00000000004008a0 <getOtherSN>:\n  4008a0:      \tsubq\t$0x8, %rsp\n  4008a4:      \txorl\t%eax, %eax\n  4008a6:      \tcallq\t0x4005c0 <srand@plt>\n  4008ab:      \txorl\t%eax, %eax\n  4008ad:      \taddq\t$0x8, %rsp\n  4008b1:      \tjmp\t0x4005f0 <random@plt>\n  4008b6:      \tnopw\t%cs:(%rax,%rax)\n\n00000000004008c0 <__libc_csu_init>:\n  4008c0:      \tpushq\t%r15\n  4008c2:      \tmovl\t%edi, %r15d\n  4008c5:      \tpushq\t%r14\n  4008c7:      \tmovq\t%rsi, %r14\n  4008ca:      \tpushq\t%r13\n  4008cc:      \tmovq\t%rdx, %r13\n  4008cf:      \tpushq\t%r12\n  4008d1:      \tleaq\t0x200538(%rip), %r12    # 0x600e10 <__init_array_start>\n  4008d8:      \tpushq\t%rbp\n  4008d9:      \tleaq\t0x200538(%rip), %rbp    # 0x600e18 <__do_global_dtors_aux_fini_array_entry>\n  4008e0:      \tpushq\t%rbx\n  4008e1:      \tsubq\t%r12, %rbp\n  4008e4:      \txorl\t%ebx, %ebx\n  4008e6:      \tsarq\t$0x3, %rbp\n  4008ea:      \tsubq\t$0x8, %rsp\n  4008ee:      \tcallq\t0x400560 <_init>\n  4008f3:      \ttestq\t%rbp, %rbp\n  4008f6:      \tje\t0x400916 <__libc_csu_init+0x56>\n  4008f8:      \tnopl\t(%rax,%rax)\n  400900:      \tmovq\t%r13, %rdx\n  400903:      \tmovq\t%r14, %rsi\n  400906:      \tmovl\t%r15d, %edi\n  400909:      \tcallq\t*(%r12,%rbx,8)\n  40090d:      \taddq\t$0x1, %rbx\n  400911:      \tcmpq\t%rbp, %rbx\n  400914:      \tjne\t0x400900 <__libc_csu_init+0x40>\n  400916:      \taddq\t$0x8, %rsp\n  40091a:      \tpopq\t%rbx\n  40091b:      \tpopq\t%rbp\n  40091c:      \tpopq\t%r12\n  40091e:      \tpopq\t%r13\n  400920:      \tpopq\t%r14\n  400922:      \tpopq\t%r15\n  400924:      \tretq\n  400925:      \tnopw\t%cs:(%rax,%rax)\n\n0000000000400930 <__libc_csu_fini>:\n  400930:      \trep\t\tretq\n\nDisassembly of section .fini:\n\n0000000000400934 <_fini>:\n  400934:      \tsubq\t$0x8, %rsp\n  400938:      \taddq\t$0x8, %rsp\n  40093c:      \tretq"
+}

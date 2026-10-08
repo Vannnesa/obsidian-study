@@ -1,0 +1,74 @@
+{
+  "id": "18_reverse_str",
+  "title": "void reverse(char * str) -- reverse a string in place, including the NULL argument",
+  "type": "compile_and_run",
+  "source": "reverse.c",
+  "build": {
+    "driver": "drivers/18_reverse_str/reverse_test.c",
+    "sources": [],
+    "output": "reverse",
+    "flags": [
+      "-pedantic",
+      "-std=gnu99",
+      "-Wall",
+      "-Werror"
+    ]
+  },
+  "compileMessage": "Attempting to compile  reverse.c",
+  "selfTest": {
+    "expectedFile": "expected/18_reverse_str/main.txt",
+    "successMessage": "Your file matched the expected output\nYour output matched what we expected",
+    "replaceMessage": "Removing your main() and replacing it with our own to run more tests..."
+  },
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "19_bits_arr",
+  "notes": "observed: re/original-grade-txt/18_reverse_str.grade.txt supplies every report line quoted here -- 'Attempting to compile  reverse.c' (two spaces), 'Your file matched the expected output', 'Your output matched what we expected', 'Removing your main() and replacing it with our own to run more tests...', the '#####...' separators, testcase2 whose output is the seven bytes 'nullptr' with NO trailing newline (testcase3's separator follows on the same line), testcase3/4/5 each printing 'Your file matched the expected output', and 'Overall Grade: A' (recorded as successVerdict). 18_reverse_str/README states the contract void reverse(char * str) (in place, void return); 18_reverse_str/reverse_ans.txt (byte-identical to 18_reverse_str/answer.txt) is the teacher's stored copy of the provided main's output, and gen_expected.py --verify main:18_reverse_str/reverse_ans.txt reported VERIFIED, so selfTest and case 'main' reproduce it byte for byte across all seven provided strings (empty, odd, even and the 91-character one). 18_reverse_str/Makefile supplies the flags used here. inferred: drivers/18_reverse_str/reverse_test.c -- no teacher object survives (re/elf/ has no 18_reverse_str entry and the directory holds no .o), so the driver body is reasoned from the artifacts above; case 'null' prints 'nullptr' after calling reverse(NULL) and is the only thing testcase2 can have checked; the strings used by the three remaining cases and the failure wording ('Your file did not match the expected output', mirroring src/strategies/file-compare.ts) are inferred, while the success wording is observed verbatim from grade.txt and is attributed to the driver because the grader had nothing else to compare for those cases. build.sources is empty and the driver #includes reverse.c with main renamed to providedMain -- the C equivalent of the original's 'removing your main()' -- so case 'main' still runs the provided main and the driver cases keep the original's testcase2..5 numbering. Differences from the original: the selfTest lines are printed before the '#####...' / 'testcase1:' block instead of inside it, case 'main' carries no message of its own so the tool prints its verdict word there ('testcase1 passed'), and 'nullptr' now ends its own line instead of running straight into the next separator; every observed line is still reproduced.",
+  "tests": [
+    {
+      "args": [
+        "main"
+      ],
+      "expectedFile": "expected/18_reverse_str/main.txt",
+      "expectedExit": 0,
+      "label": "the seven strings of the provided main"
+    },
+    {
+      "args": [
+        "null"
+      ],
+      "expectedFile": "expected/18_reverse_str/null.txt",
+      "expectedExit": 0,
+      "message": "nullptr",
+      "label": "reverse(NULL) prints nullptr"
+    },
+    {
+      "args": [
+        "empty"
+      ],
+      "expectedFile": "expected/18_reverse_str/empty.txt",
+      "expectedExit": 0,
+      "message": "Your file matched the expected output",
+      "label": "reverse(\"\")"
+    },
+    {
+      "args": [
+        "odd"
+      ],
+      "expectedFile": "expected/18_reverse_str/odd.txt",
+      "expectedExit": 0,
+      "message": "Your file matched the expected output",
+      "label": "reverse(\"123\") -- odd length"
+    },
+    {
+      "args": [
+        "long"
+      ],
+      "expectedFile": "expected/18_reverse_str/long.txt",
+      "expectedExit": 0,
+      "message": "Your file matched the expected output",
+      "label": "reverse of the 91-character provided string"
+    }
+  ]
+}

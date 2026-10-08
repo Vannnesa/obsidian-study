@@ -1,0 +1,61 @@
+{
+  "id": "16_subseq",
+  "title": "size_t maxSeq(int * array, size_t n) -- length of the longest contiguous increasing subsequence",
+  "type": "compile_and_run",
+  "source": "maxSeq.c",
+  "build": {
+    "driver": "drivers/16_subseq/maxSeq_test.c",
+    "sources": [],
+    "output": "maxSeq",
+    "flags": [
+      "-std=gnu99",
+      "-Wall"
+    ],
+    "separateCompile": true
+  },
+  "compileMessage": "Attempting to compile maxSeq.c ",
+  "header": "Linking your object file with our test main",
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "17_read_arr2",
+  "notes": "observed: re/original-grade-txt/16_subseq.grade.txt has exactly two build lines, 'Attempting to compile maxSeq.c ' (trailing space) and 'Linking your object file with our test main' (recorded here as compileMessage and header), then the '#####...' separators with 'array size:0/1/100/5000 was Correct' as testcase2..5, and 'Overall Grade: A' (recorded as successVerdict). There is no testcase1: maxSeq.c defines no main, so the original's 'run your own main' step was skipped and the remaining cases kept their inherited numbering -- this config therefore sets no selfTest. 16_subseq/README gives the contract size_t maxSeq(int * array, size_t n) with the one-element series defined to have length 1. inferred: drivers/16_subseq/maxSeq_test.c -- no teacher object survives (re/elf/16_subseq__maxSeq.o.{md,json} is the student's own maxSeq.c compiled by the course Makefile: defined symbol maxSeq, imported puts; 16_subseq/ holds no other object), so the driver is reasoned from the artifacts above; the array contents (small values, so runs are short and repeats are common), the seed and the wrong-answer wording ('Incorrect') are inferred, while 'array size:%d was Correct' is observed. The reference answers for the four seeded arrays are 0, 1, 4 and 6, re-derived independently in Python while validating the driver; it catches the classic wrong answer (the *discontiguous* longest increasing subsequence) and an implementation that always returns 1. build.sources is empty and the driver #includes maxSeq.c with main renamed, so a main() a student may have left there for their own testing cannot collide; build.flags are deliberately lax because 16_subseq/Makefile compiles with no flags at all. Difference from the original: because there is no testcase1 to skip, the four driver cases are numbered 1..4 where the original's inherited numbering was 2..5 (its testcase1 was skipped because maxSeq.c has no main); every observed line is still reproduced.",
+  "tests": [
+    {
+      "args": [
+        "0"
+      ],
+      "expectedFile": "expected/16_subseq/0.txt",
+      "expectedExit": 0,
+      "message": "array size:0 was Correct",
+      "label": "array size:0"
+    },
+    {
+      "args": [
+        "1"
+      ],
+      "expectedFile": "expected/16_subseq/1.txt",
+      "expectedExit": 0,
+      "message": "array size:1 was Correct",
+      "label": "array size:1"
+    },
+    {
+      "args": [
+        "100"
+      ],
+      "expectedFile": "expected/16_subseq/100.txt",
+      "expectedExit": 0,
+      "message": "array size:100 was Correct",
+      "label": "array size:100"
+    },
+    {
+      "args": [
+        "5000"
+      ],
+      "expectedFile": "expected/16_subseq/5000.txt",
+      "expectedExit": 0,
+      "message": "array size:5000 was Correct",
+      "label": "array size:5000"
+    }
+  ]
+}

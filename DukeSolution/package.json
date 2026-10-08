@@ -1,0 +1,22 @@
+{
+  "name": "git-homework",
+  "version": "1.0.0",
+  "description": "Local grading and assignment delivery for the Duke \"Programming Practice\" C assignments",
+  "license": "MIT",
+  "type": "module",
+  "module": "src/index.ts",
+  "bin": {
+    "grade": "./src/index.ts"
+  },
+  "scripts": {
+    "grade": "bun run src/index.ts",
+    "check": "bun run src/index.ts check",
+    "test": "bun test tests/",
+    "typecheck": "tsc --noEmit",
+    "build": "bun build src/index.ts --compile --outfile dist/grade"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}

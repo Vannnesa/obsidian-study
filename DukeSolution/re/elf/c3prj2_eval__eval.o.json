@@ -1,0 +1,4156 @@
+{
+ "path": "c3prj2_eval/eval.o",
+ "size": 91160,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "eval.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3213",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 304,
+   "section": ".rodata"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3226",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 320,
+   "section": ".rodata"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3241",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 336,
+   "section": ".rodata"
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.features.h.19.3042b63a76022a6d39c0cfc1936a7a01",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.19.a8ffc9250e5bdadaabc998d2b2f3d734",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.wordsize.h.4.baf119258a1e53d8dba67ceac44ab6bc",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.475.fb75d2e4416aa349344e6f45f683bf28",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stubs64.h.10.6ce4c34010988db072c080326a6b6319",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.37.d9274df4cc0172452960ad9644fa5579",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.28.2cffa49d94c5d85f4538f55f7b59771d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.181.13772e73e5434e8cc4fafaaddad2b5da",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitflags.h.25.41934de4af99038521c2782f418699b1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitstatus.h.28.93f167f49d64e2b9b99f98d1162a93bf",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.43.9fa4f727a2f1cb8d2450a574c9195553",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatn.h.20.80c7cf8a8dfad237004b28d051d5afda",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatncommon.h.34.7e1840d7dfb19e9bdb51aeb077d76637",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.71.2927e068ec678159b4f68ec2f089f7e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.109.56eb9ae966b255288cc544f18746a7ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.typesizes.h.24.2c64f817c0dc4b6fb2a2c619d717be26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.time64.h.24.a8166ae916ec910dab0d8987098d42ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.40.492512a14a2010d5ca50e9de957e6b26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.0adce5c8c1fd8096aaff50981b3d1f0f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.20.efabd1018df5d7b4052c27dc6bdd5ce5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endianness.h.2.2c6a211f7909f3af5e9e9cfa3b6b63c8",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.40.9e5d395adda2f4eb53ae69b69b664084",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.27.4c4f94262c4eaee2982fe00ed1b4f173",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.byteswap.h.24.5363c019348146aada5aeadf51456576",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.39.30a606dbd99b6c3df61c1f06dbdabd4e",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.28.eb2f3debdbcffd1442ebddaebc4fb6ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.__sigset_t.h.2.6b1ab6ff3d7b8fd9c0c42b0d80afbd80",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.44.887a4ff60aa97fcd9c1be017735e1675",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.186.489a4ed8f2d29cd358843490f54ddea5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.pthreadtypesarch.h.25.6063cba99664c916e22d3a912bcc348a",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_mutex.h.20.ed51f515172b9be99e450ba83eb5dd99",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_rwlock.h.21.0254880f2904e3833fb8ae683e0f0330",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.19.edefa922a76c1cbaaf1e416903ba2d1c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.29.156e12058824cc23d961c4d3b13031f6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cards.h.2.6ea1f97048b453bd9249855c897949b6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.24.5c1b97eef3c86b7a2549420f69f4f128",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.31.87b3c285aeba93fe355ad19123070832",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.8136eebbab3406dbf57a7ec475dd5d83",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_FILE.h.19.0888ac70396abe1031c03d393554032f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.53.139e45cf040c0964b2932c0c1bdaf6b2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio_lim.h.19.e4b00b560d878dcfbc6635b3406640c5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.141.d7a290e19ca077c9e4aa7c43ede17a73",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.assert.h.34.dce7822bb80c73e7bb3b7e09935edebe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.string.h.23.93403f89af7dba8212345449bb14b09d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.string.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.strings.h.19.a259f126920b1bb5ef76bc62b3984a3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "card_ptr_comp",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 104,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "flush_suit",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 222,
+   "addr": 104,
+   "section": ".text"
+  },
+  {
+   "name": "get_largest_element",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 106,
+   "addr": 326,
+   "section": ".text"
+  },
+  {
+   "name": "get_match_index",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 105,
+   "addr": 432,
+   "section": ".text"
+  },
+  {
+   "name": "find_secondary_pair",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 147,
+   "addr": 537,
+   "section": ".text"
+  },
+  {
+   "name": "is_ace_low_straight_at",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 242,
+   "addr": 684,
+   "section": ".text"
+  },
+  {
+   "name": "is_n_length_straight_at",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 269,
+   "addr": 926,
+   "section": ".text"
+  },
+  {
+   "name": "is_straight_at",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 226,
+   "addr": 1195,
+   "section": ".text"
+  },
+  {
+   "name": "build_hand_from_match",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 303,
+   "addr": 1421,
+   "section": ".text"
+  },
+  {
+   "name": "compare_hands",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 320,
+   "addr": 1724,
+   "section": ".text"
+  },
+  {
+   "name": "evaluate_hand",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 1420,
+   "addr": 2905,
+   "section": ".text"
+  },
+  {
+   "name": "copy_straight",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 396,
+   "addr": 2044,
+   "section": ".text"
+  },
+  {
+   "name": "find_straight",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 465,
+   "addr": 2440,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "printf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "abort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "qsort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "get_match_counts",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 24,
+   "text": "Error in fuction get_match_index"
+  },
+  {
+   "offset": 57,
+   "text": "eval.c"
+  },
+  {
+   "offset": 64,
+   "text": "fs == NUM_SUITS || from->cards[ind]->suit == fs"
+  },
+  {
+   "offset": 112,
+   "text": "ind < from->n_cards"
+  },
+  {
+   "offset": 132,
+   "text": "nextv >= 2"
+  },
+  {
+   "offset": 143,
+   "text": "to_ind <5"
+  },
+  {
+   "offset": 160,
+   "text": "hand->cards[i]->value == VALUE_ACE && (fs == NUM_SUITS || hand->cards[i]->suit == fs)"
+  },
+  {
+   "offset": 246,
+   "text": "cpind < hand->n_cards"
+  },
+  {
+   "offset": 268,
+   "text": "n_of_a_kind <= 4"
+  },
+  {
+   "offset": 285,
+   "text": "n_of_a_kind ==2"
+  },
+  {
+   "offset": 304,
+   "text": "copy_straight"
+  },
+  {
+   "offset": 320,
+   "text": "find_straight"
+  },
+  {
+   "offset": 336,
+   "text": "evaluate_hand"
+  }
+ ],
+ "string_refs": {
+  "get_match_index": [
+   "Error in fuction get_match_index"
+  ],
+  "copy_straight": [
+   "copy_straight",
+   "eval.c",
+   "fs == NUM_SUITS || from->cards[ind]->suit == fs",
+   "ind < from->n_cards",
+   "nextv >= 2",
+   "to_ind <5"
+  ],
+  "find_straight": [
+   "find_straight",
+   "eval.c",
+   "hand->cards[i]->value == VALUE_ACE && (fs == NUM_SUITS || hand->cards[i]->suit == fs)",
+   "cpind < hand->n_cards"
+  ],
+  "evaluate_hand": [
+   "evaluate_hand",
+   "eval.c",
+   "n_of_a_kind <= 4",
+   "n_of_a_kind ==2"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 197,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 209,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 516,
+    "symbol": ".rodata",
+    "addend": 20,
+    "type": 2
+   },
+   {
+    "offset": 526,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 531,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1337,
+    "symbol": "is_ace_low_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1377,
+    "symbol": "is_n_length_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1409,
+    "symbol": "is_n_length_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1709,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1792,
+    "symbol": "card_ptr_comp",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1805,
+    "symbol": "qsort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1833,
+    "symbol": "card_ptr_comp",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1846,
+    "symbol": "qsort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1868,
+    "symbol": "evaluate_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1890,
+    "symbol": "evaluate_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2038,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2113,
+    "symbol": ".rodata",
+    "addend": 300,
+    "type": 2
+   },
+   {
+    "offset": 2125,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 2132,
+    "symbol": ".rodata",
+    "addend": 60,
+    "type": 2
+   },
+   {
+    "offset": 2137,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2197,
+    "symbol": ".rodata",
+    "addend": 300,
+    "type": 2
+   },
+   {
+    "offset": 2209,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 2216,
+    "symbol": ".rodata",
+    "addend": 108,
+    "type": 2
+   },
+   {
+    "offset": 2221,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2234,
+    "symbol": ".rodata",
+    "addend": 300,
+    "type": 2
+   },
+   {
+    "offset": 2246,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 2253,
+    "symbol": ".rodata",
+    "addend": 128,
+    "type": 2
+   },
+   {
+    "offset": 2258,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2272,
+    "symbol": ".rodata",
+    "addend": 300,
+    "type": 2
+   },
+   {
+    "offset": 2284,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 2291,
+    "symbol": ".rodata",
+    "addend": 139,
+    "type": 2
+   },
+   {
+    "offset": 2296,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2518,
+    "symbol": "is_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2611,
+    "symbol": ".rodata",
+    "addend": 316,
+    "type": 2
+   },
+   {
+    "offset": 2623,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 2630,
+    "symbol": ".rodata",
+    "addend": 156,
+    "type": 2
+   },
+   {
+    "offset": 2635,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2705,
+    "symbol": ".rodata",
+    "addend": 316,
+    "type": 2
+   },
+   {
+    "offset": 2717,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 2724,
+    "symbol": ".rodata",
+    "addend": 242,
+    "type": 2
+   },
+   {
+    "offset": 2729,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2825,
+    "symbol": "copy_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2860,
+    "symbol": "copy_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2961,
+    "symbol": "flush_suit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2994,
+    "symbol": "find_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3079,
+    "symbol": "get_match_counts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3109,
+    "symbol": "get_largest_element",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3125,
+    "symbol": ".rodata",
+    "addend": 332,
+    "type": 2
+   },
+   {
+    "offset": 3137,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 3144,
+    "symbol": ".rodata",
+    "addend": 264,
+    "type": 2
+   },
+   {
+    "offset": 3149,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3178,
+    "symbol": "get_match_index",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3208,
+    "symbol": "find_secondary_pair",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3224,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3269,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3334,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3739,
+    "symbol": "find_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3854,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3883,
+    "symbol": ".rodata",
+    "addend": 332,
+    "type": 2
+   },
+   {
+    "offset": 3895,
+    "symbol": ".rodata",
+    "addend": 53,
+    "type": 2
+   },
+   {
+    "offset": 3902,
+    "symbol": ".rodata",
+    "addend": 281,
+    "type": 2
+   },
+   {
+    "offset": 3907,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3946,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4244,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4284,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4304,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ],
+  ".rodata": [
+   {
+    "offset": 0,
+    "symbol": ".text",
+    "addend": 219,
+    "type": 2
+   },
+   {
+    "offset": 4,
+    "symbol": ".text",
+    "addend": 235,
+    "type": 2
+   },
+   {
+    "offset": 8,
+    "symbol": ".text",
+    "addend": 233,
+    "type": 2
+   },
+   {
+    "offset": 12,
+    "symbol": ".text",
+    "addend": 249,
+    "type": 2
+   },
+   {
+    "offset": 16,
+    "symbol": ".text",
+    "addend": 259,
+    "type": 2
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [
+   {
+    "name": "eval.c",
+    "comp_dir": "/home/student/learn2prog/c3prj2_eval",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "evaluate_hand",
+      "decl_file": 1,
+      "decl_line": 284,
+      "type": 521,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 284
+       }
+      ],
+      "locals": [
+       {
+        "name": "fs",
+        "type": 251,
+        "decl_line": 285
+       },
+       {
+        "name": "ans",
+        "type": 521,
+        "decl_line": 286
+       },
+       {
+        "name": "match_counts",
+        "type": 1361,
+        "decl_line": 293
+       },
+       {
+        "name": "n_of_a_kind",
+        "type": 75,
+        "decl_line": 294
+       },
+       {
+        "name": "__PRETTY_FUNCTION__",
+        "type": 1383,
+        "decl_line": null
+       },
+       {
+        "name": "match_idx",
+        "type": 49,
+        "decl_line": 296
+       },
+       {
+        "name": "other_pair_idx",
+        "type": 180,
+        "decl_line": 297
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "find_straight",
+      "decl_file": 1,
+      "decl_line": 252,
+      "type": 68,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 252
+       },
+       {
+        "name": "fs",
+        "type": 251,
+        "decl_line": 252
+       },
+       {
+        "name": "ans",
+        "type": 1585,
+        "decl_line": 252
+       }
+      ],
+      "locals": [
+       {
+        "name": "__PRETTY_FUNCTION__",
+        "type": 1383,
+        "decl_line": null
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "copy_straight",
+      "decl_file": 1,
+      "decl_line": 227,
+      "type": null,
+      "params": [
+       {
+        "name": "to",
+        "type": 441,
+        "decl_line": 227
+       },
+       {
+        "name": "from",
+        "type": 1355,
+        "decl_line": 227
+       },
+       {
+        "name": "ind",
+        "type": 49,
+        "decl_line": 227
+       },
+       {
+        "name": "fs",
+        "type": 251,
+        "decl_line": 227
+       },
+       {
+        "name": "count",
+        "type": 49,
+        "decl_line": 227
+       }
+      ],
+      "locals": [
+       {
+        "name": "__PRETTY_FUNCTION__",
+        "type": 1383,
+        "decl_line": null
+       },
+       {
+        "name": "nextv",
+        "type": 75,
+        "decl_line": 229
+       },
+       {
+        "name": "to_ind",
+        "type": 49,
+        "decl_line": 230
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "compare_hands",
+      "decl_file": 1,
+      "decl_line": 186,
+      "type": 68,
+      "params": [
+       {
+        "name": "hand1",
+        "type": 1355,
+        "decl_line": 186
+       },
+       {
+        "name": "hand2",
+        "type": 1355,
+        "decl_line": 186
+       }
+      ],
+      "locals": [
+       {
+        "name": "hand1_fin",
+        "type": 521,
+        "decl_line": 190
+       },
+       {
+        "name": "hand2_fin",
+        "type": 521,
+        "decl_line": 191
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "build_hand_from_match",
+      "decl_file": 1,
+      "decl_line": 163,
+      "type": 521,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 163
+       },
+       {
+        "name": "n",
+        "type": 75,
+        "decl_line": 164
+       },
+       {
+        "name": "what",
+        "type": 389,
+        "decl_line": 165
+       },
+       {
+        "name": "idx",
+        "type": 49,
+        "decl_line": 166
+       }
+      ],
+      "locals": [
+       {
+        "name": "ans",
+        "type": 521,
+        "decl_line": 168
+       },
+       {
+        "name": "j",
+        "type": 68,
+        "decl_line": 173
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "is_straight_at",
+      "decl_file": 1,
+      "decl_line": 141,
+      "type": 68,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 141
+       },
+       {
+        "name": "index",
+        "type": 49,
+        "decl_line": 141
+       },
+       {
+        "name": "fs",
+        "type": 251,
+        "decl_line": 141
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "is_n_length_straight_at",
+      "decl_file": 1,
+      "decl_line": 115,
+      "type": 68,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 115
+       },
+       {
+        "name": "index",
+        "type": 49,
+        "decl_line": 115
+       },
+       {
+        "name": "fs",
+        "type": 251,
+        "decl_line": 115
+       },
+       {
+        "name": "n",
+        "type": 68,
+        "decl_line": 115
+       }
+      ],
+      "locals": [
+       {
+        "name": "counter",
+        "type": 68,
+        "decl_line": 116
+       },
+       {
+        "name": "desired",
+        "type": 68,
+        "decl_line": 117
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "is_ace_low_straight_at",
+      "decl_file": 1,
+      "decl_line": 89,
+      "type": 68,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 89
+       },
+       {
+        "name": "index",
+        "type": 49,
+        "decl_line": 89
+       },
+       {
+        "name": "fs",
+        "type": 251,
+        "decl_line": 89
+       }
+      ],
+      "locals": [
+       {
+        "name": "counter",
+        "type": 68,
+        "decl_line": 90
+       },
+       {
+        "name": "desired",
+        "type": 68,
+        "decl_line": 91
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "find_secondary_pair",
+      "decl_file": 1,
+      "decl_line": 76,
+      "type": 180,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 76
+       },
+       {
+        "name": "match_counts",
+        "type": 1361,
+        "decl_line": 77
+       },
+       {
+        "name": "match_idx",
+        "type": 49,
+        "decl_line": 78
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "get_match_index",
+      "decl_file": 1,
+      "decl_line": 66,
+      "type": 49,
+      "params": [
+       {
+        "name": "match_counts",
+        "type": 1361,
+        "decl_line": 66
+       },
+       {
+        "name": "n",
+        "type": 49,
+        "decl_line": 66
+       },
+       {
+        "name": "n_of_akind",
+        "type": 75,
+        "decl_line": 66
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "get_largest_element",
+      "decl_file": 1,
+      "decl_line": 56,
+      "type": 75,
+      "params": [
+       {
+        "name": "arr",
+        "type": 1361,
+        "decl_line": 56
+       },
+       {
+        "name": "n",
+        "type": 49,
+        "decl_line": 56
+       }
+      ],
+      "locals": [
+       {
+        "name": "x",
+        "type": 75,
+        "decl_line": 57
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "flush_suit",
+      "decl_file": 1,
+      "decl_line": 18,
+      "type": 251,
+      "params": [
+       {
+        "name": "hand",
+        "type": 1355,
+        "decl_line": 18
+       }
+      ],
+      "locals": [
+       {
+        "name": "counter_s",
+        "type": 68,
+        "decl_line": 19
+       },
+       {
+        "name": "counter_d",
+        "type": 68,
+        "decl_line": 20
+       },
+       {
+        "name": "counter_h",
+        "type": 68,
+        "decl_line": 21
+       },
+       {
+        "name": "counter_c",
+        "type": 68,
+        "decl_line": 22
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "card_ptr_comp",
+      "decl_file": 1,
+      "decl_line": 7,
+      "type": 68,
+      "params": [
+       {
+        "name": "vp1",
+        "type": 199,
+        "decl_line": 7
+       },
+       {
+        "name": "vp2",
+        "type": 199,
+        "decl_line": 7
+       }
+      ],
+      "locals": [
+       {
+        "name": "cp1",
+        "type": 3179,
+        "decl_line": 8
+       },
+       {
+        "name": "cp2",
+        "type": 3179,
+        "decl_line": 9
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 1033
+     },
+     {
+      "name": "stdout",
+      "type": 1033
+     },
+     {
+      "name": "stderr",
+      "type": 1033
+     },
+     {
+      "name": "sys_nerr",
+      "type": 68
+     },
+     {
+      "name": "sys_errlist",
+      "type": 1086
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 61
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 82
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 82
+   },
+   {
+    "kind": "typedef",
+    "name": "__ssize_t",
+    "type": 82
+   },
+   {
+    "kind": "typedef",
+    "name": "ssize_t",
+    "type": 150
+   },
+   {
+    "kind": "enumeration_type",
+    "name": null,
+    "byte_size": 4,
+    "members": [
+     {
+      "name": "SPADES",
+      "const_value": 0
+     },
+     {
+      "name": "HEARTS",
+      "const_value": 1
+     },
+     {
+      "name": "DIAMONDS",
+      "const_value": 2
+     },
+     {
+      "name": "CLUBS",
+      "const_value": 3
+     },
+     {
+      "name": "NUM_SUITS",
+      "const_value": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "suit_t",
+    "type": 206
+   },
+   {
+    "kind": "structure_type",
+    "name": "card_tag",
+    "byte_size": 8,
+    "members": [
+     {
+      "name": "value",
+      "type": 75,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "suit",
+      "type": 251,
+      "byte_size": null,
+      "data_member_location": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "card_t",
+    "type": 263
+   },
+   {
+    "kind": "enumeration_type",
+    "name": null,
+    "byte_size": 4,
+    "members": [
+     {
+      "name": "STRAIGHT_FLUSH",
+      "const_value": 0
+     },
+     {
+      "name": "FOUR_OF_A_KIND",
+      "const_value": 1
+     },
+     {
+      "name": "FULL_HOUSE",
+      "const_value": 2
+     },
+     {
+      "name": "FLUSH",
+      "const_value": 3
+     },
+     {
+      "name": "STRAIGHT",
+      "const_value": 4
+     },
+     {
+      "name": "THREE_OF_A_KIND",
+      "const_value": 5
+     },
+     {
+      "name": "TWO_PAIR",
+      "const_value": 6
+     },
+     {
+      "name": "PAIR",
+      "const_value": 7
+     },
+     {
+      "name": "NOTHING",
+      "const_value": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "hand_ranking_t",
+    "type": 320
+   },
+   {
+    "kind": "structure_type",
+    "name": "deck_tag",
+    "byte_size": 16,
+    "members": [
+     {
+      "name": "cards",
+      "type": 441,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "n_cards",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "deck_t",
+    "type": 401
+   },
+   {
+    "kind": "structure_type",
+    "name": "hand_eval_tag",
+    "byte_size": 48,
+    "members": [
+     {
+      "name": "ranking",
+      "type": 389,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "cards",
+      "type": 505,
+      "byte_size": null,
+      "data_member_location": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "hand_eval_t",
+    "type": 465
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 162,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 949,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 955,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 124,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 103,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 110,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 961,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 977,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 136,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "_codecvt",
+      "type": 988,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "_wide_data",
+      "type": 999,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "_freeres_list",
+      "type": 955,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "_freeres_buf",
+      "type": 148,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 1005,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "FILE",
+    "type": 533
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_codecvt",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_wide_data",
+    "byte_size": null,
+    "members": []
+   }
+  ],
+  "lines": {
+   "eval.c": {
+    "files": [
+     "eval.c",
+     "stddef.h",
+     "types.h",
+     "types.h",
+     "cards.h",
+     "deck.h",
+     "eval.h",
+     "struct_FILE.h",
+     "FILE.h",
+     "stdio.h",
+     "sys_errlist.h",
+     "stdc-predef.h",
+     "stdlib.h",
+     "libc-header-start.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "long-double.h",
+     "stubs.h",
+     "stubs-64.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "floatn.h",
+     "floatn-common.h",
+     "timesize.h",
+     "typesizes.h",
+     "time64.h",
+     "clock_t.h",
+     "clockid_t.h",
+     "time_t.h",
+     "timer_t.h",
+     "stdint-intn.h",
+     "endian.h",
+     "endian.h",
+     "endianness.h",
+     "byteswap.h",
+     "uintn-identity.h",
+     "select.h",
+     "select.h",
+     "sigset_t.h",
+     "__sigset_t.h",
+     "struct_timeval.h",
+     "struct_timespec.h",
+     "pthreadtypes.h",
+     "thread-shared-types.h",
+     "pthreadtypes-arch.h",
+     "struct_mutex.h",
+     "struct_rwlock.h",
+     "alloca.h",
+     "stdlib-float.h",
+     "stdarg.h",
+     "__fpos_t.h",
+     "__mbstate_t.h",
+     "__fpos64_t.h",
+     "__FILE.h",
+     "stdio_lim.h",
+     "assert.h",
+     "string.h",
+     "locale_t.h",
+     "__locale_t.h",
+     "strings.h"
+    ],
+    "rows": [
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 16
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 24
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 32
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 39
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 41
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 48
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 50
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 54
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 61
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 63
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 70
+     },
+     {
+      "line": 11,
+      "file": 1,
+      "addr": 72
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 78
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 85
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 88
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 95
+     },
+     {
+      "line": 13,
+      "file": 1,
+      "addr": 98
+     },
+     {
+      "line": 16,
+      "file": 1,
+      "addr": 102
+     },
+     {
+      "line": 18,
+      "file": 1,
+      "addr": 104
+     },
+     {
+      "line": 19,
+      "file": 1,
+      "addr": 116
+     },
+     {
+      "line": 20,
+      "file": 1,
+      "addr": 123
+     },
+     {
+      "line": 21,
+      "file": 1,
+      "addr": 130
+     },
+     {
+      "line": 22,
+      "file": 1,
+      "addr": 137
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 144
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 151
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 153
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 160
+     },
+     {
+      "line": 24,
+      "file": 1,
+      "addr": 176
+     },
+     {
+      "line": 26,
+      "file": 1,
+      "addr": 219
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 223
+     },
+     {
+      "line": 29,
+      "file": 1,
+      "addr": 225
+     },
+     {
+      "line": 30,
+      "file": 1,
+      "addr": 229
+     },
+     {
+      "line": 32,
+      "file": 1,
+      "addr": 231
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 235
+     },
+     {
+      "line": 35,
+      "file": 1,
+      "addr": 237
+     },
+     {
+      "line": 36,
+      "file": 1,
+      "addr": 241
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 243
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 244
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 248
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 254
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 262
+     },
+     {
+      "line": 41,
+      "file": 1,
+      "addr": 267
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 273
+     },
+     {
+      "line": 44,
+      "file": 1,
+      "addr": 280
+     },
+     {
+      "line": 45,
+      "file": 1,
+      "addr": 286
+     },
+     {
+      "line": 47,
+      "file": 1,
+      "addr": 293
+     },
+     {
+      "line": 48,
+      "file": 1,
+      "addr": 299
+     },
+     {
+      "line": 50,
+      "file": 1,
+      "addr": 306
+     },
+     {
+      "line": 51,
+      "file": 1,
+      "addr": 312
+     },
+     {
+      "line": 53,
+      "file": 1,
+      "addr": 319
+     },
+     {
+      "line": 54,
+      "file": 1,
+      "addr": 324
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 326
+     },
+     {
+      "line": 57,
+      "file": 1,
+      "addr": 342
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 351
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 358
+     },
+     {
+      "line": 59,
+      "file": 1,
+      "addr": 360
+     },
+     {
+      "line": 59,
+      "file": 1,
+      "addr": 382
+     },
+     {
+      "line": 60,
+      "file": 1,
+      "addr": 387
+     },
+     {
+      "line": 60,
+      "file": 1,
+      "addr": 407
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 412
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 416
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 421
+     },
+     {
+      "line": 63,
+      "file": 1,
+      "addr": 427
+     },
+     {
+      "line": 64,
+      "file": 1,
+      "addr": 430
+     },
+     {
+      "line": 66,
+      "file": 1,
+      "addr": 432
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 455
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 462
+     },
+     {
+      "line": 68,
+      "file": 1,
+      "addr": 464
+     },
+     {
+      "line": 68,
+      "file": 1,
+      "addr": 486
+     },
+     {
+      "line": 69,
+      "file": 1,
+      "addr": 491
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 498
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 502
+     },
+     {
+      "line": 67,
+      "file": 1,
+      "addr": 507
+     },
+     {
+      "line": 72,
+      "file": 1,
+      "addr": 513
+     },
+     {
+      "line": 73,
+      "file": 1,
+      "addr": 530
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 535
+     },
+     {
+      "line": 78,
+      "file": 1,
+      "addr": 537
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 557
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 564
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 566
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 588
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 593
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 600
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 616
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 618
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 625
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 639
+     },
+     {
+      "line": 81,
+      "file": 1,
+      "addr": 641
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 645
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 652
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 656
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 662
+     },
+     {
+      "line": 79,
+      "file": 1,
+      "addr": 670
+     },
+     {
+      "line": 86,
+      "file": 1,
+      "addr": 675
+     },
+     {
+      "line": 87,
+      "file": 1,
+      "addr": 682
+     },
+     {
+      "line": 89,
+      "file": 1,
+      "addr": 684
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 703
+     },
+     {
+      "line": 91,
+      "file": 1,
+      "addr": 710
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 717
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 723
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 730
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 733
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 735
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 742
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 758
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 760
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 763
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 767
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 774
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 790
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 793
+     },
+     {
+      "line": 95,
+      "file": 1,
+      "addr": 798
+     },
+     {
+      "line": 96,
+      "file": 1,
+      "addr": 802
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 806
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 810
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 816
+     },
+     {
+      "line": 93,
+      "file": 1,
+      "addr": 824
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 831
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 838
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 841
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 843
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 850
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 866
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 868
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 871
+     },
+     {
+      "line": 102,
+      "file": 1,
+      "addr": 875
+     },
+     {
+      "line": 103,
+      "file": 1,
+      "addr": 879
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 883
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 887
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 893
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 901
+     },
+     {
+      "line": 108,
+      "file": 1,
+      "addr": 906
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 912
+     },
+     {
+      "line": 111,
+      "file": 1,
+      "addr": 919
+     },
+     {
+      "line": 113,
+      "file": 1,
+      "addr": 924
+     },
+     {
+      "line": 115,
+      "file": 1,
+      "addr": 926
+     },
+     {
+      "line": 116,
+      "file": 1,
+      "addr": 948
+     },
+     {
+      "line": 117,
+      "file": 1,
+      "addr": 955
+     },
+     {
+      "line": 117,
+      "file": 1,
+      "addr": 962
+     },
+     {
+      "line": 117,
+      "file": 1,
+      "addr": 976
+     },
+     {
+      "line": 117,
+      "file": 1,
+      "addr": 978
+     },
+     {
+      "line": 117,
+      "file": 1,
+      "addr": 981
+     },
+     {
+      "line": 118,
+      "file": 1,
+      "addr": 984
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 990
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 997
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 1000
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1002
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1009
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1025
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1027
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1030
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1034
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1041
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1057
+     },
+     {
+      "line": 120,
+      "file": 1,
+      "addr": 1060
+     },
+     {
+      "line": 121,
+      "file": 1,
+      "addr": 1065
+     },
+     {
+      "line": 122,
+      "file": 1,
+      "addr": 1069
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 1073
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 1077
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 1083
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 1091
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1098
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1105
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1108
+     },
+     {
+      "line": 127,
+      "file": 1,
+      "addr": 1110
+     },
+     {
+      "line": 127,
+      "file": 1,
+      "addr": 1117
+     },
+     {
+      "line": 127,
+      "file": 1,
+      "addr": 1133
+     },
+     {
+      "line": 127,
+      "file": 1,
+      "addr": 1135
+     },
+     {
+      "line": 127,
+      "file": 1,
+      "addr": 1138
+     },
+     {
+      "line": 128,
+      "file": 1,
+      "addr": 1142
+     },
+     {
+      "line": 129,
+      "file": 1,
+      "addr": 1146
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1150
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1154
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1160
+     },
+     {
+      "line": 126,
+      "file": 1,
+      "addr": 1168
+     },
+     {
+      "line": 134,
+      "file": 1,
+      "addr": 1173
+     },
+     {
+      "line": 135,
+      "file": 1,
+      "addr": 1181
+     },
+     {
+      "line": 137,
+      "file": 1,
+      "addr": 1188
+     },
+     {
+      "line": 139,
+      "file": 1,
+      "addr": 1193
+     },
+     {
+      "line": 141,
+      "file": 1,
+      "addr": 1195
+     },
+     {
+      "line": 142,
+      "file": 1,
+      "addr": 1218
+     },
+     {
+      "line": 142,
+      "file": 1,
+      "addr": 1226
+     },
+     {
+      "line": 142,
+      "file": 1,
+      "addr": 1230
+     },
+     {
+      "line": 143,
+      "file": 1,
+      "addr": 1236
+     },
+     {
+      "line": 145,
+      "file": 1,
+      "addr": 1246
+     },
+     {
+      "line": 145,
+      "file": 1,
+      "addr": 1252
+     },
+     {
+      "line": 145,
+      "file": 1,
+      "addr": 1259
+     },
+     {
+      "line": 145,
+      "file": 1,
+      "addr": 1273
+     },
+     {
+      "line": 145,
+      "file": 1,
+      "addr": 1276
+     },
+     {
+      "line": 146,
+      "file": 1,
+      "addr": 1281
+     },
+     {
+      "line": 149,
+      "file": 1,
+      "addr": 1291
+     },
+     {
+      "line": 149,
+      "file": 1,
+      "addr": 1298
+     },
+     {
+      "line": 149,
+      "file": 1,
+      "addr": 1312
+     },
+     {
+      "line": 149,
+      "file": 1,
+      "addr": 1314
+     },
+     {
+      "line": 150,
+      "file": 1,
+      "addr": 1319
+     },
+     {
+      "line": 151,
+      "file": 1,
+      "addr": 1344
+     },
+     {
+      "line": 152,
+      "file": 1,
+      "addr": 1350
+     },
+     {
+      "line": 154,
+      "file": 1,
+      "addr": 1357
+     },
+     {
+      "line": 155,
+      "file": 1,
+      "addr": 1384
+     },
+     {
+      "line": 158,
+      "file": 1,
+      "addr": 1389
+     },
+     {
+      "line": 159,
+      "file": 1,
+      "addr": 1416
+     },
+     {
+      "line": 161,
+      "file": 1,
+      "addr": 1419
+     },
+     {
+      "line": 166,
+      "file": 1,
+      "addr": 1421
+     },
+     {
+      "line": 166,
+      "file": 1,
+      "addr": 1452
+     },
+     {
+      "line": 169,
+      "file": 1,
+      "addr": 1467
+     },
+     {
+      "line": 170,
+      "file": 1,
+      "addr": 1473
+     },
+     {
+      "line": 170,
+      "file": 1,
+      "addr": 1480
+     },
+     {
+      "line": 171,
+      "file": 1,
+      "addr": 1482
+     },
+     {
+      "line": 171,
+      "file": 1,
+      "addr": 1489
+     },
+     {
+      "line": 171,
+      "file": 1,
+      "addr": 1502
+     },
+     {
+      "line": 171,
+      "file": 1,
+      "addr": 1512
+     },
+     {
+      "line": 170,
+      "file": 1,
+      "addr": 1522
+     },
+     {
+      "line": 170,
+      "file": 1,
+      "addr": 1526
+     },
+     {
+      "line": 170,
+      "file": 1,
+      "addr": 1529
+     },
+     {
+      "line": 173,
+      "file": 1,
+      "addr": 1534
+     },
+     {
+      "line": 174,
+      "file": 1,
+      "addr": 1541
+     },
+     {
+      "line": 174,
+      "file": 1,
+      "addr": 1547
+     },
+     {
+      "line": 175,
+      "file": 1,
+      "addr": 1549
+     },
+     {
+      "line": 175,
+      "file": 1,
+      "addr": 1554
+     },
+     {
+      "line": 176,
+      "file": 1,
+      "addr": 1560
+     },
+     {
+      "line": 176,
+      "file": 1,
+      "addr": 1567
+     },
+     {
+      "line": 176,
+      "file": 1,
+      "addr": 1583
+     },
+     {
+      "line": 177,
+      "file": 1,
+      "addr": 1593
+     },
+     {
+      "line": 179,
+      "file": 1,
+      "addr": 1599
+     },
+     {
+      "line": 179,
+      "file": 1,
+      "addr": 1606
+     },
+     {
+      "line": 179,
+      "file": 1,
+      "addr": 1622
+     },
+     {
+      "line": 174,
+      "file": 1,
+      "addr": 1632
+     },
+     {
+      "line": 174,
+      "file": 1,
+      "addr": 1636
+     },
+     {
+      "line": 182,
+      "file": 1,
+      "addr": 1642
+     },
+     {
+      "line": 183,
+      "file": 1,
+      "addr": 1693
+     },
+     {
+      "line": 186,
+      "file": 1,
+      "addr": 1724
+     },
+     {
+      "line": 186,
+      "file": 1,
+      "addr": 1753
+     },
+     {
+      "line": 187,
+      "file": 1,
+      "addr": 1768
+     },
+     {
+      "line": 187,
+      "file": 1,
+      "addr": 1779
+     },
+     {
+      "line": 187,
+      "file": 1,
+      "addr": 1789
+     },
+     {
+      "line": 188,
+      "file": 1,
+      "addr": 1809
+     },
+     {
+      "line": 188,
+      "file": 1,
+      "addr": 1820
+     },
+     {
+      "line": 188,
+      "file": 1,
+      "addr": 1830
+     },
+     {
+      "line": 190,
+      "file": 1,
+      "addr": 1850
+     },
+     {
+      "line": 191,
+      "file": 1,
+      "addr": 1872
+     },
+     {
+      "line": 193,
+      "file": 1,
+      "addr": 1894
+     },
+     {
+      "line": 193,
+      "file": 1,
+      "addr": 1897
+     },
+     {
+      "line": 193,
+      "file": 1,
+      "addr": 1900
+     },
+     {
+      "line": 194,
+      "file": 1,
+      "addr": 1904
+     },
+     {
+      "line": 195,
+      "file": 1,
+      "addr": 1911
+     },
+     {
+      "line": 195,
+      "file": 1,
+      "addr": 1914
+     },
+     {
+      "line": 195,
+      "file": 1,
+      "addr": 1917
+     },
+     {
+      "line": 196,
+      "file": 1,
+      "addr": 1921
+     },
+     {
+      "line": 198,
+      "file": 1,
+      "addr": 1928
+     },
+     {
+      "line": 198,
+      "file": 1,
+      "addr": 1935
+     },
+     {
+      "line": 199,
+      "file": 1,
+      "addr": 1937
+     },
+     {
+      "line": 199,
+      "file": 1,
+      "addr": 1947
+     },
+     {
+      "line": 199,
+      "file": 1,
+      "addr": 1949
+     },
+     {
+      "line": 199,
+      "file": 1,
+      "addr": 1959
+     },
+     {
+      "line": 199,
+      "file": 1,
+      "addr": 1961
+     },
+     {
+      "line": 200,
+      "file": 1,
+      "addr": 1965
+     },
+     {
+      "line": 201,
+      "file": 1,
+      "addr": 1972
+     },
+     {
+      "line": 201,
+      "file": 1,
+      "addr": 1982
+     },
+     {
+      "line": 201,
+      "file": 1,
+      "addr": 1984
+     },
+     {
+      "line": 201,
+      "file": 1,
+      "addr": 1994
+     },
+     {
+      "line": 201,
+      "file": 1,
+      "addr": 1996
+     },
+     {
+      "line": 202,
+      "file": 1,
+      "addr": 2000
+     },
+     {
+      "line": 198,
+      "file": 1,
+      "addr": 2007
+     },
+     {
+      "line": 198,
+      "file": 1,
+      "addr": 2011
+     },
+     {
+      "line": 205,
+      "file": 1,
+      "addr": 2017
+     },
+     {
+      "line": 207,
+      "file": 1,
+      "addr": 2022
+     },
+     {
+      "line": 207,
+      "file": 1,
+      "addr": 2037
+     },
+     {
+      "line": 227,
+      "file": 1,
+      "addr": 2044
+     },
+     {
+      "line": 228,
+      "file": 1,
+      "addr": 2075
+     },
+     {
+      "line": 228,
+      "file": 1,
+      "addr": 2081
+     },
+     {
+      "line": 228,
+      "file": 1,
+      "addr": 2110
+     },
+     {
+      "line": 229,
+      "file": 1,
+      "addr": 2141
+     },
+     {
+      "line": 229,
+      "file": 1,
+      "addr": 2148
+     },
+     {
+      "line": 229,
+      "file": 1,
+      "addr": 2162
+     },
+     {
+      "line": 230,
+      "file": 1,
+      "addr": 2167
+     },
+     {
+      "line": 231,
+      "file": 1,
+      "addr": 2175
+     },
+     {
+      "line": 232,
+      "file": 1,
+      "addr": 2180
+     },
+     {
+      "line": 232,
+      "file": 1,
+      "addr": 2194
+     },
+     {
+      "line": 233,
+      "file": 1,
+      "addr": 2225
+     },
+     {
+      "line": 233,
+      "file": 1,
+      "addr": 2231
+     },
+     {
+      "line": 234,
+      "file": 1,
+      "addr": 2262
+     },
+     {
+      "line": 234,
+      "file": 1,
+      "addr": 2269
+     },
+     {
+      "line": 235,
+      "file": 1,
+      "addr": 2300
+     },
+     {
+      "line": 235,
+      "file": 1,
+      "addr": 2307
+     },
+     {
+      "line": 235,
+      "file": 1,
+      "addr": 2321
+     },
+     {
+      "line": 235,
+      "file": 1,
+      "addr": 2323
+     },
+     {
+      "line": 235,
+      "file": 1,
+      "addr": 2328
+     },
+     {
+      "line": 236,
+      "file": 1,
+      "addr": 2334
+     },
+     {
+      "line": 236,
+      "file": 1,
+      "addr": 2341
+     },
+     {
+      "line": 236,
+      "file": 1,
+      "addr": 2355
+     },
+     {
+      "line": 236,
+      "file": 1,
+      "addr": 2358
+     },
+     {
+      "line": 237,
+      "file": 1,
+      "addr": 2363
+     },
+     {
+      "line": 237,
+      "file": 1,
+      "addr": 2370
+     },
+     {
+      "line": 237,
+      "file": 1,
+      "addr": 2381
+     },
+     {
+      "line": 237,
+      "file": 1,
+      "addr": 2400
+     },
+     {
+      "line": 237,
+      "file": 1,
+      "addr": 2403
+     },
+     {
+      "line": 238,
+      "file": 1,
+      "addr": 2406
+     },
+     {
+      "line": 239,
+      "file": 1,
+      "addr": 2411
+     },
+     {
+      "line": 240,
+      "file": 1,
+      "addr": 2416
+     },
+     {
+      "line": 242,
+      "file": 1,
+      "addr": 2420
+     },
+     {
+      "line": 231,
+      "file": 1,
+      "addr": 2425
+     },
+     {
+      "line": 244,
+      "file": 1,
+      "addr": 2436
+     },
+     {
+      "line": 252,
+      "file": 1,
+      "addr": 2440
+     },
+     {
+      "line": 253,
+      "file": 1,
+      "addr": 2463
+     },
+     {
+      "line": 253,
+      "file": 1,
+      "addr": 2471
+     },
+     {
+      "line": 254,
+      "file": 1,
+      "addr": 2477
+     },
+     {
+      "line": 256,
+      "file": 1,
+      "addr": 2487
+     },
+     {
+      "line": 256,
+      "file": 1,
+      "addr": 2495
+     },
+     {
+      "line": 257,
+      "file": 1,
+      "addr": 2500
+     },
+     {
+      "line": 258,
+      "file": 1,
+      "addr": 2525
+     },
+     {
+      "line": 259,
+      "file": 1,
+      "addr": 2535
+     },
+     {
+      "line": 260,
+      "file": 1,
+      "addr": 2545
+     },
+     {
+      "line": 260,
+      "file": 1,
+      "addr": 2573
+     },
+     {
+      "line": 260,
+      "file": 1,
+      "addr": 2579
+     },
+     {
+      "line": 260,
+      "file": 1,
+      "addr": 2608
+     },
+     {
+      "line": 260,
+      "file": 1,
+      "addr": 2639
+     },
+     {
+      "line": 262,
+      "file": 1,
+      "addr": 2640
+     },
+     {
+      "line": 262,
+      "file": 1,
+      "addr": 2647
+     },
+     {
+      "line": 262,
+      "file": 1,
+      "addr": 2661
+     },
+     {
+      "line": 263,
+      "file": 1,
+      "addr": 2669
+     },
+     {
+      "line": 264,
+      "file": 1,
+      "addr": 2681
+     },
+     {
+      "line": 266,
+      "file": 1,
+      "addr": 2683
+     },
+     {
+      "line": 267,
+      "file": 1,
+      "addr": 2688
+     },
+     {
+      "line": 267,
+      "file": 1,
+      "addr": 2702
+     },
+     {
+      "line": 264,
+      "file": 1,
+      "addr": 2733
+     },
+     {
+      "line": 264,
+      "file": 1,
+      "addr": 2740
+     },
+     {
+      "line": 264,
+      "file": 1,
+      "addr": 2754
+     },
+     {
+      "line": 264,
+      "file": 1,
+      "addr": 2756
+     },
+     {
+      "line": 264,
+      "file": 1,
+      "addr": 2761
+     },
+     {
+      "line": 265,
+      "file": 1,
+      "addr": 2767
+     },
+     {
+      "line": 265,
+      "file": 1,
+      "addr": 2774
+     },
+     {
+      "line": 265,
+      "file": 1,
+      "addr": 2788
+     },
+     {
+      "line": 265,
+      "file": 1,
+      "addr": 2791
+     },
+     {
+      "line": 269,
+      "file": 1,
+      "addr": 2796
+     },
+     {
+      "line": 269,
+      "file": 1,
+      "addr": 2804
+     },
+     {
+      "line": 272,
+      "file": 1,
+      "addr": 2831
+     },
+     {
+      "line": 272,
+      "file": 1,
+      "addr": 2839
+     },
+     {
+      "line": 274,
+      "file": 1,
+      "addr": 2864
+     },
+     {
+      "line": 256,
+      "file": 1,
+      "addr": 2871
+     },
+     {
+      "line": 256,
+      "file": 1,
+      "addr": 2876
+     },
+     {
+      "line": 256,
+      "file": 1,
+      "addr": 2884
+     },
+     {
+      "line": 256,
+      "file": 1,
+      "addr": 2888
+     },
+     {
+      "line": 277,
+      "file": 1,
+      "addr": 2898
+     },
+     {
+      "line": 278,
+      "file": 1,
+      "addr": 2903
+     },
+     {
+      "line": 284,
+      "file": 1,
+      "addr": 2905
+     },
+     {
+      "line": 284,
+      "file": 1,
+      "addr": 2935
+     },
+     {
+      "line": 285,
+      "file": 1,
+      "addr": 2950
+     },
+     {
+      "line": 287,
+      "file": 1,
+      "addr": 2968
+     },
+     {
+      "line": 288,
+      "file": 1,
+      "addr": 2974
+     },
+     {
+      "line": 288,
+      "file": 1,
+      "addr": 2998
+     },
+     {
+      "line": 289,
+      "file": 1,
+      "addr": 3002
+     },
+     {
+      "line": 290,
+      "file": 1,
+      "addr": 3009
+     },
+     {
+      "line": 293,
+      "file": 1,
+      "addr": 3068
+     },
+     {
+      "line": 294,
+      "file": 1,
+      "addr": 3087
+     },
+     {
+      "line": 295,
+      "file": 1,
+      "addr": 3116
+     },
+     {
+      "line": 295,
+      "file": 1,
+      "addr": 3122
+     },
+     {
+      "line": 296,
+      "file": 1,
+      "addr": 3153
+     },
+     {
+      "line": 297,
+      "file": 1,
+      "addr": 3186
+     },
+     {
+      "line": 298,
+      "file": 1,
+      "addr": 3216
+     },
+     {
+      "line": 299,
+      "file": 1,
+      "addr": 3228
+     },
+     {
+      "line": 300,
+      "file": 1,
+      "addr": 3234
+     },
+     {
+      "line": 302,
+      "file": 1,
+      "addr": 3278
+     },
+     {
+      "line": 302,
+      "file": 1,
+      "addr": 3288
+     },
+     {
+      "line": 303,
+      "file": 1,
+      "addr": 3299
+     },
+     {
+      "line": 304,
+      "file": 1,
+      "addr": 3404
+     },
+     {
+      "line": 304,
+      "file": 1,
+      "addr": 3414
+     },
+     {
+      "line": 304,
+      "file": 1,
+      "addr": 3428
+     },
+     {
+      "line": 305,
+      "file": 1,
+      "addr": 3432
+     },
+     {
+      "line": 305,
+      "file": 1,
+      "addr": 3442
+     },
+     {
+      "line": 305,
+      "file": 1,
+      "addr": 3460
+     },
+     {
+      "line": 306,
+      "file": 1,
+      "addr": 3464
+     },
+     {
+      "line": 308,
+      "file": 1,
+      "addr": 3523
+     },
+     {
+      "line": 309,
+      "file": 1,
+      "addr": 3533
+     },
+     {
+      "line": 310,
+      "file": 1,
+      "addr": 3540
+     },
+     {
+      "line": 311,
+      "file": 1,
+      "addr": 3548
+     },
+     {
+      "line": 311,
+      "file": 1,
+      "addr": 3556
+     },
+     {
+      "line": 312,
+      "file": 1,
+      "addr": 3558
+     },
+     {
+      "line": 312,
+      "file": 1,
+      "addr": 3568
+     },
+     {
+      "line": 312,
+      "file": 1,
+      "addr": 3582
+     },
+     {
+      "line": 312,
+      "file": 1,
+      "addr": 3585
+     },
+     {
+      "line": 313,
+      "file": 1,
+      "addr": 3590
+     },
+     {
+      "line": 313,
+      "file": 1,
+      "addr": 3600
+     },
+     {
+      "line": 313,
+      "file": 1,
+      "addr": 3614
+     },
+     {
+      "line": 314,
+      "file": 1,
+      "addr": 3623
+     },
+     {
+      "line": 315,
+      "file": 1,
+      "addr": 3628
+     },
+     {
+      "line": 311,
+      "file": 1,
+      "addr": 3635
+     },
+     {
+      "line": 311,
+      "file": 1,
+      "addr": 3640
+     },
+     {
+      "line": 311,
+      "file": 1,
+      "addr": 3651
+     },
+     {
+      "line": 316,
+      "file": 1,
+      "addr": 3659
+     },
+     {
+      "line": 320,
+      "file": 1,
+      "addr": 3660
+     },
+     {
+      "line": 322,
+      "file": 1,
+      "addr": 3719
+     },
+     {
+      "line": 322,
+      "file": 1,
+      "addr": 3743
+     },
+     {
+      "line": 323,
+      "file": 1,
+      "addr": 3747
+     },
+     {
+      "line": 324,
+      "file": 1,
+      "addr": 3754
+     },
+     {
+      "line": 326,
+      "file": 1,
+      "addr": 3813
+     },
+     {
+      "line": 327,
+      "file": 1,
+      "addr": 3819
+     },
+     {
+      "line": 329,
+      "file": 1,
+      "addr": 3863
+     },
+     {
+      "line": 330,
+      "file": 1,
+      "addr": 3874
+     },
+     {
+      "line": 330,
+      "file": 1,
+      "addr": 3880
+     },
+     {
+      "line": 331,
+      "file": 1,
+      "addr": 3911
+     },
+     {
+      "line": 332,
+      "file": 1,
+      "addr": 4016
+     },
+     {
+      "line": 332,
+      "file": 1,
+      "addr": 4026
+     },
+     {
+      "line": 332,
+      "file": 1,
+      "addr": 4040
+     },
+     {
+      "line": 333,
+      "file": 1,
+      "addr": 4044
+     },
+     {
+      "line": 333,
+      "file": 1,
+      "addr": 4054
+     },
+     {
+      "line": 333,
+      "file": 1,
+      "addr": 4072
+     },
+     {
+      "line": 334,
+      "file": 1,
+      "addr": 4076
+     },
+     {
+      "line": 335,
+      "file": 1,
+      "addr": 4083
+     },
+     {
+      "line": 335,
+      "file": 1,
+      "addr": 4093
+     },
+     {
+      "line": 335,
+      "file": 1,
+      "addr": 4096
+     },
+     {
+      "line": 337,
+      "file": 1,
+      "addr": 4102
+     },
+     {
+      "line": 339,
+      "file": 1,
+      "addr": 4109
+     },
+     {
+      "line": 339,
+      "file": 1,
+      "addr": 4119
+     },
+     {
+      "line": 342,
+      "file": 1,
+      "addr": 4129
+     },
+     {
+      "line": 342,
+      "file": 1,
+      "addr": 4139
+     },
+     {
+      "line": 344,
+      "file": 1,
+      "addr": 4147
+     },
+     {
+      "line": 346,
+      "file": 1,
+      "addr": 4203
+     },
+     {
+      "line": 347,
+      "file": 1,
+      "addr": 4209
+     },
+     {
+      "line": 349,
+      "file": 1,
+      "addr": 4250
+     },
+     {
+      "line": 350,
+      "file": 1,
+      "addr": 4288
+     },
+     {
+      "line": 350,
+      "file": 1,
+      "addr": 4325
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c3prj2_eval/eval.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <card_ptr_comp>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tmovq\t%rdi, -0x18(%rbp)\n       c:      \tmovq\t%rsi, -0x20(%rbp)\n      10:      \tmovq\t-0x18(%rbp), %rax\n      14:      \tmovq\t%rax, -0x10(%rbp)\n      18:      \tmovq\t-0x20(%rbp), %rax\n      1c:      \tmovq\t%rax, -0x8(%rbp)\n      20:      \tmovq\t-0x10(%rbp), %rax\n      24:      \tmovq\t(%rax), %rax\n      27:      \tmovl\t(%rax), %edx\n      29:      \tmovq\t-0x8(%rbp), %rax\n      2d:      \tmovq\t(%rax), %rax\n      30:      \tmovl\t(%rax), %eax\n      32:      \tcmpl\t%eax, %edx\n      34:      \tje\t0x4e <card_ptr_comp+0x4e>\n      36:      \tmovq\t-0x8(%rbp), %rax\n      3a:      \tmovq\t(%rax), %rax\n      3d:      \tmovl\t(%rax), %edx\n      3f:      \tmovq\t-0x10(%rbp), %rax\n      43:      \tmovq\t(%rax), %rax\n      46:      \tmovl\t(%rax), %eax\n      48:      \tsubl\t%eax, %edx\n      4a:      \tmovl\t%edx, %eax\n      4c:      \tjmp\t0x66 <card_ptr_comp+0x66>\n      4e:      \tmovq\t-0x8(%rbp), %rax\n      52:      \tmovq\t(%rax), %rax\n      55:      \tmovl\t0x4(%rax), %edx\n      58:      \tmovq\t-0x10(%rbp), %rax\n      5c:      \tmovq\t(%rax), %rax\n      5f:      \tmovl\t0x4(%rax), %eax\n      62:      \tsubl\t%eax, %edx\n      64:      \tmovl\t%edx, %eax\n      66:      \tpopq\t%rbp\n      67:      \tretq\n\n0000000000000068 <flush_suit>:\n      68:      \tendbr64\n      6c:      \tpushq\t%rbp\n      6d:      \tmovq\t%rsp, %rbp\n      70:      \tmovq\t%rdi, -0x28(%rbp)\n      74:      \tmovl\t$0x0, -0x14(%rbp)\n      7b:      \tmovl\t$0x0, -0x10(%rbp)\n      82:      \tmovl\t$0x0, -0xc(%rbp)\n      89:      \tmovl\t$0x0, -0x8(%rbp)\n      90:      \tmovl\t$0x0, -0x4(%rbp)\n      97:      \tjmp\t0xf8 <flush_suit+0x90>\n      99:      \tmovq\t-0x28(%rbp), %rax\n      9d:      \tmovq\t(%rax), %rax\n      a0:      \tmovl\t-0x4(%rbp), %edx\n      a3:      \tmovslq\t%edx, %rdx\n      a6:      \tshlq\t$0x3, %rdx\n      aa:      \taddq\t%rdx, %rax\n      ad:      \tmovq\t(%rax), %rax\n      b0:      \tmovl\t0x4(%rax), %eax\n      b3:      \tcmpl\t$0x4, %eax\n      b6:      \tja\t0xf4 <flush_suit+0x8c>\n      b8:      \tmovl\t%eax, %eax\n      ba:      \tleaq\t(,%rax,4), %rdx\n      c2:      \tleaq\t(%rip), %rax            # 0xc9 <flush_suit+0x61>\n;   .rodata+-4\n      c9:      \tmovl\t(%rdx,%rax), %eax\n      cc:      \tcltq\n      ce:      \tleaq\t(%rip), %rdx            # 0xd5 <flush_suit+0x6d>\n;   .rodata+-4\n      d5:      \taddq\t%rdx, %rax\n      d8:      \tjmpq\t*%rax\n      db:      \taddl\t$0x1, -0x14(%rbp)\n      df:      \tjmp\t0xf4 <flush_suit+0x8c>\n      e1:      \taddl\t$0x1, -0x10(%rbp)\n      e5:      \tjmp\t0xf4 <flush_suit+0x8c>\n      e7:      \taddl\t$0x1, -0xc(%rbp)\n      eb:      \tjmp\t0xf4 <flush_suit+0x8c>\n      ed:      \taddl\t$0x1, -0x8(%rbp)\n      f1:      \tjmp\t0xf4 <flush_suit+0x8c>\n      f3:      \tnop\n      f4:      \taddl\t$0x1, -0x4(%rbp)\n      f8:      \tmovl\t-0x4(%rbp), %eax\n      fb:      \tmovslq\t%eax, %rdx\n      fe:      \tmovq\t-0x28(%rbp), %rax\n     102:      \tmovq\t0x8(%rax), %rax\n     106:      \tcmpq\t%rax, %rdx\n     109:      \tjb\t0x99 <flush_suit+0x31>\n     10b:      \tcmpl\t$0x4, -0x10(%rbp)\n     10f:      \tjle\t0x118 <flush_suit+0xb0>\n     111:      \tmovl\t$0x2, %eax\n     116:      \tjmp\t0x144 <flush_suit+0xdc>\n     118:      \tcmpl\t$0x4, -0x14(%rbp)\n     11c:      \tjle\t0x125 <flush_suit+0xbd>\n     11e:      \tmovl\t$0x0, %eax\n     123:      \tjmp\t0x144 <flush_suit+0xdc>\n     125:      \tcmpl\t$0x4, -0xc(%rbp)\n     129:      \tjle\t0x132 <flush_suit+0xca>\n     12b:      \tmovl\t$0x1, %eax\n     130:      \tjmp\t0x144 <flush_suit+0xdc>\n     132:      \tcmpl\t$0x4, -0x8(%rbp)\n     136:      \tjle\t0x13f <flush_suit+0xd7>\n     138:      \tmovl\t$0x3, %eax\n     13d:      \tjmp\t0x144 <flush_suit+0xdc>\n     13f:      \tmovl\t$0x4, %eax\n     144:      \tpopq\t%rbp\n     145:      \tretq\n\n0000000000000146 <get_largest_element>:\n     146:      \tendbr64\n     14a:      \tpushq\t%rbp\n     14b:      \tmovq\t%rsp, %rbp\n     14e:      \tmovq\t%rdi, -0x18(%rbp)\n     152:      \tmovq\t%rsi, -0x20(%rbp)\n     156:      \tmovq\t-0x18(%rbp), %rax\n     15a:      \tmovl\t(%rax), %eax\n     15c:      \tmovl\t%eax, -0x8(%rbp)\n     15f:      \tmovl\t$0x0, -0x4(%rbp)\n     166:      \tjmp\t0x1a0 <get_largest_element+0x5a>\n     168:      \tmovl\t-0x4(%rbp), %eax\n     16b:      \tcltq\n     16d:      \tleaq\t(,%rax,4), %rdx\n     175:      \tmovq\t-0x18(%rbp), %rax\n     179:      \taddq\t%rdx, %rax\n     17c:      \tmovl\t(%rax), %eax\n     17e:      \tcmpl\t%eax, -0x8(%rbp)\n     181:      \tjae\t0x19c <get_largest_element+0x56>\n     183:      \tmovl\t-0x4(%rbp), %eax\n     186:      \tcltq\n     188:      \tleaq\t(,%rax,4), %rdx\n     190:      \tmovq\t-0x18(%rbp), %rax\n     194:      \taddq\t%rdx, %rax\n     197:      \tmovl\t(%rax), %eax\n     199:      \tmovl\t%eax, -0x8(%rbp)\n     19c:      \taddl\t$0x1, -0x4(%rbp)\n     1a0:      \tmovl\t-0x4(%rbp), %eax\n     1a3:      \tcltq\n     1a5:      \tcmpq\t%rax, -0x20(%rbp)\n     1a9:      \tja\t0x168 <get_largest_element+0x22>\n     1ab:      \tmovl\t-0x8(%rbp), %eax\n     1ae:      \tpopq\t%rbp\n     1af:      \tretq\n\n00000000000001b0 <get_match_index>:\n     1b0:      \tendbr64\n     1b4:      \tpushq\t%rbp\n     1b5:      \tmovq\t%rsp, %rbp\n     1b8:      \tsubq\t$0x30, %rsp\n     1bc:      \tmovq\t%rdi, -0x18(%rbp)\n     1c0:      \tmovq\t%rsi, -0x20(%rbp)\n     1c4:      \tmovl\t%edx, -0x24(%rbp)\n     1c7:      \tmovl\t$0x0, -0x4(%rbp)\n     1ce:      \tjmp\t0x1f6 <get_match_index+0x46>\n     1d0:      \tmovl\t-0x4(%rbp), %eax\n     1d3:      \tcltq\n     1d5:      \tleaq\t(,%rax,4), %rdx\n     1dd:      \tmovq\t-0x18(%rbp), %rax\n     1e1:      \taddq\t%rdx, %rax\n     1e4:      \tmovl\t(%rax), %eax\n     1e6:      \tcmpl\t%eax, -0x24(%rbp)\n     1e9:      \tjne\t0x1f2 <get_match_index+0x42>\n     1eb:      \tmovl\t-0x4(%rbp), %eax\n     1ee:      \tcltq\n     1f0:      \tjmp\t0x217 <get_match_index+0x67>\n     1f2:      \taddl\t$0x1, -0x4(%rbp)\n     1f6:      \tmovl\t-0x4(%rbp), %eax\n     1f9:      \tcltq\n     1fb:      \tcmpq\t%rax, -0x20(%rbp)\n     1ff:      \tja\t0x1d0 <get_match_index+0x20>\n     201:      \tleaq\t(%rip), %rdi            # 0x208 <get_match_index+0x58>\n;   .rodata -> \"Error in fuction get_match_index\"\n     208:      \tmovl\t$0x0, %eax\n     20d:      \tcallq\t0x212 <get_match_index+0x62>\n;   printf+-4\n     212:      \tcallq\t0x217 <get_match_index+0x67>\n;   abort+-4\n     217:      \tleave\n     218:      \tretq\n\n0000000000000219 <find_secondary_pair>:\n     219:      \tendbr64\n     21d:      \tpushq\t%rbp\n     21e:      \tmovq\t%rsp, %rbp\n     221:      \tmovq\t%rdi, -0x18(%rbp)\n     225:      \tmovq\t%rsi, -0x20(%rbp)\n     229:      \tmovq\t%rdx, -0x28(%rbp)\n     22d:      \tmovl\t$0x0, -0x4(%rbp)\n     234:      \tjmp\t0x290 <find_secondary_pair+0x77>\n     236:      \tmovl\t-0x4(%rbp), %eax\n     239:      \tcltq\n     23b:      \tleaq\t(,%rax,4), %rdx\n     243:      \tmovq\t-0x20(%rbp), %rax\n     247:      \taddq\t%rdx, %rax\n     24a:      \tmovl\t(%rax), %eax\n     24c:      \tcmpl\t$0x1, %eax\n     24f:      \tjbe\t0x28c <find_secondary_pair+0x73>\n     251:      \tmovq\t-0x18(%rbp), %rax\n     255:      \tmovq\t(%rax), %rax\n     258:      \tmovl\t-0x4(%rbp), %edx\n     25b:      \tmovslq\t%edx, %rdx\n     25e:      \tshlq\t$0x3, %rdx\n     262:      \taddq\t%rdx, %rax\n     265:      \tmovq\t(%rax), %rax\n     268:      \tmovl\t(%rax), %edx\n     26a:      \tmovq\t-0x18(%rbp), %rax\n     26e:      \tmovq\t(%rax), %rax\n     271:      \tmovq\t-0x28(%rbp), %rcx\n     275:      \tshlq\t$0x3, %rcx\n     279:      \taddq\t%rcx, %rax\n     27c:      \tmovq\t(%rax), %rax\n     27f:      \tmovl\t(%rax), %eax\n     281:      \tcmpl\t%eax, %edx\n     283:      \tje\t0x28c <find_secondary_pair+0x73>\n     285:      \tmovl\t-0x4(%rbp), %eax\n     288:      \tcltq\n     28a:      \tjmp\t0x2aa <find_secondary_pair+0x91>\n     28c:      \taddl\t$0x1, -0x4(%rbp)\n     290:      \tmovl\t-0x4(%rbp), %eax\n     293:      \tmovslq\t%eax, %rdx\n     296:      \tmovq\t-0x18(%rbp), %rax\n     29a:      \tmovq\t0x8(%rax), %rax\n     29e:      \tcmpq\t%rax, %rdx\n     2a1:      \tjb\t0x236 <find_secondary_pair+0x1d>\n     2a3:      \tmovq\t$-0x1, %rax\n     2aa:      \tpopq\t%rbp\n     2ab:      \tretq\n\n00000000000002ac <is_ace_low_straight_at>:\n     2ac:      \tendbr64\n     2b0:      \tpushq\t%rbp\n     2b1:      \tmovq\t%rsp, %rbp\n     2b4:      \tmovq\t%rdi, -0x18(%rbp)\n     2b8:      \tmovq\t%rsi, -0x20(%rbp)\n     2bc:      \tmovl\t%edx, -0x24(%rbp)\n     2bf:      \tmovl\t$0x0, -0x10(%rbp)\n     2c6:      \tmovl\t$0x5, -0xc(%rbp)\n     2cd:      \tcmpl\t$0x4, -0x24(%rbp)\n     2d1:      \tje\t0x33f <is_ace_low_straight_at+0x93>\n     2d3:      \tmovq\t-0x20(%rbp), %rax\n     2d7:      \taddl\t$0x1, %eax\n     2da:      \tmovl\t%eax, -0x8(%rbp)\n     2dd:      \tjmp\t0x32a <is_ace_low_straight_at+0x7e>\n     2df:      \tmovq\t-0x18(%rbp), %rax\n     2e3:      \tmovq\t(%rax), %rax\n     2e6:      \tmovl\t-0x8(%rbp), %edx\n     2e9:      \tmovslq\t%edx, %rdx\n     2ec:      \tshlq\t$0x3, %rdx\n     2f0:      \taddq\t%rdx, %rax\n     2f3:      \tmovq\t(%rax), %rax\n     2f6:      \tmovl\t(%rax), %edx\n     2f8:      \tmovl\t-0xc(%rbp), %eax\n     2fb:      \tcmpl\t%eax, %edx\n     2fd:      \tjne\t0x326 <is_ace_low_straight_at+0x7a>\n     2ff:      \tmovq\t-0x18(%rbp), %rax\n     303:      \tmovq\t(%rax), %rax\n     306:      \tmovl\t-0x8(%rbp), %edx\n     309:      \tmovslq\t%edx, %rdx\n     30c:      \tshlq\t$0x3, %rdx\n     310:      \taddq\t%rdx, %rax\n     313:      \tmovq\t(%rax), %rax\n     316:      \tmovl\t0x4(%rax), %eax\n     319:      \tcmpl\t%eax, -0x24(%rbp)\n     31c:      \tjne\t0x326 <is_ace_low_straight_at+0x7a>\n     31e:      \taddl\t$0x1, -0x10(%rbp)\n     322:      \tsubl\t$0x1, -0xc(%rbp)\n     326:      \taddl\t$0x1, -0x8(%rbp)\n     32a:      \tmovl\t-0x8(%rbp), %eax\n     32d:      \tmovslq\t%eax, %rdx\n     330:      \tmovq\t-0x18(%rbp), %rax\n     334:      \tmovq\t0x8(%rax), %rax\n     338:      \tcmpq\t%rax, %rdx\n     33b:      \tjb\t0x2df <is_ace_low_straight_at+0x33>\n     33d:      \tjmp\t0x38a <is_ace_low_straight_at+0xde>\n     33f:      \tmovq\t-0x20(%rbp), %rax\n     343:      \taddl\t$0x1, %eax\n     346:      \tmovl\t%eax, -0x4(%rbp)\n     349:      \tjmp\t0x377 <is_ace_low_straight_at+0xcb>\n     34b:      \tmovq\t-0x18(%rbp), %rax\n     34f:      \tmovq\t(%rax), %rax\n     352:      \tmovl\t-0x4(%rbp), %edx\n     355:      \tmovslq\t%edx, %rdx\n     358:      \tshlq\t$0x3, %rdx\n     35c:      \taddq\t%rdx, %rax\n     35f:      \tmovq\t(%rax), %rax\n     362:      \tmovl\t(%rax), %edx\n     364:      \tmovl\t-0xc(%rbp), %eax\n     367:      \tcmpl\t%eax, %edx\n     369:      \tjne\t0x373 <is_ace_low_straight_at+0xc7>\n     36b:      \taddl\t$0x1, -0x10(%rbp)\n     36f:      \tsubl\t$0x1, -0xc(%rbp)\n     373:      \taddl\t$0x1, -0x4(%rbp)\n     377:      \tmovl\t-0x4(%rbp), %eax\n     37a:      \tmovslq\t%eax, %rdx\n     37d:      \tmovq\t-0x18(%rbp), %rax\n     381:      \tmovq\t0x8(%rax), %rax\n     385:      \tcmpq\t%rax, %rdx\n     388:      \tjb\t0x34b <is_ace_low_straight_at+0x9f>\n     38a:      \tcmpl\t$0x3, -0x10(%rbp)\n     38e:      \tjle\t0x397 <is_ace_low_straight_at+0xeb>\n     390:      \tmovl\t$0x1, %eax\n     395:      \tjmp\t0x39c <is_ace_low_straight_at+0xf0>\n     397:      \tmovl\t$0x0, %eax\n     39c:      \tpopq\t%rbp\n     39d:      \tretq\n\n000000000000039e <is_n_length_straight_at>:\n     39e:      \tendbr64\n     3a2:      \tpushq\t%rbp\n     3a3:      \tmovq\t%rsp, %rbp\n     3a6:      \tmovq\t%rdi, -0x18(%rbp)\n     3aa:      \tmovq\t%rsi, -0x20(%rbp)\n     3ae:      \tmovl\t%edx, -0x24(%rbp)\n     3b1:      \tmovl\t%ecx, -0x28(%rbp)\n     3b4:      \tmovl\t$0x0, -0x10(%rbp)\n     3bb:      \tmovq\t-0x18(%rbp), %rax\n     3bf:      \tmovq\t(%rax), %rax\n     3c2:      \tmovq\t-0x20(%rbp), %rdx\n     3c6:      \tshlq\t$0x3, %rdx\n     3ca:      \taddq\t%rdx, %rax\n     3cd:      \tmovq\t(%rax), %rax\n     3d0:      \tmovl\t(%rax), %eax\n     3d2:      \tsubl\t$0x1, %eax\n     3d5:      \tmovl\t%eax, -0xc(%rbp)\n     3d8:      \tcmpl\t$0x4, -0x24(%rbp)\n     3dc:      \tje\t0x44a <is_n_length_straight_at+0xac>\n     3de:      \tmovq\t-0x20(%rbp), %rax\n     3e2:      \taddl\t$0x1, %eax\n     3e5:      \tmovl\t%eax, -0x8(%rbp)\n     3e8:      \tjmp\t0x435 <is_n_length_straight_at+0x97>\n     3ea:      \tmovq\t-0x18(%rbp), %rax\n     3ee:      \tmovq\t(%rax), %rax\n     3f1:      \tmovl\t-0x8(%rbp), %edx\n     3f4:      \tmovslq\t%edx, %rdx\n     3f7:      \tshlq\t$0x3, %rdx\n     3fb:      \taddq\t%rdx, %rax\n     3fe:      \tmovq\t(%rax), %rax\n     401:      \tmovl\t(%rax), %edx\n     403:      \tmovl\t-0xc(%rbp), %eax\n     406:      \tcmpl\t%eax, %edx\n     408:      \tjne\t0x431 <is_n_length_straight_at+0x93>\n     40a:      \tmovq\t-0x18(%rbp), %rax\n     40e:      \tmovq\t(%rax), %rax\n     411:      \tmovl\t-0x8(%rbp), %edx\n     414:      \tmovslq\t%edx, %rdx\n     417:      \tshlq\t$0x3, %rdx\n     41b:      \taddq\t%rdx, %rax\n     41e:      \tmovq\t(%rax), %rax\n     421:      \tmovl\t0x4(%rax), %eax\n     424:      \tcmpl\t%eax, -0x24(%rbp)\n     427:      \tjne\t0x431 <is_n_length_straight_at+0x93>\n     429:      \taddl\t$0x1, -0x10(%rbp)\n     42d:      \tsubl\t$0x1, -0xc(%rbp)\n     431:      \taddl\t$0x1, -0x8(%rbp)\n     435:      \tmovl\t-0x8(%rbp), %eax\n     438:      \tmovslq\t%eax, %rdx\n     43b:      \tmovq\t-0x18(%rbp), %rax\n     43f:      \tmovq\t0x8(%rax), %rax\n     443:      \tcmpq\t%rax, %rdx\n     446:      \tjb\t0x3ea <is_n_length_straight_at+0x4c>\n     448:      \tjmp\t0x495 <is_n_length_straight_at+0xf7>\n     44a:      \tmovq\t-0x20(%rbp), %rax\n     44e:      \taddl\t$0x1, %eax\n     451:      \tmovl\t%eax, -0x4(%rbp)\n     454:      \tjmp\t0x482 <is_n_length_straight_at+0xe4>\n     456:      \tmovq\t-0x18(%rbp), %rax\n     45a:      \tmovq\t(%rax), %rax\n     45d:      \tmovl\t-0x4(%rbp), %edx\n     460:      \tmovslq\t%edx, %rdx\n     463:      \tshlq\t$0x3, %rdx\n     467:      \taddq\t%rdx, %rax\n     46a:      \tmovq\t(%rax), %rax\n     46d:      \tmovl\t(%rax), %edx\n     46f:      \tmovl\t-0xc(%rbp), %eax\n     472:      \tcmpl\t%eax, %edx\n     474:      \tjne\t0x47e <is_n_length_straight_at+0xe0>\n     476:      \taddl\t$0x1, -0x10(%rbp)\n     47a:      \tsubl\t$0x1, -0xc(%rbp)\n     47e:      \taddl\t$0x1, -0x4(%rbp)\n     482:      \tmovl\t-0x4(%rbp), %eax\n     485:      \tmovslq\t%eax, %rdx\n     488:      \tmovq\t-0x18(%rbp), %rax\n     48c:      \tmovq\t0x8(%rax), %rax\n     490:      \tcmpq\t%rax, %rdx\n     493:      \tjb\t0x456 <is_n_length_straight_at+0xb8>\n     495:      \tmovl\t-0x10(%rbp), %eax\n     498:      \tcmpl\t-0x28(%rbp), %eax\n     49b:      \tjl\t0x4a4 <is_n_length_straight_at+0x106>\n     49d:      \tmovl\t$0x1, %eax\n     4a2:      \tjmp\t0x4a9 <is_n_length_straight_at+0x10b>\n     4a4:      \tmovl\t$0x0, %eax\n     4a9:      \tpopq\t%rbp\n     4aa:      \tretq\n\n00000000000004ab <is_straight_at>:\n     4ab:      \tendbr64\n     4af:      \tpushq\t%rbp\n     4b0:      \tmovq\t%rsp, %rbp\n     4b3:      \tsubq\t$0x28, %rsp\n     4b7:      \tmovq\t%rdi, -0x18(%rbp)\n     4bb:      \tmovq\t%rsi, -0x20(%rbp)\n     4bf:      \tmovl\t%edx, -0x24(%rbp)\n     4c2:      \tmovq\t-0x18(%rbp), %rax\n     4c6:      \tmovq\t0x8(%rax), %rax\n     4ca:      \tsubq\t-0x20(%rbp), %rax\n     4ce:      \tcmpq\t$0x4, %rax\n     4d2:      \tja\t0x4de <is_straight_at+0x33>\n     4d4:      \tmovl\t$0x0, %eax\n     4d9:      \tjmp\t0x58b <is_straight_at+0xe0>\n     4de:      \tcmpl\t$0x4, -0x24(%rbp)\n     4e2:      \tje\t0x50b <is_straight_at+0x60>\n     4e4:      \tmovq\t-0x18(%rbp), %rax\n     4e8:      \tmovq\t(%rax), %rax\n     4eb:      \tmovq\t-0x20(%rbp), %rdx\n     4ef:      \tshlq\t$0x3, %rdx\n     4f3:      \taddq\t%rdx, %rax\n     4f6:      \tmovq\t(%rax), %rax\n     4f9:      \tmovl\t0x4(%rax), %eax\n     4fc:      \tcmpl\t%eax, -0x24(%rbp)\n     4ff:      \tje\t0x50b <is_straight_at+0x60>\n     501:      \tmovl\t$0x0, %eax\n     506:      \tjmp\t0x58b <is_straight_at+0xe0>\n     50b:      \tmovq\t-0x18(%rbp), %rax\n     50f:      \tmovq\t(%rax), %rax\n     512:      \tmovq\t-0x20(%rbp), %rdx\n     516:      \tshlq\t$0x3, %rdx\n     51a:      \taddq\t%rdx, %rax\n     51d:      \tmovq\t(%rax), %rax\n     520:      \tmovl\t(%rax), %eax\n     522:      \tcmpl\t$0xe, %eax\n     525:      \tjne\t0x56d <is_straight_at+0xc2>\n     527:      \tmovl\t-0x24(%rbp), %edx\n     52a:      \tmovq\t-0x20(%rbp), %rcx\n     52e:      \tmovq\t-0x18(%rbp), %rax\n     532:      \tmovq\t%rcx, %rsi\n     535:      \tmovq\t%rax, %rdi\n     538:      \tcallq\t0x53d <is_straight_at+0x92>\n;   is_ace_low_straight_at+-4\n     53d:      \tmovl\t%eax, -0x8(%rbp)\n     540:      \tcmpl\t$0x1, -0x8(%rbp)\n     544:      \tjne\t0x54d <is_straight_at+0xa2>\n     546:      \tmovl\t$0xffffffff, %eax       # imm = 0xFFFFFFFF\n     54b:      \tjmp\t0x58b <is_straight_at+0xe0>\n     54d:      \tmovl\t-0x24(%rbp), %edx\n     550:      \tmovq\t-0x20(%rbp), %rsi\n     554:      \tmovq\t-0x18(%rbp), %rax\n     558:      \tmovl\t$0x4, %ecx\n     55d:      \tmovq\t%rax, %rdi\n     560:      \tcallq\t0x565 <is_straight_at+0xba>\n;   is_n_length_straight_at+-4\n     565:      \tmovl\t%eax, -0x4(%rbp)\n     568:      \tmovl\t-0x4(%rbp), %eax\n     56b:      \tjmp\t0x58b <is_straight_at+0xe0>\n     56d:      \tmovl\t-0x24(%rbp), %edx\n     570:      \tmovq\t-0x20(%rbp), %rsi\n     574:      \tmovq\t-0x18(%rbp), %rax\n     578:      \tmovl\t$0x4, %ecx\n     57d:      \tmovq\t%rax, %rdi\n     580:      \tcallq\t0x585 <is_straight_at+0xda>\n;   is_n_length_straight_at+-4\n     585:      \tmovl\t%eax, -0xc(%rbp)\n     588:      \tmovl\t-0xc(%rbp), %eax\n     58b:      \tleave\n     58c:      \tretq\n\n000000000000058d <build_hand_from_match>:\n     58d:      \tendbr64\n     591:      \tpushq\t%rbp\n     592:      \tmovq\t%rsp, %rbp\n     595:      \tpushq\t%rbx\n     596:      \tsubq\t$0x78, %rsp\n     59a:      \tmovq\t%rdi, -0x68(%rbp)\n     59e:      \tmovq\t%rsi, -0x70(%rbp)\n     5a2:      \tmovl\t%edx, -0x74(%rbp)\n     5a5:      \tmovl\t%ecx, -0x78(%rbp)\n     5a8:      \tmovq\t%r8, -0x80(%rbp)\n     5ac:      \tmovq\t%fs:0x28, %rax\n     5b5:      \tmovq\t%rax, -0x18(%rbp)\n     5b9:      \txorl\t%eax, %eax\n     5bb:      \tmovl\t-0x78(%rbp), %eax\n     5be:      \tmovl\t%eax, -0x50(%rbp)\n     5c1:      \tmovl\t$0x0, -0x5c(%rbp)\n     5c8:      \tjmp\t0x5f6 <build_hand_from_match+0x69>\n     5ca:      \tmovq\t-0x70(%rbp), %rax\n     5ce:      \tmovq\t(%rax), %rax\n     5d1:      \tmovl\t-0x5c(%rbp), %edx\n     5d4:      \tmovslq\t%edx, %rcx\n     5d7:      \tmovq\t-0x80(%rbp), %rdx\n     5db:      \taddq\t%rcx, %rdx\n     5de:      \tshlq\t$0x3, %rdx\n     5e2:      \taddq\t%rdx, %rax\n     5e5:      \tmovq\t(%rax), %rdx\n     5e8:      \tmovl\t-0x5c(%rbp), %eax\n     5eb:      \tcltq\n     5ed:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     5f2:      \taddl\t$0x1, -0x5c(%rbp)\n     5f6:      \tmovl\t-0x5c(%rbp), %eax\n     5f9:      \tcmpl\t%eax, -0x74(%rbp)\n     5fc:      \tja\t0x5ca <build_hand_from_match+0x3d>\n     5fe:      \tmovl\t$0x0, -0x58(%rbp)\n     605:      \tmovl\t-0x74(%rbp), %eax\n     608:      \tmovl\t%eax, -0x54(%rbp)\n     60b:      \tjmp\t0x664 <build_hand_from_match+0xd7>\n     60d:      \tmovl\t-0x58(%rbp), %eax\n     610:      \tcltq\n     612:      \tcmpq\t%rax, -0x80(%rbp)\n     616:      \tjbe\t0x63f <build_hand_from_match+0xb2>\n     618:      \tmovq\t-0x70(%rbp), %rax\n     61c:      \tmovq\t(%rax), %rax\n     61f:      \tmovl\t-0x58(%rbp), %edx\n     622:      \tmovslq\t%edx, %rdx\n     625:      \tshlq\t$0x3, %rdx\n     629:      \taddq\t%rdx, %rax\n     62c:      \tmovq\t(%rax), %rdx\n     62f:      \tmovl\t-0x54(%rbp), %eax\n     632:      \tcltq\n     634:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     639:      \taddl\t$0x1, -0x58(%rbp)\n     63d:      \tjmp\t0x660 <build_hand_from_match+0xd3>\n     63f:      \tmovq\t-0x70(%rbp), %rax\n     643:      \tmovq\t(%rax), %rax\n     646:      \tmovl\t-0x54(%rbp), %edx\n     649:      \tmovslq\t%edx, %rdx\n     64c:      \tshlq\t$0x3, %rdx\n     650:      \taddq\t%rdx, %rax\n     653:      \tmovq\t(%rax), %rdx\n     656:      \tmovl\t-0x54(%rbp), %eax\n     659:      \tcltq\n     65b:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     660:      \taddl\t$0x1, -0x54(%rbp)\n     664:      \tcmpl\t$0x4, -0x54(%rbp)\n     668:      \tjle\t0x60d <build_hand_from_match+0x80>\n     66a:      \tmovq\t-0x68(%rbp), %rax\n     66e:      \tmovq\t-0x50(%rbp), %rcx\n     672:      \tmovq\t-0x48(%rbp), %rbx\n     676:      \tmovq\t%rcx, (%rax)\n     679:      \tmovq\t%rbx, 0x8(%rax)\n     67d:      \tmovq\t-0x40(%rbp), %rcx\n     681:      \tmovq\t-0x38(%rbp), %rbx\n     685:      \tmovq\t%rcx, 0x10(%rax)\n     689:      \tmovq\t%rbx, 0x18(%rax)\n     68d:      \tmovq\t-0x30(%rbp), %rcx\n     691:      \tmovq\t-0x28(%rbp), %rbx\n     695:      \tmovq\t%rcx, 0x20(%rax)\n     699:      \tmovq\t%rbx, 0x28(%rax)\n     69d:      \tmovq\t-0x18(%rbp), %rax\n     6a1:      \txorq\t%fs:0x28, %rax\n     6aa:      \tje\t0x6b1 <build_hand_from_match+0x124>\n     6ac:      \tcallq\t0x6b1 <build_hand_from_match+0x124>\n;   __stack_chk_fail+-4\n     6b1:      \tmovq\t-0x68(%rbp), %rax\n     6b5:      \taddq\t$0x78, %rsp\n     6b9:      \tpopq\t%rbx\n     6ba:      \tpopq\t%rbp\n     6bb:      \tretq\n\n00000000000006bc <compare_hands>:\n     6bc:      \tendbr64\n     6c0:      \tpushq\t%rbp\n     6c1:      \tmovq\t%rsp, %rbp\n     6c4:      \tsubq\t$0x90, %rsp\n     6cb:      \tmovq\t%rdi, -0x88(%rbp)\n     6d2:      \tmovq\t%rsi, -0x90(%rbp)\n     6d9:      \tmovq\t%fs:0x28, %rax\n     6e2:      \tmovq\t%rax, -0x8(%rbp)\n     6e6:      \txorl\t%eax, %eax\n     6e8:      \tmovq\t-0x88(%rbp), %rax\n     6ef:      \tmovq\t0x8(%rax), %rsi\n     6f3:      \tmovq\t-0x88(%rbp), %rax\n     6fa:      \tmovq\t(%rax), %rax\n     6fd:      \tleaq\t(%rip), %rcx            # 0x704 <compare_hands+0x48>\n;   card_ptr_comp+-4\n     704:      \tmovl\t$0x8, %edx\n     709:      \tmovq\t%rax, %rdi\n     70c:      \tcallq\t0x711 <compare_hands+0x55>\n;   qsort+-4\n     711:      \tmovq\t-0x90(%rbp), %rax\n     718:      \tmovq\t0x8(%rax), %rsi\n     71c:      \tmovq\t-0x90(%rbp), %rax\n     723:      \tmovq\t(%rax), %rax\n     726:      \tleaq\t(%rip), %rcx            # 0x72d <compare_hands+0x71>\n;   card_ptr_comp+-4\n     72d:      \tmovl\t$0x8, %edx\n     732:      \tmovq\t%rax, %rdi\n     735:      \tcallq\t0x73a <compare_hands+0x7e>\n;   qsort+-4\n     73a:      \tleaq\t-0x70(%rbp), %rax\n     73e:      \tmovq\t-0x88(%rbp), %rdx\n     745:      \tmovq\t%rdx, %rsi\n     748:      \tmovq\t%rax, %rdi\n     74b:      \tcallq\t0x750 <compare_hands+0x94>\n;   evaluate_hand+-4\n     750:      \tleaq\t-0x40(%rbp), %rax\n     754:      \tmovq\t-0x90(%rbp), %rdx\n     75b:      \tmovq\t%rdx, %rsi\n     75e:      \tmovq\t%rax, %rdi\n     761:      \tcallq\t0x766 <compare_hands+0xaa>\n;   evaluate_hand+-4\n     766:      \tmovl\t-0x70(%rbp), %edx\n     769:      \tmovl\t-0x40(%rbp), %eax\n     76c:      \tcmpl\t%eax, %edx\n     76e:      \tjae\t0x777 <compare_hands+0xbb>\n     770:      \tmovl\t$0x1, %eax\n     775:      \tjmp\t0x7e6 <compare_hands+0x12a>\n     777:      \tmovl\t-0x70(%rbp), %edx\n     77a:      \tmovl\t-0x40(%rbp), %eax\n     77d:      \tcmpl\t%eax, %edx\n     77f:      \tjbe\t0x788 <compare_hands+0xcc>\n     781:      \tmovl\t$0xffffffff, %eax       # imm = 0xFFFFFFFF\n     786:      \tjmp\t0x7e6 <compare_hands+0x12a>\n     788:      \tmovl\t$0x0, -0x74(%rbp)\n     78f:      \tjmp\t0x7db <compare_hands+0x11f>\n     791:      \tmovl\t-0x74(%rbp), %eax\n     794:      \tcltq\n     796:      \tmovq\t-0x68(%rbp,%rax,8), %rax\n     79b:      \tmovl\t(%rax), %edx\n     79d:      \tmovl\t-0x74(%rbp), %eax\n     7a0:      \tcltq\n     7a2:      \tmovq\t-0x38(%rbp,%rax,8), %rax\n     7a7:      \tmovl\t(%rax), %eax\n     7a9:      \tcmpl\t%eax, %edx\n     7ab:      \tjbe\t0x7b4 <compare_hands+0xf8>\n     7ad:      \tmovl\t$0x1, %eax\n     7b2:      \tjmp\t0x7e6 <compare_hands+0x12a>\n     7b4:      \tmovl\t-0x74(%rbp), %eax\n     7b7:      \tcltq\n     7b9:      \tmovq\t-0x68(%rbp,%rax,8), %rax\n     7be:      \tmovl\t(%rax), %edx\n     7c0:      \tmovl\t-0x74(%rbp), %eax\n     7c3:      \tcltq\n     7c5:      \tmovq\t-0x38(%rbp,%rax,8), %rax\n     7ca:      \tmovl\t(%rax), %eax\n     7cc:      \tcmpl\t%eax, %edx\n     7ce:      \tjae\t0x7d7 <compare_hands+0x11b>\n     7d0:      \tmovl\t$0xffffffff, %eax       # imm = 0xFFFFFFFF\n     7d5:      \tjmp\t0x7e6 <compare_hands+0x12a>\n     7d7:      \taddl\t$0x1, -0x74(%rbp)\n     7db:      \tcmpl\t$0x4, -0x74(%rbp)\n     7df:      \tjle\t0x791 <compare_hands+0xd5>\n     7e1:      \tmovl\t$0x0, %eax\n     7e6:      \tmovq\t-0x8(%rbp), %rcx\n     7ea:      \txorq\t%fs:0x28, %rcx\n     7f3:      \tje\t0x7fa <compare_hands+0x13e>\n     7f5:      \tcallq\t0x7fa <compare_hands+0x13e>\n;   __stack_chk_fail+-4\n     7fa:      \tleave\n     7fb:      \tretq\n\n00000000000007fc <copy_straight>:\n     7fc:      \tendbr64\n     800:      \tpushq\t%rbp\n     801:      \tmovq\t%rsp, %rbp\n     804:      \tsubq\t$0x40, %rsp\n     808:      \tmovq\t%rdi, -0x18(%rbp)\n     80c:      \tmovq\t%rsi, -0x20(%rbp)\n     810:      \tmovq\t%rdx, -0x28(%rbp)\n     814:      \tmovl\t%ecx, -0x2c(%rbp)\n     817:      \tmovq\t%r8, -0x38(%rbp)\n     81b:      \tcmpl\t$0x4, -0x2c(%rbp)\n     81f:      \tje\t0x85d <copy_straight+0x61>\n     821:      \tmovq\t-0x20(%rbp), %rax\n     825:      \tmovq\t(%rax), %rax\n     828:      \tmovq\t-0x28(%rbp), %rdx\n     82c:      \tshlq\t$0x3, %rdx\n     830:      \taddq\t%rdx, %rax\n     833:      \tmovq\t(%rax), %rax\n     836:      \tmovl\t0x4(%rax), %eax\n     839:      \tcmpl\t%eax, -0x2c(%rbp)\n     83c:      \tje\t0x85d <copy_straight+0x61>\n     83e:      \tleaq\t(%rip), %rcx            # 0x845 <copy_straight+0x49>\n;   .rodata -> \"copy_straight\"\n     845:      \tmovl\t$0xe4, %edx\n     84a:      \tleaq\t(%rip), %rsi            # 0x851 <copy_straight+0x55>\n;   .rodata -> \"eval.c\"\n     851:      \tleaq\t(%rip), %rdi            # 0x858 <copy_straight+0x5c>\n;   .rodata -> \"fs == NUM_SUITS || from->cards[ind]->suit == fs\"\n     858:      \tcallq\t0x85d <copy_straight+0x61>\n;   __assert_fail+-4\n     85d:      \tmovq\t-0x20(%rbp), %rax\n     861:      \tmovq\t(%rax), %rax\n     864:      \tmovq\t-0x28(%rbp), %rdx\n     868:      \tshlq\t$0x3, %rdx\n     86c:      \taddq\t%rdx, %rax\n     86f:      \tmovq\t(%rax), %rax\n     872:      \tmovl\t(%rax), %eax\n     874:      \tmovl\t%eax, -0xc(%rbp)\n     877:      \tmovq\t$0x0, -0x8(%rbp)\n     87f:      \tjmp\t0x979 <copy_straight+0x17d>\n     884:      \tmovq\t-0x20(%rbp), %rax\n     888:      \tmovq\t0x8(%rax), %rax\n     88c:      \tcmpq\t%rax, -0x28(%rbp)\n     890:      \tjb\t0x8b1 <copy_straight+0xb5>\n     892:      \tleaq\t(%rip), %rcx            # 0x899 <copy_straight+0x9d>\n;   .rodata -> \"copy_straight\"\n     899:      \tmovl\t$0xe8, %edx\n     89e:      \tleaq\t(%rip), %rsi            # 0x8a5 <copy_straight+0xa9>\n;   .rodata -> \"eval.c\"\n     8a5:      \tleaq\t(%rip), %rdi            # 0x8ac <copy_straight+0xb0>\n;   .rodata -> \"ind < from->n_cards\"\n     8ac:      \tcallq\t0x8b1 <copy_straight+0xb5>\n;   __assert_fail+-4\n     8b1:      \tcmpl\t$0x1, -0xc(%rbp)\n     8b5:      \tja\t0x8d6 <copy_straight+0xda>\n     8b7:      \tleaq\t(%rip), %rcx            # 0x8be <copy_straight+0xc2>\n;   .rodata -> \"copy_straight\"\n     8be:      \tmovl\t$0xe9, %edx\n     8c3:      \tleaq\t(%rip), %rsi            # 0x8ca <copy_straight+0xce>\n;   .rodata -> \"eval.c\"\n     8ca:      \tleaq\t(%rip), %rdi            # 0x8d1 <copy_straight+0xd5>\n;   .rodata -> \"nextv >= 2\"\n     8d1:      \tcallq\t0x8d6 <copy_straight+0xda>\n;   __assert_fail+-4\n     8d6:      \tcmpq\t$0x4, -0x8(%rbp)\n     8db:      \tjbe\t0x8fc <copy_straight+0x100>\n     8dd:      \tleaq\t(%rip), %rcx            # 0x8e4 <copy_straight+0xe8>\n;   .rodata -> \"copy_straight\"\n     8e4:      \tmovl\t$0xea, %edx\n     8e9:      \tleaq\t(%rip), %rsi            # 0x8f0 <copy_straight+0xf4>\n;   .rodata -> \"eval.c\"\n     8f0:      \tleaq\t(%rip), %rdi            # 0x8f7 <copy_straight+0xfb>\n;   .rodata -> \"to_ind <5\"\n     8f7:      \tcallq\t0x8fc <copy_straight+0x100>\n;   __assert_fail+-4\n     8fc:      \tmovq\t-0x20(%rbp), %rax\n     900:      \tmovq\t(%rax), %rax\n     903:      \tmovq\t-0x28(%rbp), %rdx\n     907:      \tshlq\t$0x3, %rdx\n     90b:      \taddq\t%rdx, %rax\n     90e:      \tmovq\t(%rax), %rax\n     911:      \tmovl\t(%rax), %eax\n     913:      \tcmpl\t%eax, -0xc(%rbp)\n     916:      \tjne\t0x974 <copy_straight+0x178>\n     918:      \tcmpl\t$0x4, -0x2c(%rbp)\n     91c:      \tje\t0x93b <copy_straight+0x13f>\n     91e:      \tmovq\t-0x20(%rbp), %rax\n     922:      \tmovq\t(%rax), %rax\n     925:      \tmovq\t-0x28(%rbp), %rdx\n     929:      \tshlq\t$0x3, %rdx\n     92d:      \taddq\t%rdx, %rax\n     930:      \tmovq\t(%rax), %rax\n     933:      \tmovl\t0x4(%rax), %eax\n     936:      \tcmpl\t%eax, -0x2c(%rbp)\n     939:      \tjne\t0x974 <copy_straight+0x178>\n     93b:      \tmovq\t-0x20(%rbp), %rax\n     93f:      \tmovq\t(%rax), %rax\n     942:      \tmovq\t-0x28(%rbp), %rdx\n     946:      \tshlq\t$0x3, %rdx\n     94a:      \taddq\t%rdx, %rax\n     94d:      \tmovq\t-0x8(%rbp), %rdx\n     951:      \tleaq\t(,%rdx,8), %rcx\n     959:      \tmovq\t-0x18(%rbp), %rdx\n     95d:      \taddq\t%rcx, %rdx\n     960:      \tmovq\t(%rax), %rax\n     963:      \tmovq\t%rax, (%rdx)\n     966:      \taddq\t$0x1, -0x8(%rbp)\n     96b:      \tsubq\t$0x1, -0x38(%rbp)\n     970:      \tsubl\t$0x1, -0xc(%rbp)\n     974:      \taddq\t$0x1, -0x28(%rbp)\n     979:      \tcmpq\t$0x0, -0x38(%rbp)\n     97e:      \tjne\t0x884 <copy_straight+0x88>\n     984:      \tnop\n     985:      \tnop\n     986:      \tleave\n     987:      \tretq\n\n0000000000000988 <find_straight>:\n     988:      \tendbr64\n     98c:      \tpushq\t%rbp\n     98d:      \tmovq\t%rsp, %rbp\n     990:      \tsubq\t$0x40, %rsp\n     994:      \tmovq\t%rdi, -0x28(%rbp)\n     998:      \tmovl\t%esi, -0x2c(%rbp)\n     99b:      \tmovq\t%rdx, -0x38(%rbp)\n     99f:      \tmovq\t-0x28(%rbp), %rax\n     9a3:      \tmovq\t0x8(%rax), %rax\n     9a7:      \tcmpq\t$0x4, %rax\n     9ab:      \tja\t0x9b7 <find_straight+0x2f>\n     9ad:      \tmovl\t$0x0, %eax\n     9b2:      \tjmp\t0xb57 <find_straight+0x1cf>\n     9b7:      \tmovq\t$0x0, -0x10(%rbp)\n     9bf:      \tjmp\t0xb3c <find_straight+0x1b4>\n     9c4:      \tmovl\t-0x2c(%rbp), %edx\n     9c7:      \tmovq\t-0x10(%rbp), %rcx\n     9cb:      \tmovq\t-0x28(%rbp), %rax\n     9cf:      \tmovq\t%rcx, %rsi\n     9d2:      \tmovq\t%rax, %rdi\n     9d5:      \tcallq\t0x9da <find_straight+0x52>\n;   is_straight_at+-4\n     9da:      \tmovl\t%eax, -0x14(%rbp)\n     9dd:      \tcmpl\t$0x0, -0x14(%rbp)\n     9e1:      \tje\t0xb37 <find_straight+0x1af>\n     9e7:      \tcmpl\t$0x0, -0x14(%rbp)\n     9eb:      \tjns\t0xb0f <find_straight+0x187>\n     9f1:      \tmovq\t-0x28(%rbp), %rax\n     9f5:      \tmovq\t(%rax), %rax\n     9f8:      \tmovq\t-0x10(%rbp), %rdx\n     9fc:      \tshlq\t$0x3, %rdx\n     a00:      \taddq\t%rdx, %rax\n     a03:      \tmovq\t(%rax), %rax\n     a06:      \tmovl\t(%rax), %eax\n     a08:      \tcmpl\t$0xe, %eax\n     a0b:      \tjne\t0xa30 <find_straight+0xa8>\n     a0d:      \tcmpl\t$0x4, -0x2c(%rbp)\n     a11:      \tje\t0xa4f <find_straight+0xc7>\n     a13:      \tmovq\t-0x28(%rbp), %rax\n     a17:      \tmovq\t(%rax), %rax\n     a1a:      \tmovq\t-0x10(%rbp), %rdx\n     a1e:      \tshlq\t$0x3, %rdx\n     a22:      \taddq\t%rdx, %rax\n     a25:      \tmovq\t(%rax), %rax\n     a28:      \tmovl\t0x4(%rax), %eax\n     a2b:      \tcmpl\t%eax, -0x2c(%rbp)\n     a2e:      \tje\t0xa4f <find_straight+0xc7>\n     a30:      \tleaq\t(%rip), %rcx            # 0xa37 <find_straight+0xaf>\n;   .rodata -> \"find_straight\"\n     a37:      \tmovl\t$0x104, %edx            # imm = 0x104\n     a3c:      \tleaq\t(%rip), %rsi            # 0xa43 <find_straight+0xbb>\n;   .rodata -> \"eval.c\"\n     a43:      \tleaq\t(%rip), %rdi            # 0xa4a <find_straight+0xc2>\n;   .rodata -> \"hand->cards[i]->value == VALUE_ACE && (fs == NUM_SUITS || hand->cards[i]->suit == fs)\"\n     a4a:      \tcallq\t0xa4f <find_straight+0xc7>\n;   __assert_fail+-4\n     a4f:      \tnop\n     a50:      \tmovq\t-0x28(%rbp), %rax\n     a54:      \tmovq\t(%rax), %rax\n     a57:      \tmovq\t-0x10(%rbp), %rdx\n     a5b:      \tshlq\t$0x3, %rdx\n     a5f:      \taddq\t%rdx, %rax\n     a62:      \tmovq\t(%rax), %rdx\n     a65:      \tmovq\t-0x38(%rbp), %rax\n     a69:      \tmovq\t%rdx, 0x28(%rax)\n     a6d:      \tmovq\t-0x10(%rbp), %rax\n     a71:      \taddq\t$0x1, %rax\n     a75:      \tmovq\t%rax, -0x8(%rbp)\n     a79:      \tjmp\t0xaad <find_straight+0x125>\n     a7b:      \taddq\t$0x1, -0x8(%rbp)\n     a80:      \tmovq\t-0x28(%rbp), %rax\n     a84:      \tmovq\t0x8(%rax), %rax\n     a88:      \tcmpq\t%rax, -0x8(%rbp)\n     a8c:      \tjb\t0xaad <find_straight+0x125>\n     a8e:      \tleaq\t(%rip), %rcx            # 0xa95 <find_straight+0x10d>\n;   .rodata -> \"find_straight\"\n     a95:      \tmovl\t$0x10b, %edx            # imm = 0x10B\n     a9a:      \tleaq\t(%rip), %rsi            # 0xaa1 <find_straight+0x119>\n;   .rodata -> \"eval.c\"\n     aa1:      \tleaq\t(%rip), %rdi            # 0xaa8 <find_straight+0x120>\n;   .rodata -> \"cpind < hand->n_cards\"\n     aa8:      \tcallq\t0xaad <find_straight+0x125>\n;   __assert_fail+-4\n     aad:      \tmovq\t-0x28(%rbp), %rax\n     ab1:      \tmovq\t(%rax), %rax\n     ab4:      \tmovq\t-0x8(%rbp), %rdx\n     ab8:      \tshlq\t$0x3, %rdx\n     abc:      \taddq\t%rdx, %rax\n     abf:      \tmovq\t(%rax), %rax\n     ac2:      \tmovl\t(%rax), %eax\n     ac4:      \tcmpl\t$0x5, %eax\n     ac7:      \tjne\t0xa7b <find_straight+0xf3>\n     ac9:      \tcmpl\t$0x4, -0x2c(%rbp)\n     acd:      \tje\t0xaec <find_straight+0x164>\n     acf:      \tmovq\t-0x28(%rbp), %rax\n     ad3:      \tmovq\t(%rax), %rax\n     ad6:      \tmovq\t-0x8(%rbp), %rdx\n     ada:      \tshlq\t$0x3, %rdx\n     ade:      \taddq\t%rdx, %rax\n     ae1:      \tmovq\t(%rax), %rax\n     ae4:      \tmovl\t0x4(%rax), %eax\n     ae7:      \tcmpl\t%eax, -0x2c(%rbp)\n     aea:      \tjne\t0xa7b <find_straight+0xf3>\n     aec:      \tmovq\t-0x38(%rbp), %rax\n     af0:      \tleaq\t0x8(%rax), %rdi\n     af4:      \tmovl\t-0x2c(%rbp), %ecx\n     af7:      \tmovq\t-0x8(%rbp), %rdx\n     afb:      \tmovq\t-0x28(%rbp), %rax\n     aff:      \tmovl\t$0x4, %r8d\n     b05:      \tmovq\t%rax, %rsi\n     b08:      \tcallq\t0xb0d <find_straight+0x185>\n;   copy_straight+-4\n     b0d:      \tjmp\t0xb30 <find_straight+0x1a8>\n     b0f:      \tmovq\t-0x38(%rbp), %rax\n     b13:      \tleaq\t0x8(%rax), %rdi\n     b17:      \tmovl\t-0x2c(%rbp), %ecx\n     b1a:      \tmovq\t-0x10(%rbp), %rdx\n     b1e:      \tmovq\t-0x28(%rbp), %rax\n     b22:      \tmovl\t$0x5, %r8d\n     b28:      \tmovq\t%rax, %rsi\n     b2b:      \tcallq\t0xb30 <find_straight+0x1a8>\n;   copy_straight+-4\n     b30:      \tmovl\t$0x1, %eax\n     b35:      \tjmp\t0xb57 <find_straight+0x1cf>\n     b37:      \taddq\t$0x1, -0x10(%rbp)\n     b3c:      \tmovq\t-0x28(%rbp), %rax\n     b40:      \tmovq\t0x8(%rax), %rax\n     b44:      \tsubq\t$0x5, %rax\n     b48:      \tcmpq\t%rax, -0x10(%rbp)\n     b4c:      \tjbe\t0x9c4 <find_straight+0x3c>\n     b52:      \tmovl\t$0x0, %eax\n     b57:      \tleave\n     b58:      \tretq\n\n0000000000000b59 <evaluate_hand>:\n     b59:      \tendbr64\n     b5d:      \tpushq\t%rbp\n     b5e:      \tmovq\t%rsp, %rbp\n     b61:      \tpushq\t%rbx\n     b62:      \tsubq\t$0xb8, %rsp\n     b69:      \tmovq\t%rdi, -0x88(%rbp)\n     b70:      \tmovq\t%rsi, -0x90(%rbp)\n     b77:      \tmovq\t%fs:0x28, %rax\n     b80:      \tmovq\t%rax, -0x18(%rbp)\n     b84:      \txorl\t%eax, %eax\n     b86:      \tmovq\t-0x90(%rbp), %rax\n     b8d:      \tmovq\t%rax, %rdi\n     b90:      \tcallq\t0xb95 <evaluate_hand+0x3c>\n;   flush_suit+-4\n     b95:      \tmovl\t%eax, -0x80(%rbp)\n     b98:      \tcmpl\t$0x4, -0x80(%rbp)\n     b9c:      \tje\t0xbfc <evaluate_hand+0xa3>\n     b9e:      \tleaq\t-0x50(%rbp), %rdx\n     ba2:      \tmovl\t-0x80(%rbp), %ecx\n     ba5:      \tmovq\t-0x90(%rbp), %rax\n     bac:      \tmovl\t%ecx, %esi\n     bae:      \tmovq\t%rax, %rdi\n     bb1:      \tcallq\t0xbb6 <evaluate_hand+0x5d>\n;   find_straight+-4\n     bb6:      \ttestl\t%eax, %eax\n     bb8:      \tje\t0xbfc <evaluate_hand+0xa3>\n     bba:      \tmovl\t$0x0, -0x50(%rbp)\n     bc1:      \tmovq\t-0x88(%rbp), %rax\n     bc8:      \tmovq\t-0x50(%rbp), %rcx\n     bcc:      \tmovq\t-0x48(%rbp), %rbx\n     bd0:      \tmovq\t%rcx, (%rax)\n     bd3:      \tmovq\t%rbx, 0x8(%rax)\n     bd7:      \tmovq\t-0x40(%rbp), %rcx\n     bdb:      \tmovq\t-0x38(%rbp), %rbx\n     bdf:      \tmovq\t%rcx, 0x10(%rax)\n     be3:      \tmovq\t%rbx, 0x18(%rax)\n     be7:      \tmovq\t-0x30(%rbp), %rcx\n     beb:      \tmovq\t-0x28(%rbp), %rbx\n     bef:      \tmovq\t%rcx, 0x20(%rax)\n     bf3:      \tmovq\t%rbx, 0x28(%rax)\n     bf7:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n     bfc:      \tmovq\t-0x90(%rbp), %rax\n     c03:      \tmovq\t%rax, %rdi\n     c06:      \tcallq\t0xc0b <evaluate_hand+0xb2>\n;   get_match_counts+-4\n     c0b:      \tmovq\t%rax, -0x68(%rbp)\n     c0f:      \tmovq\t-0x90(%rbp), %rax\n     c16:      \tmovq\t0x8(%rax), %rdx\n     c1a:      \tmovq\t-0x68(%rbp), %rax\n     c1e:      \tmovq\t%rdx, %rsi\n     c21:      \tmovq\t%rax, %rdi\n     c24:      \tcallq\t0xc29 <evaluate_hand+0xd0>\n;   get_largest_element+-4\n     c29:      \tmovl\t%eax, -0x7c(%rbp)\n     c2c:      \tcmpl\t$0x4, -0x7c(%rbp)\n     c30:      \tjbe\t0xc51 <evaluate_hand+0xf8>\n     c32:      \tleaq\t(%rip), %rcx            # 0xc39 <evaluate_hand+0xe0>\n;   .rodata -> \"evaluate_hand\"\n     c39:      \tmovl\t$0x127, %edx            # imm = 0x127\n     c3e:      \tleaq\t(%rip), %rsi            # 0xc45 <evaluate_hand+0xec>\n;   .rodata -> \"eval.c\"\n     c45:      \tleaq\t(%rip), %rdi            # 0xc4c <evaluate_hand+0xf3>\n;   .rodata -> \"n_of_a_kind <= 4\"\n     c4c:      \tcallq\t0xc51 <evaluate_hand+0xf8>\n;   __assert_fail+-4\n     c51:      \tmovq\t-0x90(%rbp), %rax\n     c58:      \tmovq\t0x8(%rax), %rcx\n     c5c:      \tmovl\t-0x7c(%rbp), %edx\n     c5f:      \tmovq\t-0x68(%rbp), %rax\n     c63:      \tmovq\t%rcx, %rsi\n     c66:      \tmovq\t%rax, %rdi\n     c69:      \tcallq\t0xc6e <evaluate_hand+0x115>\n;   get_match_index+-4\n     c6e:      \tmovq\t%rax, -0x60(%rbp)\n     c72:      \tmovq\t-0x60(%rbp), %rdx\n     c76:      \tmovq\t-0x68(%rbp), %rcx\n     c7a:      \tmovq\t-0x90(%rbp), %rax\n     c81:      \tmovq\t%rcx, %rsi\n     c84:      \tmovq\t%rax, %rdi\n     c87:      \tcallq\t0xc8c <evaluate_hand+0x133>\n;   find_secondary_pair+-4\n     c8c:      \tmovq\t%rax, -0x58(%rbp)\n     c90:      \tmovq\t-0x68(%rbp), %rax\n     c94:      \tmovq\t%rax, %rdi\n     c97:      \tcallq\t0xc9c <evaluate_hand+0x143>\n;   free+-4\n     c9c:      \tcmpl\t$0x4, -0x7c(%rbp)\n     ca0:      \tjne\t0xcce <evaluate_hand+0x175>\n     ca2:      \tmovq\t-0x88(%rbp), %rax\n     ca9:      \tmovq\t-0x60(%rbp), %rdx\n     cad:      \tmovq\t-0x90(%rbp), %rsi\n     cb4:      \tmovq\t%rdx, %r8\n     cb7:      \tmovl\t$0x1, %ecx\n     cbc:      \tmovl\t$0x4, %edx\n     cc1:      \tmovq\t%rax, %rdi\n     cc4:      \tcallq\t0xcc9 <evaluate_hand+0x170>\n;   build_hand_from_match+-4\n     cc9:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n     cce:      \tcmpl\t$0x3, -0x7c(%rbp)\n     cd2:      \tjne\t0xdc3 <evaluate_hand+0x26a>\n     cd8:      \tcmpq\t$0x0, -0x58(%rbp)\n     cdd:      \tjs\t0xdc3 <evaluate_hand+0x26a>\n     ce3:      \tleaq\t-0xc0(%rbp), %rax\n     cea:      \tmovq\t-0x60(%rbp), %rdx\n     cee:      \tmovq\t-0x90(%rbp), %rsi\n     cf5:      \tmovq\t%rdx, %r8\n     cf8:      \tmovl\t$0x2, %ecx\n     cfd:      \tmovl\t$0x3, %edx\n     d02:      \tmovq\t%rax, %rdi\n     d05:      \tcallq\t0xd0a <evaluate_hand+0x1b1>\n;   build_hand_from_match+-4\n     d0a:      \tmovq\t-0xc0(%rbp), %rax\n     d11:      \tmovq\t-0xb8(%rbp), %rdx\n     d18:      \tmovq\t%rax, -0x50(%rbp)\n     d1c:      \tmovq\t%rdx, -0x48(%rbp)\n     d20:      \tmovq\t-0xb0(%rbp), %rax\n     d27:      \tmovq\t-0xa8(%rbp), %rdx\n     d2e:      \tmovq\t%rax, -0x40(%rbp)\n     d32:      \tmovq\t%rdx, -0x38(%rbp)\n     d36:      \tmovq\t-0xa0(%rbp), %rax\n     d3d:      \tmovq\t-0x98(%rbp), %rdx\n     d44:      \tmovq\t%rax, -0x30(%rbp)\n     d48:      \tmovq\t%rdx, -0x28(%rbp)\n     d4c:      \tmovq\t-0x90(%rbp), %rax\n     d53:      \tmovq\t(%rax), %rax\n     d56:      \tmovq\t-0x58(%rbp), %rdx\n     d5a:      \tshlq\t$0x3, %rdx\n     d5e:      \taddq\t%rdx, %rax\n     d61:      \tmovq\t(%rax), %rax\n     d64:      \tmovq\t%rax, -0x30(%rbp)\n     d68:      \tmovq\t-0x90(%rbp), %rax\n     d6f:      \tmovq\t(%rax), %rax\n     d72:      \tmovq\t-0x58(%rbp), %rdx\n     d76:      \taddq\t$0x1, %rdx\n     d7a:      \tshlq\t$0x3, %rdx\n     d7e:      \taddq\t%rdx, %rax\n     d81:      \tmovq\t(%rax), %rax\n     d84:      \tmovq\t%rax, -0x28(%rbp)\n     d88:      \tmovq\t-0x88(%rbp), %rax\n     d8f:      \tmovq\t-0x50(%rbp), %rcx\n     d93:      \tmovq\t-0x48(%rbp), %rbx\n     d97:      \tmovq\t%rcx, (%rax)\n     d9a:      \tmovq\t%rbx, 0x8(%rax)\n     d9e:      \tmovq\t-0x40(%rbp), %rcx\n     da2:      \tmovq\t-0x38(%rbp), %rbx\n     da6:      \tmovq\t%rcx, 0x10(%rax)\n     daa:      \tmovq\t%rbx, 0x18(%rax)\n     dae:      \tmovq\t-0x30(%rbp), %rcx\n     db2:      \tmovq\t-0x28(%rbp), %rbx\n     db6:      \tmovq\t%rcx, 0x20(%rax)\n     dba:      \tmovq\t%rbx, 0x28(%rax)\n     dbe:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n     dc3:      \tcmpl\t$0x4, -0x80(%rbp)\n     dc7:      \tje\t0xe87 <evaluate_hand+0x32e>\n     dcd:      \tmovl\t$0x3, -0x50(%rbp)\n     dd4:      \tmovq\t$0x0, -0x78(%rbp)\n     ddc:      \tmovq\t$0x0, -0x70(%rbp)\n     de4:      \tjmp\t0xe38 <evaluate_hand+0x2df>\n     de6:      \tmovq\t-0x90(%rbp), %rax\n     ded:      \tmovq\t(%rax), %rax\n     df0:      \tmovq\t-0x70(%rbp), %rdx\n     df4:      \tshlq\t$0x3, %rdx\n     df8:      \taddq\t%rdx, %rax\n     dfb:      \tmovq\t(%rax), %rax\n     dfe:      \tmovl\t0x4(%rax), %eax\n     e01:      \tcmpl\t%eax, -0x80(%rbp)\n     e04:      \tjne\t0xe33 <evaluate_hand+0x2da>\n     e06:      \tmovq\t-0x90(%rbp), %rax\n     e0d:      \tmovq\t(%rax), %rax\n     e10:      \tmovq\t-0x70(%rbp), %rdx\n     e14:      \tshlq\t$0x3, %rdx\n     e18:      \taddq\t%rdx, %rax\n     e1b:      \tmovq\t(%rax), %rdx\n     e1e:      \tmovq\t-0x78(%rbp), %rax\n     e22:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     e27:      \taddq\t$0x1, -0x78(%rbp)\n     e2c:      \tcmpq\t$0x4, -0x78(%rbp)\n     e31:      \tja\t0xe4b <evaluate_hand+0x2f2>\n     e33:      \taddq\t$0x1, -0x70(%rbp)\n     e38:      \tmovq\t-0x90(%rbp), %rax\n     e3f:      \tmovq\t0x8(%rax), %rax\n     e43:      \tcmpq\t%rax, -0x70(%rbp)\n     e47:      \tjb\t0xde6 <evaluate_hand+0x28d>\n     e49:      \tjmp\t0xe4c <evaluate_hand+0x2f3>\n     e4b:      \tnop\n     e4c:      \tmovq\t-0x88(%rbp), %rax\n     e53:      \tmovq\t-0x50(%rbp), %rcx\n     e57:      \tmovq\t-0x48(%rbp), %rbx\n     e5b:      \tmovq\t%rcx, (%rax)\n     e5e:      \tmovq\t%rbx, 0x8(%rax)\n     e62:      \tmovq\t-0x40(%rbp), %rcx\n     e66:      \tmovq\t-0x38(%rbp), %rbx\n     e6a:      \tmovq\t%rcx, 0x10(%rax)\n     e6e:      \tmovq\t%rbx, 0x18(%rax)\n     e72:      \tmovq\t-0x30(%rbp), %rcx\n     e76:      \tmovq\t-0x28(%rbp), %rbx\n     e7a:      \tmovq\t%rcx, 0x20(%rax)\n     e7e:      \tmovq\t%rbx, 0x28(%rax)\n     e82:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n     e87:      \tleaq\t-0x50(%rbp), %rdx\n     e8b:      \tmovq\t-0x90(%rbp), %rax\n     e92:      \tmovl\t$0x4, %esi\n     e97:      \tmovq\t%rax, %rdi\n     e9a:      \tcallq\t0xe9f <evaluate_hand+0x346>\n;   find_straight+-4\n     e9f:      \ttestl\t%eax, %eax\n     ea1:      \tje\t0xee5 <evaluate_hand+0x38c>\n     ea3:      \tmovl\t$0x4, -0x50(%rbp)\n     eaa:      \tmovq\t-0x88(%rbp), %rax\n     eb1:      \tmovq\t-0x50(%rbp), %rcx\n     eb5:      \tmovq\t-0x48(%rbp), %rbx\n     eb9:      \tmovq\t%rcx, (%rax)\n     ebc:      \tmovq\t%rbx, 0x8(%rax)\n     ec0:      \tmovq\t-0x40(%rbp), %rcx\n     ec4:      \tmovq\t-0x38(%rbp), %rbx\n     ec8:      \tmovq\t%rcx, 0x10(%rax)\n     ecc:      \tmovq\t%rbx, 0x18(%rax)\n     ed0:      \tmovq\t-0x30(%rbp), %rcx\n     ed4:      \tmovq\t-0x28(%rbp), %rbx\n     ed8:      \tmovq\t%rcx, 0x20(%rax)\n     edc:      \tmovq\t%rbx, 0x28(%rax)\n     ee0:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n     ee5:      \tcmpl\t$0x3, -0x7c(%rbp)\n     ee9:      \tjne\t0xf17 <evaluate_hand+0x3be>\n     eeb:      \tmovq\t-0x88(%rbp), %rax\n     ef2:      \tmovq\t-0x60(%rbp), %rdx\n     ef6:      \tmovq\t-0x90(%rbp), %rsi\n     efd:      \tmovq\t%rdx, %r8\n     f00:      \tmovl\t$0x5, %ecx\n     f05:      \tmovl\t$0x3, %edx\n     f0a:      \tmovq\t%rax, %rdi\n     f0d:      \tcallq\t0xf12 <evaluate_hand+0x3b9>\n;   build_hand_from_match+-4\n     f12:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n     f17:      \tcmpq\t$0x0, -0x58(%rbp)\n     f1c:      \tjs\t0x106b <evaluate_hand+0x512>\n     f22:      \tcmpl\t$0x2, -0x7c(%rbp)\n     f26:      \tje\t0xf47 <evaluate_hand+0x3ee>\n     f28:      \tleaq\t(%rip), %rcx            # 0xf2f <evaluate_hand+0x3d6>\n;   .rodata -> \"evaluate_hand\"\n     f2f:      \tmovl\t$0x14a, %edx            # imm = 0x14A\n     f34:      \tleaq\t(%rip), %rsi            # 0xf3b <evaluate_hand+0x3e2>\n;   .rodata -> \"eval.c\"\n     f3b:      \tleaq\t(%rip), %rdi            # 0xf42 <evaluate_hand+0x3e9>\n;   .rodata -> \"n_of_a_kind ==2\"\n     f42:      \tcallq\t0xf47 <evaluate_hand+0x3ee>\n;   __assert_fail+-4\n     f47:      \tleaq\t-0xc0(%rbp), %rax\n     f4e:      \tmovq\t-0x60(%rbp), %rdx\n     f52:      \tmovq\t-0x90(%rbp), %rsi\n     f59:      \tmovq\t%rdx, %r8\n     f5c:      \tmovl\t$0x6, %ecx\n     f61:      \tmovl\t$0x2, %edx\n     f66:      \tmovq\t%rax, %rdi\n     f69:      \tcallq\t0xf6e <evaluate_hand+0x415>\n;   build_hand_from_match+-4\n     f6e:      \tmovq\t-0xc0(%rbp), %rax\n     f75:      \tmovq\t-0xb8(%rbp), %rdx\n     f7c:      \tmovq\t%rax, -0x50(%rbp)\n     f80:      \tmovq\t%rdx, -0x48(%rbp)\n     f84:      \tmovq\t-0xb0(%rbp), %rax\n     f8b:      \tmovq\t-0xa8(%rbp), %rdx\n     f92:      \tmovq\t%rax, -0x40(%rbp)\n     f96:      \tmovq\t%rdx, -0x38(%rbp)\n     f9a:      \tmovq\t-0xa0(%rbp), %rax\n     fa1:      \tmovq\t-0x98(%rbp), %rdx\n     fa8:      \tmovq\t%rax, -0x30(%rbp)\n     fac:      \tmovq\t%rdx, -0x28(%rbp)\n     fb0:      \tmovq\t-0x90(%rbp), %rax\n     fb7:      \tmovq\t(%rax), %rax\n     fba:      \tmovq\t-0x58(%rbp), %rdx\n     fbe:      \tshlq\t$0x3, %rdx\n     fc2:      \taddq\t%rdx, %rax\n     fc5:      \tmovq\t(%rax), %rax\n     fc8:      \tmovq\t%rax, -0x38(%rbp)\n     fcc:      \tmovq\t-0x90(%rbp), %rax\n     fd3:      \tmovq\t(%rax), %rax\n     fd6:      \tmovq\t-0x58(%rbp), %rdx\n     fda:      \taddq\t$0x1, %rdx\n     fde:      \tshlq\t$0x3, %rdx\n     fe2:      \taddq\t%rdx, %rax\n     fe5:      \tmovq\t(%rax), %rax\n     fe8:      \tmovq\t%rax, -0x30(%rbp)\n     fec:      \tcmpq\t$0x0, -0x60(%rbp)\n     ff1:      \tje\t0x1006 <evaluate_hand+0x4ad>\n     ff3:      \tmovq\t-0x90(%rbp), %rax\n     ffa:      \tmovq\t(%rax), %rax\n     ffd:      \tmovq\t(%rax), %rax\n    1000:      \tmovq\t%rax, -0x28(%rbp)\n    1004:      \tjmp\t0x1033 <evaluate_hand+0x4da>\n    1006:      \tcmpq\t$0x2, -0x58(%rbp)\n    100b:      \tjle\t0x1021 <evaluate_hand+0x4c8>\n    100d:      \tmovq\t-0x90(%rbp), %rax\n    1014:      \tmovq\t(%rax), %rax\n    1017:      \tmovq\t0x10(%rax), %rax\n    101b:      \tmovq\t%rax, -0x28(%rbp)\n    101f:      \tjmp\t0x1033 <evaluate_hand+0x4da>\n    1021:      \tmovq\t-0x90(%rbp), %rax\n    1028:      \tmovq\t(%rax), %rax\n    102b:      \tmovq\t0x20(%rax), %rax\n    102f:      \tmovq\t%rax, -0x28(%rbp)\n    1033:      \tmovq\t-0x88(%rbp), %rax\n    103a:      \tmovq\t-0x50(%rbp), %rcx\n    103e:      \tmovq\t-0x48(%rbp), %rbx\n    1042:      \tmovq\t%rcx, (%rax)\n    1045:      \tmovq\t%rbx, 0x8(%rax)\n    1049:      \tmovq\t-0x40(%rbp), %rcx\n    104d:      \tmovq\t-0x38(%rbp), %rbx\n    1051:      \tmovq\t%rcx, 0x10(%rax)\n    1055:      \tmovq\t%rbx, 0x18(%rax)\n    1059:      \tmovq\t-0x30(%rbp), %rcx\n    105d:      \tmovq\t-0x28(%rbp), %rbx\n    1061:      \tmovq\t%rcx, 0x20(%rax)\n    1065:      \tmovq\t%rbx, 0x28(%rax)\n    1069:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n    106b:      \tcmpl\t$0x2, -0x7c(%rbp)\n    106f:      \tjne\t0x109a <evaluate_hand+0x541>\n    1071:      \tmovq\t-0x88(%rbp), %rax\n    1078:      \tmovq\t-0x60(%rbp), %rdx\n    107c:      \tmovq\t-0x90(%rbp), %rsi\n    1083:      \tmovq\t%rdx, %r8\n    1086:      \tmovl\t$0x7, %ecx\n    108b:      \tmovl\t$0x2, %edx\n    1090:      \tmovq\t%rax, %rdi\n    1093:      \tcallq\t0x1098 <evaluate_hand+0x53f>\n;   build_hand_from_match+-4\n    1098:      \tjmp\t0x10c0 <evaluate_hand+0x567>\n    109a:      \tmovq\t-0x88(%rbp), %rax\n    10a1:      \tmovq\t-0x90(%rbp), %rsi\n    10a8:      \tmovl\t$0x0, %r8d\n    10ae:      \tmovl\t$0x8, %ecx\n    10b3:      \tmovl\t$0x0, %edx\n    10b8:      \tmovq\t%rax, %rdi\n    10bb:      \tcallq\t0x10c0 <evaluate_hand+0x567>\n;   build_hand_from_match+-4\n    10c0:      \tmovq\t-0x18(%rbp), %rax\n    10c4:      \txorq\t%fs:0x28, %rax\n    10cd:      \tje\t0x10d4 <evaluate_hand+0x57b>\n    10cf:      \tcallq\t0x10d4 <evaluate_hand+0x57b>\n;   __stack_chk_fail+-4\n    10d4:      \tmovq\t-0x88(%rbp), %rax\n    10db:      \taddq\t$0xb8, %rsp\n    10e2:      \tpopq\t%rbx\n    10e3:      \tpopq\t%rbp\n    10e4:      \tretq"
+}

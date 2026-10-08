@@ -1,0 +1,47 @@
+{
+  "id": "c3prj1_deck",
+  "title": "Course 3 poker project: decks and hands (deck.c)",
+  "type": "compile_and_run",
+  "source": "deck.c",
+  "compileMessage": "Compiling deck.c",
+  "header": "Checking the output of all the functions other than shuffle",
+  "reportStyle": "running",
+  "successVerdict": "A",
+  "next": "c3prj2_eval",
+  "timeoutMs": 60000,
+  "build": {
+    "driver": "drivers/c3prj1_deck/deck_check.c",
+    "sources": [
+      "deck.c",
+      "cards.c"
+    ],
+    "output": "test-deck",
+    "flags": [
+      "-ggdb3",
+      "-Wall",
+      "-Werror",
+      "--pedantic",
+      "-std=gnu99",
+      "-Wno-error=non-literal-null-conversion"
+    ]
+  },
+  "tests": [
+    {
+      "label": "the functions other than shuffle",
+      "args": [
+        "nonshuffle"
+      ],
+      "message": "Your file matched the expected output",
+      "expectedFile": "expected/c3prj1_deck/nonshuffle.txt"
+    },
+    {
+      "label": "shuffle results with a 6 card hand",
+      "args": [
+        "shuffle"
+      ],
+      "message": " Excellent!",
+      "expected": ""
+    }
+  ],
+  "notes": "Report wording observed verbatim in re/original-grade-txt/c3prj1_deck.grade.txt: 'Compiling deck.c' (first line), 'Checking the output of all the functions other than shuffle', 'Your file matched the expected output', ' - Those functions seem to work!', 'Checking your shuffle results with a 6 card hand...', '  Least common hand: 0.131800%', '  Most  common hand: 0.146250%', '  Perfectly even is: 0.138888%', ' Excellent!', 'Overall Grade: A'. Confidence: observed -- every report line quoted above; inferred -- the driver's checks, since the grader's object is NOT in the workspace -- c3prj1_deck/test-deck.o is the teacher-provided sample program (re/elf/c3prj1_deck__test-deck.o.md: 'Doing 48M shuffles and counting hand frequency', 'Most common hand: ', 'Least common hand: ') and its output cannot contain the two-part report above -- so drivers/c3prj1_deck/deck_check.c is INFERRED from the README's function specifications: print_hand prints each card followed by a space and no newline; deck_contains returns 1/0; assert_full_deck asserts a 52-card deck holds every card_from_num value exactly once. The deterministic half is fixture-compared (that is what 'Your file matched the expected output' means) and the fixture is generated from the recorded solution. THE SHUFFLE STATISTICS ARE NOT REPRODUCED and are reported honestly: they are a random measurement with no stored expectation, so the shuffle case instead asserts the same property the statistics measure -- the six cards are preserved and the distribution over the 720 orderings is uniform (chi-square, 576000 samples, limit 719+8*sqrt(1438)=1022.4). Measured on the recorded solution: chi-square 726.2 (least 0.126389%, most 0.152431%, perfectly even 0.138889%), i.e. the same ballpark as the original's 0.131800%/0.146250%/0.138888%. A no-op shuffle is caught (chi-square 4.1e8); the test cannot see a bias under roughly 5% at this sample size, and it never fabricates an expected percentage. The original's three statistics lines and their ' Excellent!' verdict are not producible by the schema; the ' Excellent!' line is carried as the case's success message. The original linked the teacher's deck-c4.o because Course-3 deck.c had only the four Course-3 functions; the recorded deck.c now defines all of them, so the build uses the student's deck.c and cards.c only. Compiling the recorded cards.c needs -Wno-error=non-literal-null-conversion (its ranking_to_string default case returns '\\0' as a pointer; gcc 9 accepted it, clang 21 escalates it)."
+}

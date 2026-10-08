@@ -1,0 +1,6 @@
+	gcc $(CFLAGS) -o sortLines sortLines.c
+	rm -f sortLines *~
+CFLAGS=-ggdb3 -Wall -Werror -std=gnu99 -pedantic
+clean:
+sortLines: sortLines.c
+printf "%s\n%s\n%s\n" "This is a sample test case" "it checks your program's one argument behavior" "go!" | tee | ./sortLines

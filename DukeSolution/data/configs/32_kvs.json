@@ -1,0 +1,42 @@
+{
+  "id": "32_kvs",
+  "title": "Read key=value pairs from a file, print them, look values up and free them",
+  "type": "memory_check",
+  "source": "kv.c",
+  "build": {
+    "driver": "drivers/32_kvs/kv_test.c",
+    "sources": [
+      "kv.c"
+    ],
+    "output": "kv_test",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "-pedantic"
+    ]
+  },
+  "compileMessage": "Attempting to compile:",
+  "reportStyle": "testcase",
+  "timeoutMs": 5000,
+  "next": "33_counts",
+  "notes": "observed: re/original-grade-txt/32_kvs.grade.txt starts with `Attempting to compile:` and an EMPTY command, then three testcase blocks, each `Your output is correct` / `  - Valgrind was clean (no errors, no memory leaks)` / `valgrind was clean`, then `Overall Grade: A`. observed: the README fixes the four functions (readKVs/freeKVs/printKVs/lookupValue), the `key = '%s' value = '%s'\\n` print format, and says 'test them using the main in kv_test.c'; the Makefile's CFLAGS are `-Wall -Werror -std=gnu99 -pedantic -ggdb3` and its PROGRAM is `kv_test`; 32_kvs/test.txt is the fixture the driver reads. recovered: drivers/32_kvs/kv_test.c is the teacher driver - its content is the in-directory kv_test.c, and the object corroborates it (one function `main`, 238 bytes, at DWARF line 7; imports only readKVs/printKVs/lookupValue/freeKVs/printf/puts; .rodata \"test.txt\", \"Printing all keys\\n\", the five lookup keys and \"lookupValue('%s')=%s\\n\"). One divergence is recorded in the driver's header comment: the object imports `puts` and stores \"Printing all keys\\n\" with a single newline, so the teacher's original wrote the blank line with a separate puts(\"\") call while the committed source writes printf(\"Printing all keys\\n\\n\"); the bytes printed are identical. inferred: the driver takes no arguments and reads a fixed file name, so the original's three testcases can only have been three identical runs of ./kv_test, which is what is configured; configs/expected/32_kvs/test.txt is the reference run's stdout (including `lookupValue('cantaloupe')=(null)` for the missing key, which is what both glibc and this libc print for a NULL %s). platform substitution: the 2024 grader used valgrind, which does not exist on macOS/arm64 and cannot be installed. `memory_check` now builds twice - AddressSanitizer for out-of-bounds/use-after-free/double-free, and a plain build under Apple's `leaks --atExit --` for leaked allocations - and the original valgrind wording is kept so the reports stay comparable. Neither engine reports uninitialised reads, which valgrind did. The reference implementation is clean under both passes. Template exclusions: the committed Linux `kv_test` binary, kv.o/kv_test.o and the stray test1.c/test1.txt are not part of the starting template; kv.c is reduced to the four signatures and kv.h keeps only the teacher's //DEFINE ME! comments.",
+  "tests": [
+    {
+      "args": [],
+      "label": "testcase1",
+      "expectedFile": "expected/32_kvs/test.txt"
+    },
+    {
+      "args": [],
+      "label": "testcase2",
+      "expectedFile": "expected/32_kvs/test.txt"
+    },
+    {
+      "args": [],
+      "label": "testcase3",
+      "expectedFile": "expected/32_kvs/test.txt"
+    }
+  ],
+  "successVerdict": "A"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "31_minesweeper",
+  "title": "Write makeBoard, countMines, checkWin and freeBoard for the provided minesweeper game",
+  "type": "memory_check",
+  "source": "minesweeper.c",
+  "build": {
+    "sources": [
+      "minesweeper.c"
+    ],
+    "output": "minesweeper",
+    "flags": [
+      "-Wall",
+      "-pedantic",
+      "-std=gnu99",
+      "-Werror"
+    ]
+  },
+  "compileMessage": "Attempting to compile minesweeper.c",
+  "reportStyle": "testcase",
+  "timeoutMs": 5000,
+  "next": "32_kvs",
+  "notes": "observed: re/original-grade-txt/31_minesweeper.grade.txt reads `Attempting to compile minesweeper.c`, then four testcase blocks, each `Your output is correct` / `  - Valgrind was clean (no errors, no memory leaks)` / `valgrind was clean`, then `Overall Grade: A`. observed: the README names the four functions to implement (makeBoard, countMines, checkWin, freeBoard), says 'You should NOT change any of the other provided functions', states that a mine may be HAS_MINE or KNOWN_MINE and that `IS_MINE` tests both, that b->board is indexed `b->board[y][x]`, and that 'the mine generation is pseudo random and will not change if you re-run the program multiple times with the same parameters' - the file calls random() without srandom(), so a fixed argument triple always yields the same board; the Makefile's CCFLAGS are `-Wall -pedantic -std=gnu99 -Werror -ggdb3` and its target is `minesweeper`. observed: the program's own interface (minesweeper.c main) is `minesweeper width height numMines`, reading an x then a y coordinate from stdin each turn, printing `Do you want to play again?` after the game ends and looping while the answer starts with y or Y. recovered: none - this assignment has no teacher object; the four tested functions are the student's. inferred: the original's four stdin scripts are not recorded anywhere in the workspace, so the four cases here were composed from the program's own interface and exercised against the reference build, and each transcript was generated twice to confirm it is deterministic (random() is never seeded). The four cases cover the game's outcomes and its error paths: case1 loses immediately by clicking the single mine on a 3x3 board; case2 wins on the same board by clicking all eight safe squares, which also exercises the automatic 'obvious square' propagation; case3 feeds two malformed numbers (`You did not enter any valid number`, `Input was not entirely a number (junk at end)`, both on stderr with `Please try again` on stdout) and an out-of-range square (`That is not a valid square, please try again`) before losing; case4 loses, answers `y` to play again, loses the second (differently mined) board and answers `n`. The mine coordinates were found by probing the reference build, not guessed: on 3x3x1 the first board's mine is (1,1) and the replay board's is (0,1). platform substitution: the 2024 grader used valgrind, which does not exist on macOS/arm64 and cannot be installed. `memory_check` builds twice - AddressSanitizer for out-of-bounds/use-after-free/double-free, and a plain build under Apple's `leaks --atExit --` for leaked allocations - and the original valgrind wording is kept so the reports stay comparable. Neither engine reports uninitialised reads, which valgrind did. The reference implementation is clean under both passes. Template exclusions: the committed Linux `minesweeper` binary and the vgcore.* dumps are not part of the starting template; the four required function bodies are replaced by `//WRITE ME!` plus TODO comments, and every other line is byte-identical to the reference (including the two provided asserts in countMines).",
+  "tests": [
+    {
+      "args": [
+        "3",
+        "3",
+        "1"
+      ],
+      "label": "testcase1: lose immediately",
+      "stdin": "1\n1\nn\n",
+      "expectedFile": "expected/31_minesweeper/case1_lose.txt"
+    },
+    {
+      "args": [
+        "3",
+        "3",
+        "1"
+      ],
+      "label": "testcase2: win by revealing every safe square",
+      "stdin": "0\n0\n1\n0\n2\n0\n0\n1\n2\n1\n0\n2\n1\n2\n2\n2\nn\n",
+      "expectedFile": "expected/31_minesweeper/case2_win.txt"
+    },
+    {
+      "args": [
+        "3",
+        "3",
+        "1"
+      ],
+      "label": "testcase3: malformed and out-of-range input, then lose",
+      "stdin": "abc\n5x\n99\n99\n1\n1\nn\n",
+      "expectedFile": "expected/31_minesweeper/case3_invalid.txt"
+    },
+    {
+      "args": [
+        "3",
+        "3",
+        "1"
+      ],
+      "label": "testcase4: lose, play again, lose again",
+      "stdin": "1\n1\ny\n0\n1\nn\n",
+      "expectedFile": "expected/31_minesweeper/case4_replay.txt"
+    }
+  ],
+  "successVerdict": "A"
+}

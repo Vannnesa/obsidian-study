@@ -1,0 +1,5 @@
+	gcc $(CFLAGS) -o sortLines sortLines.c
+	rm -f sortLines *~
+CFLAGS=-ggdb3 -Wall -Werror -std=gnu99 -pedantic
+clean:
+sortLines: sortLines.c

@@ -1,0 +1,141 @@
+{
+  "id": "03_code2",
+  "title": "int printTriangle (int size) -- print a triangle of stars and return the total count",
+  "type": "source_check",
+  "source": "code2.c",
+  "build": {
+    "driver": "drivers/03_code2/printTriangle_test.c",
+    "sources": [],
+    "output": "code2",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=gnu99",
+      "-include",
+      "stdio.h",
+      "-include",
+      "stdlib.h"
+    ]
+  },
+  "requiredPatterns": [
+    {
+      "label": "Checking for int printTriangle (int size)",
+      "pattern": "int\\s+printTriangle\\s*\\(\\s*int\\s+size\\s*\\)"
+    }
+  ],
+  "requireMain": true,
+  "header": "Trying to run the code..",
+  "selfTest": {
+    "expectedFile": "expected/03_code2/main.txt",
+    "successMessage": "Your file matched the expected output",
+    "replaceMessage": "Removing your main() and replacing it with our own to run more tests..."
+  },
+  "reportStyle": "inline",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "04_compile",
+  "notes": "observed: re/original-grade-txt/03_code2.grade.txt supplies the whole report -- 'Checking code2.c for legal syntax'; the checklist labels 'Checking for int printTriangle (int size)' and 'Checking for int main(void)' with 'Found on line 3, column 1 ' and 'Found on line 25, column 1 '; 'Trying to run the code..'; 'Your file matched the expected output'; 'Removing your main() and replacing it with our own to run more tests...'; the 12 'Testing printTriangle(<size>) ... Correct' lines for sizes 0,1,2,3,4,7,9,12,143,172,931,2469; and 'Overall Grade: A' (recorded as successVerdict). 03_code2/README and 03_code2/test.sh give the function to write (print a triangle of `size` lines, line i holding i+1 stars, and return the total star count) and the program's expected output; like 02_code1, test.sh prepends the two headers, which is why the original's line numbers are two higher than the file's own -- build.flags force the same headers with -include so the standalone selfTest build links. configs/expected/03_code2/main.txt is the reference program's stdout and is byte-identical to the expected output block printed by 03_code2/test.sh (verified with diff), so that fixture is observed rather than generated-and-assumed. inferred: drivers/03_code2/printTriangle_test.c -- no teacher object exists anywhere (re/elf/ has no 03_code2 entry and the directory holds no .o), so the driver body is inferred from the case list above. It runs printTriangle with stdout redirected into a temporary file and checks BOTH the returned count (size*(size+1)/2) and the printed triangle, which is what makes the check meaningful: a program that returns the right count but prints the wrong triangle, and one that prints correctly but returns the height, were both confirmed to fail. On success it prints 'printTriangle(<size>) returned <count>', so each fixture records the expected count; on failure it prints a diagnostic and exits non-zero. reportStyle 'inline' reproduces the original's per-case line byte for byte. observed: the 2024 report numbers the declarations at lines 3 and 10 (02_code1) / 3 and 25 (03_code2), two more than the student's file, because the grader prepended '#include <stdio.h>' and '#include <stdlib.h>' before checking - which is what this assignment's own test.sh does. `prependLines` reproduces that shift so the reported line numbers are the original's, not ours.",
+  "tests": [
+    {
+      "args": [
+        "0"
+      ],
+      "expectedFile": "expected/03_code2/0.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(0)"
+    },
+    {
+      "args": [
+        "1"
+      ],
+      "expectedFile": "expected/03_code2/1.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(1)"
+    },
+    {
+      "args": [
+        "2"
+      ],
+      "expectedFile": "expected/03_code2/2.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(2)"
+    },
+    {
+      "args": [
+        "3"
+      ],
+      "expectedFile": "expected/03_code2/3.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(3)"
+    },
+    {
+      "args": [
+        "4"
+      ],
+      "expectedFile": "expected/03_code2/4.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(4)"
+    },
+    {
+      "args": [
+        "7"
+      ],
+      "expectedFile": "expected/03_code2/7.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(7)"
+    },
+    {
+      "args": [
+        "9"
+      ],
+      "expectedFile": "expected/03_code2/9.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(9)"
+    },
+    {
+      "args": [
+        "12"
+      ],
+      "expectedFile": "expected/03_code2/12.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(12)"
+    },
+    {
+      "args": [
+        "143"
+      ],
+      "expectedFile": "expected/03_code2/143.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(143)"
+    },
+    {
+      "args": [
+        "172"
+      ],
+      "expectedFile": "expected/03_code2/172.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(172)"
+    },
+    {
+      "args": [
+        "931"
+      ],
+      "expectedFile": "expected/03_code2/931.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(931)"
+    },
+    {
+      "args": [
+        "2469"
+      ],
+      "expectedFile": "expected/03_code2/2469.txt",
+      "expectedExit": 0,
+      "label": "printTriangle(2469)"
+    }
+  ],
+  "prependLines": [
+    "#include <stdio.h>",
+    "#include <stdlib.h>"
+  ]
+}

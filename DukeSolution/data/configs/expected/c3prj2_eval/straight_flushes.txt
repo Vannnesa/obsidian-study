@@ -1,0 +1,43 @@
+Hand 1:
+--------
+0h 6s 5s 4h 4s 3s 2s 
+ - Flush in suit s
+ - Straight flush at index 1
+ - The most of a kind is 2 of a kind (at index 3 / value 4)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT_FLUSH
+ - 5 cards used for hand: 6s 5s 4s 3s 2s 
+Hand 2:
+--------
+0h 7s 5s 4h 4s 3s 2s 
+ - Flush in suit s
+ - The most of a kind is 2 of a kind (at index 3 / value 4)
+ - No secondary pair
+ - evaluate_hand's ranking: FLUSH
+ - 5 cards used for hand: 7s 5s 4s 3s 2s 
+Comparison : 
+--------------
+Hand 1 wins!
+============================
+Hand 1:
+--------
+As Kd Qh 5s 4s 3s 2s 
+ - Flush in suit s
+ - Straight flush at index 0
+ - The most of a kind is 1 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT_FLUSH
+ - 5 cards used for hand: 5s 4s 3s 2s As 
+Hand 2:
+--------
+Kh Qh Jh 0h 9h 3d 2c 
+ - Flush in suit h
+ - Straight flush at index 0
+ - The most of a kind is 1 of a kind (at index 0 / value K)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT_FLUSH
+ - 5 cards used for hand: Kh Qh Jh 0h 9h 
+Comparison : 
+--------------
+Hand 2 wins!
+============================

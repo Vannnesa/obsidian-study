@@ -1,0 +1,929 @@
+{
+ "path": "c3prj2_eval/test-eval.o",
+ "size": 7808,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "test-eval.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3251",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 592,
+   "section": ".rodata"
+  },
+  {
+   "name": "describe_hand",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 1123,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 803,
+   "addr": 1123,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "print_hand",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "putchar",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "printf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "print_card",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "flush_suit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "puts",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "suit_letter",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "is_straight_at",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "get_match_counts",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "get_largest_element",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "get_match_index",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "find_secondary_pair",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "value_letter",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "evaluate_hand",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "ranking_to_string",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stdin",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fopen",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__ctype_b_loc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strchr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "hand_from_string",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "card_ptr_comp",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "qsort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free_deck",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "compare_hands",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getline",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fclose",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "Warning: had has %zu cards (may behave oddly)\n"
+  },
+  {
+   "offset": 47,
+   "text": "Duplicated card in hand"
+  },
+  {
+   "offset": 71,
+   "text": " at index %zu and %zu\n"
+  },
+  {
+   "offset": 94,
+   "text": " - No flush"
+  },
+  {
+   "offset": 106,
+   "text": " - Flush in suit %c\n"
+  },
+  {
+   "offset": 128,
+   "text": " - Straight flush at index %zu\n"
+  },
+  {
+   "offset": 160,
+   "text": " - Straight at index %zu\n"
+  },
+  {
+   "offset": 186,
+   "text": "test-eval.c"
+  },
+  {
+   "offset": 198,
+   "text": "n_of_a_kind <= 4"
+  },
+  {
+   "offset": 216,
+   "text": " - The most of a kind is %d of a kind (at index %zu / value %c)\n"
+  },
+  {
+   "offset": 288,
+   "text": " - Secondary pair at index %zd (value %c)\n"
+  },
+  {
+   "offset": 331,
+   "text": " - No secondary pair"
+  },
+  {
+   "offset": 352,
+   "text": " - evaluate_hand's ranking: %s\n"
+  },
+  {
+   "offset": 384,
+   "text": " - 5 cards used for hand: "
+  },
+  {
+   "offset": 413,
+   "text": "Could not open %s\n"
+  },
+  {
+   "offset": 432,
+   "text": "Invalid input line: %s (no ; to split hands)\n"
+  },
+  {
+   "offset": 478,
+   "text": "Hand 1:"
+  },
+  {
+   "offset": 486,
+   "text": "--------"
+  },
+  {
+   "offset": 495,
+   "text": "Hand 2:"
+  },
+  {
+   "offset": 503,
+   "text": "Comparison : "
+  },
+  {
+   "offset": 517,
+   "text": "--------------"
+  },
+  {
+   "offset": 532,
+   "text": "Hand 1 wins!"
+  },
+  {
+   "offset": 545,
+   "text": "Tie"
+  },
+  {
+   "offset": 549,
+   "text": "Hand 2 wins!"
+  },
+  {
+   "offset": 562,
+   "text": "============================"
+  },
+  {
+   "offset": 592,
+   "text": "describe_hand"
+  }
+ ],
+ "string_refs": {
+  "describe_hand": [
+   "Warning: had has %zu cards (may behave oddly)\n",
+   "Duplicated card in hand",
+   " at index %zu and %zu\n",
+   " - No flush",
+   " - Flush in suit %c\n",
+   " - Straight flush at index %zu\n",
+   " - Straight at index %zu\n",
+   "describe_hand",
+   "test-eval.c",
+   "n_of_a_kind <= 4",
+   " - The most of a kind is %d of a kind (at index %zu / value %c)\n",
+   " - Secondary pair at index %zd (value %c)\n",
+   " - No secondary pair",
+   " - evaluate_hand's ranking: %s\n",
+   " - 5 cards used for hand: "
+  ],
+  "main": [
+   "r",
+   "Could not open %s\n",
+   "Invalid input line: %s (no ; to split hands)\n",
+   "Hand 1:",
+   "--------",
+   "Hand 2:",
+   "Comparison : ",
+   "--------------",
+   "Hand 1 wins!",
+   "Tie",
+   "Hand 2 wins!",
+   "============================"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 48,
+    "symbol": "print_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 58,
+    "symbol": "putchar",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 96,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 106,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 261,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 281,
+    "symbol": ".rodata",
+    "addend": 43,
+    "type": 2
+   },
+   {
+    "offset": 286,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 318,
+    "symbol": "print_card",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 336,
+    "symbol": ".rodata",
+    "addend": 67,
+    "type": 2
+   },
+   {
+    "offset": 346,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 356,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 423,
+    "symbol": "flush_suit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 445,
+    "symbol": ".rodata",
+    "addend": 90,
+    "type": 2
+   },
+   {
+    "offset": 450,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 488,
+    "symbol": "suit_letter",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 500,
+    "symbol": ".rodata",
+    "addend": 102,
+    "type": 2
+   },
+   {
+    "offset": 510,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 557,
+    "symbol": "is_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 575,
+    "symbol": ".rodata",
+    "addend": 124,
+    "type": 2
+   },
+   {
+    "offset": 585,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 614,
+    "symbol": "is_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 632,
+    "symbol": ".rodata",
+    "addend": 156,
+    "type": 2
+   },
+   {
+    "offset": 642,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 687,
+    "symbol": "get_match_counts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 717,
+    "symbol": "get_largest_element",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 739,
+    "symbol": ".rodata",
+    "addend": 588,
+    "type": 2
+   },
+   {
+    "offset": 751,
+    "symbol": ".rodata",
+    "addend": 182,
+    "type": 2
+   },
+   {
+    "offset": 758,
+    "symbol": ".rodata",
+    "addend": 194,
+    "type": 2
+   },
+   {
+    "offset": 763,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 795,
+    "symbol": "get_match_index",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 825,
+    "symbol": "find_secondary_pair",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 841,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 873,
+    "symbol": "value_letter",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 895,
+    "symbol": ".rodata",
+    "addend": 212,
+    "type": 2
+   },
+   {
+    "offset": 905,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 944,
+    "symbol": "value_letter",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 961,
+    "symbol": ".rodata",
+    "addend": 284,
+    "type": 2
+   },
+   {
+    "offset": 971,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 980,
+    "symbol": ".rodata",
+    "addend": 327,
+    "type": 2
+   },
+   {
+    "offset": 985,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1007,
+    "symbol": "evaluate_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1017,
+    "symbol": "ranking_to_string",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1027,
+    "symbol": ".rodata",
+    "addend": 348,
+    "type": 2
+   },
+   {
+    "offset": 1037,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1064,
+    "symbol": ".rodata",
+    "addend": 380,
+    "type": 2
+   },
+   {
+    "offset": 1074,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1086,
+    "symbol": "print_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1096,
+    "symbol": "putchar",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1117,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1166,
+    "symbol": "stdin",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1190,
+    "symbol": ".rodata",
+    "addend": 407,
+    "type": 2
+   },
+   {
+    "offset": 1198,
+    "symbol": "fopen",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1227,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1234,
+    "symbol": ".rodata",
+    "addend": 409,
+    "type": 2
+   },
+   {
+    "offset": 1247,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1298,
+    "symbol": "__ctype_b_loc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1377,
+    "symbol": "strchr",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1399,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1406,
+    "symbol": ".rodata",
+    "addend": 428,
+    "type": 2
+   },
+   {
+    "offset": 1419,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1453,
+    "symbol": "hand_from_string",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1474,
+    "symbol": "hand_from_string",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1500,
+    "symbol": "card_ptr_comp",
+    "addend": -4,
+    "type": 42
+   },
+   {
+    "offset": 1516,
+    "symbol": "qsort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1538,
+    "symbol": "card_ptr_comp",
+    "addend": -4,
+    "type": 42
+   },
+   {
+    "offset": 1554,
+    "symbol": "qsort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1561,
+    "symbol": ".rodata",
+    "addend": 474,
+    "type": 2
+   },
+   {
+    "offset": 1566,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1573,
+    "symbol": ".rodata",
+    "addend": 482,
+    "type": 2
+   },
+   {
+    "offset": 1578,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1590,
+    "symbol": "describe_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1597,
+    "symbol": ".rodata",
+    "addend": 491,
+    "type": 2
+   },
+   {
+    "offset": 1602,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1609,
+    "symbol": ".rodata",
+    "addend": 482,
+    "type": 2
+   },
+   {
+    "offset": 1614,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1626,
+    "symbol": "describe_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1638,
+    "symbol": "free_deck",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1650,
+    "symbol": "free_deck",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1667,
+    "symbol": "hand_from_string",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1688,
+    "symbol": "hand_from_string",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1711,
+    "symbol": "compare_hands",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1721,
+    "symbol": ".rodata",
+    "addend": 499,
+    "type": 2
+   },
+   {
+    "offset": 1726,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1733,
+    "symbol": ".rodata",
+    "addend": 513,
+    "type": 2
+   },
+   {
+    "offset": 1738,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1751,
+    "symbol": ".rodata",
+    "addend": 528,
+    "type": 2
+   },
+   {
+    "offset": 1756,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1771,
+    "symbol": ".rodata",
+    "addend": 541,
+    "type": 2
+   },
+   {
+    "offset": 1776,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1785,
+    "symbol": ".rodata",
+    "addend": 545,
+    "type": 2
+   },
+   {
+    "offset": 1790,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1802,
+    "symbol": "free_deck",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1814,
+    "symbol": "free_deck",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1821,
+    "symbol": ".rodata",
+    "addend": 558,
+    "type": 2
+   },
+   {
+    "offset": 1826,
+    "symbol": "puts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1849,
+    "symbol": "getline",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1870,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1877,
+    "symbol": "stdin",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1895,
+    "symbol": "fclose",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1920,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c3prj2_eval/test-eval.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <describe_hand>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tsubq\t$0xa0, %rsp\n       f:      \tmovq\t%rdi, -0x98(%rbp)\n      16:      \tmovq\t%fs:0x28, %rax\n      1f:      \tmovq\t%rax, -0x8(%rbp)\n      23:      \txorl\t%eax, %eax\n      25:      \tmovq\t-0x98(%rbp), %rax\n      2c:      \tmovq\t%rax, %rdi\n      2f:      \tcallq\t0x34 <describe_hand+0x34>\n;   print_hand+-4\n      34:      \tmovl\t$0xa, %edi\n      39:      \tcallq\t0x3e <describe_hand+0x3e>\n;   putchar+-4\n      3e:      \tmovq\t-0x98(%rbp), %rax\n      45:      \tmovq\t0x8(%rax), %rax\n      49:      \tcmpq\t$0x8, %rax\n      4d:      \tjbe\t0x6e <describe_hand+0x6e>\n      4f:      \tmovq\t-0x98(%rbp), %rax\n      56:      \tmovq\t0x8(%rax), %rax\n      5a:      \tmovq\t%rax, %rsi\n      5d:      \tleaq\t(%rip), %rdi            # 0x64 <describe_hand+0x64>\n;   .rodata -> \"Warning: had has %zu cards (may behave oddly)\\n\"\n      64:      \tmovl\t$0x0, %eax\n      69:      \tcallq\t0x6e <describe_hand+0x6e>\n;   printf+-4\n      6e:      \tmovq\t$0x0, -0x80(%rbp)\n      76:      \tjmp\t0x187 <describe_hand+0x187>\n      7b:      \tmovq\t-0x80(%rbp), %rax\n      7f:      \taddq\t$0x1, %rax\n      83:      \tmovq\t%rax, -0x78(%rbp)\n      87:      \tjmp\t0x16d <describe_hand+0x16d>\n      8c:      \tmovq\t-0x98(%rbp), %rax\n      93:      \tmovq\t(%rax), %rax\n      96:      \tmovq\t-0x80(%rbp), %rdx\n      9a:      \tshlq\t$0x3, %rdx\n      9e:      \taddq\t%rdx, %rax\n      a1:      \tmovq\t(%rax), %rax\n      a4:      \tmovl\t(%rax), %edx\n      a6:      \tmovq\t-0x98(%rbp), %rax\n      ad:      \tmovq\t(%rax), %rax\n      b0:      \tmovq\t-0x78(%rbp), %rcx\n      b4:      \tshlq\t$0x3, %rcx\n      b8:      \taddq\t%rcx, %rax\n      bb:      \tmovq\t(%rax), %rax\n      be:      \tmovl\t(%rax), %eax\n      c0:      \tcmpl\t%eax, %edx\n      c2:      \tjne\t0x168 <describe_hand+0x168>\n      c8:      \tmovq\t-0x98(%rbp), %rax\n      cf:      \tmovq\t(%rax), %rax\n      d2:      \tmovq\t-0x80(%rbp), %rdx\n      d6:      \tshlq\t$0x3, %rdx\n      da:      \taddq\t%rdx, %rax\n      dd:      \tmovq\t(%rax), %rax\n      e0:      \tmovl\t0x4(%rax), %edx\n      e3:      \tmovq\t-0x98(%rbp), %rax\n      ea:      \tmovq\t(%rax), %rax\n      ed:      \tmovq\t-0x78(%rbp), %rcx\n      f1:      \tshlq\t$0x3, %rcx\n      f5:      \taddq\t%rcx, %rax\n      f8:      \tmovq\t(%rax), %rax\n      fb:      \tmovl\t0x4(%rax), %eax\n      fe:      \tcmpl\t%eax, %edx\n     100:      \tjne\t0x168 <describe_hand+0x168>\n     102:      \tmovq\t(%rip), %rax            # 0x109 <describe_hand+0x109>\n;   stderr+-4\n     109:      \tmovq\t%rax, %rcx\n     10c:      \tmovl\t$0x17, %edx\n     111:      \tmovl\t$0x1, %esi\n     116:      \tleaq\t(%rip), %rdi            # 0x11d <describe_hand+0x11d>\n;   .rodata -> \"Duplicated card in hand\"\n     11d:      \tcallq\t0x122 <describe_hand+0x122>\n;   fwrite+-4\n     122:      \tmovq\t-0x98(%rbp), %rax\n     129:      \tmovq\t(%rax), %rax\n     12c:      \tmovq\t-0x80(%rbp), %rdx\n     130:      \tshlq\t$0x3, %rdx\n     134:      \taddq\t%rdx, %rax\n     137:      \tmovq\t(%rax), %rax\n     13a:      \tmovq\t(%rax), %rdi\n     13d:      \tcallq\t0x142 <describe_hand+0x142>\n;   print_card+-4\n     142:      \tmovq\t-0x78(%rbp), %rdx\n     146:      \tmovq\t-0x80(%rbp), %rax\n     14a:      \tmovq\t%rax, %rsi\n     14d:      \tleaq\t(%rip), %rdi            # 0x154 <describe_hand+0x154>\n;   .rodata -> \" at index %zu and %zu\\n\"\n     154:      \tmovl\t$0x0, %eax\n     159:      \tcallq\t0x15e <describe_hand+0x15e>\n;   printf+-4\n     15e:      \tmovl\t$0x1, %edi\n     163:      \tcallq\t0x168 <describe_hand+0x168>\n;   exit+-4\n     168:      \taddq\t$0x1, -0x78(%rbp)\n     16d:      \tmovq\t-0x98(%rbp), %rax\n     174:      \tmovq\t0x8(%rax), %rax\n     178:      \tcmpq\t%rax, -0x78(%rbp)\n     17c:      \tjb\t0x8c <describe_hand+0x8c>\n     182:      \taddq\t$0x1, -0x80(%rbp)\n     187:      \tmovq\t-0x98(%rbp), %rax\n     18e:      \tmovq\t0x8(%rax), %rax\n     192:      \tcmpq\t%rax, -0x80(%rbp)\n     196:      \tjb\t0x7b <describe_hand+0x7b>\n     19c:      \tmovq\t-0x98(%rbp), %rax\n     1a3:      \tmovq\t%rax, %rdi\n     1a6:      \tcallq\t0x1ab <describe_hand+0x1ab>\n;   flush_suit+-4\n     1ab:      \tmovl\t%eax, -0x88(%rbp)\n     1b1:      \tcmpl\t$0x4, -0x88(%rbp)\n     1b8:      \tjne\t0x1c8 <describe_hand+0x1c8>\n     1ba:      \tleaq\t(%rip), %rdi            # 0x1c1 <describe_hand+0x1c1>\n;   .rodata -> \" - No flush\"\n     1c1:      \tcallq\t0x1c6 <describe_hand+0x1c6>\n;   puts+-4\n     1c6:      \tjmp\t0x202 <describe_hand+0x202>\n     1c8:      \tmovq\t$0x0, -0x50(%rbp)\n     1d0:      \tmovl\t$0xa, -0x50(%rbp)\n     1d7:      \tmovl\t-0x88(%rbp), %eax\n     1dd:      \tmovl\t%eax, -0x4c(%rbp)\n     1e0:      \tmovq\t-0x50(%rbp), %rax\n     1e4:      \tmovq\t%rax, %rdi\n     1e7:      \tcallq\t0x1ec <describe_hand+0x1ec>\n;   suit_letter+-4\n     1ec:      \tmovsbl\t%al, %eax\n     1ef:      \tmovl\t%eax, %esi\n     1f1:      \tleaq\t(%rip), %rdi            # 0x1f8 <describe_hand+0x1f8>\n;   .rodata -> \" - Flush in suit %c\\n\"\n     1f8:      \tmovl\t$0x0, %eax\n     1fd:      \tcallq\t0x202 <describe_hand+0x202>\n;   printf+-4\n     202:      \tmovq\t$0x0, -0x70(%rbp)\n     20a:      \tjmp\t0x28b <describe_hand+0x28b>\n     20c:      \tcmpl\t$0x4, -0x88(%rbp)\n     213:      \tje\t0x24f <describe_hand+0x24f>\n     215:      \tmovl\t-0x88(%rbp), %edx\n     21b:      \tmovq\t-0x70(%rbp), %rcx\n     21f:      \tmovq\t-0x98(%rbp), %rax\n     226:      \tmovq\t%rcx, %rsi\n     229:      \tmovq\t%rax, %rdi\n     22c:      \tcallq\t0x231 <describe_hand+0x231>\n;   is_straight_at+-4\n     231:      \ttestl\t%eax, %eax\n     233:      \tje\t0x24f <describe_hand+0x24f>\n     235:      \tmovq\t-0x70(%rbp), %rax\n     239:      \tmovq\t%rax, %rsi\n     23c:      \tleaq\t(%rip), %rdi            # 0x243 <describe_hand+0x243>\n;   .rodata -> \" - Straight flush at index %zu\\n\"\n     243:      \tmovl\t$0x0, %eax\n     248:      \tcallq\t0x24d <describe_hand+0x24d>\n;   printf+-4\n     24d:      \tjmp\t0x286 <describe_hand+0x286>\n     24f:      \tmovq\t-0x70(%rbp), %rcx\n     253:      \tmovq\t-0x98(%rbp), %rax\n     25a:      \tmovl\t$0x4, %edx\n     25f:      \tmovq\t%rcx, %rsi\n     262:      \tmovq\t%rax, %rdi\n     265:      \tcallq\t0x26a <describe_hand+0x26a>\n;   is_straight_at+-4\n     26a:      \ttestl\t%eax, %eax\n     26c:      \tje\t0x286 <describe_hand+0x286>\n     26e:      \tmovq\t-0x70(%rbp), %rax\n     272:      \tmovq\t%rax, %rsi\n     275:      \tleaq\t(%rip), %rdi            # 0x27c <describe_hand+0x27c>\n;   .rodata -> \" - Straight at index %zu\\n\"\n     27c:      \tmovl\t$0x0, %eax\n     281:      \tcallq\t0x286 <describe_hand+0x286>\n;   printf+-4\n     286:      \taddq\t$0x1, -0x70(%rbp)\n     28b:      \tmovq\t-0x98(%rbp), %rax\n     292:      \tmovq\t0x8(%rax), %rax\n     296:      \tsubq\t$0x5, %rax\n     29a:      \tcmpq\t%rax, -0x70(%rbp)\n     29e:      \tjbe\t0x20c <describe_hand+0x20c>\n     2a4:      \tmovq\t-0x98(%rbp), %rax\n     2ab:      \tmovq\t%rax, %rdi\n     2ae:      \tcallq\t0x2b3 <describe_hand+0x2b3>\n;   get_match_counts+-4\n     2b3:      \tmovq\t%rax, -0x68(%rbp)\n     2b7:      \tmovq\t-0x98(%rbp), %rax\n     2be:      \tmovq\t0x8(%rax), %rdx\n     2c2:      \tmovq\t-0x68(%rbp), %rax\n     2c6:      \tmovq\t%rdx, %rsi\n     2c9:      \tmovq\t%rax, %rdi\n     2cc:      \tcallq\t0x2d1 <describe_hand+0x2d1>\n;   get_largest_element+-4\n     2d1:      \tmovl\t%eax, -0x84(%rbp)\n     2d7:      \tcmpl\t$0x4, -0x84(%rbp)\n     2de:      \tjbe\t0x2ff <describe_hand+0x2ff>\n     2e0:      \tleaq\t(%rip), %rcx            # 0x2e7 <describe_hand+0x2e7>\n;   .rodata -> \"describe_hand\"\n     2e7:      \tmovl\t$0x38, %edx\n     2ec:      \tleaq\t(%rip), %rsi            # 0x2f3 <describe_hand+0x2f3>\n;   .rodata -> \"test-eval.c\"\n     2f3:      \tleaq\t(%rip), %rdi            # 0x2fa <describe_hand+0x2fa>\n;   .rodata -> \"n_of_a_kind <= 4\"\n     2fa:      \tcallq\t0x2ff <describe_hand+0x2ff>\n;   __assert_fail+-4\n     2ff:      \tmovq\t-0x98(%rbp), %rax\n     306:      \tmovq\t0x8(%rax), %rcx\n     30a:      \tmovl\t-0x84(%rbp), %edx\n     310:      \tmovq\t-0x68(%rbp), %rax\n     314:      \tmovq\t%rcx, %rsi\n     317:      \tmovq\t%rax, %rdi\n     31a:      \tcallq\t0x31f <describe_hand+0x31f>\n;   get_match_index+-4\n     31f:      \tmovq\t%rax, -0x60(%rbp)\n     323:      \tmovq\t-0x60(%rbp), %rdx\n     327:      \tmovq\t-0x68(%rbp), %rcx\n     32b:      \tmovq\t-0x98(%rbp), %rax\n     332:      \tmovq\t%rcx, %rsi\n     335:      \tmovq\t%rax, %rdi\n     338:      \tcallq\t0x33d <describe_hand+0x33d>\n;   find_secondary_pair+-4\n     33d:      \tmovq\t%rax, -0x58(%rbp)\n     341:      \tmovq\t-0x68(%rbp), %rax\n     345:      \tmovq\t%rax, %rdi\n     348:      \tcallq\t0x34d <describe_hand+0x34d>\n;   free+-4\n     34d:      \tmovq\t-0x98(%rbp), %rax\n     354:      \tmovq\t(%rax), %rax\n     357:      \tmovq\t-0x60(%rbp), %rdx\n     35b:      \tshlq\t$0x3, %rdx\n     35f:      \taddq\t%rdx, %rax\n     362:      \tmovq\t(%rax), %rax\n     365:      \tmovq\t(%rax), %rdi\n     368:      \tcallq\t0x36d <describe_hand+0x36d>\n;   value_letter+-4\n     36d:      \tmovsbl\t%al, %ecx\n     370:      \tmovq\t-0x60(%rbp), %rdx\n     374:      \tmovl\t-0x84(%rbp), %eax\n     37a:      \tmovl\t%eax, %esi\n     37c:      \tleaq\t(%rip), %rdi            # 0x383 <describe_hand+0x383>\n;   .rodata -> \" - The most of a kind is %d of a kind (at index %zu / value %c)\\n\"\n     383:      \tmovl\t$0x0, %eax\n     388:      \tcallq\t0x38d <describe_hand+0x38d>\n;   printf+-4\n     38d:      \tcmpq\t$0x0, -0x58(%rbp)\n     392:      \tjs\t0x3d1 <describe_hand+0x3d1>\n     394:      \tmovq\t-0x98(%rbp), %rax\n     39b:      \tmovq\t(%rax), %rax\n     39e:      \tmovq\t-0x58(%rbp), %rdx\n     3a2:      \tshlq\t$0x3, %rdx\n     3a6:      \taddq\t%rdx, %rax\n     3a9:      \tmovq\t(%rax), %rax\n     3ac:      \tmovq\t(%rax), %rdi\n     3af:      \tcallq\t0x3b4 <describe_hand+0x3b4>\n;   value_letter+-4\n     3b4:      \tmovsbl\t%al, %edx\n     3b7:      \tmovq\t-0x58(%rbp), %rax\n     3bb:      \tmovq\t%rax, %rsi\n     3be:      \tleaq\t(%rip), %rdi            # 0x3c5 <describe_hand+0x3c5>\n;   .rodata -> \" - Secondary pair at index %zd (value %c)\\n\"\n     3c5:      \tmovl\t$0x0, %eax\n     3ca:      \tcallq\t0x3cf <describe_hand+0x3cf>\n;   printf+-4\n     3cf:      \tjmp\t0x3dd <describe_hand+0x3dd>\n     3d1:      \tleaq\t(%rip), %rdi            # 0x3d8 <describe_hand+0x3d8>\n;   .rodata -> \" - No secondary pair\"\n     3d8:      \tcallq\t0x3dd <describe_hand+0x3dd>\n;   puts+-4\n     3dd:      \tleaq\t-0x40(%rbp), %rax\n     3e1:      \tmovq\t-0x98(%rbp), %rdx\n     3e8:      \tmovq\t%rdx, %rsi\n     3eb:      \tmovq\t%rax, %rdi\n     3ee:      \tcallq\t0x3f3 <describe_hand+0x3f3>\n;   evaluate_hand+-4\n     3f3:      \tmovl\t-0x40(%rbp), %eax\n     3f6:      \tmovl\t%eax, %edi\n     3f8:      \tcallq\t0x3fd <describe_hand+0x3fd>\n;   ranking_to_string+-4\n     3fd:      \tmovq\t%rax, %rsi\n     400:      \tleaq\t(%rip), %rdi            # 0x407 <describe_hand+0x407>\n;   .rodata -> \" - evaluate_hand's ranking: %s\\n\"\n     407:      \tmovl\t$0x0, %eax\n     40c:      \tcallq\t0x411 <describe_hand+0x411>\n;   printf+-4\n     411:      \tmovq\t$0x5, -0x48(%rbp)\n     419:      \tleaq\t-0x40(%rbp), %rax\n     41d:      \taddq\t$0x8, %rax\n     421:      \tmovq\t%rax, -0x50(%rbp)\n     425:      \tleaq\t(%rip), %rdi            # 0x42c <describe_hand+0x42c>\n;   .rodata -> \" - 5 cards used for hand: \"\n     42c:      \tmovl\t$0x0, %eax\n     431:      \tcallq\t0x436 <describe_hand+0x436>\n;   printf+-4\n     436:      \tleaq\t-0x50(%rbp), %rax\n     43a:      \tmovq\t%rax, %rdi\n     43d:      \tcallq\t0x442 <describe_hand+0x442>\n;   print_hand+-4\n     442:      \tmovl\t$0xa, %edi\n     447:      \tcallq\t0x44c <describe_hand+0x44c>\n;   putchar+-4\n     44c:      \tnop\n     44d:      \tmovq\t-0x8(%rbp), %rax\n     451:      \txorq\t%fs:0x28, %rax\n     45a:      \tje\t0x461 <describe_hand+0x461>\n     45c:      \tcallq\t0x461 <describe_hand+0x461>\n;   __stack_chk_fail+-4\n     461:      \tleave\n     462:      \tretq\n\n0000000000000463 <main>:\n     463:      \tendbr64\n     467:      \tpushq\t%rbp\n     468:      \tmovq\t%rsp, %rbp\n     46b:      \tsubq\t$0x60, %rsp\n     46f:      \tmovl\t%edi, -0x54(%rbp)\n     472:      \tmovq\t%rsi, -0x60(%rbp)\n     476:      \tmovq\t%fs:0x28, %rax\n     47f:      \tmovq\t%rax, -0x8(%rbp)\n     483:      \txorl\t%eax, %eax\n     485:      \tcmpl\t$0x1, -0x54(%rbp)\n     489:      \tjne\t0x498 <main+0x35>\n     48b:      \tmovq\t(%rip), %rax            # 0x492 <main+0x2f>\n;   stdin+-4\n     492:      \tmovq\t%rax, -0x30(%rbp)\n     496:      \tjmp\t0x4ed <main+0x8a>\n     498:      \tmovq\t-0x60(%rbp), %rax\n     49c:      \taddq\t$0x8, %rax\n     4a0:      \tmovq\t(%rax), %rax\n     4a3:      \tleaq\t(%rip), %rsi            # 0x4aa <main+0x47>\n;   .rodata -> \"r\"\n     4aa:      \tmovq\t%rax, %rdi\n     4ad:      \tcallq\t0x4b2 <main+0x4f>\n;   fopen+-4\n     4b2:      \tmovq\t%rax, -0x30(%rbp)\n     4b6:      \tcmpq\t$0x0, -0x30(%rbp)\n     4bb:      \tjne\t0x4ed <main+0x8a>\n     4bd:      \tmovq\t-0x60(%rbp), %rax\n     4c1:      \taddq\t$0x8, %rax\n     4c5:      \tmovq\t(%rax), %rdx\n     4c8:      \tmovq\t(%rip), %rax            # 0x4cf <main+0x6c>\n;   stderr+-4\n     4cf:      \tleaq\t(%rip), %rsi            # 0x4d6 <main+0x73>\n;   .rodata -> \"Could not open %s\\n\"\n     4d6:      \tmovq\t%rax, %rdi\n     4d9:      \tmovl\t$0x0, %eax\n     4de:      \tcallq\t0x4e3 <main+0x80>\n;   fprintf+-4\n     4e3:      \tmovl\t$0x1, %eax\n     4e8:      \tjmp\t0x770 <main+0x30d>\n     4ed:      \tmovq\t$0x0, -0x40(%rbp)\n     4f5:      \tmovq\t$0x0, -0x38(%rbp)\n     4fd:      \tjmp\t0x726 <main+0x2c3>\n     502:      \tmovq\t-0x38(%rbp), %rax\n     506:      \tmovq\t%rax, -0x28(%rbp)\n     50a:      \tjmp\t0x511 <main+0xae>\n     50c:      \taddq\t$0x1, -0x28(%rbp)\n     511:      \tcallq\t0x516 <main+0xb3>\n;   __ctype_b_loc+-4\n     516:      \tmovq\t(%rax), %rdx\n     519:      \tmovq\t-0x28(%rbp), %rax\n     51d:      \tmovzbl\t(%rax), %eax\n     520:      \tmovsbq\t%al, %rax\n     524:      \taddq\t%rax, %rax\n     527:      \taddq\t%rdx, %rax\n     52a:      \tmovzwl\t(%rax), %eax\n     52d:      \tmovzwl\t%ax, %eax\n     530:      \tandl\t$0x2000, %eax           # imm = 0x2000\n     535:      \ttestl\t%eax, %eax\n     537:      \tje\t0x544 <main+0xe1>\n     539:      \tmovq\t-0x28(%rbp), %rax\n     53d:      \tmovzbl\t(%rax), %eax\n     540:      \ttestb\t%al, %al\n     542:      \tjne\t0x50c <main+0xa9>\n     544:      \tmovq\t-0x28(%rbp), %rax\n     548:      \tmovzbl\t(%rax), %eax\n     54b:      \ttestb\t%al, %al\n     54d:      \tjne\t0x554 <main+0xf1>\n     54f:      \tjmp\t0x726 <main+0x2c3>\n     554:      \tmovq\t-0x38(%rbp), %rax\n     558:      \tmovl\t$0x3b, %esi\n     55d:      \tmovq\t%rax, %rdi\n     560:      \tcallq\t0x565 <main+0x102>\n;   strchr+-4\n     565:      \tmovq\t%rax, -0x20(%rbp)\n     569:      \tcmpq\t$0x0, -0x20(%rbp)\n     56e:      \tjne\t0x594 <main+0x131>\n     570:      \tmovq\t-0x38(%rbp), %rdx\n     574:      \tmovq\t(%rip), %rax            # 0x57b <main+0x118>\n;   stderr+-4\n     57b:      \tleaq\t(%rip), %rsi            # 0x582 <main+0x11f>\n;   .rodata -> \"Invalid input line: %s (no ; to split hands)\\n\"\n     582:      \tmovq\t%rax, %rdi\n     585:      \tmovl\t$0x0, %eax\n     58a:      \tcallq\t0x58f <main+0x12c>\n;   fprintf+-4\n     58f:      \tjmp\t0x726 <main+0x2c3>\n     594:      \tmovq\t-0x20(%rbp), %rax\n     598:      \tmovb\t$0x0, (%rax)\n     59b:      \taddq\t$0x1, -0x20(%rbp)\n     5a0:      \tmovq\t-0x38(%rbp), %rax\n     5a4:      \tmovl\t$0x0, %esi\n     5a9:      \tmovq\t%rax, %rdi\n     5ac:      \tcallq\t0x5b1 <main+0x14e>\n;   hand_from_string+-4\n     5b1:      \tmovq\t%rax, -0x18(%rbp)\n     5b5:      \tmovq\t-0x20(%rbp), %rax\n     5b9:      \tmovl\t$0x0, %esi\n     5be:      \tmovq\t%rax, %rdi\n     5c1:      \tcallq\t0x5c6 <main+0x163>\n;   hand_from_string+-4\n     5c6:      \tmovq\t%rax, -0x10(%rbp)\n     5ca:      \tmovq\t-0x18(%rbp), %rax\n     5ce:      \tmovq\t0x8(%rax), %rsi\n     5d2:      \tmovq\t-0x18(%rbp), %rax\n     5d6:      \tmovq\t(%rax), %rax\n     5d9:      \tmovq\t(%rip), %rdx            # 0x5e0 <main+0x17d>\n;   card_ptr_comp+-4\n     5e0:      \tmovq\t%rdx, %rcx\n     5e3:      \tmovl\t$0x8, %edx\n     5e8:      \tmovq\t%rax, %rdi\n     5eb:      \tcallq\t0x5f0 <main+0x18d>\n;   qsort+-4\n     5f0:      \tmovq\t-0x10(%rbp), %rax\n     5f4:      \tmovq\t0x8(%rax), %rsi\n     5f8:      \tmovq\t-0x10(%rbp), %rax\n     5fc:      \tmovq\t(%rax), %rax\n     5ff:      \tmovq\t(%rip), %rdx            # 0x606 <main+0x1a3>\n;   card_ptr_comp+-4\n     606:      \tmovq\t%rdx, %rcx\n     609:      \tmovl\t$0x8, %edx\n     60e:      \tmovq\t%rax, %rdi\n     611:      \tcallq\t0x616 <main+0x1b3>\n;   qsort+-4\n     616:      \tleaq\t(%rip), %rdi            # 0x61d <main+0x1ba>\n;   .rodata -> \"Hand 1:\"\n     61d:      \tcallq\t0x622 <main+0x1bf>\n;   puts+-4\n     622:      \tleaq\t(%rip), %rdi            # 0x629 <main+0x1c6>\n;   .rodata -> \"--------\"\n     629:      \tcallq\t0x62e <main+0x1cb>\n;   puts+-4\n     62e:      \tmovq\t-0x18(%rbp), %rax\n     632:      \tmovq\t%rax, %rdi\n     635:      \tcallq\t0x63a <main+0x1d7>\n;   describe_hand+-4\n     63a:      \tleaq\t(%rip), %rdi            # 0x641 <main+0x1de>\n;   .rodata -> \"Hand 2:\"\n     641:      \tcallq\t0x646 <main+0x1e3>\n;   puts+-4\n     646:      \tleaq\t(%rip), %rdi            # 0x64d <main+0x1ea>\n;   .rodata -> \"--------\"\n     64d:      \tcallq\t0x652 <main+0x1ef>\n;   puts+-4\n     652:      \tmovq\t-0x10(%rbp), %rax\n     656:      \tmovq\t%rax, %rdi\n     659:      \tcallq\t0x65e <main+0x1fb>\n;   describe_hand+-4\n     65e:      \tmovq\t-0x18(%rbp), %rax\n     662:      \tmovq\t%rax, %rdi\n     665:      \tcallq\t0x66a <main+0x207>\n;   free_deck+-4\n     66a:      \tmovq\t-0x10(%rbp), %rax\n     66e:      \tmovq\t%rax, %rdi\n     671:      \tcallq\t0x676 <main+0x213>\n;   free_deck+-4\n     676:      \tmovq\t-0x38(%rbp), %rax\n     67a:      \tmovl\t$0x0, %esi\n     67f:      \tmovq\t%rax, %rdi\n     682:      \tcallq\t0x687 <main+0x224>\n;   hand_from_string+-4\n     687:      \tmovq\t%rax, -0x18(%rbp)\n     68b:      \tmovq\t-0x20(%rbp), %rax\n     68f:      \tmovl\t$0x0, %esi\n     694:      \tmovq\t%rax, %rdi\n     697:      \tcallq\t0x69c <main+0x239>\n;   hand_from_string+-4\n     69c:      \tmovq\t%rax, -0x10(%rbp)\n     6a0:      \tmovq\t-0x10(%rbp), %rdx\n     6a4:      \tmovq\t-0x18(%rbp), %rax\n     6a8:      \tmovq\t%rdx, %rsi\n     6ab:      \tmovq\t%rax, %rdi\n     6ae:      \tcallq\t0x6b3 <main+0x250>\n;   compare_hands+-4\n     6b3:      \tmovl\t%eax, -0x44(%rbp)\n     6b6:      \tleaq\t(%rip), %rdi            # 0x6bd <main+0x25a>\n;   .rodata -> \"Comparison : \"\n     6bd:      \tcallq\t0x6c2 <main+0x25f>\n;   puts+-4\n     6c2:      \tleaq\t(%rip), %rdi            # 0x6c9 <main+0x266>\n;   .rodata -> \"--------------\"\n     6c9:      \tcallq\t0x6ce <main+0x26b>\n;   puts+-4\n     6ce:      \tcmpl\t$0x0, -0x44(%rbp)\n     6d2:      \tjle\t0x6e2 <main+0x27f>\n     6d4:      \tleaq\t(%rip), %rdi            # 0x6db <main+0x278>\n;   .rodata -> \"Hand 1 wins!\"\n     6db:      \tcallq\t0x6e0 <main+0x27d>\n;   puts+-4\n     6e0:      \tjmp\t0x702 <main+0x29f>\n     6e2:      \tcmpl\t$0x0, -0x44(%rbp)\n     6e6:      \tjne\t0x6f6 <main+0x293>\n     6e8:      \tleaq\t(%rip), %rdi            # 0x6ef <main+0x28c>\n;   .rodata -> \"Tie\"\n     6ef:      \tcallq\t0x6f4 <main+0x291>\n;   puts+-4\n     6f4:      \tjmp\t0x702 <main+0x29f>\n     6f6:      \tleaq\t(%rip), %rdi            # 0x6fd <main+0x29a>\n;   .rodata -> \"Hand 2 wins!\"\n     6fd:      \tcallq\t0x702 <main+0x29f>\n;   puts+-4\n     702:      \tmovq\t-0x18(%rbp), %rax\n     706:      \tmovq\t%rax, %rdi\n     709:      \tcallq\t0x70e <main+0x2ab>\n;   free_deck+-4\n     70e:      \tmovq\t-0x10(%rbp), %rax\n     712:      \tmovq\t%rax, %rdi\n     715:      \tcallq\t0x71a <main+0x2b7>\n;   free_deck+-4\n     71a:      \tleaq\t(%rip), %rdi            # 0x721 <main+0x2be>\n;   .rodata -> \"============================\"\n     721:      \tcallq\t0x726 <main+0x2c3>\n;   puts+-4\n     726:      \tmovq\t-0x30(%rbp), %rdx\n     72a:      \tleaq\t-0x40(%rbp), %rcx\n     72e:      \tleaq\t-0x38(%rbp), %rax\n     732:      \tmovq\t%rcx, %rsi\n     735:      \tmovq\t%rax, %rdi\n     738:      \tcallq\t0x73d <main+0x2da>\n;   getline+-4\n     73d:      \ttestq\t%rax, %rax\n     740:      \tjg\t0x502 <main+0x9f>\n     746:      \tmovq\t-0x38(%rbp), %rax\n     74a:      \tmovq\t%rax, %rdi\n     74d:      \tcallq\t0x752 <main+0x2ef>\n;   free+-4\n     752:      \tmovq\t(%rip), %rax            # 0x759 <main+0x2f6>\n;   stdin+-4\n     759:      \tcmpq\t%rax, -0x30(%rbp)\n     75d:      \tje\t0x76b <main+0x308>\n     75f:      \tmovq\t-0x30(%rbp), %rax\n     763:      \tmovq\t%rax, %rdi\n     766:      \tcallq\t0x76b <main+0x308>\n;   fclose+-4\n     76b:      \tmovl\t$0x0, %eax\n     770:      \tmovq\t-0x8(%rbp), %rcx\n     774:      \txorq\t%fs:0x28, %rcx\n     77d:      \tje\t0x784 <main+0x321>\n     77f:      \tcallq\t0x784 <main+0x321>\n;   __stack_chk_fail+-4\n     784:      \tleave\n     785:      \tretq"
+}

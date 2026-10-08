@@ -1,0 +1,18 @@
+# Byte-exactness is load-bearing in this repository.
+#
+# The grading fixtures under data/configs/expected/, the templates, and the
+# flattened git symlinks in the capstone templates are all compared or
+# interpreted as raw bytes. Git's default `core.autocrlf=true` on Windows would
+# rewrite every LF as CRLF on checkout, which silently breaks all of them:
+# a fixture expecting "hello\n" would arrive as "hello\r\n" and every
+# comparison would fail with an identical-looking Expected/Got pair.
+#
+# `-text` disables all end-of-line conversion, in both directions.
+* -text
+
+# Shell tooling must stay LF so it remains executable on Unix.
+*.sh text eol=lf
+grade text eol=lf
+
+# Python reverse-engineering tooling: LF keeps line numbers stable.
+*.py text eol=lf

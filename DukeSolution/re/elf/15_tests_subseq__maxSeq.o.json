@@ -1,0 +1,36 @@
+{
+ "path": "15_tests_subseq/maxSeq.o",
+ "size": 1608,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "maxSeq.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "maxSeq",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 250,
+   "addr": 0,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [],
+ "rodata_strings": [],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/15_tests_subseq/maxSeq.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <maxSeq>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tmovq\t%rdi, -0x28(%rbp)\n       c:      \tmovq\t%rsi, -0x30(%rbp)\n      10:      \tcmpq\t$0x0, -0x30(%rbp)\n      15:      \tjne\t0x21 <maxSeq+0x21>\n      17:      \tmovl\t$0x0, %eax\n      1c:      \tjmp\t0xf8 <maxSeq+0xf8>\n      21:      \tcmpq\t$0x0, -0x28(%rbp)\n      26:      \tjne\t0x32 <maxSeq+0x32>\n      28:      \tmovl\t$0x0, %eax\n      2d:      \tjmp\t0xf8 <maxSeq+0xf8>\n      32:      \tmovl\t$0x1, -0x14(%rbp)\n      39:      \tmovl\t$0x0, -0x10(%rbp)\n      40:      \tmovq\t-0x28(%rbp), %rax\n      44:      \tmovq\t%rax, -0x8(%rbp)\n      48:      \tmovl\t$0x1, -0xc(%rbp)\n      4f:      \tjmp\t0xe4 <maxSeq+0xe4>\n      54:      \tcmpl\t$0x0, -0x10(%rbp)\n      58:      \tjne\t0x80 <maxSeq+0x80>\n      5a:      \tmovq\t-0x8(%rbp), %rax\n      5e:      \tmovl\t(%rax), %edx\n      60:      \tmovl\t-0xc(%rbp), %eax\n      63:      \tcltq\n      65:      \tleaq\t(,%rax,4), %rcx\n      6d:      \tmovq\t-0x28(%rbp), %rax\n      71:      \taddq\t%rcx, %rax\n      74:      \tmovl\t(%rax), %eax\n      76:      \tcmpl\t%eax, %edx\n      78:      \tjge\t0x80 <maxSeq+0x80>\n      7a:      \taddl\t$0x1, -0x14(%rbp)\n      7e:      \tjmp\t0xb3 <maxSeq+0xb3>\n      80:      \tcmpl\t$0x0, -0x10(%rbp)\n      84:      \tje\t0xac <maxSeq+0xac>\n      86:      \tmovq\t-0x8(%rbp), %rax\n      8a:      \tmovl\t(%rax), %edx\n      8c:      \tmovl\t-0xc(%rbp), %eax\n      8f:      \tcltq\n      91:      \tleaq\t(,%rax,4), %rcx\n      99:      \tmovq\t-0x28(%rbp), %rax\n      9d:      \taddq\t%rcx, %rax\n      a0:      \tmovl\t(%rax), %eax\n      a2:      \tcmpl\t%eax, %edx\n      a4:      \tjge\t0xac <maxSeq+0xac>\n      a6:      \taddl\t$0x1, -0x10(%rbp)\n      aa:      \tjmp\t0xb3 <maxSeq+0xb3>\n      ac:      \tmovl\t$0x1, -0x10(%rbp)\n      b3:      \tmovl\t-0xc(%rbp), %eax\n      b6:      \tcltq\n      b8:      \tleaq\t(,%rax,4), %rdx\n      c0:      \tmovq\t-0x28(%rbp), %rax\n      c4:      \taddq\t%rdx, %rax\n      c7:      \tmovq\t%rax, -0x8(%rbp)\n      cb:      \tmovl\t-0x14(%rbp), %eax\n      ce:      \tcmpl\t-0x10(%rbp), %eax\n      d1:      \tjge\t0xe0 <maxSeq+0xe0>\n      d3:      \tmovl\t-0x10(%rbp), %eax\n      d6:      \tmovl\t%eax, -0x14(%rbp)\n      d9:      \tmovl\t$0x0, -0x10(%rbp)\n      e0:      \taddl\t$0x1, -0xc(%rbp)\n      e4:      \tmovl\t-0xc(%rbp), %eax\n      e7:      \tcltq\n      e9:      \tcmpq\t%rax, -0x30(%rbp)\n      ed:      \tja\t0x54 <maxSeq+0x54>\n      f3:      \tmovl\t-0x14(%rbp), %eax\n      f6:      \tcltq\n      f8:      \tpopq\t%rbp\n      f9:      \tretq"
+}

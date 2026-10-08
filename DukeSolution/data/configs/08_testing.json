@@ -1,0 +1,68 @@
+{
+  "id": "08_testing",
+  "title": "Black-box test four broken isPrime programs (input.1 .. input.4)",
+  "type": "compile_and_run",
+  "source": "input.1",
+  "build": {
+    "driver": "drivers/08_testing/isprime_probe.c",
+    "sources": [],
+    "output": "isprime_probe",
+    "flags": [
+      "-std=gnu99",
+      "-Wall"
+    ]
+  },
+  "reportStyle": "testcase",
+  "timeoutMs": 30000,
+  "next": "09_testing2",
+  "tests": [
+    {
+      "args": [
+        "1",
+        "input.1"
+      ],
+      "expected": "Your file matched the expected output\n",
+      "expectedExit": 0,
+      "label": "input.1",
+      "message": "Your file matched the expected output",
+      "failureMessage": "input.1 does not show that isPrime-broken1 is broken"
+    },
+    {
+      "args": [
+        "2",
+        "input.2"
+      ],
+      "expected": "Your file matched the expected output\n",
+      "expectedExit": 0,
+      "label": "input.2",
+      "message": "Your file matched the expected output",
+      "failureMessage": "input.2 does not show that isPrime-broken2 is broken"
+    },
+    {
+      "args": [
+        "3",
+        "input.3"
+      ],
+      "expected": "Your file matched the expected output\n",
+      "expectedExit": 0,
+      "label": "input.3",
+      "message": "Your file matched the expected output",
+      "failureMessage": "input.3 does not show that isPrime-broken3 is broken"
+    },
+    {
+      "args": [
+        "4",
+        "input.4"
+      ],
+      "expected": "Your file matched the expected output\n",
+      "expectedExit": 0,
+      "label": "input.4",
+      "message": "Your file matched the expected output",
+      "failureMessage": "input.4 does not show that isPrime-broken4 is broken"
+    }
+  ],
+  "notes": "observed -- 08_testing/README says each of the four answer files input.1..input.4 holds 'the command line argument that shows that isPrime-brokenN is broken', i.e. one where its behaviour differs from isPrime-correct; re/original-grade-txt/08_testing.grade.txt reports exactly four passing cases ('test input.1:' .. 'input.4 passed') and Overall Grade: A. observed -- the five programs (isPrime-correct, isPrime-broken1..4) are prebuilt Linux x86-64 ELF and cannot be executed or linked on macOS, which is why this is not test_identify: the graded artifacts are four data files, not a C harness. recovered -- all five programs were reconstructed instruction by instruction from re/elf/08_testing__isPrime-{correct,broken1,broken2,broken3,broken4}.md (regenerate with tools/re/elfdump.py) and are implemented in drivers/08_testing/isprime_probe.c: correct does strtol(argv[1],&end,0) + trial division and prints '%ld is prime'/'%ld is not prime' (.rodata +0x70/+0x7e) or 'Ooops, %s does not seem to be a number!' (.rodata +0x40); broken1 reports 1 as prime (main+0x91 'jle 0x4005a1' falling into 0x4005a1 'je 0x400586'); broken2 forces n > 100 to 'not prime' (main+0x8b 'cmpq $0x64,%rdi'); broken3 is identical except that an unparsable argument prints '%s is not prime' (.rodata +0x40 == 0x4007e0); broken4 never returns for a negative n (0x4005c1 'jmp 0x4005c1'). recovered + validated -- the four answers this workspace's student submitted are 1, 101, 7.0 and -7, and each is exactly the minimal case for its own broken program (1 -> broken1, 101 -> the first prime above the broken2 bound, 7.0 -> broken3's unparsable-argument path, -7 -> broken4's hang); the driver reports all four as differing, reproducing the original verdict. inferred -- the 2024 harness must have run both programs and compared stdout, treating broken4's non-termination as a difference; the driver gives each child a 5 s alarm for that (generous enough that a large answer to brokens1/2/3 is not mistaken for a hang). inferred -- the original per-case wording ('test input.1:' / 'Your file matched the expected output' / 'input.1 passed') is not expressible in the schema (reportStyle testcase renders 'testcaseN:' / 'testcaseN passed'), so the verdict A is reproduced but those three lines are not byte-identical. `source` is a schema-required placeholder for the first graded artefact; build.sources is empty, so nothing but the reconstructed driver is compiled. recovered: the original's per-case lines are `test input.N:` and `input.N passed`; `caseLabelTemplate` / `casePassTemplate` reproduce both.",
+  "successVerdict": "A",
+  "caseLabelTemplate": "test input.{n}:",
+  "casePassTemplate": "input.{n} passed"
+}

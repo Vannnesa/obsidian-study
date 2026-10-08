@@ -1,0 +1,8 @@
+apple: 3
+banana: 1
+frog: 2
+sword: 1
+bear: 1
+zebra: 1
+knight: 1
+<unknown>: 2

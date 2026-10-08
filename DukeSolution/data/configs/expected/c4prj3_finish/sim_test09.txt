@@ -1,0 +1,4 @@
+Running a simulation with 20000 draws for 2 hands...
+Hand 0 was close enough to our answer
+Hand 1 was close enough to our answer
+Test case passed!

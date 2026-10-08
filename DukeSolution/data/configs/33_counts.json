@@ -1,0 +1,42 @@
+{
+  "id": "33_counts",
+  "title": "Count names into a counts_t, print them in first-seen order and free them",
+  "type": "memory_check",
+  "source": "counts.c",
+  "build": {
+    "driver": "drivers/33_counts/counts_test.c",
+    "sources": [
+      "counts.c"
+    ],
+    "output": "counts_test",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "-pedantic"
+    ]
+  },
+  "compileMessage": "Attempting to compile:",
+  "reportStyle": "testcase",
+  "timeoutMs": 5000,
+  "next": "34_put_together",
+  "notes": "observed: re/original-grade-txt/33_counts.grade.txt starts with `Attempting to compile:` and an EMPTY command, then three testcase blocks, each `Your output is correct` / `  - Valgrind was clean (no errors, no memory leaks)` / `valgrind was clean`, then `Overall Grade: A`. observed: the README fixes the four functions (createCounts/addCount/printCounts/freeCounts), the print order (first-seen order, unknown always last, and never a line for unknown when the count is 0) and says a main is provided in countsTest.c; the Makefile's CFLAGS are `-Wall -Werror -std=gnu99 -pedantic -ggdb3` and its PROGRAM is `counts_test`. recovered: drivers/33_counts/counts_test.c is the teacher driver - its content is the in-directory counts_test.c, and the object corroborates it exactly (one function `main`, 267 bytes, at DWARF line 7; imports only createCounts/addCount/printCounts/freeCounts/stdout; .rodata holds exactly the seven non-NULL names of the hard-coded array - apple, banana, frog, sword, bear, zebra, knight - and no format string, which is what a driver that only calls printCounts(testCounts, stdout) looks like). inferred: the driver takes no arguments and uses hard-coded data, so the original's three testcases can only have been three identical runs of ./counts_test, which is what is configured; configs/expected/33_counts/test.txt is the reference run's stdout. Note on the unknown line: the README's example shows `<unknown> : 1` with a space, but the implementation that passed the 2024 grader prints `<unknown>: 2` without one (33_counts/counts.c line 51), and since this driver's data contains two NULL names the unknown line is always printed - so the teacher's stored expectation must have matched the no-space form. The fixture follows the reference. platform substitution: the 2024 grader used valgrind, which does not exist on macOS/arm64 and cannot be installed. `memory_check` now builds twice - AddressSanitizer for out-of-bounds/use-after-free/double-free, and a plain build under Apple's `leaks --atExit --` for leaked allocations - and the original valgrind wording is kept so the reports stay comparable. Neither engine reports uninitialised reads, which valgrind did. The reference implementation is clean under both passes. Template exclusions: the committed Linux `counts_test` binary, counts.o/counts_test.o, the student's counts_backup.c and the vgcore dump are not part of the starting template.",
+  "tests": [
+    {
+      "args": [],
+      "label": "testcase1",
+      "expectedFile": "expected/33_counts/test.txt"
+    },
+    {
+      "args": [],
+      "label": "testcase2",
+      "expectedFile": "expected/33_counts/test.txt"
+    },
+    {
+      "args": [],
+      "label": "testcase3",
+      "expectedFile": "expected/33_counts/test.txt"
+    }
+  ],
+  "successVerdict": "A"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "24_read_arr3",
+  "title": "Predict what the 2-D array / pointer program test.c prints",
+  "type": "predict_output",
+  "program": "test.c",
+  "file": "answer.txt",
+  "expectedFile": "expected/24_read_arr3/stdout.txt",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "25_break_encr",
+  "notes": "observed -- re/original-grade-txt/24_read_arr3.grade.txt has no compile step at all: `Your file matched the expected output`, `Your output matched what we expected`, `Overall Grade: A`. The README asks only that test.c be run (`As always, compile and run test.c to check your work, and submit`) and names no Makefile, so no build/echo fields are configured and the strategy compiles test.c directly with its default flags (-std=gnu99 -pedantic -Wall -O3) and runs it once. 24_read_arr3/answer.txt (45 bytes) is the passing submission; configs/expected/24_read_arr3/stdout.txt was generated from test.c with tools/re/gen_expected.py and VERIFIED byte-for-byte against it. inferred -- the direct compile flags are not observable in the artifact; `next` follows the numeric id order."
+}

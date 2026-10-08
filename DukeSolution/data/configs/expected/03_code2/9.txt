@@ -1,0 +1,1 @@
+printTriangle(9) returned 45

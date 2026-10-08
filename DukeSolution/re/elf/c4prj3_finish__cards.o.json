@@ -1,0 +1,2137 @@
+{
+ "path": "c4prj3_finish/cards.o",
+ "size": 79984,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "cards.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.2878",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 18,
+   "addr": 432,
+   "section": ".rodata"
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.24.5c1b97eef3c86b7a2549420f69f4f128",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.features.h.19.3042b63a76022a6d39c0cfc1936a7a01",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.19.a8ffc9250e5bdadaabc998d2b2f3d734",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.wordsize.h.4.baf119258a1e53d8dba67ceac44ab6bc",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cdefs.h.475.fb75d2e4416aa349344e6f45f683bf28",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stubs64.h.10.6ce4c34010988db072c080326a6b6319",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.37.d9274df4cc0172452960ad9644fa5579",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.31.e39a94e203ad4e1d978c0fc68ce016ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.181.c3f52a3b0f4c288bddb5dda1562858e2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.109.56eb9ae966b255288cc544f18746a7ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.typesizes.h.24.2c64f817c0dc4b6fb2a2c619d717be26",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.time64.h.24.a8166ae916ec910dab0d8987098d42ee",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_FILE.h.19.0888ac70396abe1031c03d393554032f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.53.78a7f18f3bc87ded52f05aa6f6a64310",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio_lim.h.19.e4b00b560d878dcfbc6635b3406640c5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdio.h.141.d7a290e19ca077c9e4aa7c43ede17a73",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.assert.h.34.dce7822bb80c73e7bb3b7e09935edebe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.libcheaderstart.h.31.87b3c285aeba93fe355ad19123070832",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.28.2cffa49d94c5d85f4538f55f7b59771d",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.ac1e89356001c54fbeb8aaa0d15e8b3c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitflags.h.25.41934de4af99038521c2782f418699b1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.waitstatus.h.28.93f167f49d64e2b9b99f98d1162a93bf",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.43.9fa4f727a2f1cb8d2450a574c9195553",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatn.h.20.80c7cf8a8dfad237004b28d051d5afda",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.floatncommon.h.34.7e1840d7dfb19e9bdb51aeb077d76637",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdlib.h.71.2927e068ec678159b4f68ec2f089f7e6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.23.882ecbf54662e1f16e101552381a65da",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stddef.h.231.0adce5c8c1fd8096aaff50981b3d1f0f",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.20.efabd1018df5d7b4052c27dc6bdd5ce5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endianness.h.2.2c6a211f7909f3af5e9e9cfa3b6b63c8",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.40.9e5d395adda2f4eb53ae69b69b664084",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.27.4c4f94262c4eaee2982fe00ed1b4f173",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.byteswap.h.24.5363c019348146aada5aeadf51456576",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.endian.h.39.30a606dbd99b6c3df61c1f06dbdabd4e",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.28.eb2f3debdbcffd1442ebddaebc4fb6ff",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.__sigset_t.h.2.6b1ab6ff3d7b8fd9c0c42b0d80afbd80",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.select.h.44.887a4ff60aa97fcd9c1be017735e1675",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.types.h.186.489a4ed8f2d29cd358843490f54ddea5",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.pthreadtypesarch.h.25.6063cba99664c916e22d3a912bcc348a",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_mutex.h.20.ed51f515172b9be99e450ba83eb5dd99",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.struct_rwlock.h.21.0254880f2904e3833fb8ae683e0f0330",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.19.edefa922a76c1cbaaf1e416903ba2d1c",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.alloca.h.29.156e12058824cc23d961c4d3b13031f6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cards.h.2.6ea1f97048b453bd9249855c897949b6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "assert_card_valid",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 105,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "ranking_to_string",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 141,
+   "addr": 105,
+   "section": ".text"
+  },
+  {
+   "name": "value_letter",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 153,
+   "addr": 246,
+   "section": ".text"
+  },
+  {
+   "name": "suit_letter",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 81,
+   "addr": 399,
+   "section": ".text"
+  },
+  {
+   "name": "print_card",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 76,
+   "addr": 480,
+   "section": ".text"
+  },
+  {
+   "name": "card_from_letters",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 278,
+   "addr": 556,
+   "section": ".text"
+  },
+  {
+   "name": "card_from_num",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 38,
+   "addr": 834,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "printf",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "cards.c"
+  },
+  {
+   "offset": 8,
+   "text": "c.value <= VALUE_ACE && c.value >= 2"
+  },
+  {
+   "offset": 48,
+   "text": "c.suit >= SPADES && c.suit <= CLUBS"
+  },
+  {
+   "offset": 84,
+   "text": "STRAIGHT_FLUSH"
+  },
+  {
+   "offset": 99,
+   "text": "FOUR_OF_A_KIND"
+  },
+  {
+   "offset": 114,
+   "text": "FULL_HOUSE"
+  },
+  {
+   "offset": 125,
+   "text": "FLUSH"
+  },
+  {
+   "offset": 131,
+   "text": "STRAIGHT"
+  },
+  {
+   "offset": 140,
+   "text": "THREE_OF_A_KIND"
+  },
+  {
+   "offset": 156,
+   "text": "TWO_PAIR"
+  },
+  {
+   "offset": 165,
+   "text": "PAIR"
+  },
+  {
+   "offset": 170,
+   "text": "NOTHING"
+  },
+  {
+   "offset": 276,
+   "text": "%c%c"
+  },
+  {
+   "offset": 432,
+   "text": "assert_card_valid"
+  }
+ ],
+ "string_refs": {
+  "assert_card_valid": [
+   "assert_card_valid",
+   "cards.c",
+   "c.value <= VALUE_ACE && c.value >= 2",
+   "c.suit >= SPADES && c.suit <= CLUBS"
+  ],
+  "ranking_to_string": [
+   "STRAIGHT_FLUSH",
+   "FOUR_OF_A_KIND",
+   "FULL_HOUSE",
+   "FLUSH",
+   "STRAIGHT",
+   "THREE_OF_A_KIND",
+   "TWO_PAIR",
+   "PAIR",
+   "NOTHING"
+  ],
+  "print_card": [
+   "%c%c"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 35,
+    "symbol": ".rodata",
+    "addend": 428,
+    "type": 2
+   },
+   {
+    "offset": 47,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 54,
+    "symbol": ".rodata",
+    "addend": 4,
+    "type": 2
+   },
+   {
+    "offset": 59,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 74,
+    "symbol": ".rodata",
+    "addend": 428,
+    "type": 2
+   },
+   {
+    "offset": 86,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 93,
+    "symbol": ".rodata",
+    "addend": 44,
+    "type": 2
+   },
+   {
+    "offset": 98,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 136,
+    "symbol": ".rodata",
+    "addend": 176,
+    "type": 2
+   },
+   {
+    "offset": 148,
+    "symbol": ".rodata",
+    "addend": 176,
+    "type": 2
+   },
+   {
+    "offset": 161,
+    "symbol": ".rodata",
+    "addend": 80,
+    "type": 2
+   },
+   {
+    "offset": 170,
+    "symbol": ".rodata",
+    "addend": 95,
+    "type": 2
+   },
+   {
+    "offset": 179,
+    "symbol": ".rodata",
+    "addend": 110,
+    "type": 2
+   },
+   {
+    "offset": 188,
+    "symbol": ".rodata",
+    "addend": 121,
+    "type": 2
+   },
+   {
+    "offset": 197,
+    "symbol": ".rodata",
+    "addend": 127,
+    "type": 2
+   },
+   {
+    "offset": 206,
+    "symbol": ".rodata",
+    "addend": 136,
+    "type": 2
+   },
+   {
+    "offset": 215,
+    "symbol": ".rodata",
+    "addend": 152,
+    "type": 2
+   },
+   {
+    "offset": 224,
+    "symbol": ".rodata",
+    "addend": 161,
+    "type": 2
+   },
+   {
+    "offset": 233,
+    "symbol": ".rodata",
+    "addend": 166,
+    "type": 2
+   },
+   {
+    "offset": 279,
+    "symbol": ".rodata",
+    "addend": 212,
+    "type": 2
+   },
+   {
+    "offset": 291,
+    "symbol": ".rodata",
+    "addend": 212,
+    "type": 2
+   },
+   {
+    "offset": 505,
+    "symbol": "suit_letter",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 520,
+    "symbol": "value_letter",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 534,
+    "symbol": ".rodata",
+    "addend": 272,
+    "type": 2
+   },
+   {
+    "offset": 544,
+    "symbol": "printf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 607,
+    "symbol": ".rodata",
+    "addend": 280,
+    "type": 2
+   },
+   {
+    "offset": 619,
+    "symbol": ".rodata",
+    "addend": 280,
+    "type": 2
+   },
+   {
+    "offset": 824,
+    "symbol": "assert_card_valid",
+    "addend": -4,
+    "type": 4
+   }
+  ],
+  ".rodata": [
+   {
+    "offset": 180,
+    "symbol": ".text",
+    "addend": 158,
+    "type": 2
+   },
+   {
+    "offset": 184,
+    "symbol": ".text",
+    "addend": 171,
+    "type": 2
+   },
+   {
+    "offset": 188,
+    "symbol": ".text",
+    "addend": 184,
+    "type": 2
+   },
+   {
+    "offset": 192,
+    "symbol": ".text",
+    "addend": 197,
+    "type": 2
+   },
+   {
+    "offset": 196,
+    "symbol": ".text",
+    "addend": 210,
+    "type": 2
+   },
+   {
+    "offset": 200,
+    "symbol": ".text",
+    "addend": 223,
+    "type": 2
+   },
+   {
+    "offset": 204,
+    "symbol": ".text",
+    "addend": 236,
+    "type": 2
+   },
+   {
+    "offset": 208,
+    "symbol": ".text",
+    "addend": 249,
+    "type": 2
+   },
+   {
+    "offset": 212,
+    "symbol": ".text",
+    "addend": 262,
+    "type": 2
+   },
+   {
+    "offset": 216,
+    "symbol": ".text",
+    "addend": 392,
+    "type": 2
+   },
+   {
+    "offset": 220,
+    "symbol": ".text",
+    "addend": 396,
+    "type": 2
+   },
+   {
+    "offset": 224,
+    "symbol": ".text",
+    "addend": 309,
+    "type": 2
+   },
+   {
+    "offset": 228,
+    "symbol": ".text",
+    "addend": 320,
+    "type": 2
+   },
+   {
+    "offset": 232,
+    "symbol": ".text",
+    "addend": 331,
+    "type": 2
+   },
+   {
+    "offset": 236,
+    "symbol": ".text",
+    "addend": 342,
+    "type": 2
+   },
+   {
+    "offset": 240,
+    "symbol": ".text",
+    "addend": 353,
+    "type": 2
+   },
+   {
+    "offset": 244,
+    "symbol": ".text",
+    "addend": 364,
+    "type": 2
+   },
+   {
+    "offset": 248,
+    "symbol": ".text",
+    "addend": 375,
+    "type": 2
+   },
+   {
+    "offset": 252,
+    "symbol": ".text",
+    "addend": 386,
+    "type": 2
+   },
+   {
+    "offset": 256,
+    "symbol": ".text",
+    "addend": 397,
+    "type": 2
+   },
+   {
+    "offset": 260,
+    "symbol": ".text",
+    "addend": 408,
+    "type": 2
+   },
+   {
+    "offset": 264,
+    "symbol": ".text",
+    "addend": 419,
+    "type": 2
+   },
+   {
+    "offset": 268,
+    "symbol": ".text",
+    "addend": 430,
+    "type": 2
+   },
+   {
+    "offset": 272,
+    "symbol": ".text",
+    "addend": 441,
+    "type": 2
+   },
+   {
+    "offset": 284,
+    "symbol": ".text",
+    "addend": 701,
+    "type": 2
+   },
+   {
+    "offset": 288,
+    "symbol": ".text",
+    "addend": 749,
+    "type": 2
+   },
+   {
+    "offset": 292,
+    "symbol": ".text",
+    "addend": 637,
+    "type": 2
+   },
+   {
+    "offset": 296,
+    "symbol": ".text",
+    "addend": 650,
+    "type": 2
+   },
+   {
+    "offset": 300,
+    "symbol": ".text",
+    "addend": 663,
+    "type": 2
+   },
+   {
+    "offset": 304,
+    "symbol": ".text",
+    "addend": 676,
+    "type": 2
+   },
+   {
+    "offset": 308,
+    "symbol": ".text",
+    "addend": 689,
+    "type": 2
+   },
+   {
+    "offset": 312,
+    "symbol": ".text",
+    "addend": 702,
+    "type": 2
+   },
+   {
+    "offset": 316,
+    "symbol": ".text",
+    "addend": 715,
+    "type": 2
+   },
+   {
+    "offset": 320,
+    "symbol": ".text",
+    "addend": 728,
+    "type": 2
+   },
+   {
+    "offset": 324,
+    "symbol": ".text",
+    "addend": 785,
+    "type": 2
+   },
+   {
+    "offset": 328,
+    "symbol": ".text",
+    "addend": 789,
+    "type": 2
+   },
+   {
+    "offset": 332,
+    "symbol": ".text",
+    "addend": 793,
+    "type": 2
+   },
+   {
+    "offset": 336,
+    "symbol": ".text",
+    "addend": 797,
+    "type": 2
+   },
+   {
+    "offset": 340,
+    "symbol": ".text",
+    "addend": 801,
+    "type": 2
+   },
+   {
+    "offset": 344,
+    "symbol": ".text",
+    "addend": 805,
+    "type": 2
+   },
+   {
+    "offset": 348,
+    "symbol": ".text",
+    "addend": 809,
+    "type": 2
+   },
+   {
+    "offset": 352,
+    "symbol": ".text",
+    "addend": 805,
+    "type": 2
+   },
+   {
+    "offset": 356,
+    "symbol": ".text",
+    "addend": 817,
+    "type": 2
+   },
+   {
+    "offset": 360,
+    "symbol": ".text",
+    "addend": 821,
+    "type": 2
+   },
+   {
+    "offset": 364,
+    "symbol": ".text",
+    "addend": 825,
+    "type": 2
+   },
+   {
+    "offset": 368,
+    "symbol": ".text",
+    "addend": 829,
+    "type": 2
+   },
+   {
+    "offset": 372,
+    "symbol": ".text",
+    "addend": 833,
+    "type": 2
+   },
+   {
+    "offset": 376,
+    "symbol": ".text",
+    "addend": 837,
+    "type": 2
+   },
+   {
+    "offset": 380,
+    "symbol": ".text",
+    "addend": 841,
+    "type": 2
+   },
+   {
+    "offset": 384,
+    "symbol": ".text",
+    "addend": 845,
+    "type": 2
+   },
+   {
+    "offset": 388,
+    "symbol": ".text",
+    "addend": 814,
+    "type": 2
+   },
+   {
+    "offset": 392,
+    "symbol": ".text",
+    "addend": 836,
+    "type": 2
+   },
+   {
+    "offset": 396,
+    "symbol": ".text",
+    "addend": 857,
+    "type": 2
+   },
+   {
+    "offset": 400,
+    "symbol": ".text",
+    "addend": 861,
+    "type": 2
+   },
+   {
+    "offset": 404,
+    "symbol": ".text",
+    "addend": 865,
+    "type": 2
+   },
+   {
+    "offset": 408,
+    "symbol": ".text",
+    "addend": 869,
+    "type": 2
+   },
+   {
+    "offset": 412,
+    "symbol": ".text",
+    "addend": 873,
+    "type": 2
+   },
+   {
+    "offset": 416,
+    "symbol": ".text",
+    "addend": 851,
+    "type": 2
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [
+   {
+    "name": "cards.c",
+    "comp_dir": "/home/student/learn2prog/c4prj3_finish",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "card_from_num",
+      "decl_file": 1,
+      "decl_line": 151,
+      "type": 853,
+      "params": [
+       {
+        "name": "c",
+        "type": 68,
+        "decl_line": 151
+       }
+      ],
+      "locals": [
+       {
+        "name": "temp",
+        "type": 853,
+        "decl_line": 152
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "card_from_letters",
+      "decl_file": 1,
+      "decl_line": 90,
+      "type": 853,
+      "params": [
+       {
+        "name": "value_let",
+        "type": 149,
+        "decl_line": 90
+       },
+       {
+        "name": "suit_let",
+        "type": 149,
+        "decl_line": 90
+       }
+      ],
+      "locals": [
+       {
+        "name": "temp",
+        "type": 853,
+        "decl_line": 91
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "print_card",
+      "decl_file": 1,
+      "decl_line": 86,
+      "type": null,
+      "params": [
+       {
+        "name": "c",
+        "type": 853,
+        "decl_line": 86
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "suit_letter",
+      "decl_file": 1,
+      "decl_line": 71,
+      "type": 149,
+      "params": [
+       {
+        "name": "c",
+        "type": 853,
+        "decl_line": 71
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "value_letter",
+      "decl_file": 1,
+      "decl_line": 37,
+      "type": 149,
+      "params": [
+       {
+        "name": "c",
+        "type": 853,
+        "decl_line": 37
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "ranking_to_string",
+      "decl_file": 1,
+      "decl_line": 12,
+      "type": 719,
+      "params": [
+       {
+        "name": "r",
+        "type": 934,
+        "decl_line": 12
+       }
+      ],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     },
+     {
+      "name": "assert_card_valid",
+      "decl_file": 1,
+      "decl_line": 7,
+      "type": null,
+      "params": [
+       {
+        "name": "c",
+        "type": 853,
+        "decl_line": 7
+       }
+      ],
+      "locals": [
+       {
+        "name": "__PRETTY_FUNCTION__",
+        "type": 1356,
+        "decl_line": null
+       }
+      ],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": [
+     {
+      "name": "stdin",
+      "type": 661
+     },
+     {
+      "name": "stdout",
+      "type": 661
+     },
+     {
+      "name": "stderr",
+      "type": 661
+     },
+     {
+      "name": "sys_nerr",
+      "type": 105
+     },
+     {
+      "name": "sys_errlist",
+      "type": 714
+     }
+    ]
+   }
+  ],
+  "types": [
+   {
+    "kind": "typedef",
+    "name": "size_t",
+    "type": 61
+   },
+   {
+    "kind": "typedef",
+    "name": "__off_t",
+    "type": 112
+   },
+   {
+    "kind": "typedef",
+    "name": "__off64_t",
+    "type": 112
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_FILE",
+    "byte_size": 216,
+    "members": [
+     {
+      "name": "_flags",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "_IO_read_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 8
+     },
+     {
+      "name": "_IO_read_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 16
+     },
+     {
+      "name": "_IO_read_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 24
+     },
+     {
+      "name": "_IO_write_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 32
+     },
+     {
+      "name": "_IO_write_ptr",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 40
+     },
+     {
+      "name": "_IO_write_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 48
+     },
+     {
+      "name": "_IO_buf_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 56
+     },
+     {
+      "name": "_IO_buf_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 64
+     },
+     {
+      "name": "_IO_save_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 72
+     },
+     {
+      "name": "_IO_backup_base",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 80
+     },
+     {
+      "name": "_IO_save_end",
+      "type": 143,
+      "byte_size": null,
+      "data_member_location": 88
+     },
+     {
+      "name": "_markers",
+      "type": 577,
+      "byte_size": null,
+      "data_member_location": 96
+     },
+     {
+      "name": "_chain",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 104
+     },
+     {
+      "name": "_fileno",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 112
+     },
+     {
+      "name": "_flags2",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 116
+     },
+     {
+      "name": "_old_offset",
+      "type": 119,
+      "byte_size": null,
+      "data_member_location": 120
+     },
+     {
+      "name": "_cur_column",
+      "type": 84,
+      "byte_size": null,
+      "data_member_location": 128
+     },
+     {
+      "name": "_vtable_offset",
+      "type": 91,
+      "byte_size": null,
+      "data_member_location": 130
+     },
+     {
+      "name": "_shortbuf",
+      "type": 589,
+      "byte_size": null,
+      "data_member_location": 131
+     },
+     {
+      "name": "_lock",
+      "type": 605,
+      "byte_size": null,
+      "data_member_location": 136
+     },
+     {
+      "name": "_offset",
+      "type": 131,
+      "byte_size": null,
+      "data_member_location": 144
+     },
+     {
+      "name": "_codecvt",
+      "type": 616,
+      "byte_size": null,
+      "data_member_location": 152
+     },
+     {
+      "name": "_wide_data",
+      "type": 627,
+      "byte_size": null,
+      "data_member_location": 160
+     },
+     {
+      "name": "_freeres_list",
+      "type": 583,
+      "byte_size": null,
+      "data_member_location": 168
+     },
+     {
+      "name": "_freeres_buf",
+      "type": 75,
+      "byte_size": null,
+      "data_member_location": 176
+     },
+     {
+      "name": "__pad5",
+      "type": 49,
+      "byte_size": null,
+      "data_member_location": 184
+     },
+     {
+      "name": "_mode",
+      "type": 105,
+      "byte_size": null,
+      "data_member_location": 192
+     },
+     {
+      "name": "_unused2",
+      "type": 633,
+      "byte_size": null,
+      "data_member_location": 196
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "FILE",
+    "type": 161
+   },
+   {
+    "kind": "typedef",
+    "name": "_IO_lock_t",
+    "type": null
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_marker",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_codecvt",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "structure_type",
+    "name": "_IO_wide_data",
+    "byte_size": null,
+    "members": []
+   },
+   {
+    "kind": "enumeration_type",
+    "name": null,
+    "byte_size": 4,
+    "members": [
+     {
+      "name": "SPADES",
+      "const_value": 0
+     },
+     {
+      "name": "HEARTS",
+      "const_value": 1
+     },
+     {
+      "name": "DIAMONDS",
+      "const_value": 2
+     },
+     {
+      "name": "CLUBS",
+      "const_value": 3
+     },
+     {
+      "name": "NUM_SUITS",
+      "const_value": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "suit_t",
+    "type": 756
+   },
+   {
+    "kind": "structure_type",
+    "name": "card_tag",
+    "byte_size": 8,
+    "members": [
+     {
+      "name": "value",
+      "type": 68,
+      "byte_size": null,
+      "data_member_location": 0
+     },
+     {
+      "name": "suit",
+      "type": 801,
+      "byte_size": null,
+      "data_member_location": 4
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "card_t",
+    "type": 813
+   },
+   {
+    "kind": "enumeration_type",
+    "name": null,
+    "byte_size": 4,
+    "members": [
+     {
+      "name": "STRAIGHT_FLUSH",
+      "const_value": 0
+     },
+     {
+      "name": "FOUR_OF_A_KIND",
+      "const_value": 1
+     },
+     {
+      "name": "FULL_HOUSE",
+      "const_value": 2
+     },
+     {
+      "name": "FLUSH",
+      "const_value": 3
+     },
+     {
+      "name": "STRAIGHT",
+      "const_value": 4
+     },
+     {
+      "name": "THREE_OF_A_KIND",
+      "const_value": 5
+     },
+     {
+      "name": "TWO_PAIR",
+      "const_value": 6
+     },
+     {
+      "name": "PAIR",
+      "const_value": 7
+     },
+     {
+      "name": "NOTHING",
+      "const_value": 8
+     }
+    ]
+   },
+   {
+    "kind": "typedef",
+    "name": "hand_ranking_t",
+    "type": 865
+   }
+  ],
+  "lines": {
+   "cards.c": {
+    "files": [
+     "cards.c",
+     "stddef.h",
+     "types.h",
+     "struct_FILE.h",
+     "FILE.h",
+     "stdio.h",
+     "sys_errlist.h",
+     "cards.h",
+     "stdc-predef.h",
+     "libc-header-start.h",
+     "features.h",
+     "cdefs.h",
+     "wordsize.h",
+     "long-double.h",
+     "stubs.h",
+     "stubs-64.h",
+     "stdarg.h",
+     "timesize.h",
+     "typesizes.h",
+     "time64.h",
+     "__fpos_t.h",
+     "__mbstate_t.h",
+     "__fpos64_t.h",
+     "__FILE.h",
+     "stdio_lim.h",
+     "assert.h",
+     "stdlib.h",
+     "waitflags.h",
+     "waitstatus.h",
+     "floatn.h",
+     "floatn-common.h",
+     "types.h",
+     "clock_t.h",
+     "clockid_t.h",
+     "time_t.h",
+     "timer_t.h",
+     "stdint-intn.h",
+     "endian.h",
+     "endian.h",
+     "endianness.h",
+     "byteswap.h",
+     "uintn-identity.h",
+     "select.h",
+     "select.h",
+     "sigset_t.h",
+     "__sigset_t.h",
+     "struct_timeval.h",
+     "struct_timespec.h",
+     "pthreadtypes.h",
+     "thread-shared-types.h",
+     "pthreadtypes-arch.h",
+     "struct_mutex.h",
+     "struct_rwlock.h",
+     "alloca.h",
+     "stdlib-float.h"
+    ],
+    "rows": [
+     {
+      "line": 7,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 16
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 24
+     },
+     {
+      "line": 8,
+      "file": 1,
+      "addr": 32
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 63
+     },
+     {
+      "line": 9,
+      "file": 1,
+      "addr": 71
+     },
+     {
+      "line": 10,
+      "file": 1,
+      "addr": 102
+     },
+     {
+      "line": 12,
+      "file": 1,
+      "addr": 105
+     },
+     {
+      "line": 15,
+      "file": 1,
+      "addr": 158
+     },
+     {
+      "line": 17,
+      "file": 1,
+      "addr": 167
+     },
+     {
+      "line": 19,
+      "file": 1,
+      "addr": 176
+     },
+     {
+      "line": 21,
+      "file": 1,
+      "addr": 185
+     },
+     {
+      "line": 23,
+      "file": 1,
+      "addr": 194
+     },
+     {
+      "line": 25,
+      "file": 1,
+      "addr": 203
+     },
+     {
+      "line": 27,
+      "file": 1,
+      "addr": 212
+     },
+     {
+      "line": 29,
+      "file": 1,
+      "addr": 221
+     },
+     {
+      "line": 31,
+      "file": 1,
+      "addr": 230
+     },
+     {
+      "line": 33,
+      "file": 1,
+      "addr": 239
+     },
+     {
+      "line": 35,
+      "file": 1,
+      "addr": 244
+     },
+     {
+      "line": 37,
+      "file": 1,
+      "addr": 246
+     },
+     {
+      "line": 38,
+      "file": 1,
+      "addr": 258
+     },
+     {
+      "line": 40,
+      "file": 1,
+      "addr": 301
+     },
+     {
+      "line": 42,
+      "file": 1,
+      "addr": 308
+     },
+     {
+      "line": 44,
+      "file": 1,
+      "addr": 315
+     },
+     {
+      "line": 46,
+      "file": 1,
+      "addr": 322
+     },
+     {
+      "line": 48,
+      "file": 1,
+      "addr": 329
+     },
+     {
+      "line": 50,
+      "file": 1,
+      "addr": 336
+     },
+     {
+      "line": 52,
+      "file": 1,
+      "addr": 343
+     },
+     {
+      "line": 54,
+      "file": 1,
+      "addr": 350
+     },
+     {
+      "line": 56,
+      "file": 1,
+      "addr": 357
+     },
+     {
+      "line": 58,
+      "file": 1,
+      "addr": 364
+     },
+     {
+      "line": 60,
+      "file": 1,
+      "addr": 371
+     },
+     {
+      "line": 62,
+      "file": 1,
+      "addr": 378
+     },
+     {
+      "line": 64,
+      "file": 1,
+      "addr": 385
+     },
+     {
+      "line": 66,
+      "file": 1,
+      "addr": 392
+     },
+     {
+      "line": 68,
+      "file": 1,
+      "addr": 397
+     },
+     {
+      "line": 71,
+      "file": 1,
+      "addr": 399
+     },
+     {
+      "line": 72,
+      "file": 1,
+      "addr": 411
+     },
+     {
+      "line": 72,
+      "file": 1,
+      "addr": 414
+     },
+     {
+      "line": 74,
+      "file": 1,
+      "addr": 445
+     },
+     {
+      "line": 76,
+      "file": 1,
+      "addr": 452
+     },
+     {
+      "line": 78,
+      "file": 1,
+      "addr": 459
+     },
+     {
+      "line": 80,
+      "file": 1,
+      "addr": 466
+     },
+     {
+      "line": 82,
+      "file": 1,
+      "addr": 473
+     },
+     {
+      "line": 84,
+      "file": 1,
+      "addr": 478
+     },
+     {
+      "line": 86,
+      "file": 1,
+      "addr": 480
+     },
+     {
+      "line": 87,
+      "file": 1,
+      "addr": 497
+     },
+     {
+      "line": 87,
+      "file": 1,
+      "addr": 509
+     },
+     {
+      "line": 87,
+      "file": 1,
+      "addr": 512
+     },
+     {
+      "line": 87,
+      "file": 1,
+      "addr": 524
+     },
+     {
+      "line": 88,
+      "file": 1,
+      "addr": 548
+     },
+     {
+      "line": 90,
+      "file": 1,
+      "addr": 556
+     },
+     {
+      "line": 92,
+      "file": 1,
+      "addr": 578
+     },
+     {
+      "line": 94,
+      "file": 1,
+      "addr": 629
+     },
+     {
+      "line": 95,
+      "file": 1,
+      "addr": 636
+     },
+     {
+      "line": 97,
+      "file": 1,
+      "addr": 638
+     },
+     {
+      "line": 98,
+      "file": 1,
+      "addr": 645
+     },
+     {
+      "line": 100,
+      "file": 1,
+      "addr": 647
+     },
+     {
+      "line": 101,
+      "file": 1,
+      "addr": 654
+     },
+     {
+      "line": 103,
+      "file": 1,
+      "addr": 656
+     },
+     {
+      "line": 104,
+      "file": 1,
+      "addr": 663
+     },
+     {
+      "line": 106,
+      "file": 1,
+      "addr": 665
+     },
+     {
+      "line": 107,
+      "file": 1,
+      "addr": 672
+     },
+     {
+      "line": 109,
+      "file": 1,
+      "addr": 674
+     },
+     {
+      "line": 110,
+      "file": 1,
+      "addr": 681
+     },
+     {
+      "line": 112,
+      "file": 1,
+      "addr": 683
+     },
+     {
+      "line": 113,
+      "file": 1,
+      "addr": 690
+     },
+     {
+      "line": 115,
+      "file": 1,
+      "addr": 692
+     },
+     {
+      "line": 116,
+      "file": 1,
+      "addr": 699
+     },
+     {
+      "line": 118,
+      "file": 1,
+      "addr": 701
+     },
+     {
+      "line": 119,
+      "file": 1,
+      "addr": 708
+     },
+     {
+      "line": 121,
+      "file": 1,
+      "addr": 710
+     },
+     {
+      "line": 122,
+      "file": 1,
+      "addr": 717
+     },
+     {
+      "line": 124,
+      "file": 1,
+      "addr": 719
+     },
+     {
+      "line": 125,
+      "file": 1,
+      "addr": 726
+     },
+     {
+      "line": 127,
+      "file": 1,
+      "addr": 728
+     },
+     {
+      "line": 128,
+      "file": 1,
+      "addr": 735
+     },
+     {
+      "line": 130,
+      "file": 1,
+      "addr": 737
+     },
+     {
+      "line": 131,
+      "file": 1,
+      "addr": 744
+     },
+     {
+      "line": 133,
+      "file": 1,
+      "addr": 745
+     },
+     {
+      "line": 135,
+      "file": 1,
+      "addr": 781
+     },
+     {
+      "line": 136,
+      "file": 1,
+      "addr": 788
+     },
+     {
+      "line": 138,
+      "file": 1,
+      "addr": 790
+     },
+     {
+      "line": 139,
+      "file": 1,
+      "addr": 797
+     },
+     {
+      "line": 141,
+      "file": 1,
+      "addr": 799
+     },
+     {
+      "line": 142,
+      "file": 1,
+      "addr": 806
+     },
+     {
+      "line": 144,
+      "file": 1,
+      "addr": 808
+     },
+     {
+      "line": 145,
+      "file": 1,
+      "addr": 815
+     },
+     {
+      "line": 147,
+      "file": 1,
+      "addr": 816
+     },
+     {
+      "line": 148,
+      "file": 1,
+      "addr": 828
+     },
+     {
+      "line": 149,
+      "file": 1,
+      "addr": 832
+     },
+     {
+      "line": 151,
+      "file": 1,
+      "addr": 834
+     },
+     {
+      "line": 153,
+      "file": 1,
+      "addr": 845
+     },
+     {
+      "line": 153,
+      "file": 1,
+      "addr": 851
+     },
+     {
+      "line": 153,
+      "file": 1,
+      "addr": 854
+     },
+     {
+      "line": 154,
+      "file": 1,
+      "addr": 857
+     },
+     {
+      "line": 154,
+      "file": 1,
+      "addr": 863
+     },
+     {
+      "line": 155,
+      "file": 1,
+      "addr": 866
+     },
+     {
+      "line": 156,
+      "file": 1,
+      "addr": 870
+     },
+     {
+      "line": 156,
+      "file": 1,
+      "addr": 872
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c4prj3_finish/cards.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <assert_card_valid>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tsubq\t$0x10, %rsp\n       c:      \tmovq\t%rdi, -0x8(%rbp)\n      10:      \tmovl\t-0x8(%rbp), %eax\n      13:      \tcmpl\t$0xe, %eax\n      16:      \tja\t0x20 <assert_card_valid+0x20>\n      18:      \tmovl\t-0x8(%rbp), %eax\n      1b:      \tcmpl\t$0x1, %eax\n      1e:      \tja\t0x3f <assert_card_valid+0x3f>\n      20:      \tleaq\t(%rip), %rcx            # 0x27 <assert_card_valid+0x27>\n;   .rodata -> \"assert_card_valid\"\n      27:      \tmovl\t$0x8, %edx\n      2c:      \tleaq\t(%rip), %rsi            # 0x33 <assert_card_valid+0x33>\n;   .rodata -> \"cards.c\"\n      33:      \tleaq\t(%rip), %rdi            # 0x3a <assert_card_valid+0x3a>\n;   .rodata -> \"c.value <= VALUE_ACE && c.value >= 2\"\n      3a:      \tcallq\t0x3f <assert_card_valid+0x3f>\n;   __assert_fail+-4\n      3f:      \tmovl\t-0x4(%rbp), %eax\n      42:      \tcmpl\t$0x3, %eax\n      45:      \tjbe\t0x66 <assert_card_valid+0x66>\n      47:      \tleaq\t(%rip), %rcx            # 0x4e <assert_card_valid+0x4e>\n;   .rodata -> \"assert_card_valid\"\n      4e:      \tmovl\t$0x9, %edx\n      53:      \tleaq\t(%rip), %rsi            # 0x5a <assert_card_valid+0x5a>\n;   .rodata -> \"cards.c\"\n      5a:      \tleaq\t(%rip), %rdi            # 0x61 <assert_card_valid+0x61>\n;   .rodata -> \"c.suit >= SPADES && c.suit <= CLUBS\"\n      61:      \tcallq\t0x66 <assert_card_valid+0x66>\n;   __assert_fail+-4\n      66:      \tnop\n      67:      \tleave\n      68:      \tretq\n\n0000000000000069 <ranking_to_string>:\n      69:      \tendbr64\n      6d:      \tpushq\t%rbp\n      6e:      \tmovq\t%rsp, %rbp\n      71:      \tmovl\t%edi, -0x4(%rbp)\n      74:      \tcmpl\t$0x8, -0x4(%rbp)\n      78:      \tja\t0xef <ranking_to_string+0x86>\n      7a:      \tmovl\t-0x4(%rbp), %eax\n      7d:      \tleaq\t(,%rax,4), %rdx\n      85:      \tleaq\t(%rip), %rax            # 0x8c <ranking_to_string+0x23>\n;   .rodata+176\n      8c:      \tmovl\t(%rdx,%rax), %eax\n      8f:      \tcltq\n      91:      \tleaq\t(%rip), %rdx            # 0x98 <ranking_to_string+0x2f>\n;   .rodata+176\n      98:      \taddq\t%rdx, %rax\n      9b:      \tjmpq\t*%rax\n      9e:      \tleaq\t(%rip), %rax            # 0xa5 <ranking_to_string+0x3c>\n;   .rodata -> \"STRAIGHT_FLUSH\"\n      a5:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      a7:      \tleaq\t(%rip), %rax            # 0xae <ranking_to_string+0x45>\n;   .rodata -> \"FOUR_OF_A_KIND\"\n      ae:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      b0:      \tleaq\t(%rip), %rax            # 0xb7 <ranking_to_string+0x4e>\n;   .rodata -> \"FULL_HOUSE\"\n      b7:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      b9:      \tleaq\t(%rip), %rax            # 0xc0 <ranking_to_string+0x57>\n;   .rodata -> \"FLUSH\"\n      c0:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      c2:      \tleaq\t(%rip), %rax            # 0xc9 <ranking_to_string+0x60>\n;   .rodata -> \"STRAIGHT\"\n      c9:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      cb:      \tleaq\t(%rip), %rax            # 0xd2 <ranking_to_string+0x69>\n;   .rodata -> \"THREE_OF_A_KIND\"\n      d2:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      d4:      \tleaq\t(%rip), %rax            # 0xdb <ranking_to_string+0x72>\n;   .rodata -> \"TWO_PAIR\"\n      db:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      dd:      \tleaq\t(%rip), %rax            # 0xe4 <ranking_to_string+0x7b>\n;   .rodata -> \"PAIR\"\n      e4:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      e6:      \tleaq\t(%rip), %rax            # 0xed <ranking_to_string+0x84>\n;   .rodata -> \"NOTHING\"\n      ed:      \tjmp\t0xf4 <ranking_to_string+0x8b>\n      ef:      \tmovl\t$0x0, %eax\n      f4:      \tpopq\t%rbp\n      f5:      \tretq\n\n00000000000000f6 <value_letter>:\n      f6:      \tendbr64\n      fa:      \tpushq\t%rbp\n      fb:      \tmovq\t%rsp, %rbp\n      fe:      \tmovq\t%rdi, -0x8(%rbp)\n     102:      \tmovl\t-0x8(%rbp), %eax\n     105:      \tcmpl\t$0xe, %eax\n     108:      \tja\t0x188 <value_letter+0x92>\n     10a:      \tmovl\t%eax, %eax\n     10c:      \tleaq\t(,%rax,4), %rdx\n     114:      \tleaq\t(%rip), %rax            # 0x11b <value_letter+0x25>\n;   .rodata+212\n     11b:      \tmovl\t(%rdx,%rax), %eax\n     11e:      \tcltq\n     120:      \tleaq\t(%rip), %rdx            # 0x127 <value_letter+0x31>\n;   .rodata+212\n     127:      \taddq\t%rdx, %rax\n     12a:      \tjmpq\t*%rax\n     12d:      \tmovl\t$0x32, %eax\n     132:      \tjmp\t0x18d <value_letter+0x97>\n     134:      \tmovl\t$0x33, %eax\n     139:      \tjmp\t0x18d <value_letter+0x97>\n     13b:      \tmovl\t$0x34, %eax\n     140:      \tjmp\t0x18d <value_letter+0x97>\n     142:      \tmovl\t$0x35, %eax\n     147:      \tjmp\t0x18d <value_letter+0x97>\n     149:      \tmovl\t$0x36, %eax\n     14e:      \tjmp\t0x18d <value_letter+0x97>\n     150:      \tmovl\t$0x37, %eax\n     155:      \tjmp\t0x18d <value_letter+0x97>\n     157:      \tmovl\t$0x38, %eax\n     15c:      \tjmp\t0x18d <value_letter+0x97>\n     15e:      \tmovl\t$0x39, %eax\n     163:      \tjmp\t0x18d <value_letter+0x97>\n     165:      \tmovl\t$0x30, %eax\n     16a:      \tjmp\t0x18d <value_letter+0x97>\n     16c:      \tmovl\t$0x4a, %eax\n     171:      \tjmp\t0x18d <value_letter+0x97>\n     173:      \tmovl\t$0x51, %eax\n     178:      \tjmp\t0x18d <value_letter+0x97>\n     17a:      \tmovl\t$0x4b, %eax\n     17f:      \tjmp\t0x18d <value_letter+0x97>\n     181:      \tmovl\t$0x41, %eax\n     186:      \tjmp\t0x18d <value_letter+0x97>\n     188:      \tmovl\t$0x3f, %eax\n     18d:      \tpopq\t%rbp\n     18e:      \tretq\n\n000000000000018f <suit_letter>:\n     18f:      \tendbr64\n     193:      \tpushq\t%rbp\n     194:      \tmovq\t%rsp, %rbp\n     197:      \tmovq\t%rdi, -0x8(%rbp)\n     19b:      \tmovl\t-0x4(%rbp), %eax\n     19e:      \tcmpl\t$0x3, %eax\n     1a1:      \tje\t0x1d2 <suit_letter+0x43>\n     1a3:      \tcmpl\t$0x3, %eax\n     1a6:      \tja\t0x1d9 <suit_letter+0x4a>\n     1a8:      \tcmpl\t$0x2, %eax\n     1ab:      \tje\t0x1cb <suit_letter+0x3c>\n     1ad:      \tcmpl\t$0x2, %eax\n     1b0:      \tja\t0x1d9 <suit_letter+0x4a>\n     1b2:      \ttestl\t%eax, %eax\n     1b4:      \tje\t0x1bd <suit_letter+0x2e>\n     1b6:      \tcmpl\t$0x1, %eax\n     1b9:      \tje\t0x1c4 <suit_letter+0x35>\n     1bb:      \tjmp\t0x1d9 <suit_letter+0x4a>\n     1bd:      \tmovl\t$0x73, %eax\n     1c2:      \tjmp\t0x1de <suit_letter+0x4f>\n     1c4:      \tmovl\t$0x68, %eax\n     1c9:      \tjmp\t0x1de <suit_letter+0x4f>\n     1cb:      \tmovl\t$0x64, %eax\n     1d0:      \tjmp\t0x1de <suit_letter+0x4f>\n     1d2:      \tmovl\t$0x63, %eax\n     1d7:      \tjmp\t0x1de <suit_letter+0x4f>\n     1d9:      \tmovl\t$0x3f, %eax\n     1de:      \tpopq\t%rbp\n     1df:      \tretq\n\n00000000000001e0 <print_card>:\n     1e0:      \tendbr64\n     1e4:      \tpushq\t%rbp\n     1e5:      \tmovq\t%rsp, %rbp\n     1e8:      \tpushq\t%rbx\n     1e9:      \tsubq\t$0x18, %rsp\n     1ed:      \tmovq\t%rdi, -0x18(%rbp)\n     1f1:      \tmovq\t-0x18(%rbp), %rax\n     1f5:      \tmovq\t%rax, %rdi\n     1f8:      \tcallq\t0x1fd <print_card+0x1d>\n;   suit_letter+-4\n     1fd:      \tmovsbl\t%al, %ebx\n     200:      \tmovq\t-0x18(%rbp), %rax\n     204:      \tmovq\t%rax, %rdi\n     207:      \tcallq\t0x20c <print_card+0x2c>\n;   value_letter+-4\n     20c:      \tmovsbl\t%al, %eax\n     20f:      \tmovl\t%ebx, %edx\n     211:      \tmovl\t%eax, %esi\n     213:      \tleaq\t(%rip), %rdi            # 0x21a <print_card+0x3a>\n;   .rodata -> \"%c%c\"\n     21a:      \tmovl\t$0x0, %eax\n     21f:      \tcallq\t0x224 <print_card+0x44>\n;   printf+-4\n     224:      \tnop\n     225:      \taddq\t$0x18, %rsp\n     229:      \tpopq\t%rbx\n     22a:      \tpopq\t%rbp\n     22b:      \tretq\n\n000000000000022c <card_from_letters>:\n     22c:      \tendbr64\n     230:      \tpushq\t%rbp\n     231:      \tmovq\t%rsp, %rbp\n     234:      \tsubq\t$0x20, %rsp\n     238:      \tmovl\t%edi, %edx\n     23a:      \tmovl\t%esi, %eax\n     23c:      \tmovb\t%dl, -0x14(%rbp)\n     23f:      \tmovb\t%al, -0x18(%rbp)\n     242:      \tmovsbl\t-0x14(%rbp), %eax\n     246:      \tsubl\t$0x30, %eax\n     249:      \tcmpl\t$0x21, %eax\n     24c:      \tja\t0x2e9 <card_from_letters+0xbd>\n     252:      \tmovl\t%eax, %eax\n     254:      \tleaq\t(,%rax,4), %rdx\n     25c:      \tleaq\t(%rip), %rax            # 0x263 <card_from_letters+0x37>\n;   .rodata+280\n     263:      \tmovl\t(%rdx,%rax), %eax\n     266:      \tcltq\n     268:      \tleaq\t(%rip), %rdx            # 0x26f <card_from_letters+0x43>\n;   .rodata+280\n     26f:      \taddq\t%rdx, %rax\n     272:      \tjmpq\t*%rax\n     275:      \tmovl\t$0x2, -0x8(%rbp)\n     27c:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     27e:      \tmovl\t$0x3, -0x8(%rbp)\n     285:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     287:      \tmovl\t$0x4, -0x8(%rbp)\n     28e:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     290:      \tmovl\t$0x5, -0x8(%rbp)\n     297:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     299:      \tmovl\t$0x6, -0x8(%rbp)\n     2a0:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2a2:      \tmovl\t$0x7, -0x8(%rbp)\n     2a9:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2ab:      \tmovl\t$0x8, -0x8(%rbp)\n     2b2:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2b4:      \tmovl\t$0x9, -0x8(%rbp)\n     2bb:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2bd:      \tmovl\t$0xa, -0x8(%rbp)\n     2c4:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2c6:      \tmovl\t$0xb, -0x8(%rbp)\n     2cd:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2cf:      \tmovl\t$0xc, -0x8(%rbp)\n     2d6:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2d8:      \tmovl\t$0xd, -0x8(%rbp)\n     2df:      \tjmp\t0x2e9 <card_from_letters+0xbd>\n     2e1:      \tmovl\t$0xe, -0x8(%rbp)\n     2e8:      \tnop\n     2e9:      \tmovsbl\t-0x18(%rbp), %eax\n     2ed:      \tcmpl\t$0x73, %eax\n     2f0:      \tje\t0x30d <card_from_letters+0xe1>\n     2f2:      \tcmpl\t$0x73, %eax\n     2f5:      \tjg\t0x330 <card_from_letters+0x104>\n     2f7:      \tcmpl\t$0x68, %eax\n     2fa:      \tje\t0x316 <card_from_letters+0xea>\n     2fc:      \tcmpl\t$0x68, %eax\n     2ff:      \tjg\t0x330 <card_from_letters+0x104>\n     301:      \tcmpl\t$0x63, %eax\n     304:      \tje\t0x328 <card_from_letters+0xfc>\n     306:      \tcmpl\t$0x64, %eax\n     309:      \tje\t0x31f <card_from_letters+0xf3>\n     30b:      \tjmp\t0x330 <card_from_letters+0x104>\n     30d:      \tmovl\t$0x0, -0x4(%rbp)\n     314:      \tjmp\t0x330 <card_from_letters+0x104>\n     316:      \tmovl\t$0x1, -0x4(%rbp)\n     31d:      \tjmp\t0x330 <card_from_letters+0x104>\n     31f:      \tmovl\t$0x2, -0x4(%rbp)\n     326:      \tjmp\t0x330 <card_from_letters+0x104>\n     328:      \tmovl\t$0x3, -0x4(%rbp)\n     32f:      \tnop\n     330:      \tmovq\t-0x8(%rbp), %rax\n     334:      \tmovq\t%rax, %rdi\n     337:      \tcallq\t0x33c <card_from_letters+0x110>\n;   assert_card_valid+-4\n     33c:      \tmovq\t-0x8(%rbp), %rax\n     340:      \tleave\n     341:      \tretq\n\n0000000000000342 <card_from_num>:\n     342:      \tendbr64\n     346:      \tpushq\t%rbp\n     347:      \tmovq\t%rsp, %rbp\n     34a:      \tmovl\t%edi, -0x14(%rbp)\n     34d:      \tmovl\t-0x14(%rbp), %eax\n     350:      \tshrl\t$0x2, %eax\n     353:      \taddl\t$0x2, %eax\n     356:      \tmovl\t%eax, -0x8(%rbp)\n     359:      \tmovl\t-0x14(%rbp), %eax\n     35c:      \tandl\t$0x3, %eax\n     35f:      \tmovl\t%eax, -0x4(%rbp)\n     362:      \tmovq\t-0x8(%rbp), %rax\n     366:      \tpopq\t%rbp\n     367:      \tretq"
+}

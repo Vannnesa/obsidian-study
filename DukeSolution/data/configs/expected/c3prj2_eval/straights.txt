@@ -1,0 +1,48 @@
+Hand 1:
+--------
+Jh 0s 9d 8c 7c 6s 5h 
+ - No flush
+ - Straight at index 0
+ - Straight at index 1
+ - Straight at index 2
+ - The most of a kind is 1 of a kind (at index 0 / value J)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT
+ - 5 cards used for hand: Jh 0s 9d 8c 7c 
+Hand 2:
+--------
+9d 8c 7c 6s 5h 4c 3s 
+ - No flush
+ - Straight at index 0
+ - Straight at index 1
+ - Straight at index 2
+ - The most of a kind is 1 of a kind (at index 0 / value 9)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT
+ - 5 cards used for hand: 9d 8c 7c 6s 5h 
+Comparison : 
+--------------
+Hand 1 wins!
+============================
+Hand 1:
+--------
+As Kd Qc 5h 4c 3d 2s 
+ - No flush
+ - Straight at index 0
+ - The most of a kind is 1 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT
+ - 5 cards used for hand: 5h 4c 3d 2s As 
+Hand 2:
+--------
+Kc Qd 6d 5s 4h 3h 2h 
+ - No flush
+ - Straight at index 2
+ - The most of a kind is 1 of a kind (at index 0 / value K)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT
+ - 5 cards used for hand: 6d 5s 4h 3h 2h 
+Comparison : 
+--------------
+Hand 2 wins!
+============================

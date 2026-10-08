@@ -1,0 +1,202 @@
+{
+  "id": "c4prj3_finish",
+  "title": "Course 4 poker project, part 3: main and the Monte Carlo simulation",
+  "type": "compile_and_run",
+  "source": "main.c",
+  "reportStyle": "squares",
+  "successVerdict": "A",
+  "showCompileCommands": true,
+  "next": null,
+  "timeoutMs": 120000,
+  "build": {
+    "driver": "drivers/c4prj3_finish/poker_check.c",
+    "sources": [
+      "cards.c",
+      "deck.c",
+      "eval.c",
+      "future.c",
+      "input.c",
+      "main.c"
+    ],
+    "separateCompile": true,
+    "output": "poker",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-ggdb3",
+      "-std=gnu99",
+      "--pedantic",
+      "-O3",
+      "-Dmain=student_main",
+      "-Wno-error=non-literal-null-conversion"
+    ]
+  },
+  "tests": [
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test01.txt)",
+      "args": [
+        "provided-tests/test01.txt",
+        "20000",
+        "95",
+        "5"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test01.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test02.txt)",
+      "args": [
+        "provided-tests/test02.txt",
+        "20000",
+        "14",
+        "86"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test02.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test03.txt)",
+      "args": [
+        "provided-tests/test03.txt",
+        "20000",
+        "69",
+        "31"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test03.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test04.txt)",
+      "args": [
+        "provided-tests/test04.txt",
+        "20000",
+        "63",
+        "36"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test04.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test05.txt)",
+      "args": [
+        "provided-tests/test05.txt",
+        "20000",
+        "27",
+        "73"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test05.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test06.txt)",
+      "args": [
+        "provided-tests/test06.txt",
+        "20000",
+        "20",
+        "80"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test06.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test07.txt)",
+      "args": [
+        "provided-tests/test07.txt",
+        "20000",
+        "100",
+        "0"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test07.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test08.txt)",
+      "args": [
+        "provided-tests/test08.txt",
+        "20000",
+        "1",
+        "1"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test08.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test09.txt)",
+      "args": [
+        "provided-tests/test09.txt",
+        "20000",
+        "0",
+        "4"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test09.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test10.txt)",
+      "args": [
+        "provided-tests/test10.txt",
+        "20000",
+        "0",
+        "18"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test10.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test11.txt)",
+      "args": [
+        "provided-tests/test11.txt",
+        "20000",
+        "41",
+        "58"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test11.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test12.txt)",
+      "args": [
+        "provided-tests/test12.txt",
+        "20000",
+        "84",
+        "16"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test12.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 2 hands (test13.txt)",
+      "args": [
+        "provided-tests/test13.txt",
+        "20000",
+        "77",
+        "23"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test13.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 3 hands (test15.txt)",
+      "args": [
+        "provided-tests/test15.txt",
+        "20000",
+        "2",
+        "13",
+        "84"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test15.txt"
+    },
+    {
+      "label": "a simulation with 20000 draws for 6 hands (test16.txt)",
+      "args": [
+        "provided-tests/test16.txt",
+        "20000",
+        "4",
+        "5",
+        "12",
+        "8",
+        "58",
+        "12"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_test16.txt"
+    },
+    {
+      "label": "a simulation using the documented default of 10000 draws (provided-tests/test01.txt)",
+      "args": [
+        "provided-tests/test01.txt",
+        "0",
+        "95",
+        "5"
+      ],
+      "expectedFile": "expected/c4prj3_finish/sim_default_draws.txt"
+    }
+  ],
+  "notes": "Confidence: observed -- every report line quoted, the answers.txt percentages, the 16 provided inputs and 'Overall Grade: A'; inferred -- the driver's tolerance check and the substitution of the provided inputs for the 2024 grader's own (a 4-hand simulation appears in the transcript but no 4-hand input exists here). Report wording observed verbatim in re/original-grade-txt/c4prj3_finish.grade.txt: the clean build line (\"Running 'make clean' to do a clean build of your project\"), the gcc lines, ' - Starting with some Texas Hold'em hands', ' - Next, few Seven Card Stud hands', ' - Then one from a completely made up poker variant', 'Running a simulation with 20000 draws for 2 hands...', '    Hand 0 was close enough to our answer', '    Test case passed!' and 'Overall Grade: A'. THE SIMULATION IS STOCHASTIC, so no expected-output fixture can compare the program's own percentages: the expected stdout files here contain only the deterministic lines the driver prints after checking them ('Running a simulation with N draws for M hands...', 'Hand <i> was close enough to our answer' -- the original's sentence verbatim -- and 'Test case passed!'). The percentages the student's program actually printed are written to stderr, which is never compared. Expected values come from c4prj3_finish/provided-tests/answers.txt (byte-identical to the copy in the assignment directory), whose 16 cases are exactly the 16 provided-tests/testNN.txt inputs; the 17th case passes no trial count at all and checks the README's documented default of 10000 draws. The driver wraps the student's own main (-Dmain=student_main) and accepts both the README's 'Hand %zu won %u / %u times (%.2f%%)' spacing and the recorded solution's 'Hand %zu won %u/%u times (%.2f%%)' plus its 'And there where %u ties' typo, because the 2024 grader only checked the probabilities ('close enough to our answer') and the recorded solution does not match the README's wording byte-for-byte. Tolerance is 3 percentage points: the stored answers are the true probabilities rounded to the nearest percent and a 20000-draw simulation has a standard error of at most 0.35 points, so a correct program is never failed while a mis-evaluating one is far outside. The original's own draw counts (20000/25000/30000/40000/80000/100000) and its own input files were not preserved -- grade.txt shows a 4-hand simulation, which no file in provided-tests/ matches -- so all 16 here use 20000 draws and the student's copies of the provided inputs, and the original's ' - Starting with ...' section lines are not reproducible with one header line. The original was make-driven; this config compiles the same six sources directly (the driver must be linked, which make cannot do), so showCompileCommands echoes the real commands instead of the 2024 make output. EXCLUDED CASE, with evidence: provided-tests/test14.txt is NOT graded. Its first two hands are byte-identical (`Kh As ?0 ?1 ?2` twice), so the best hand is a two-way tie in ~69% of draws; answers.txt records Hand 0 = 0%, Hand 1 = 0%, Hand 2 = 31% (the rest ties), while the recorded solution prints 'Hand 0 won 69.36%' because its main() only counts a tie when every hand ties (`if (n_ties == n_hands - 1)`). The recorded solution is therefore wrong about partial ties in 3+ hand simulations, and a config that graded test14 would fail the recorded solution (2024 gave it an A, because its own inputs never posed that case). Grading it here would fabricate neither a pass nor an expectation that contradicts answers.txt, so the case is dropped and the defect recorded instead. 15 of the 16 provided tests are graded (test15/test16, whose ties are total-or-none, both pass within 0.5 points)."
+}

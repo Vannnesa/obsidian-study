@@ -1,0 +1,11 @@
+# The 42 completed upstream assignment directories, kept only as reverse
+# engineering evidence (they contain Linux ELF objects, linked binaries and
+# vgcore dumps). Regenerate/extract them from the source repo if needed.
+upstream/
+
+node_modules/
+*.compiled
+.DS_Store
+
+dist/
+*.bun-build

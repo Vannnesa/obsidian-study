@@ -1,0 +1,40 @@
+Hand 1:
+--------
+Ah As Kd 9c 7s 5d 3h 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: PAIR
+ - 5 cards used for hand: Ah As Kd 9c 7s 
+Hand 2:
+--------
+Ad Kh Ks 9c 7s 5d 3h 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 1 / value K)
+ - No secondary pair
+ - evaluate_hand's ranking: PAIR
+ - 5 cards used for hand: Kh Ks Ad 9c 7s 
+Comparison : 
+--------------
+Hand 1 wins!
+============================
+Hand 1:
+--------
+Ah As Kd 9c 7s 5d 3h 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: PAIR
+ - 5 cards used for hand: Ah As Kd 9c 7s 
+Hand 2:
+--------
+Kd Qh Qs 9c 7s 5d 3h 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 1 / value Q)
+ - No secondary pair
+ - evaluate_hand's ranking: PAIR
+ - 5 cards used for hand: Qh Qs Kd 9c 7s 
+Comparison : 
+--------------
+Hand 1 wins!
+============================

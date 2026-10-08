@@ -1,0 +1,1 @@
+printTriangle(12) returned 78

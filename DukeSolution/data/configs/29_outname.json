@@ -1,0 +1,42 @@
+{
+  "id": "29_outname",
+  "title": "Write computeOutputFileName(), which appends \".counts\" to an input file name",
+  "type": "memory_check",
+  "source": "outname.c",
+  "build": {
+    "driver": "drivers/29_outname/outname_test.c",
+    "sources": [
+      "outname.c"
+    ],
+    "output": "outname_test",
+    "flags": [
+      "-Wall",
+      "-Werror",
+      "-std=gnu99",
+      "-pedantic"
+    ]
+  },
+  "compileMessage": "Attempting to compile:",
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "30_sort_lines",
+  "notes": "observed: re/original-grade-txt/29_outname.grade.txt starts with `Attempting to compile:` and the command after the colon is EMPTY, then three testcase blocks, each `Your output is correct` / `  - Valgrind was clean (no errors, no memory leaks)` / `valgrind was clean`, then `Overall Grade: A`. observed: the README says 'You can make and test with the main function found in outname_test.c' and gives the required signature `char * computeOutputFileName(const char * inputName)` plus the malloc requirement; the Makefile's CFLAGS are `-Wall -Werror -std=gnu99 -pedantic -ggdb3` and its PROGRAM is `outname_test`; 29_outname/outname.c and outname.h are the student's implementation and the teacher's header. recovered: drivers/29_outname/outname_test.c is the teacher driver - its content is the in-directory outname_test.c, and every claim the object makes about it matches (one function `main`, 174 bytes; imports only computeOutputFileName, printf, free, __stack_chk_fail; .rodata \"input.txt\", \"anotherTestFileName.txt\", \"somethingelse\", \"'%s' => '%s'\\n\"; DWARF puts `main(void)` at line 7 and the local `testNames` at line 8, exactly where they are in the source); the reference run prints the three expected lines, stored as configs/expected/29_outname/test.txt. inferred: the driver takes no arguments and reads no files, so the original's three testcases must have been three identical runs of ./outname_test, which is what is configured here; the case labels repeat because the original repeated them. platform substitution: the 2024 grader used valgrind, which does not exist on macOS/arm64 and cannot be installed. `memory_check` builds with AddressSanitizer instead, and the original valgrind wording is kept in the report so the two stay comparable. IMPORTANT caveat, recorded rather than hidden: Apple clang 21 ships no LeakSanitizer (`-fsanitize=leak` is rejected for arm64-apple-darwin, and the ASan runtime answers `detect_leaks is not supported on this platform`), so only the memory-ERROR half of valgrind's verdict is really checked here - a leak-only defect would not be caught. Do not read `or memory leaks` in that line as verified. The reference implementation is ASan-clean (verified with `detect_leaks=0`). Template exclusions: the committed Linux `outname_test` binary and outname_test.o are not part of the starting template; outname_test.c IS kept because the README tells the student to use that main, and outname.c is reduced to its signature plus TODO.",
+  "tests": [
+    {
+      "args": [],
+      "label": "testcase1",
+      "expectedFile": "expected/29_outname/test.txt"
+    },
+    {
+      "args": [],
+      "label": "testcase2",
+      "expectedFile": "expected/29_outname/test.txt"
+    },
+    {
+      "args": [],
+      "label": "testcase3",
+      "expectedFile": "expected/29_outname/test.txt"
+    }
+  ]
+}

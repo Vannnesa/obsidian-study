@@ -1,0 +1,303 @@
+{
+ "path": "20_rot_matrix/read-matrix.o",
+ "size": 3592,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "read-matrix.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "readLine",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 200,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 492,
+   "addr": 200,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fgetc",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fopen",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fclose",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "rotate",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "putchar",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "Invalid input: line is too short\n"
+  },
+  {
+   "offset": 40,
+   "text": "Invalid input: unexpected EOF\n"
+  },
+  {
+   "offset": 72,
+   "text": "Invalid input: Line is too long\n"
+  },
+  {
+   "offset": 105,
+   "text": "Usage: rotateMatrix input\n"
+  },
+  {
+   "offset": 134,
+   "text": "Could not open %s\n"
+  },
+  {
+   "offset": 160,
+   "text": "Invalid input: file is too long (read %d instead of EOF)\n"
+  }
+ ],
+ "string_refs": {
+  "readLine": [
+   "Invalid input: line is too short\n",
+   "Invalid input: unexpected EOF\n",
+   "Invalid input: Line is too long\n"
+  ],
+  "main": [
+   "Usage: rotateMatrix input\n",
+   "r",
+   "Could not open %s\n",
+   "Invalid input: file is too long (read %d instead of EOF)\n"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 38,
+    "symbol": "fgetc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 54,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 74,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 79,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 89,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 129,
+    "symbol": "fgetc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 151,
+    "symbol": ".rodata",
+    "addend": 36,
+    "type": 2
+   },
+   {
+    "offset": 160,
+    "symbol": ".rodata",
+    "addend": 68,
+    "type": 2
+   },
+   {
+    "offset": 167,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 183,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 193,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 255,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 275,
+    "symbol": ".rodata",
+    "addend": 101,
+    "type": 2
+   },
+   {
+    "offset": 280,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 311,
+    "symbol": ".rodata",
+    "addend": 128,
+    "type": 2
+   },
+   {
+    "offset": 319,
+    "symbol": "fopen",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 351,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 358,
+    "symbol": ".rodata",
+    "addend": 130,
+    "type": 2
+   },
+   {
+    "offset": 371,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 437,
+    "symbol": "readLine",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 467,
+    "symbol": "fgetc",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 489,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 502,
+    "symbol": ".rodata",
+    "addend": 156,
+    "type": 2
+   },
+   {
+    "offset": 515,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 537,
+    "symbol": "fclose",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 549,
+    "symbol": "rotate",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 621,
+    "symbol": "putchar",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 643,
+    "symbol": "putchar",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 686,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/20_rot_matrix/read-matrix.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <readLine>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tsubq\t$0x20, %rsp\n       c:      \tmovq\t%rdi, -0x18(%rbp)\n      10:      \tmovq\t%rsi, -0x20(%rbp)\n      14:      \tmovq\t$0x0, -0x8(%rbp)\n      1c:      \tjmp\t0x72 <readLine+0x72>\n      1e:      \tmovq\t-0x18(%rbp), %rax\n      22:      \tmovq\t%rax, %rdi\n      25:      \tcallq\t0x2a <readLine+0x2a>\n;   fgetc+-4\n      2a:      \tmovl\t%eax, -0xc(%rbp)\n      2d:      \tcmpl\t$0xa, -0xc(%rbp)\n      31:      \tjne\t0x5d <readLine+0x5d>\n      33:      \tmovq\t(%rip), %rax            # 0x3a <readLine+0x3a>\n;   stderr+-4\n      3a:      \tmovq\t%rax, %rcx\n      3d:      \tmovl\t$0x21, %edx\n      42:      \tmovl\t$0x1, %esi\n      47:      \tleaq\t(%rip), %rdi            # 0x4e <readLine+0x4e>\n;   .rodata -> \"Invalid input: line is too short\\n\"\n      4e:      \tcallq\t0x53 <readLine+0x53>\n;   fwrite+-4\n      53:      \tmovl\t$0x1, %edi\n      58:      \tcallq\t0x5d <readLine+0x5d>\n;   exit+-4\n      5d:      \tmovq\t-0x20(%rbp), %rdx\n      61:      \tmovq\t-0x8(%rbp), %rax\n      65:      \taddq\t%rdx, %rax\n      68:      \tmovl\t-0xc(%rbp), %edx\n      6b:      \tmovb\t%dl, (%rax)\n      6d:      \taddq\t$0x1, -0x8(%rbp)\n      72:      \tcmpq\t$0x9, -0x8(%rbp)\n      77:      \tjbe\t0x1e <readLine+0x1e>\n      79:      \tmovq\t-0x18(%rbp), %rax\n      7d:      \tmovq\t%rax, %rdi\n      80:      \tcallq\t0x85 <readLine+0x85>\n;   fgetc+-4\n      85:      \tmovl\t%eax, -0xc(%rbp)\n      88:      \tcmpl\t$0xa, -0xc(%rbp)\n      8c:      \tje\t0xc5 <readLine+0xc5>\n      8e:      \tcmpl\t$-0x1, -0xc(%rbp)\n      92:      \tjne\t0x9d <readLine+0x9d>\n      94:      \tleaq\t(%rip), %rax            # 0x9b <readLine+0x9b>\n;   .rodata -> \"Invalid input: unexpected EOF\\n\"\n      9b:      \tjmp\t0xa4 <readLine+0xa4>\n      9d:      \tleaq\t(%rip), %rax            # 0xa4 <readLine+0xa4>\n;   .rodata -> \"Invalid input: Line is too long\\n\"\n      a4:      \tmovq\t(%rip), %rdx            # 0xab <readLine+0xab>\n;   stderr+-4\n      ab:      \tmovq\t%rax, %rsi\n      ae:      \tmovq\t%rdx, %rdi\n      b1:      \tmovl\t$0x0, %eax\n      b6:      \tcallq\t0xbb <readLine+0xbb>\n;   fprintf+-4\n      bb:      \tmovl\t$0x1, %edi\n      c0:      \tcallq\t0xc5 <readLine+0xc5>\n;   exit+-4\n      c5:      \tnop\n      c6:      \tleave\n      c7:      \tretq\n\n00000000000000c8 <main>:\n      c8:      \tendbr64\n      cc:      \tpushq\t%rbp\n      cd:      \tmovq\t%rsp, %rbp\n      d0:      \tsubq\t$0xb0, %rsp\n      d7:      \tmovl\t%edi, -0xa4(%rbp)\n      dd:      \tmovq\t%rsi, -0xb0(%rbp)\n      e4:      \tmovq\t%fs:0x28, %rax\n      ed:      \tmovq\t%rax, -0x8(%rbp)\n      f1:      \txorl\t%eax, %eax\n      f3:      \tcmpl\t$0x2, -0xa4(%rbp)\n      fa:      \tje\t0x126 <main+0x5e>\n      fc:      \tmovq\t(%rip), %rax            # 0x103 <main+0x3b>\n;   stderr+-4\n     103:      \tmovq\t%rax, %rcx\n     106:      \tmovl\t$0x1a, %edx\n     10b:      \tmovl\t$0x1, %esi\n     110:      \tleaq\t(%rip), %rdi            # 0x117 <main+0x4f>\n;   .rodata -> \"Usage: rotateMatrix input\\n\"\n     117:      \tcallq\t0x11c <main+0x54>\n;   fwrite+-4\n     11c:      \tmovl\t$0x1, %eax\n     121:      \tjmp\t0x29e <main+0x1d6>\n     126:      \tmovq\t-0xb0(%rbp), %rax\n     12d:      \taddq\t$0x8, %rax\n     131:      \tmovq\t(%rax), %rax\n     134:      \tleaq\t(%rip), %rsi            # 0x13b <main+0x73>\n;   .rodata -> \"r\"\n     13b:      \tmovq\t%rax, %rdi\n     13e:      \tcallq\t0x143 <main+0x7b>\n;   fopen+-4\n     143:      \tmovq\t%rax, -0x78(%rbp)\n     147:      \tcmpq\t$0x0, -0x78(%rbp)\n     14c:      \tjne\t0x181 <main+0xb9>\n     14e:      \tmovq\t-0xb0(%rbp), %rax\n     155:      \taddq\t$0x8, %rax\n     159:      \tmovq\t(%rax), %rdx\n     15c:      \tmovq\t(%rip), %rax            # 0x163 <main+0x9b>\n;   stderr+-4\n     163:      \tleaq\t(%rip), %rsi            # 0x16a <main+0xa2>\n;   .rodata -> \"Could not open %s\\n\"\n     16a:      \tmovq\t%rax, %rdi\n     16d:      \tmovl\t$0x0, %eax\n     172:      \tcallq\t0x177 <main+0xaf>\n;   fprintf+-4\n     177:      \tmovl\t$0x1, %eax\n     17c:      \tjmp\t0x29e <main+0x1d6>\n     181:      \tmovq\t$0x0, -0x90(%rbp)\n     18c:      \tjmp\t0x1c1 <main+0xf9>\n     18e:      \tleaq\t-0x70(%rbp), %rcx\n     192:      \tmovq\t-0x90(%rbp), %rdx\n     199:      \tmovq\t%rdx, %rax\n     19c:      \tshlq\t$0x2, %rax\n     1a0:      \taddq\t%rdx, %rax\n     1a3:      \taddq\t%rax, %rax\n     1a6:      \tleaq\t(%rcx,%rax), %rdx\n     1aa:      \tmovq\t-0x78(%rbp), %rax\n     1ae:      \tmovq\t%rdx, %rsi\n     1b1:      \tmovq\t%rax, %rdi\n     1b4:      \tcallq\t0x1b9 <main+0xf1>\n;   readLine+-4\n     1b9:      \taddq\t$0x1, -0x90(%rbp)\n     1c1:      \tcmpq\t$0x9, -0x90(%rbp)\n     1c9:      \tjbe\t0x18e <main+0xc6>\n     1cb:      \tmovq\t-0x78(%rbp), %rax\n     1cf:      \tmovq\t%rax, %rdi\n     1d2:      \tcallq\t0x1d7 <main+0x10f>\n;   fgetc+-4\n     1d7:      \tmovl\t%eax, -0x94(%rbp)\n     1dd:      \tcmpl\t$-0x1, -0x94(%rbp)\n     1e4:      \tje\t0x211 <main+0x149>\n     1e6:      \tmovq\t(%rip), %rax            # 0x1ed <main+0x125>\n;   stderr+-4\n     1ed:      \tmovl\t-0x94(%rbp), %edx\n     1f3:      \tleaq\t(%rip), %rsi            # 0x1fa <main+0x132>\n;   .rodata -> \"Invalid input: file is too long (read %d instead of EOF)\\n\"\n     1fa:      \tmovq\t%rax, %rdi\n     1fd:      \tmovl\t$0x0, %eax\n     202:      \tcallq\t0x207 <main+0x13f>\n;   fprintf+-4\n     207:      \tmovl\t$0x1, %eax\n     20c:      \tjmp\t0x29e <main+0x1d6>\n     211:      \tmovq\t-0x78(%rbp), %rax\n     215:      \tmovq\t%rax, %rdi\n     218:      \tcallq\t0x21d <main+0x155>\n;   fclose+-4\n     21d:      \tleaq\t-0x70(%rbp), %rax\n     221:      \tmovq\t%rax, %rdi\n     224:      \tcallq\t0x229 <main+0x161>\n;   rotate+-4\n     229:      \tmovq\t$0x0, -0x88(%rbp)\n     234:      \tjmp\t0x28f <main+0x1c7>\n     236:      \tmovq\t$0x0, -0x80(%rbp)\n     23e:      \tjmp\t0x276 <main+0x1ae>\n     240:      \tmovq\t-0x88(%rbp), %rdx\n     247:      \tmovq\t%rdx, %rax\n     24a:      \tshlq\t$0x2, %rax\n     24e:      \taddq\t%rdx, %rax\n     251:      \taddq\t%rax, %rax\n     254:      \tleaq\t(%rbp,%rax), %rdx\n     259:      \tmovq\t-0x80(%rbp), %rax\n     25d:      \taddq\t%rdx, %rax\n     260:      \tsubq\t$0x70, %rax\n     264:      \tmovzbl\t(%rax), %eax\n     267:      \tmovsbl\t%al, %eax\n     26a:      \tmovl\t%eax, %edi\n     26c:      \tcallq\t0x271 <main+0x1a9>\n;   putchar+-4\n     271:      \taddq\t$0x1, -0x80(%rbp)\n     276:      \tcmpq\t$0x9, -0x80(%rbp)\n     27b:      \tjbe\t0x240 <main+0x178>\n     27d:      \tmovl\t$0xa, %edi\n     282:      \tcallq\t0x287 <main+0x1bf>\n;   putchar+-4\n     287:      \taddq\t$0x1, -0x88(%rbp)\n     28f:      \tcmpq\t$0x9, -0x88(%rbp)\n     297:      \tjbe\t0x236 <main+0x16e>\n     299:      \tmovl\t$0x0, %eax\n     29e:      \tmovq\t-0x8(%rbp), %rcx\n     2a2:      \txorq\t%fs:0x28, %rcx\n     2ab:      \tje\t0x2b2 <main+0x1ea>\n     2ad:      \tcallq\t0x2b2 <main+0x1ea>\n;   __stack_chk_fail+-4\n     2b2:      \tleave\n     2b3:      \tretq"
+}

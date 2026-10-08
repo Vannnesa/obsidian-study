@@ -1,0 +1,130 @@
+Hand 1:
+--------
+0c 0s 8s 7d 6d 6s 5c 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 0 / value 0)
+ - Secondary pair at index 4 (value 6)
+ - evaluate_hand's ranking: TWO_PAIR
+ - 5 cards used for hand: 0c 0s 6d 6s 8s 
+Hand 2:
+--------
+Js 0s 8s 7d 6s 5c 4c 
+ - No flush
+ - Straight at index 2
+ - The most of a kind is 1 of a kind (at index 0 / value J)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT
+ - 5 cards used for hand: 8s 7d 6s 5c 4c 
+Comparison : 
+--------------
+Hand 2 wins!
+============================
+Hand 1:
+--------
+9c 9d 8d 7c 6c 5c 4c 
+ - Flush in suit c
+ - Straight at index 0
+ - Straight at index 1
+ - Straight at index 2
+ - The most of a kind is 2 of a kind (at index 0 / value 9)
+ - No secondary pair
+ - evaluate_hand's ranking: FLUSH
+ - 5 cards used for hand: 9c 7c 6c 5c 4c 
+Hand 2:
+--------
+9c 9d 8c 8d 7c 6c 5c 
+ - Flush in suit c
+ - Straight flush at index 0
+ - Straight at index 1
+ - The most of a kind is 2 of a kind (at index 0 / value 9)
+ - Secondary pair at index 2 (value 8)
+ - evaluate_hand's ranking: STRAIGHT_FLUSH
+ - 5 cards used for hand: 9c 8c 7c 6c 5c 
+Comparison : 
+--------------
+Hand 2 wins!
+============================
+Hand 1:
+--------
+Ad Kd Qd Jd 0d 9d 8d 
+ - Flush in suit d
+ - Straight flush at index 0
+ - Straight flush at index 1
+ - Straight flush at index 2
+ - The most of a kind is 1 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT_FLUSH
+ - 5 cards used for hand: Ad Kd Qd Jd 0d 
+Hand 2:
+--------
+Qd Jd 0d 9d 8d 5s 2h 
+ - Flush in suit d
+ - Straight flush at index 0
+ - The most of a kind is 1 of a kind (at index 0 / value Q)
+ - No secondary pair
+ - evaluate_hand's ranking: STRAIGHT_FLUSH
+ - 5 cards used for hand: Qd Jd 0d 9d 8d 
+Comparison : 
+--------------
+Hand 1 wins!
+============================
+Hand 1:
+--------
+0c 0d 0s 9c 9d 3d 2s 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value 0)
+ - Secondary pair at index 3 (value 9)
+ - evaluate_hand's ranking: FULL_HOUSE
+ - 5 cards used for hand: 0c 0d 0s 9c 9d 
+Hand 2:
+--------
+0d 0h 0s 9c 3c 3d 2s 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value 0)
+ - Secondary pair at index 4 (value 3)
+ - evaluate_hand's ranking: FULL_HOUSE
+ - 5 cards used for hand: 0d 0h 0s 3c 3d 
+Comparison : 
+--------------
+Hand 1 wins!
+============================
+Hand 1:
+--------
+Ad Js 0d 4c 4h 4s 2s 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 3 / value 4)
+ - No secondary pair
+ - evaluate_hand's ranking: THREE_OF_A_KIND
+ - 5 cards used for hand: 4c 4h 4s Ad Js 
+Hand 2:
+--------
+Ad Ah As Js 0d 4c 2s 
+ - No flush
+ - The most of a kind is 3 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: THREE_OF_A_KIND
+ - 5 cards used for hand: Ad Ah As Js 0d 
+Comparison : 
+--------------
+Hand 2 wins!
+============================
+Hand 1:
+--------
+Ac As Ks 8h 5c 3h 2s 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 0 / value A)
+ - No secondary pair
+ - evaluate_hand's ranking: PAIR
+ - 5 cards used for hand: Ac As Ks 8h 5c 
+Hand 2:
+--------
+Kd Ks Jh 8h 5c 3h 2s 
+ - No flush
+ - The most of a kind is 2 of a kind (at index 0 / value K)
+ - No secondary pair
+ - evaluate_hand's ranking: PAIR
+ - 5 cards used for hand: Kd Ks Jh 8h 5c 
+Comparison : 
+--------------
+Hand 1 wins!
+============================

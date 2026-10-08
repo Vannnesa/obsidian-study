@@ -1,0 +1,23 @@
+{
+  "id": "12_read_ptr2",
+  "title": "Predict what the pointer-to-pointer program test.c prints",
+  "type": "predict_output",
+  "program": "test.c",
+  "file": "answer.txt",
+  "expectedFile": "expected/12_read_ptr2/stdout.txt",
+  "build": {
+    "make": {
+      "args": [
+        "-B"
+      ]
+    },
+    "output": "test"
+  },
+  "header": "Attempting to compile test.c",
+  "compileMessage": "compiled",
+  "showCompileCommands": true,
+  "successVerdict": "PASSED",
+  "timeoutMs": 5000,
+  "next": "13_read_arr1",
+  "notes": "observed -- re/original-grade-txt/12_read_ptr2.grade.txt has the same shape as 11_read_ptr1's: `Attempting to compile test.c`, the four recipe lines of the same Makefile, `compiled`, the two predict_output checks, `Overall Grade: PASSED`. 12_read_ptr2/answer.txt (55 bytes) is the passing submission; configs/expected/12_read_ptr2/stdout.txt was generated from test.c with tools/re/gen_expected.py and VERIFIED against it. Note the verdict: this report ends in PASSED although 13_read_arr1 (graded the same day, 2024-03-05 17:19 UTC) already ends in A -- the letter is taken from each assignment's own artifact via successVerdict, not inferred from the strategy. recovered -- re/elf/12_read_ptr2__test.dbg.o.md is the student's own -ggdb3 compile and only confirms the provided source. inferred -- `-B` for the same stale-binary reason as 11_read_ptr1; `next` follows the numeric id order."
+}

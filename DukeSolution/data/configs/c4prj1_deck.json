@@ -1,0 +1,78 @@
+{
+  "id": "c4prj1_deck",
+  "title": "Course 4 poker project, part 1: malloc/realloc/free deck and eval helpers",
+  "type": "memory_check",
+  "source": "deck.c",
+  "reportStyle": "squares",
+  "successVerdict": "A",
+  "next": "c4prj2_input",
+  "timeoutMs": 30000,
+  "build": {
+    "driver": "drivers/c4prj1_deck/c4_deck_check.c",
+    "sources": [
+      "deck.c",
+      "eval.c",
+      "cards.c"
+    ],
+    "output": "deck_check",
+    "flags": [
+      "-ggdb3",
+      "-Wall",
+      "-Werror",
+      "--pedantic",
+      "-std=gnu99",
+      "-Wno-error=non-literal-null-conversion"
+    ]
+  },
+  "tests": [
+    {
+      "label": "free_deck(deck_t *)",
+      "args": [
+        "free_deck"
+      ],
+      "message": "Testing free_deck(deck_t *)",
+      "expected": ""
+    },
+    {
+      "label": "add_card_to(deck_t *, card_t)",
+      "args": [
+        "add_card_to"
+      ],
+      "message": "Testing add_card_to(deck_t *, card_t)",
+      "expected": ""
+    },
+    {
+      "label": "add_empty_card(deck_t *)",
+      "args": [
+        "add_empty_card"
+      ],
+      "message": "Testing add_empty_card(deck_t *)",
+      "expected": ""
+    },
+    {
+      "label": "make_deck_exclude(deck_t *)",
+      "args": [
+        "make_deck_exclude"
+      ],
+      "message": "Testing make_deck_exclude(deck_t *)",
+      "expected": ""
+    },
+    {
+      "label": "build_remaining_deck(deck_t **, size_t)",
+      "args": [
+        "build_remaining_deck"
+      ],
+      "message": "Testing build_remaining_deck(deck_t **, size_t)",
+      "expected": ""
+    },
+    {
+      "label": "get_match_count(deck_t *)",
+      "args": [
+        "get_match_counts"
+      ],
+      "message": "Testing get_match_count(deck_t *)",
+      "expected": ""
+    }
+  ],
+  "notes": "Checklist observed verbatim in re/original-grade-txt/c4prj1_deck.grade.txt (six 'Testing <prototype>' lines, '- Test passed', 'Overall Grade: A'); the grader's own test object is NOT in the workspace -- c4prj1_deck/test-deck.o is the student's test-deck.c (re/elf/c4prj1_deck__test-deck.o.md shows exactly its three printf strings), and the original build line names 'our tester' separately -- so drivers/c4prj1_deck/c4_deck_check.c is INFERRED from c4prj1_deck/README. Every assertion it makes is quoted from that README: add_card_to reallocs the pointer array; add_empty_card adds value 0/suit 0 and returns a pointer into the deck (the driver proves the aliasing by writing through it, which is what future_cards_from_deck needs); make_deck_exclude of Kh+Qs gives 50 cards; build_remaining_deck of the README's two-hand/four-unknown example gives 48 (placeholders must not count as cards); get_match_counts of Ks Kh Qs Qh 0s 9d 9c 9h gives `2 2 2 2 1 3 3 3`. card_from_num's mapping is explicitly the student's choice, so every check goes through the student's own card_from_num and does not assume the reference mapping. The original's six 'Testing with N hands' sub-lines for build_remaining_deck are exercised (1..6 hands) but cannot be printed by the schema; one case covers all six. TYPE DEVIATION, flagged: the 2024 report has no valgrind clause, so the original did not memory-check this assignment, but the subject matter is malloc/realloc/free and 'Testing free_deck' is vacuous without a leak checker, so this config uses memory_check (ASan for memory errors plus Apple `leaks` for leak detection). The report therefore gains the tool's '  - Valgrind was clean (no errors, no memory leaks)' / 'valgrind was clean' lines per case, and the memory path prints tc.message where the original printed its 'Testing <prototype>' line (the message fields reproduce those lines verbatim). Neither engine reports uninitialised reads, which valgrind did, so that class of defect is not detected here."
+}

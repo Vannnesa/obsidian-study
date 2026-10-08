@@ -1,0 +1,36 @@
+{
+ "path": "23_power_rec/power.o",
+ "size": 1392,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "power.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "power",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 48,
+   "addr": 0,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [],
+ "rodata_strings": [],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/23_power_rec/power.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <power>:\n       0:      \tendbr64\n       4:      \ttestl\t%esi, %esi\n       6:      \tje\t0x27 <power+0x27>\n       8:      \tcmpl\t$0x1, %esi\n       b:      \tje\t0x2d <power+0x2d>\n       d:      \tmovl\t$0x1, %eax\n      12:      \tnopw\t(%rax,%rax)\n      18:      \tsubl\t$0x1, %esi\n      1b:      \timull\t%edi, %eax\n      1e:      \tcmpl\t$0x1, %esi\n      21:      \tjne\t0x18 <power+0x18>\n      23:      \timull\t%edi, %eax\n      26:      \tretq\n      27:      \tmovl\t$0x1, %eax\n      2c:      \tretq\n      2d:      \tmovl\t%edi, %eax\n      2f:      \tretq"
+}

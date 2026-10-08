@@ -1,0 +1,81 @@
+{
+ "path": "23_power_rec/test-power.o",
+ "size": 2584,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "test-power.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": ".LC0",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".rodata.cst16"
+  },
+  {
+   "name": ".LC1",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 16,
+   "section": ".rodata.cst16"
+  },
+  {
+   "name": ".LC2",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".rodata.str1.8"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 265,
+   "addr": 0,
+   "section": ".text.startup"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "power",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__printf_chk",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/23_power_rec/test-power.o:\tfile format elf64-x86-64\n\nDisassembly of section .text.startup:\n\n0000000000000000 <main>:\n       0:      \tendbr64\n       4:      \tpushq\t%r15\n       6:      \tpushq\t%r14\n       8:      \tpushq\t%r13\n       a:      \tpushq\t%r12\n       c:      \tpushq\t%rbp\n       d:      \tpushq\t%rbx\n       e:      \txorl\t%ebx, %ebx\n      10:      \tsubq\t$0x78, %rsp\n      14:      \tmovdqa\t(%rip), %xmm0           # 0x1c <main+0x1c>\n      1c:      \tmovq\t%fs:0x28, %rax\n      25:      \tmovq\t%rax, 0x68(%rsp)\n      2a:      \txorl\t%eax, %eax\n      2c:      \tleaq\t0x50(%rsp), %r15\n      31:      \tleaq\t0x30(%rsp), %r14\n      36:      \tmovabsq\t$-0x200000000, %rax     # imm = 0xFFFFFFFE00000000\n      40:      \tmovq\t%rax, 0x20(%rsp)\n      45:      \tmovabsq\t$0x300000004, %rax      # imm = 0x300000004\n      4f:      \tmovq\t%rax, 0x40(%rsp)\n      54:      \tmovabsq\t$-0x800000000, %rax     # imm = 0xFFFFFFF800000000\n      5e:      \tmovq\t%rax, 0x60(%rsp)\n      63:      \tleaq\t0x10(%rsp), %rax\n      68:      \tmovaps\t%xmm0, 0x10(%rsp)\n      6d:      \tmovaps\t%xmm0, 0x30(%rsp)\n      72:      \tmovdqa\t(%rip), %xmm0           # 0x7a <main+0x7a>\n      7a:      \tmovq\t%rax, 0x8(%rsp)\n      7f:      \tmovaps\t%xmm0, 0x50(%rsp)\n      84:      \tnopl\t(%rax)\n      88:      \tmovq\t0x8(%rsp), %rax\n      8d:      \tmovl\t(%r14,%rbx), %r13d\n      91:      \tmovl\t(%r15,%rbx), %ebp\n      95:      \tmovl\t(%rax,%rbx), %r12d\n      99:      \tmovl\t%r13d, %esi\n      9c:      \tmovl\t%r12d, %edi\n      9f:      \tcallq\t0xa4 <main+0xa4>\n      a4:      \tcmpl\t%eax, %ebp\n      a6:      \tjne\t0xd3 <main+0xd3>\n      a8:      \taddq\t$0x4, %rbx\n      ac:      \tcmpq\t$0x18, %rbx\n      b0:      \tjne\t0x88 <main+0x88>\n      b2:      \tmovq\t0x68(%rsp), %rax\n      b7:      \txorq\t%fs:0x28, %rax\n      c0:      \tjne\t0x104 <main+0x104>\n      c2:      \taddq\t$0x78, %rsp\n      c6:      \txorl\t%eax, %eax\n      c8:      \tpopq\t%rbx\n      c9:      \tpopq\t%rbp\n      ca:      \tpopq\t%r12\n      cc:      \tpopq\t%r13\n      ce:      \tpopq\t%r14\n      d0:      \tpopq\t%r15\n      d2:      \tretq\n      d3:      \tmovl\t%r13d, %esi\n      d6:      \tmovl\t%r12d, %edi\n      d9:      \tcallq\t0xde <main+0xde>\n      de:      \tmovl\t$0x1, %edi\n      e3:      \tmovl\t%r13d, %ecx\n      e6:      \tmovl\t%r12d, %edx\n      e9:      \tmovl\t%eax, %r8d\n      ec:      \tleaq\t(%rip), %rsi            # 0xf3 <main+0xf3>\n      f3:      \txorl\t%eax, %eax\n      f5:      \tcallq\t0xfa <main+0xfa>\n      fa:      \tmovl\t$0x1, %edi\n      ff:      \tcallq\t0x104 <main+0x104>\n     104:      \tcallq\t0x109 <main+0x109>"
+}

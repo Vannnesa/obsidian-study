@@ -1,0 +1,105 @@
+{
+ "path": "c2prj1_cards/my-test-main.o",
+ "size": 24688,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "my-test-main.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "wm4.0.3171f61f86eacc6b44a36d7c381f8dbe",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.stdcpredef.h.19.8dc41bed5d9037ff9622e015fb5f0ce3",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "wm4.cards.h.2.6ea1f97048b453bd9249855c897949b6",
+   "type": "STT_NOTYPE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ".group"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 15,
+   "addr": 0,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [],
+ "rodata_strings": [],
+ "string_refs": {},
+ "relocations": {},
+ "dwarf": {
+  "units": [
+   {
+    "name": "my-test-main.c",
+    "comp_dir": "/home/student/learn2prog/c2prj1_cards",
+    "producer": "GNU C99 9.3.0 -mtune=generic -march=x86-64 -ggdb3 -std=gnu99 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection",
+    "language": 12,
+    "functions": [
+     {
+      "name": "main",
+      "decl_file": 1,
+      "decl_line": 3,
+      "type": 86,
+      "params": [],
+      "locals": [],
+      "prototyped": true,
+      "external": true
+     }
+    ],
+    "globals": []
+   }
+  ],
+  "types": [],
+  "lines": {
+   "my-test-main.c": {
+    "files": [
+     "my-test-main.c",
+     "stdc-predef.h",
+     "cards.h"
+    ],
+    "rows": [
+     {
+      "line": 3,
+      "file": 1,
+      "addr": 0
+     },
+     {
+      "line": 5,
+      "file": 1,
+      "addr": 13
+     },
+     {
+      "line": 5,
+      "file": 1,
+      "addr": 15
+     }
+    ]
+   }
+  }
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c2prj1_cards/my-test-main.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <main>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tmovl\t$0x0, %eax\n       d:      \tpopq\t%rbp\n       e:      \tretq"
+}

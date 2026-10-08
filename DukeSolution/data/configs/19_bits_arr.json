@@ -1,0 +1,74 @@
+{
+  "id": "19_bits_arr",
+  "title": "void numToBits(uint32_t * nums, int nNums, int * bits, int nBits) -- MSB-first bit unpacking with an invalid-call message",
+  "type": "compile_and_run",
+  "source": "numToBits.c",
+  "build": {
+    "driver": "drivers/19_bits_arr/numToBits_test.c",
+    "sources": [],
+    "output": "numToBits",
+    "flags": [
+      "-pedantic",
+      "-std=gnu99",
+      "-Wall",
+      "-Werror"
+    ]
+  },
+  "compileMessage": "Attempting to compile numToBits.c",
+  "selfTest": {
+    "expectedFile": "expected/19_bits_arr/main.txt",
+    "successMessage": "Your file matched the expected output\nYour output matched what we expected",
+    "replaceMessage": "Removing your main() and replacing it with our own to run more tests..."
+  },
+  "reportStyle": "testcase",
+  "successVerdict": "A",
+  "timeoutMs": 5000,
+  "next": "20_rot_matrix",
+  "notes": "observed: re/original-grade-txt/19_bits_arr.grade.txt supplies every report line quoted here -- 'Attempting to compile numToBits.c', 'Your file matched the expected output', 'Your output matched what we expected', 'Removing your main() and replacing it with our own to run more tests...', the '#####...' separators, 'array size:0/1/100/5000 was Correct' as testcase2..5, and 'Overall Grade: A' (recorded as successVerdict). 19_bits_arr/bits_ans.txt (byte-identical to 19_bits_arr/answer.txt) is the teacher's stored copy of the provided main's output and is the fixture selfTest and case 'main' compare against -- gen_expected.py --verify main:19_bits_arr/bits_ans.txt reported VERIFIED, so both reproduce it byte for byte, covering the two doTest tables (7 + 2 numbers) and the invalid call numToBits(array1, 7, bits, 7*32-1) that prints 'nBits is 223, nNums is 7'. 19_bits_arr/Makefile supplies the flags used here; 19_bits_arr/README documents the ordering (bits[0] is bit 31 of nums[0]) and the exact message 'Invalid call to numToBits! nBits is %d, nNums is %d\\n'. inferred: drivers/19_bits_arr/numToBits_test.c -- no teacher object survives (re/elf/ has no 19_bits_arr entry and the directory holds no .o), so the driver body is reasoned from the artifacts above; the array contents, the seed and the wrong-answer wording ('Incorrect') are inferred, while 'array size:%d was Correct' and the provided main are observed. The four size cases pass exactly nBits == nNums*32 and poison the bits array first, so a missing guard, a '>=' instead of '>' guard, an unwritten bit or LSB-first ordering all fail. build.sources is empty and the driver #includes numToBits.c with main renamed to providedMain -- the C equivalent of the original's 'removing your main()' -- so case 'main' still runs the provided main and the sizes keep the original's testcase2..5 numbering. Differences from the original: the selfTest lines are printed before the '#####...' / 'testcase1:' block (the original reported them with no testcase1 header at all) and case 'main' carries no message of its own, so the tool prints its verdict word there ('testcase1 passed'); every observed line is still reproduced.",
+  "tests": [
+    {
+      "args": [
+        "main"
+      ],
+      "expectedFile": "expected/19_bits_arr/main.txt",
+      "expectedExit": 0,
+      "label": "the two tables of the provided main"
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expectedFile": "expected/19_bits_arr/0.txt",
+      "expectedExit": 0,
+      "message": "array size:0 was Correct",
+      "label": "array size:0"
+    },
+    {
+      "args": [
+        "1"
+      ],
+      "expectedFile": "expected/19_bits_arr/1.txt",
+      "expectedExit": 0,
+      "message": "array size:1 was Correct",
+      "label": "array size:1"
+    },
+    {
+      "args": [
+        "100"
+      ],
+      "expectedFile": "expected/19_bits_arr/100.txt",
+      "expectedExit": 0,
+      "message": "array size:100 was Correct",
+      "label": "array size:100"
+    },
+    {
+      "args": [
+        "5000"
+      ],
+      "expectedFile": "expected/19_bits_arr/5000.txt",
+      "expectedExit": 0,
+      "message": "array size:5000 was Correct",
+      "label": "array size:5000"
+    }
+  ]
+}

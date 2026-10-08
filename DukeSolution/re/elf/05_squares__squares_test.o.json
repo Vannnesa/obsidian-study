@@ -1,0 +1,238 @@
+{
+ "path": "05_squares/squares_test.o",
+ "size": 3024,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "squares_test.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "getInt",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 237,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "main",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 184,
+   "addr": 237,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "strtol",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "exit",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "squares",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "'%s' does not seem to be (enitrely) a number\n"
+  },
+  {
+   "offset": 46,
+   "text": "%s is too big of a number!\n"
+  },
+  {
+   "offset": 80,
+   "text": "%s is negative.  Please use only numbers >=0\n"
+  },
+  {
+   "offset": 128,
+   "text": "Usage ./squares size1 x_offset, y_offset, size2\n"
+  }
+ ],
+ "string_refs": {
+  "getInt": [
+   "'%s' does not seem to be (enitrely) a number\n",
+   "%s is too big of a number!\n",
+   "%s is negative.  Please use only numbers >=0\n"
+  ],
+  "main": [
+   "Usage ./squares size1 x_offset, y_offset, size2\n"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 51,
+    "symbol": "strtol",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 73,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 84,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 97,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 107,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 125,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 136,
+    "symbol": ".rodata",
+    "addend": 42,
+    "type": 2
+   },
+   {
+    "offset": 149,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 159,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 173,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 184,
+    "symbol": ".rodata",
+    "addend": 76,
+    "type": 2
+   },
+   {
+    "offset": 197,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 207,
+    "symbol": "exit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 231,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 270,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 290,
+    "symbol": ".rodata",
+    "addend": 124,
+    "type": 2
+   },
+   {
+    "offset": 295,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 321,
+    "symbol": "getInt",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 343,
+    "symbol": "getInt",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 365,
+    "symbol": "getInt",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 386,
+    "symbol": "getInt",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 401,
+    "symbol": "squares",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/05_squares/squares_test.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <getInt>:\n       0:      \tendbr64\n       4:      \tpushq\t%rbp\n       5:      \tmovq\t%rsp, %rbp\n       8:      \tsubq\t$0x30, %rsp\n       c:      \tmovq\t%rdi, -0x28(%rbp)\n      10:      \tmovq\t%fs:0x28, %rax\n      19:      \tmovq\t%rax, -0x8(%rbp)\n      1d:      \txorl\t%eax, %eax\n      1f:      \tleaq\t-0x18(%rbp), %rcx\n      23:      \tmovq\t-0x28(%rbp), %rax\n      27:      \tmovl\t$0xa, %edx\n      2c:      \tmovq\t%rcx, %rsi\n      2f:      \tmovq\t%rax, %rdi\n      32:      \tcallq\t0x37 <getInt+0x37>\n;   strtol+-4\n      37:      \tmovq\t%rax, -0x10(%rbp)\n      3b:      \tmovq\t-0x18(%rbp), %rax\n      3f:      \tmovzbl\t(%rax), %eax\n      42:      \ttestb\t%al, %al\n      44:      \tje\t0x6f <getInt+0x6f>\n      46:      \tmovq\t(%rip), %rax            # 0x4d <getInt+0x4d>\n;   stderr+-4\n      4d:      \tmovq\t-0x28(%rbp), %rdx\n      51:      \tleaq\t(%rip), %rsi            # 0x58 <getInt+0x58>\n;   .rodata -> \"'%s' does not seem to be (enitrely) a number\\n\"\n      58:      \tmovq\t%rax, %rdi\n      5b:      \tmovl\t$0x0, %eax\n      60:      \tcallq\t0x65 <getInt+0x65>\n;   fprintf+-4\n      65:      \tmovl\t$0x1, %edi\n      6a:      \tcallq\t0x6f <getInt+0x6f>\n;   exit+-4\n      6f:      \tmovl\t$0x80000000, %eax       # imm = 0x80000000\n      74:      \tcmpq\t%rax, -0x10(%rbp)\n      78:      \tjl\t0xa3 <getInt+0xa3>\n      7a:      \tmovq\t(%rip), %rax            # 0x81 <getInt+0x81>\n;   stderr+-4\n      81:      \tmovq\t-0x28(%rbp), %rdx\n      85:      \tleaq\t(%rip), %rsi            # 0x8c <getInt+0x8c>\n;   .rodata -> \"%s is too big of a number!\\n\"\n      8c:      \tmovq\t%rax, %rdi\n      8f:      \tmovl\t$0x0, %eax\n      94:      \tcallq\t0x99 <getInt+0x99>\n;   fprintf+-4\n      99:      \tmovl\t$0x1, %edi\n      9e:      \tcallq\t0xa3 <getInt+0xa3>\n;   exit+-4\n      a3:      \tcmpq\t$0x0, -0x10(%rbp)\n      a8:      \tjns\t0xd3 <getInt+0xd3>\n      aa:      \tmovq\t(%rip), %rax            # 0xb1 <getInt+0xb1>\n;   stderr+-4\n      b1:      \tmovq\t-0x28(%rbp), %rdx\n      b5:      \tleaq\t(%rip), %rsi            # 0xbc <getInt+0xbc>\n;   .rodata -> \"%s is negative.  Please use only numbers >=0\\n\"\n      bc:      \tmovq\t%rax, %rdi\n      bf:      \tmovl\t$0x0, %eax\n      c4:      \tcallq\t0xc9 <getInt+0xc9>\n;   fprintf+-4\n      c9:      \tmovl\t$0x1, %edi\n      ce:      \tcallq\t0xd3 <getInt+0xd3>\n;   exit+-4\n      d3:      \tmovq\t-0x10(%rbp), %rax\n      d7:      \tmovq\t-0x8(%rbp), %rcx\n      db:      \txorq\t%fs:0x28, %rcx\n      e4:      \tje\t0xeb <getInt+0xeb>\n      e6:      \tcallq\t0xeb <getInt+0xeb>\n;   __stack_chk_fail+-4\n      eb:      \tleave\n      ec:      \tretq\n\n00000000000000ed <main>:\n      ed:      \tendbr64\n      f1:      \tpushq\t%rbp\n      f2:      \tmovq\t%rsp, %rbp\n      f5:      \tpushq\t%r13\n      f7:      \tpushq\t%r12\n      f9:      \tpushq\t%rbx\n      fa:      \tsubq\t$0x18, %rsp\n      fe:      \tmovl\t%edi, -0x24(%rbp)\n     101:      \tmovq\t%rsi, -0x30(%rbp)\n     105:      \tcmpl\t$0x5, -0x24(%rbp)\n     109:      \tje\t0x132 <main+0x45>\n     10b:      \tmovq\t(%rip), %rax            # 0x112 <main+0x25>\n;   stderr+-4\n     112:      \tmovq\t%rax, %rcx\n     115:      \tmovl\t$0x30, %edx\n     11a:      \tmovl\t$0x1, %esi\n     11f:      \tleaq\t(%rip), %rdi            # 0x126 <main+0x39>\n;   .rodata -> \"Usage ./squares size1 x_offset, y_offset, size2\\n\"\n     126:      \tcallq\t0x12b <main+0x3e>\n;   fwrite+-4\n     12b:      \tmovl\t$0x1, %eax\n     130:      \tjmp\t0x19a <main+0xad>\n     132:      \tmovq\t-0x30(%rbp), %rax\n     136:      \taddq\t$0x20, %rax\n     13a:      \tmovq\t(%rax), %rax\n     13d:      \tmovq\t%rax, %rdi\n     140:      \tcallq\t0x145 <main+0x58>\n;   getInt+-4\n     145:      \tmovl\t%eax, %r13d\n     148:      \tmovq\t-0x30(%rbp), %rax\n     14c:      \taddq\t$0x18, %rax\n     150:      \tmovq\t(%rax), %rax\n     153:      \tmovq\t%rax, %rdi\n     156:      \tcallq\t0x15b <main+0x6e>\n;   getInt+-4\n     15b:      \tmovl\t%eax, %r12d\n     15e:      \tmovq\t-0x30(%rbp), %rax\n     162:      \taddq\t$0x10, %rax\n     166:      \tmovq\t(%rax), %rax\n     169:      \tmovq\t%rax, %rdi\n     16c:      \tcallq\t0x171 <main+0x84>\n;   getInt+-4\n     171:      \tmovl\t%eax, %ebx\n     173:      \tmovq\t-0x30(%rbp), %rax\n     177:      \taddq\t$0x8, %rax\n     17b:      \tmovq\t(%rax), %rax\n     17e:      \tmovq\t%rax, %rdi\n     181:      \tcallq\t0x186 <main+0x99>\n;   getInt+-4\n     186:      \tmovl\t%r13d, %ecx\n     189:      \tmovl\t%r12d, %edx\n     18c:      \tmovl\t%ebx, %esi\n     18e:      \tmovl\t%eax, %edi\n     190:      \tcallq\t0x195 <main+0xa8>\n;   squares+-4\n     195:      \tmovl\t$0x0, %eax\n     19a:      \taddq\t$0x18, %rsp\n     19e:      \tpopq\t%rbx\n     19f:      \tpopq\t%r12\n     1a1:      \tpopq\t%r13\n     1a3:      \tpopq\t%rbp\n     1a4:      \tretq"
+}

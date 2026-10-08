@@ -1,0 +1,69 @@
+Current board:
+    000
+    012
+-------
+ 0: ???
+ 1: ???
+ 2: ???
+
+-------
+    000
+    012
+Found 0 of 1 mines
+x coordinate:
+y coordinate:
+Current board:
+    000
+    012
+-------
+ 0: 1??
+ 1: ???
+ 2: ???
+
+-------
+    000
+    012
+Found 0 of 1 mines
+x coordinate:
+y coordinate:
+Current board:
+    000
+    012
+-------
+ 0: 11?
+ 1: ???
+ 2: ???
+
+-------
+    000
+    012
+Found 0 of 1 mines
+x coordinate:
+y coordinate:
+Current board:
+    000
+    012
+-------
+ 0: 111
+ 1: ???
+ 2: ???
+
+-------
+    000
+    012
+Found 0 of 1 mines
+x coordinate:
+y coordinate:
+    000
+    012
+-------
+ 0: 111
+ 1: 1*1
+ 2: 111
+
+-------
+    000
+    012
+Found 1 of 1 mines
+You win!
+Do you want to play again?

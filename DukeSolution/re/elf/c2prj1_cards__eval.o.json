@@ -1,0 +1,821 @@
+{
+ "path": "c2prj1_cards/eval.o",
+ "size": 10480,
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_REL",
+ "comment": "GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0",
+ "defined_symbols": [
+  {
+   "name": "eval.c",
+   "type": "STT_FILE",
+   "bind": "STB_LOCAL",
+   "size": 0,
+   "addr": 0,
+   "section": ""
+  },
+  {
+   "name": "CHECK_GRADER_ENV",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 127,
+   "addr": 0,
+   "section": ".text"
+  },
+  {
+   "name": "is_n_length_straight_at",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 251,
+   "addr": 719,
+   "section": ".text"
+  },
+  {
+   "name": "is_ace_low_straight_at",
+   "type": "STT_FUNC",
+   "bind": "STB_LOCAL",
+   "size": 155,
+   "addr": 970,
+   "section": ".text"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.2970",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 23,
+   "addr": 464,
+   "section": ".rodata"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.2985",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 22,
+   "addr": 496,
+   "section": ".rodata"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3026",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 520,
+   "section": ".rodata"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3044",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 536,
+   "section": ".rodata"
+  },
+  {
+   "name": "__PRETTY_FUNCTION__.3059",
+   "type": "STT_OBJECT",
+   "bind": "STB_LOCAL",
+   "size": 14,
+   "addr": 552,
+   "section": ".rodata"
+  },
+  {
+   "name": "card_ptr_comp",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 127,
+   "addr": 127,
+   "section": ".text"
+  },
+  {
+   "name": "flush_suit",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 193,
+   "addr": 254,
+   "section": ".text"
+  },
+  {
+   "name": "get_largest_element",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 138,
+   "addr": 447,
+   "section": ".text"
+  },
+  {
+   "name": "get_match_index",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 134,
+   "addr": 585,
+   "section": ".text"
+  },
+  {
+   "name": "is_straight_at",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 167,
+   "addr": 1125,
+   "section": ".text"
+  },
+  {
+   "name": "build_hand_from_match",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 369,
+   "addr": 1292,
+   "section": ".text"
+  },
+  {
+   "name": "find_secondary_pair",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 231,
+   "addr": 1661,
+   "section": ".text"
+  },
+  {
+   "name": "compare_hands",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 310,
+   "addr": 1892,
+   "section": ".text"
+  },
+  {
+   "name": "evaluate_hand",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 1420,
+   "addr": 3125,
+   "section": ".text"
+  },
+  {
+   "name": "copy_straight",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 396,
+   "addr": 2202,
+   "section": ".text"
+  },
+  {
+   "name": "find_straight",
+   "type": "STT_FUNC",
+   "bind": "STB_GLOBAL",
+   "size": 527,
+   "addr": 2598,
+   "section": ".text"
+  }
+ ],
+ "undefined_symbols": [
+  {
+   "name": "_GLOBAL_OFFSET_TABLE_",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "getenv",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "atoi",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "stderr",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fprintf",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "abort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__stack_chk_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "fwrite",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "__assert_fail",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "qsort",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "get_match_counts",
+   "type": "STT_NOTYPE"
+  },
+  {
+   "name": "free",
+   "type": "STT_NOTYPE"
+  }
+ ],
+ "rodata_strings": [
+  {
+   "offset": 0,
+   "text": "PokerProjectStep"
+  },
+  {
+   "offset": 24,
+   "text": "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  },
+  {
+   "offset": 112,
+   "text": "Couldnt find the matches I thought I had\n"
+  },
+  {
+   "offset": 154,
+   "text": "eval.c"
+  },
+  {
+   "offset": 168,
+   "text": "hand->cards[index]->value == VALUE_ACE"
+  },
+  {
+   "offset": 207,
+   "text": "n<=4"
+  },
+  {
+   "offset": 216,
+   "text": "fs == NUM_SUITS || from->cards[ind]->suit == fs"
+  },
+  {
+   "offset": 264,
+   "text": "ind < from->n_cards"
+  },
+  {
+   "offset": 284,
+   "text": "nextv >= 2"
+  },
+  {
+   "offset": 295,
+   "text": "to_ind <5"
+  },
+  {
+   "offset": 312,
+   "text": "hand->cards[i]->value == VALUE_ACE && (fs == NUM_SUITS || hand->cards[i]->suit == fs)"
+  },
+  {
+   "offset": 398,
+   "text": "cpind < hand->n_cards"
+  },
+  {
+   "offset": 420,
+   "text": "n_of_a_kind <= 4"
+  },
+  {
+   "offset": 437,
+   "text": "n_of_a_kind ==2"
+  },
+  {
+   "offset": 464,
+   "text": "is_ace_low_straight_at"
+  },
+  {
+   "offset": 496,
+   "text": "build_hand_from_match"
+  },
+  {
+   "offset": 520,
+   "text": "copy_straight"
+  },
+  {
+   "offset": 536,
+   "text": "find_straight"
+  },
+  {
+   "offset": 552,
+   "text": "evaluate_hand"
+  }
+ ],
+ "string_refs": {
+  "CHECK_GRADER_ENV": [
+   "PokerProjectStep",
+   "Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\n"
+  ],
+  "get_match_index": [
+   "Couldnt find the matches I thought I had\n"
+  ],
+  "is_ace_low_straight_at": [
+   "is_ace_low_straight_at",
+   "eval.c",
+   "hand->cards[index]->value == VALUE_ACE"
+  ],
+  "build_hand_from_match": [
+   "build_hand_from_match",
+   "eval.c",
+   "n<=4"
+  ],
+  "copy_straight": [
+   "copy_straight",
+   "eval.c",
+   "fs == NUM_SUITS || from->cards[ind]->suit == fs",
+   "ind < from->n_cards",
+   "nextv >= 2",
+   "to_ind <5"
+  ],
+  "find_straight": [
+   "find_straight",
+   "eval.c",
+   "hand->cards[i]->value == VALUE_ACE && (fs == NUM_SUITS || hand->cards[i]->suit == fs)",
+   "cpind < hand->n_cards"
+  ],
+  "evaluate_hand": [
+   "evaluate_hand",
+   "eval.c",
+   "n_of_a_kind <= 4",
+   "n_of_a_kind ==2"
+  ]
+ },
+ "relocations": {
+  ".text": [
+   {
+    "offset": 31,
+    "symbol": ".rodata",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 36,
+    "symbol": "getenv",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 59,
+    "symbol": "atoi",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 77,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 102,
+    "symbol": ".rodata",
+    "addend": 20,
+    "type": 2
+   },
+   {
+    "offset": 115,
+    "symbol": "fprintf",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 120,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 441,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 683,
+    "symbol": "stderr",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 703,
+    "symbol": ".rodata",
+    "addend": 108,
+    "type": 2
+   },
+   {
+    "offset": 708,
+    "symbol": "fwrite",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 713,
+    "symbol": "abort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1024,
+    "symbol": ".rodata",
+    "addend": 460,
+    "type": 2
+   },
+   {
+    "offset": 1036,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 1043,
+    "symbol": ".rodata",
+    "addend": 164,
+    "type": 2
+   },
+   {
+    "offset": 1048,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1377,
+    "symbol": ".rodata",
+    "addend": 492,
+    "type": 2
+   },
+   {
+    "offset": 1389,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 1396,
+    "symbol": ".rodata",
+    "addend": 203,
+    "type": 2
+   },
+   {
+    "offset": 1401,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1643,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 1975,
+    "symbol": "card_ptr_comp",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 1988,
+    "symbol": "qsort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2016,
+    "symbol": "card_ptr_comp",
+    "addend": -4,
+    "type": 2
+   },
+   {
+    "offset": 2029,
+    "symbol": "qsort",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2051,
+    "symbol": "evaluate_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2073,
+    "symbol": "evaluate_hand",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2196,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2271,
+    "symbol": ".rodata",
+    "addend": 516,
+    "type": 2
+   },
+   {
+    "offset": 2283,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 2290,
+    "symbol": ".rodata",
+    "addend": 212,
+    "type": 2
+   },
+   {
+    "offset": 2295,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2355,
+    "symbol": ".rodata",
+    "addend": 516,
+    "type": 2
+   },
+   {
+    "offset": 2367,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 2374,
+    "symbol": ".rodata",
+    "addend": 260,
+    "type": 2
+   },
+   {
+    "offset": 2379,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2392,
+    "symbol": ".rodata",
+    "addend": 516,
+    "type": 2
+   },
+   {
+    "offset": 2404,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 2411,
+    "symbol": ".rodata",
+    "addend": 280,
+    "type": 2
+   },
+   {
+    "offset": 2416,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2430,
+    "symbol": ".rodata",
+    "addend": 516,
+    "type": 2
+   },
+   {
+    "offset": 2442,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 2449,
+    "symbol": ".rodata",
+    "addend": 291,
+    "type": 2
+   },
+   {
+    "offset": 2454,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2673,
+    "symbol": "is_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2715,
+    "symbol": "copy_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2783,
+    "symbol": "is_straight_at",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2866,
+    "symbol": ".rodata",
+    "addend": 532,
+    "type": 2
+   },
+   {
+    "offset": 2878,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 2885,
+    "symbol": ".rodata",
+    "addend": 308,
+    "type": 2
+   },
+   {
+    "offset": 2890,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 2960,
+    "symbol": ".rodata",
+    "addend": 532,
+    "type": 2
+   },
+   {
+    "offset": 2972,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 2979,
+    "symbol": ".rodata",
+    "addend": 394,
+    "type": 2
+   },
+   {
+    "offset": 2984,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3080,
+    "symbol": "copy_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3181,
+    "symbol": "flush_suit",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3214,
+    "symbol": "find_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3299,
+    "symbol": "get_match_counts",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3329,
+    "symbol": "get_largest_element",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3345,
+    "symbol": ".rodata",
+    "addend": 548,
+    "type": 2
+   },
+   {
+    "offset": 3357,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 3364,
+    "symbol": ".rodata",
+    "addend": 416,
+    "type": 2
+   },
+   {
+    "offset": 3369,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3398,
+    "symbol": "get_match_index",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3428,
+    "symbol": "find_secondary_pair",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3444,
+    "symbol": "free",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3489,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3554,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 3959,
+    "symbol": "find_straight",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4074,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4103,
+    "symbol": ".rodata",
+    "addend": 548,
+    "type": 2
+   },
+   {
+    "offset": 4115,
+    "symbol": ".rodata",
+    "addend": 150,
+    "type": 2
+   },
+   {
+    "offset": 4122,
+    "symbol": ".rodata",
+    "addend": 433,
+    "type": 2
+   },
+   {
+    "offset": 4127,
+    "symbol": "__assert_fail",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4166,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4464,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4504,
+    "symbol": "build_hand_from_match",
+    "addend": -4,
+    "type": 4
+   },
+   {
+    "offset": 4524,
+    "symbol": "__stack_chk_fail",
+    "addend": -4,
+    "type": 4
+   }
+  ]
+ },
+ "dwarf": {
+  "units": [],
+  "types": [],
+  "lines": {}
+ },
+ "disassembly": "\n/Users/chendezhenga/Obsidian/Study_\u526f\u672c/DukeSolution/c2prj1_cards/eval.o:\tfile format elf64-x86-64\n\nDisassembly of section .text:\n\n0000000000000000 <CHECK_GRADER_ENV>:\n       0:      \tpushq\t%rbp\n       1:      \tmovq\t%rsp, %rbp\n       4:      \tsubq\t$0x20, %rsp\n       8:      \tmovl\t%edi, -0x14(%rbp)\n       b:      \tmovl\t%esi, -0x18(%rbp)\n       e:      \tmovl\t-0x14(%rbp), %eax\n      11:      \timull\t$0x64, %eax, %edx\n      14:      \tmovl\t-0x18(%rbp), %eax\n      17:      \taddl\t%edx, %eax\n      19:      \tmovl\t%eax, -0x10(%rbp)\n      1c:      \tleaq\t(%rip), %rdi            # 0x23 <CHECK_GRADER_ENV+0x23>\n;   .rodata -> \"PokerProjectStep\"\n      23:      \tcallq\t0x28 <CHECK_GRADER_ENV+0x28>\n;   getenv+-4\n      28:      \tmovq\t%rax, -0x8(%rbp)\n      2c:      \tcmpq\t$0x0, -0x8(%rbp)\n      31:      \tje\t0x7c <CHECK_GRADER_ENV+0x7c>\n      33:      \tmovq\t-0x8(%rbp), %rax\n      37:      \tmovq\t%rax, %rdi\n      3a:      \tcallq\t0x3f <CHECK_GRADER_ENV+0x3f>\n;   atoi+-4\n      3f:      \tmovl\t%eax, -0xc(%rbp)\n      42:      \tmovl\t-0x10(%rbp), %eax\n      45:      \tcmpl\t-0xc(%rbp), %eax\n      48:      \tjg\t0x7d <CHECK_GRADER_ENV+0x7d>\n      4a:      \tmovq\t(%rip), %rax            # 0x51 <CHECK_GRADER_ENV+0x51>\n;   stderr+-4\n      51:      \tmovl\t-0xc(%rbp), %edi\n      54:      \tmovl\t-0x10(%rbp), %esi\n      57:      \tmovl\t-0x18(%rbp), %ecx\n      5a:      \tmovl\t-0x14(%rbp), %edx\n      5d:      \tmovl\t%edi, %r9d\n      60:      \tmovl\t%esi, %r8d\n      63:      \tleaq\t(%rip), %rsi            # 0x6a <CHECK_GRADER_ENV+0x6a>\n;   .rodata -> \"Oops, you seem to be using our code for a step you were supposed to do! (%d,%d,%d,%d)\\n\"\n      6a:      \tmovq\t%rax, %rdi\n      6d:      \tmovl\t$0x0, %eax\n      72:      \tcallq\t0x77 <CHECK_GRADER_ENV+0x77>\n;   fprintf+-4\n      77:      \tcallq\t0x7c <CHECK_GRADER_ENV+0x7c>\n;   abort+-4\n      7c:      \tnop\n      7d:      \tleave\n      7e:      \tretq\n\n000000000000007f <card_ptr_comp>:\n      7f:      \tendbr64\n      83:      \tpushq\t%rbp\n      84:      \tmovq\t%rsp, %rbp\n      87:      \tsubq\t$0x30, %rsp\n      8b:      \tmovq\t%rdi, -0x28(%rbp)\n      8f:      \tmovq\t%rsi, -0x30(%rbp)\n      93:      \tmovl\t$0x2, %esi\n      98:      \tmovl\t$0x3, %edi\n      9d:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n      a2:      \tmovq\t-0x28(%rbp), %rax\n      a6:      \tmovq\t%rax, -0x20(%rbp)\n      aa:      \tmovq\t-0x30(%rbp), %rax\n      ae:      \tmovq\t%rax, -0x18(%rbp)\n      b2:      \tmovq\t-0x20(%rbp), %rax\n      b6:      \tmovq\t(%rax), %rax\n      b9:      \tmovq\t%rax, -0x10(%rbp)\n      bd:      \tmovq\t-0x18(%rbp), %rax\n      c1:      \tmovq\t(%rax), %rax\n      c4:      \tmovq\t%rax, -0x8(%rbp)\n      c8:      \tmovq\t-0x10(%rbp), %rax\n      cc:      \tmovl\t(%rax), %edx\n      ce:      \tmovq\t-0x8(%rbp), %rax\n      d2:      \tmovl\t(%rax), %eax\n      d4:      \tcmpl\t%eax, %edx\n      d6:      \tjne\t0xec <card_ptr_comp+0x6d>\n      d8:      \tmovq\t-0x8(%rbp), %rax\n      dc:      \tmovl\t0x4(%rax), %edx\n      df:      \tmovq\t-0x10(%rbp), %rax\n      e3:      \tmovl\t0x4(%rax), %eax\n      e6:      \tsubl\t%eax, %edx\n      e8:      \tmovl\t%edx, %eax\n      ea:      \tjmp\t0xfc <card_ptr_comp+0x7d>\n      ec:      \tmovq\t-0x8(%rbp), %rax\n      f0:      \tmovl\t(%rax), %edx\n      f2:      \tmovq\t-0x10(%rbp), %rax\n      f6:      \tmovl\t(%rax), %eax\n      f8:      \tsubl\t%eax, %edx\n      fa:      \tmovl\t%edx, %eax\n      fc:      \tleave\n      fd:      \tretq\n\n00000000000000fe <flush_suit>:\n      fe:      \tendbr64\n     102:      \tpushq\t%rbp\n     103:      \tmovq\t%rsp, %rbp\n     106:      \tsubq\t$0x40, %rsp\n     10a:      \tmovq\t%rdi, -0x38(%rbp)\n     10e:      \tmovq\t%fs:0x28, %rax\n     117:      \tmovq\t%rax, -0x8(%rbp)\n     11b:      \txorl\t%eax, %eax\n     11d:      \tmovl\t$0x2, %esi\n     122:      \tmovl\t$0x3, %edi\n     127:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     12c:      \tmovq\t$0x0, -0x20(%rbp)\n     134:      \tmovq\t$0x0, -0x18(%rbp)\n     13c:      \tmovq\t$0x0, -0x28(%rbp)\n     144:      \tjmp\t0x172 <flush_suit+0x74>\n     146:      \tmovq\t-0x38(%rbp), %rax\n     14a:      \tmovq\t(%rax), %rax\n     14d:      \tmovq\t-0x28(%rbp), %rdx\n     151:      \tshlq\t$0x3, %rdx\n     155:      \taddq\t%rdx, %rax\n     158:      \tmovq\t(%rax), %rax\n     15b:      \tmovl\t0x4(%rax), %edx\n     15e:      \tmovl\t%edx, %eax\n     160:      \tmovl\t-0x20(%rbp,%rax,4), %eax\n     164:      \taddl\t$0x1, %eax\n     167:      \tmovl\t%edx, %edx\n     169:      \tmovl\t%eax, -0x20(%rbp,%rdx,4)\n     16d:      \taddq\t$0x1, -0x28(%rbp)\n     172:      \tmovq\t-0x38(%rbp), %rax\n     176:      \tmovq\t0x8(%rax), %rax\n     17a:      \tcmpq\t%rax, -0x28(%rbp)\n     17e:      \tjb\t0x146 <flush_suit+0x48>\n     180:      \tmovl\t$0x0, -0x2c(%rbp)\n     187:      \tjmp\t0x19e <flush_suit+0xa0>\n     189:      \tmovl\t-0x2c(%rbp), %eax\n     18c:      \tmovl\t-0x20(%rbp,%rax,4), %eax\n     190:      \tcmpl\t$0x4, %eax\n     193:      \tjle\t0x19a <flush_suit+0x9c>\n     195:      \tmovl\t-0x2c(%rbp), %eax\n     198:      \tjmp\t0x1a9 <flush_suit+0xab>\n     19a:      \taddl\t$0x1, -0x2c(%rbp)\n     19e:      \tcmpl\t$0x3, -0x2c(%rbp)\n     1a2:      \tjbe\t0x189 <flush_suit+0x8b>\n     1a4:      \tmovl\t$0x4, %eax\n     1a9:      \tmovq\t-0x8(%rbp), %rcx\n     1ad:      \txorq\t%fs:0x28, %rcx\n     1b6:      \tje\t0x1bd <flush_suit+0xbf>\n     1b8:      \tcallq\t0x1bd <flush_suit+0xbf>\n;   __stack_chk_fail+-4\n     1bd:      \tleave\n     1be:      \tretq\n\n00000000000001bf <get_largest_element>:\n     1bf:      \tendbr64\n     1c3:      \tpushq\t%rbp\n     1c4:      \tmovq\t%rsp, %rbp\n     1c7:      \tsubq\t$0x20, %rsp\n     1cb:      \tmovq\t%rdi, -0x18(%rbp)\n     1cf:      \tmovq\t%rsi, -0x20(%rbp)\n     1d3:      \tmovl\t$0x2, %esi\n     1d8:      \tmovl\t$0x3, %edi\n     1dd:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     1e2:      \tcmpq\t$0x0, -0x20(%rbp)\n     1e7:      \tjne\t0x1f0 <get_largest_element+0x31>\n     1e9:      \tmovl\t$0x0, %eax\n     1ee:      \tjmp\t0x247 <get_largest_element+0x88>\n     1f0:      \tmovq\t-0x18(%rbp), %rax\n     1f4:      \tmovl\t(%rax), %eax\n     1f6:      \tmovl\t%eax, -0xc(%rbp)\n     1f9:      \tmovq\t$0x1, -0x8(%rbp)\n     201:      \tjmp\t0x23a <get_largest_element+0x7b>\n     203:      \tmovq\t-0x8(%rbp), %rax\n     207:      \tleaq\t(,%rax,4), %rdx\n     20f:      \tmovq\t-0x18(%rbp), %rax\n     213:      \taddq\t%rdx, %rax\n     216:      \tmovl\t(%rax), %eax\n     218:      \tcmpl\t%eax, -0xc(%rbp)\n     21b:      \tjae\t0x235 <get_largest_element+0x76>\n     21d:      \tmovq\t-0x8(%rbp), %rax\n     221:      \tleaq\t(,%rax,4), %rdx\n     229:      \tmovq\t-0x18(%rbp), %rax\n     22d:      \taddq\t%rdx, %rax\n     230:      \tmovl\t(%rax), %eax\n     232:      \tmovl\t%eax, -0xc(%rbp)\n     235:      \taddq\t$0x1, -0x8(%rbp)\n     23a:      \tmovq\t-0x8(%rbp), %rax\n     23e:      \tcmpq\t-0x20(%rbp), %rax\n     242:      \tjb\t0x203 <get_largest_element+0x44>\n     244:      \tmovl\t-0xc(%rbp), %eax\n     247:      \tleave\n     248:      \tretq\n\n0000000000000249 <get_match_index>:\n     249:      \tendbr64\n     24d:      \tpushq\t%rbp\n     24e:      \tmovq\t%rsp, %rbp\n     251:      \tsubq\t$0x30, %rsp\n     255:      \tmovq\t%rdi, -0x18(%rbp)\n     259:      \tmovq\t%rsi, -0x20(%rbp)\n     25d:      \tmovl\t%edx, -0x24(%rbp)\n     260:      \tmovl\t$0x2, %esi\n     265:      \tmovl\t$0x3, %edi\n     26a:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     26f:      \tmovq\t$0x0, -0x8(%rbp)\n     277:      \tjmp\t0x29e <get_match_index+0x55>\n     279:      \tmovq\t-0x8(%rbp), %rax\n     27d:      \tleaq\t(,%rax,4), %rdx\n     285:      \tmovq\t-0x18(%rbp), %rax\n     289:      \taddq\t%rdx, %rax\n     28c:      \tmovl\t(%rax), %eax\n     28e:      \tcmpl\t%eax, -0x24(%rbp)\n     291:      \tjne\t0x299 <get_match_index+0x50>\n     293:      \tmovq\t-0x8(%rbp), %rax\n     297:      \tjmp\t0x2cd <get_match_index+0x84>\n     299:      \taddq\t$0x1, -0x8(%rbp)\n     29e:      \tmovq\t-0x8(%rbp), %rax\n     2a2:      \tcmpq\t-0x20(%rbp), %rax\n     2a6:      \tjb\t0x279 <get_match_index+0x30>\n     2a8:      \tmovq\t(%rip), %rax            # 0x2af <get_match_index+0x66>\n;   stderr+-4\n     2af:      \tmovq\t%rax, %rcx\n     2b2:      \tmovl\t$0x29, %edx\n     2b7:      \tmovl\t$0x1, %esi\n     2bc:      \tleaq\t(%rip), %rdi            # 0x2c3 <get_match_index+0x7a>\n;   .rodata -> \"Couldnt find the matches I thought I had\\n\"\n     2c3:      \tcallq\t0x2c8 <get_match_index+0x7f>\n;   fwrite+-4\n     2c8:      \tcallq\t0x2cd <get_match_index+0x84>\n;   abort+-4\n     2cd:      \tleave\n     2ce:      \tretq\n\n00000000000002cf <is_n_length_straight_at>:\n     2cf:      \tendbr64\n     2d3:      \tpushq\t%rbp\n     2d4:      \tmovq\t%rsp, %rbp\n     2d7:      \tmovq\t%rdi, -0x18(%rbp)\n     2db:      \tmovq\t%rsi, -0x20(%rbp)\n     2df:      \tmovl\t%edx, -0x24(%rbp)\n     2e2:      \tmovl\t%ecx, -0x28(%rbp)\n     2e5:      \tmovl\t$0x0, -0x8(%rbp)\n     2ec:      \tmovq\t-0x18(%rbp), %rax\n     2f0:      \tmovq\t0x8(%rax), %rdx\n     2f4:      \tmovl\t-0x28(%rbp), %eax\n     2f7:      \tcltq\n     2f9:      \tsubq\t%rax, %rdx\n     2fc:      \tmovq\t%rdx, %rax\n     2ff:      \tcmpq\t%rax, -0x20(%rbp)\n     303:      \tjbe\t0x30f <is_n_length_straight_at+0x40>\n     305:      \tmovl\t$0x0, %eax\n     30a:      \tjmp\t0x3c8 <is_n_length_straight_at+0xf9>\n     30f:      \tmovq\t-0x18(%rbp), %rax\n     313:      \tmovq\t(%rax), %rax\n     316:      \tmovq\t-0x20(%rbp), %rdx\n     31a:      \tshlq\t$0x3, %rdx\n     31e:      \taddq\t%rdx, %rax\n     321:      \tmovq\t(%rax), %rax\n     324:      \tmovl\t(%rax), %eax\n     326:      \tmovl\t%eax, -0x4(%rbp)\n     329:      \tjmp\t0x3b1 <is_n_length_straight_at+0xe2>\n     32e:      \tmovq\t-0x18(%rbp), %rax\n     332:      \tmovq\t(%rax), %rax\n     335:      \tmovq\t-0x20(%rbp), %rdx\n     339:      \tshlq\t$0x3, %rdx\n     33d:      \taddq\t%rdx, %rax\n     340:      \tmovq\t(%rax), %rax\n     343:      \tmovl\t(%rax), %eax\n     345:      \tcmpl\t%eax, -0x4(%rbp)\n     348:      \tjne\t0x384 <is_n_length_straight_at+0xb5>\n     34a:      \tcmpl\t$0x4, -0x24(%rbp)\n     34e:      \tje\t0x36d <is_n_length_straight_at+0x9e>\n     350:      \tmovq\t-0x18(%rbp), %rax\n     354:      \tmovq\t(%rax), %rax\n     357:      \tmovq\t-0x20(%rbp), %rdx\n     35b:      \tshlq\t$0x3, %rdx\n     35f:      \taddq\t%rdx, %rax\n     362:      \tmovq\t(%rax), %rax\n     365:      \tmovl\t0x4(%rax), %eax\n     368:      \tcmpl\t%eax, -0x24(%rbp)\n     36b:      \tjne\t0x3ac <is_n_length_straight_at+0xdd>\n     36d:      \taddl\t$0x1, -0x8(%rbp)\n     371:      \tsubl\t$0x1, -0x4(%rbp)\n     375:      \tmovl\t-0x8(%rbp), %eax\n     378:      \tcmpl\t-0x28(%rbp), %eax\n     37b:      \tjne\t0x3ac <is_n_length_straight_at+0xdd>\n     37d:      \tmovl\t$0x1, %eax\n     382:      \tjmp\t0x3c8 <is_n_length_straight_at+0xf9>\n     384:      \tmovq\t-0x18(%rbp), %rax\n     388:      \tmovq\t(%rax), %rax\n     38b:      \tmovq\t-0x20(%rbp), %rdx\n     38f:      \tshlq\t$0x3, %rdx\n     393:      \taddq\t%rdx, %rax\n     396:      \tmovq\t(%rax), %rax\n     399:      \tmovl\t(%rax), %eax\n     39b:      \tmovl\t-0x4(%rbp), %edx\n     39e:      \taddl\t$0x1, %edx\n     3a1:      \tcmpl\t%edx, %eax\n     3a3:      \tje\t0x3ac <is_n_length_straight_at+0xdd>\n     3a5:      \tmovl\t$0x0, %eax\n     3aa:      \tjmp\t0x3c8 <is_n_length_straight_at+0xf9>\n     3ac:      \taddq\t$0x1, -0x20(%rbp)\n     3b1:      \tmovq\t-0x18(%rbp), %rax\n     3b5:      \tmovq\t0x8(%rax), %rax\n     3b9:      \tcmpq\t%rax, -0x20(%rbp)\n     3bd:      \tjb\t0x32e <is_n_length_straight_at+0x5f>\n     3c3:      \tmovl\t$0x0, %eax\n     3c8:      \tpopq\t%rbp\n     3c9:      \tretq\n\n00000000000003ca <is_ace_low_straight_at>:\n     3ca:      \tendbr64\n     3ce:      \tpushq\t%rbp\n     3cf:      \tmovq\t%rsp, %rbp\n     3d2:      \tsubq\t$0x20, %rsp\n     3d6:      \tmovq\t%rdi, -0x8(%rbp)\n     3da:      \tmovq\t%rsi, -0x10(%rbp)\n     3de:      \tmovl\t%edx, -0x14(%rbp)\n     3e1:      \tmovq\t-0x8(%rbp), %rax\n     3e5:      \tmovq\t(%rax), %rax\n     3e8:      \tmovq\t-0x10(%rbp), %rdx\n     3ec:      \tshlq\t$0x3, %rdx\n     3f0:      \taddq\t%rdx, %rax\n     3f3:      \tmovq\t(%rax), %rax\n     3f6:      \tmovl\t(%rax), %eax\n     3f8:      \tcmpl\t$0xe, %eax\n     3fb:      \tje\t0x421 <is_ace_low_straight_at+0x57>\n     3fd:      \tleaq\t(%rip), %rcx            # 0x404 <is_ace_low_straight_at+0x3a>\n;   .rodata -> \"is_ace_low_straight_at\"\n     404:      \tmovl\t$0x5a, %edx\n     409:      \tleaq\t(%rip), %rsi            # 0x410 <is_ace_low_straight_at+0x46>\n;   .rodata -> \"eval.c\"\n     410:      \tleaq\t(%rip), %rdi            # 0x417 <is_ace_low_straight_at+0x4d>\n;   .rodata -> \"hand->cards[index]->value == VALUE_ACE\"\n     417:      \tcallq\t0x41c <is_ace_low_straight_at+0x52>\n;   __assert_fail+-4\n     41c:      \taddq\t$0x1, -0x10(%rbp)\n     421:      \tmovq\t-0x8(%rbp), %rax\n     425:      \tmovq\t0x8(%rax), %rax\n     429:      \tcmpq\t%rax, -0x10(%rbp)\n     42d:      \tjae\t0x44b <is_ace_low_straight_at+0x81>\n     42f:      \tmovq\t-0x8(%rbp), %rax\n     433:      \tmovq\t(%rax), %rax\n     436:      \tmovq\t-0x10(%rbp), %rdx\n     43a:      \tshlq\t$0x3, %rdx\n     43e:      \taddq\t%rdx, %rax\n     441:      \tmovq\t(%rax), %rax\n     444:      \tmovl\t(%rax), %eax\n     446:      \tcmpl\t$0x5, %eax\n     449:      \tjne\t0x41c <is_ace_low_straight_at+0x52>\n     44b:      \tmovl\t-0x14(%rbp), %edx\n     44e:      \tmovq\t-0x10(%rbp), %rsi\n     452:      \tmovq\t-0x8(%rbp), %rax\n     456:      \tmovl\t$0x4, %ecx\n     45b:      \tmovq\t%rax, %rdi\n     45e:      \tcallq\t0x2cf <is_n_length_straight_at>\n     463:      \tleave\n     464:      \tretq\n\n0000000000000465 <is_straight_at>:\n     465:      \tendbr64\n     469:      \tpushq\t%rbp\n     46a:      \tmovq\t%rsp, %rbp\n     46d:      \tsubq\t$0x20, %rsp\n     471:      \tmovq\t%rdi, -0x8(%rbp)\n     475:      \tmovq\t%rsi, -0x10(%rbp)\n     479:      \tmovl\t%edx, -0x14(%rbp)\n     47c:      \tmovl\t$0x2, %esi\n     481:      \tmovl\t$0x3, %edi\n     486:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     48b:      \tcmpl\t$0x4, -0x14(%rbp)\n     48f:      \tje\t0x4b5 <is_straight_at+0x50>\n     491:      \tmovq\t-0x8(%rbp), %rax\n     495:      \tmovq\t(%rax), %rax\n     498:      \tmovq\t-0x10(%rbp), %rdx\n     49c:      \tshlq\t$0x3, %rdx\n     4a0:      \taddq\t%rdx, %rax\n     4a3:      \tmovq\t(%rax), %rax\n     4a6:      \tmovl\t0x4(%rax), %eax\n     4a9:      \tcmpl\t%eax, -0x14(%rbp)\n     4ac:      \tje\t0x4b5 <is_straight_at+0x50>\n     4ae:      \tmovl\t$0x0, %eax\n     4b3:      \tjmp\t0x50a <is_straight_at+0xa5>\n     4b5:      \tmovq\t-0x8(%rbp), %rax\n     4b9:      \tmovq\t(%rax), %rax\n     4bc:      \tmovq\t-0x10(%rbp), %rdx\n     4c0:      \tshlq\t$0x3, %rdx\n     4c4:      \taddq\t%rdx, %rax\n     4c7:      \tmovq\t(%rax), %rax\n     4ca:      \tmovl\t(%rax), %eax\n     4cc:      \tcmpl\t$0xe, %eax\n     4cf:      \tjne\t0x4f2 <is_straight_at+0x8d>\n     4d1:      \tmovl\t-0x14(%rbp), %edx\n     4d4:      \tmovq\t-0x10(%rbp), %rcx\n     4d8:      \tmovq\t-0x8(%rbp), %rax\n     4dc:      \tmovq\t%rcx, %rsi\n     4df:      \tmovq\t%rax, %rdi\n     4e2:      \tcallq\t0x3ca <is_ace_low_straight_at>\n     4e7:      \ttestl\t%eax, %eax\n     4e9:      \tje\t0x4f2 <is_straight_at+0x8d>\n     4eb:      \tmovl\t$0xffffffff, %eax       # imm = 0xFFFFFFFF\n     4f0:      \tjmp\t0x50a <is_straight_at+0xa5>\n     4f2:      \tmovl\t-0x14(%rbp), %edx\n     4f5:      \tmovq\t-0x10(%rbp), %rsi\n     4f9:      \tmovq\t-0x8(%rbp), %rax\n     4fd:      \tmovl\t$0x5, %ecx\n     502:      \tmovq\t%rax, %rdi\n     505:      \tcallq\t0x2cf <is_n_length_straight_at>\n     50a:      \tleave\n     50b:      \tretq\n\n000000000000050c <build_hand_from_match>:\n     50c:      \tendbr64\n     510:      \tpushq\t%rbp\n     511:      \tmovq\t%rsp, %rbp\n     514:      \tpushq\t%rbx\n     515:      \tsubq\t$0x88, %rsp\n     51c:      \tmovq\t%rdi, -0x78(%rbp)\n     520:      \tmovq\t%rsi, -0x80(%rbp)\n     524:      \tmovl\t%edx, -0x84(%rbp)\n     52a:      \tmovl\t%ecx, -0x88(%rbp)\n     530:      \tmovq\t%r8, -0x90(%rbp)\n     537:      \tmovq\t%fs:0x28, %rax\n     540:      \tmovq\t%rax, -0x18(%rbp)\n     544:      \txorl\t%eax, %eax\n     546:      \tmovl\t$0x2, %esi\n     54b:      \tmovl\t$0x3, %edi\n     550:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     555:      \tcmpl\t$0x4, -0x84(%rbp)\n     55c:      \tjbe\t0x57d <build_hand_from_match+0x71>\n     55e:      \tleaq\t(%rip), %rcx            # 0x565 <build_hand_from_match+0x59>\n;   .rodata -> \"build_hand_from_match\"\n     565:      \tmovl\t$0x75, %edx\n     56a:      \tleaq\t(%rip), %rsi            # 0x571 <build_hand_from_match+0x65>\n;   .rodata -> \"eval.c\"\n     571:      \tleaq\t(%rip), %rdi            # 0x578 <build_hand_from_match+0x6c>\n;   .rodata -> \"n<=4\"\n     578:      \tcallq\t0x57d <build_hand_from_match+0x71>\n;   __assert_fail+-4\n     57d:      \tmovl\t-0x88(%rbp), %eax\n     583:      \tmovl\t%eax, -0x50(%rbp)\n     586:      \tmovq\t$0x0, -0x68(%rbp)\n     58e:      \tjmp\t0x5bd <build_hand_from_match+0xb1>\n     590:      \tmovq\t-0x80(%rbp), %rax\n     594:      \tmovq\t(%rax), %rax\n     597:      \tmovq\t-0x68(%rbp), %rcx\n     59b:      \tmovq\t-0x90(%rbp), %rdx\n     5a2:      \taddq\t%rcx, %rdx\n     5a5:      \tshlq\t$0x3, %rdx\n     5a9:      \taddq\t%rdx, %rax\n     5ac:      \tmovq\t(%rax), %rdx\n     5af:      \tmovq\t-0x68(%rbp), %rax\n     5b3:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     5b8:      \taddq\t$0x1, -0x68(%rbp)\n     5bd:      \tmovl\t-0x84(%rbp), %eax\n     5c3:      \tcmpq\t%rax, -0x68(%rbp)\n     5c7:      \tjb\t0x590 <build_hand_from_match+0x84>\n     5c9:      \tmovl\t-0x84(%rbp), %eax\n     5cf:      \tmovq\t%rax, -0x60(%rbp)\n     5d3:      \tjmp\t0x621 <build_hand_from_match+0x115>\n     5d5:      \tmovl\t-0x84(%rbp), %eax\n     5db:      \tmovq\t-0x60(%rbp), %rdx\n     5df:      \tsubq\t%rax, %rdx\n     5e2:      \tmovq\t%rdx, %rax\n     5e5:      \tmovq\t%rax, -0x58(%rbp)\n     5e9:      \tmovq\t-0x58(%rbp), %rax\n     5ed:      \tcmpq\t-0x90(%rbp), %rax\n     5f4:      \tjb\t0x5fe <build_hand_from_match+0xf2>\n     5f6:      \tmovq\t-0x60(%rbp), %rax\n     5fa:      \tmovq\t%rax, -0x58(%rbp)\n     5fe:      \tmovq\t-0x80(%rbp), %rax\n     602:      \tmovq\t(%rax), %rax\n     605:      \tmovq\t-0x58(%rbp), %rdx\n     609:      \tshlq\t$0x3, %rdx\n     60d:      \taddq\t%rdx, %rax\n     610:      \tmovq\t(%rax), %rdx\n     613:      \tmovq\t-0x60(%rbp), %rax\n     617:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     61c:      \taddq\t$0x1, -0x60(%rbp)\n     621:      \tcmpq\t$0x4, -0x60(%rbp)\n     626:      \tjbe\t0x5d5 <build_hand_from_match+0xc9>\n     628:      \tmovq\t-0x78(%rbp), %rax\n     62c:      \tmovq\t-0x50(%rbp), %rcx\n     630:      \tmovq\t-0x48(%rbp), %rbx\n     634:      \tmovq\t%rcx, (%rax)\n     637:      \tmovq\t%rbx, 0x8(%rax)\n     63b:      \tmovq\t-0x40(%rbp), %rcx\n     63f:      \tmovq\t-0x38(%rbp), %rbx\n     643:      \tmovq\t%rcx, 0x10(%rax)\n     647:      \tmovq\t%rbx, 0x18(%rax)\n     64b:      \tmovq\t-0x30(%rbp), %rcx\n     64f:      \tmovq\t-0x28(%rbp), %rbx\n     653:      \tmovq\t%rcx, 0x20(%rax)\n     657:      \tmovq\t%rbx, 0x28(%rax)\n     65b:      \tmovq\t-0x18(%rbp), %rax\n     65f:      \txorq\t%fs:0x28, %rax\n     668:      \tje\t0x66f <build_hand_from_match+0x163>\n     66a:      \tcallq\t0x66f <build_hand_from_match+0x163>\n;   __stack_chk_fail+-4\n     66f:      \tmovq\t-0x78(%rbp), %rax\n     673:      \taddq\t$0x88, %rsp\n     67a:      \tpopq\t%rbx\n     67b:      \tpopq\t%rbp\n     67c:      \tretq\n\n000000000000067d <find_secondary_pair>:\n     67d:      \tendbr64\n     681:      \tpushq\t%rbp\n     682:      \tmovq\t%rsp, %rbp\n     685:      \tsubq\t$0x40, %rsp\n     689:      \tmovq\t%rdi, -0x28(%rbp)\n     68d:      \tmovq\t%rsi, -0x30(%rbp)\n     691:      \tmovq\t%rdx, -0x38(%rbp)\n     695:      \tmovl\t$0x2, %esi\n     69a:      \tmovl\t$0x3, %edi\n     69f:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     6a4:      \tmovq\t$-0x1, -0x10(%rbp)\n     6ac:      \tmovq\t-0x28(%rbp), %rax\n     6b0:      \tmovq\t(%rax), %rax\n     6b3:      \tmovq\t-0x38(%rbp), %rdx\n     6b7:      \tshlq\t$0x3, %rdx\n     6bb:      \taddq\t%rdx, %rax\n     6be:      \tmovq\t(%rax), %rax\n     6c1:      \tmovl\t(%rax), %eax\n     6c3:      \tmovl\t%eax, -0x14(%rbp)\n     6c6:      \tmovq\t$0x0, -0x8(%rbp)\n     6ce:      \tjmp\t0x74c <find_secondary_pair+0xcf>\n     6d0:      \tmovq\t-0x8(%rbp), %rax\n     6d4:      \tleaq\t(,%rax,4), %rdx\n     6dc:      \tmovq\t-0x30(%rbp), %rax\n     6e0:      \taddq\t%rdx, %rax\n     6e3:      \tmovl\t(%rax), %eax\n     6e5:      \tcmpl\t$0x1, %eax\n     6e8:      \tjbe\t0x747 <find_secondary_pair+0xca>\n     6ea:      \tmovq\t-0x28(%rbp), %rax\n     6ee:      \tmovq\t(%rax), %rax\n     6f1:      \tmovq\t-0x8(%rbp), %rdx\n     6f5:      \tshlq\t$0x3, %rdx\n     6f9:      \taddq\t%rdx, %rax\n     6fc:      \tmovq\t(%rax), %rax\n     6ff:      \tmovl\t(%rax), %eax\n     701:      \tcmpl\t%eax, -0x14(%rbp)\n     704:      \tje\t0x747 <find_secondary_pair+0xca>\n     706:      \tcmpq\t$-0x1, -0x10(%rbp)\n     70b:      \tje\t0x73f <find_secondary_pair+0xc2>\n     70d:      \tmovq\t-0x28(%rbp), %rax\n     711:      \tmovq\t(%rax), %rax\n     714:      \tmovq\t-0x8(%rbp), %rdx\n     718:      \tshlq\t$0x3, %rdx\n     71c:      \taddq\t%rdx, %rax\n     71f:      \tmovq\t(%rax), %rax\n     722:      \tmovl\t(%rax), %edx\n     724:      \tmovq\t-0x28(%rbp), %rax\n     728:      \tmovq\t(%rax), %rax\n     72b:      \tmovq\t-0x10(%rbp), %rcx\n     72f:      \tshlq\t$0x3, %rcx\n     733:      \taddq\t%rcx, %rax\n     736:      \tmovq\t(%rax), %rax\n     739:      \tmovl\t(%rax), %eax\n     73b:      \tcmpl\t%eax, %edx\n     73d:      \tjbe\t0x747 <find_secondary_pair+0xca>\n     73f:      \tmovq\t-0x8(%rbp), %rax\n     743:      \tmovq\t%rax, -0x10(%rbp)\n     747:      \taddq\t$0x1, -0x8(%rbp)\n     74c:      \tmovq\t-0x28(%rbp), %rax\n     750:      \tmovq\t0x8(%rax), %rax\n     754:      \tcmpq\t%rax, -0x8(%rbp)\n     758:      \tjb\t0x6d0 <find_secondary_pair+0x53>\n     75e:      \tmovq\t-0x10(%rbp), %rax\n     762:      \tleave\n     763:      \tretq\n\n0000000000000764 <compare_hands>:\n     764:      \tendbr64\n     768:      \tpushq\t%rbp\n     769:      \tmovq\t%rsp, %rbp\n     76c:      \tsubq\t$0x90, %rsp\n     773:      \tmovq\t%rdi, -0x88(%rbp)\n     77a:      \tmovq\t%rsi, -0x90(%rbp)\n     781:      \tmovq\t%fs:0x28, %rax\n     78a:      \tmovq\t%rax, -0x8(%rbp)\n     78e:      \txorl\t%eax, %eax\n     790:      \tmovl\t$0x2, %esi\n     795:      \tmovl\t$0x3, %edi\n     79a:      \tcallq\t0x0 <CHECK_GRADER_ENV>\n     79f:      \tmovq\t-0x88(%rbp), %rax\n     7a6:      \tmovq\t0x8(%rax), %rsi\n     7aa:      \tmovq\t-0x88(%rbp), %rax\n     7b1:      \tmovq\t(%rax), %rax\n     7b4:      \tleaq\t(%rip), %rcx            # 0x7bb <compare_hands+0x57>\n;   card_ptr_comp+-4\n     7bb:      \tmovl\t$0x8, %edx\n     7c0:      \tmovq\t%rax, %rdi\n     7c3:      \tcallq\t0x7c8 <compare_hands+0x64>\n;   qsort+-4\n     7c8:      \tmovq\t-0x90(%rbp), %rax\n     7cf:      \tmovq\t0x8(%rax), %rsi\n     7d3:      \tmovq\t-0x90(%rbp), %rax\n     7da:      \tmovq\t(%rax), %rax\n     7dd:      \tleaq\t(%rip), %rcx            # 0x7e4 <compare_hands+0x80>\n;   card_ptr_comp+-4\n     7e4:      \tmovl\t$0x8, %edx\n     7e9:      \tmovq\t%rax, %rdi\n     7ec:      \tcallq\t0x7f1 <compare_hands+0x8d>\n;   qsort+-4\n     7f1:      \tleaq\t-0x70(%rbp), %rax\n     7f5:      \tmovq\t-0x88(%rbp), %rdx\n     7fc:      \tmovq\t%rdx, %rsi\n     7ff:      \tmovq\t%rax, %rdi\n     802:      \tcallq\t0x807 <compare_hands+0xa3>\n;   evaluate_hand+-4\n     807:      \tleaq\t-0x40(%rbp), %rax\n     80b:      \tmovq\t-0x90(%rbp), %rdx\n     812:      \tmovq\t%rdx, %rsi\n     815:      \tmovq\t%rax, %rdi\n     818:      \tcallq\t0x81d <compare_hands+0xb9>\n;   evaluate_hand+-4\n     81d:      \tmovl\t-0x70(%rbp), %edx\n     820:      \tmovl\t-0x40(%rbp), %eax\n     823:      \tcmpl\t%eax, %edx\n     825:      \tje\t0x833 <compare_hands+0xcf>\n     827:      \tmovl\t-0x40(%rbp), %edx\n     82a:      \tmovl\t-0x70(%rbp), %eax\n     82d:      \tsubl\t%eax, %edx\n     82f:      \tmovl\t%edx, %eax\n     831:      \tjmp\t0x884 <compare_hands+0x120>\n     833:      \tmovq\t$0x0, -0x78(%rbp)\n     83b:      \tjmp\t0x878 <compare_hands+0x114>\n     83d:      \tmovq\t-0x78(%rbp), %rax\n     841:      \tmovq\t-0x68(%rbp,%rax,8), %rax\n     846:      \tmovl\t(%rax), %edx\n     848:      \tmovq\t-0x78(%rbp), %rax\n     84c:      \tmovq\t-0x38(%rbp,%rax,8), %rax\n     851:      \tmovl\t(%rax), %eax\n     853:      \tcmpl\t%eax, %edx\n     855:      \tje\t0x873 <compare_hands+0x10f>\n     857:      \tmovq\t-0x78(%rbp), %rax\n     85b:      \tmovq\t-0x68(%rbp,%rax,8), %rax\n     860:      \tmovl\t(%rax), %edx\n     862:      \tmovq\t-0x78(%rbp), %rax\n     866:      \tmovq\t-0x38(%rbp,%rax,8), %rax\n     86b:      \tmovl\t(%rax), %eax\n     86d:      \tsubl\t%eax, %edx\n     86f:      \tmovl\t%edx, %eax\n     871:      \tjmp\t0x884 <compare_hands+0x120>\n     873:      \taddq\t$0x1, -0x78(%rbp)\n     878:      \tcmpq\t$0x4, -0x78(%rbp)\n     87d:      \tjbe\t0x83d <compare_hands+0xd9>\n     87f:      \tmovl\t$0x0, %eax\n     884:      \tmovq\t-0x8(%rbp), %rcx\n     888:      \txorq\t%fs:0x28, %rcx\n     891:      \tje\t0x898 <compare_hands+0x134>\n     893:      \tcallq\t0x898 <compare_hands+0x134>\n;   __stack_chk_fail+-4\n     898:      \tleave\n     899:      \tretq\n\n000000000000089a <copy_straight>:\n     89a:      \tendbr64\n     89e:      \tpushq\t%rbp\n     89f:      \tmovq\t%rsp, %rbp\n     8a2:      \tsubq\t$0x40, %rsp\n     8a6:      \tmovq\t%rdi, -0x18(%rbp)\n     8aa:      \tmovq\t%rsi, -0x20(%rbp)\n     8ae:      \tmovq\t%rdx, -0x28(%rbp)\n     8b2:      \tmovl\t%ecx, -0x2c(%rbp)\n     8b5:      \tmovq\t%r8, -0x38(%rbp)\n     8b9:      \tcmpl\t$0x4, -0x2c(%rbp)\n     8bd:      \tje\t0x8fb <copy_straight+0x61>\n     8bf:      \tmovq\t-0x20(%rbp), %rax\n     8c3:      \tmovq\t(%rax), %rax\n     8c6:      \tmovq\t-0x28(%rbp), %rdx\n     8ca:      \tshlq\t$0x3, %rdx\n     8ce:      \taddq\t%rdx, %rax\n     8d1:      \tmovq\t(%rax), %rax\n     8d4:      \tmovl\t0x4(%rax), %eax\n     8d7:      \tcmpl\t%eax, -0x2c(%rbp)\n     8da:      \tje\t0x8fb <copy_straight+0x61>\n     8dc:      \tleaq\t(%rip), %rcx            # 0x8e3 <copy_straight+0x49>\n;   .rodata -> \"copy_straight\"\n     8e3:      \tmovl\t$0xe1, %edx\n     8e8:      \tleaq\t(%rip), %rsi            # 0x8ef <copy_straight+0x55>\n;   .rodata -> \"eval.c\"\n     8ef:      \tleaq\t(%rip), %rdi            # 0x8f6 <copy_straight+0x5c>\n;   .rodata -> \"fs == NUM_SUITS || from->cards[ind]->suit == fs\"\n     8f6:      \tcallq\t0x8fb <copy_straight+0x61>\n;   __assert_fail+-4\n     8fb:      \tmovq\t-0x20(%rbp), %rax\n     8ff:      \tmovq\t(%rax), %rax\n     902:      \tmovq\t-0x28(%rbp), %rdx\n     906:      \tshlq\t$0x3, %rdx\n     90a:      \taddq\t%rdx, %rax\n     90d:      \tmovq\t(%rax), %rax\n     910:      \tmovl\t(%rax), %eax\n     912:      \tmovl\t%eax, -0xc(%rbp)\n     915:      \tmovq\t$0x0, -0x8(%rbp)\n     91d:      \tjmp\t0xa17 <copy_straight+0x17d>\n     922:      \tmovq\t-0x20(%rbp), %rax\n     926:      \tmovq\t0x8(%rax), %rax\n     92a:      \tcmpq\t%rax, -0x28(%rbp)\n     92e:      \tjb\t0x94f <copy_straight+0xb5>\n     930:      \tleaq\t(%rip), %rcx            # 0x937 <copy_straight+0x9d>\n;   .rodata -> \"copy_straight\"\n     937:      \tmovl\t$0xe5, %edx\n     93c:      \tleaq\t(%rip), %rsi            # 0x943 <copy_straight+0xa9>\n;   .rodata -> \"eval.c\"\n     943:      \tleaq\t(%rip), %rdi            # 0x94a <copy_straight+0xb0>\n;   .rodata -> \"ind < from->n_cards\"\n     94a:      \tcallq\t0x94f <copy_straight+0xb5>\n;   __assert_fail+-4\n     94f:      \tcmpl\t$0x1, -0xc(%rbp)\n     953:      \tja\t0x974 <copy_straight+0xda>\n     955:      \tleaq\t(%rip), %rcx            # 0x95c <copy_straight+0xc2>\n;   .rodata -> \"copy_straight\"\n     95c:      \tmovl\t$0xe6, %edx\n     961:      \tleaq\t(%rip), %rsi            # 0x968 <copy_straight+0xce>\n;   .rodata -> \"eval.c\"\n     968:      \tleaq\t(%rip), %rdi            # 0x96f <copy_straight+0xd5>\n;   .rodata -> \"nextv >= 2\"\n     96f:      \tcallq\t0x974 <copy_straight+0xda>\n;   __assert_fail+-4\n     974:      \tcmpq\t$0x4, -0x8(%rbp)\n     979:      \tjbe\t0x99a <copy_straight+0x100>\n     97b:      \tleaq\t(%rip), %rcx            # 0x982 <copy_straight+0xe8>\n;   .rodata -> \"copy_straight\"\n     982:      \tmovl\t$0xe7, %edx\n     987:      \tleaq\t(%rip), %rsi            # 0x98e <copy_straight+0xf4>\n;   .rodata -> \"eval.c\"\n     98e:      \tleaq\t(%rip), %rdi            # 0x995 <copy_straight+0xfb>\n;   .rodata -> \"to_ind <5\"\n     995:      \tcallq\t0x99a <copy_straight+0x100>\n;   __assert_fail+-4\n     99a:      \tmovq\t-0x20(%rbp), %rax\n     99e:      \tmovq\t(%rax), %rax\n     9a1:      \tmovq\t-0x28(%rbp), %rdx\n     9a5:      \tshlq\t$0x3, %rdx\n     9a9:      \taddq\t%rdx, %rax\n     9ac:      \tmovq\t(%rax), %rax\n     9af:      \tmovl\t(%rax), %eax\n     9b1:      \tcmpl\t%eax, -0xc(%rbp)\n     9b4:      \tjne\t0xa12 <copy_straight+0x178>\n     9b6:      \tcmpl\t$0x4, -0x2c(%rbp)\n     9ba:      \tje\t0x9d9 <copy_straight+0x13f>\n     9bc:      \tmovq\t-0x20(%rbp), %rax\n     9c0:      \tmovq\t(%rax), %rax\n     9c3:      \tmovq\t-0x28(%rbp), %rdx\n     9c7:      \tshlq\t$0x3, %rdx\n     9cb:      \taddq\t%rdx, %rax\n     9ce:      \tmovq\t(%rax), %rax\n     9d1:      \tmovl\t0x4(%rax), %eax\n     9d4:      \tcmpl\t%eax, -0x2c(%rbp)\n     9d7:      \tjne\t0xa12 <copy_straight+0x178>\n     9d9:      \tmovq\t-0x20(%rbp), %rax\n     9dd:      \tmovq\t(%rax), %rax\n     9e0:      \tmovq\t-0x28(%rbp), %rdx\n     9e4:      \tshlq\t$0x3, %rdx\n     9e8:      \taddq\t%rdx, %rax\n     9eb:      \tmovq\t-0x8(%rbp), %rdx\n     9ef:      \tleaq\t(,%rdx,8), %rcx\n     9f7:      \tmovq\t-0x18(%rbp), %rdx\n     9fb:      \taddq\t%rcx, %rdx\n     9fe:      \tmovq\t(%rax), %rax\n     a01:      \tmovq\t%rax, (%rdx)\n     a04:      \taddq\t$0x1, -0x8(%rbp)\n     a09:      \tsubq\t$0x1, -0x38(%rbp)\n     a0e:      \tsubl\t$0x1, -0xc(%rbp)\n     a12:      \taddq\t$0x1, -0x28(%rbp)\n     a17:      \tcmpq\t$0x0, -0x38(%rbp)\n     a1c:      \tjne\t0x922 <copy_straight+0x88>\n     a22:      \tnop\n     a23:      \tnop\n     a24:      \tleave\n     a25:      \tretq\n\n0000000000000a26 <find_straight>:\n     a26:      \tendbr64\n     a2a:      \tpushq\t%rbp\n     a2b:      \tmovq\t%rsp, %rbp\n     a2e:      \tsubq\t$0x40, %rsp\n     a32:      \tmovq\t%rdi, -0x28(%rbp)\n     a36:      \tmovl\t%esi, -0x2c(%rbp)\n     a39:      \tmovq\t%rdx, -0x38(%rbp)\n     a3d:      \tmovq\t-0x28(%rbp), %rax\n     a41:      \tmovq\t0x8(%rax), %rax\n     a45:      \tcmpq\t$0x4, %rax\n     a49:      \tja\t0xa55 <find_straight+0x2f>\n     a4b:      \tmovl\t$0x0, %eax\n     a50:      \tjmp\t0xc33 <find_straight+0x20d>\n     a55:      \tmovq\t$0x0, -0x18(%rbp)\n     a5d:      \tjmp\t0xaae <find_straight+0x88>\n     a5f:      \tmovl\t-0x2c(%rbp), %edx\n     a62:      \tmovq\t-0x18(%rbp), %rcx\n     a66:      \tmovq\t-0x28(%rbp), %rax\n     a6a:      \tmovq\t%rcx, %rsi\n     a6d:      \tmovq\t%rax, %rdi\n     a70:      \tcallq\t0xa75 <find_straight+0x4f>\n;   is_straight_at+-4\n     a75:      \tmovl\t%eax, -0x1c(%rbp)\n     a78:      \tcmpl\t$0x0, -0x1c(%rbp)\n     a7c:      \tjle\t0xaa9 <find_straight+0x83>\n     a7e:      \tmovq\t-0x38(%rbp), %rax\n     a82:      \tleaq\t0x8(%rax), %rdi\n     a86:      \tmovl\t-0x2c(%rbp), %ecx\n     a89:      \tmovq\t-0x18(%rbp), %rdx\n     a8d:      \tmovq\t-0x28(%rbp), %rax\n     a91:      \tmovl\t$0x5, %r8d\n     a97:      \tmovq\t%rax, %rsi\n     a9a:      \tcallq\t0xa9f <find_straight+0x79>\n;   copy_straight+-4\n     a9f:      \tmovl\t$0x1, %eax\n     aa4:      \tjmp\t0xc33 <find_straight+0x20d>\n     aa9:      \taddq\t$0x1, -0x18(%rbp)\n     aae:      \tmovq\t-0x28(%rbp), %rax\n     ab2:      \tmovq\t0x8(%rax), %rax\n     ab6:      \tsubq\t$0x5, %rax\n     aba:      \tcmpq\t%rax, -0x18(%rbp)\n     abe:      \tjbe\t0xa5f <find_straight+0x39>\n     ac0:      \tmovq\t$0x0, -0x10(%rbp)\n     ac8:      \tjmp\t0xc18 <find_straight+0x1f2>\n     acd:      \tmovl\t-0x2c(%rbp), %edx\n     ad0:      \tmovq\t-0x10(%rbp), %rcx\n     ad4:      \tmovq\t-0x28(%rbp), %rax\n     ad8:      \tmovq\t%rcx, %rsi\n     adb:      \tmovq\t%rax, %rdi\n     ade:      \tcallq\t0xae3 <find_straight+0xbd>\n;   is_straight_at+-4\n     ae3:      \tmovl\t%eax, -0x20(%rbp)\n     ae6:      \tcmpl\t$0x0, -0x20(%rbp)\n     aea:      \tjns\t0xc13 <find_straight+0x1ed>\n     af0:      \tmovq\t-0x28(%rbp), %rax\n     af4:      \tmovq\t(%rax), %rax\n     af7:      \tmovq\t-0x10(%rbp), %rdx\n     afb:      \tshlq\t$0x3, %rdx\n     aff:      \taddq\t%rdx, %rax\n     b02:      \tmovq\t(%rax), %rax\n     b05:      \tmovl\t(%rax), %eax\n     b07:      \tcmpl\t$0xe, %eax\n     b0a:      \tjne\t0xb2f <find_straight+0x109>\n     b0c:      \tcmpl\t$0x4, -0x2c(%rbp)\n     b10:      \tje\t0xb4e <find_straight+0x128>\n     b12:      \tmovq\t-0x28(%rbp), %rax\n     b16:      \tmovq\t(%rax), %rax\n     b19:      \tmovq\t-0x10(%rbp), %rdx\n     b1d:      \tshlq\t$0x3, %rdx\n     b21:      \taddq\t%rdx, %rax\n     b24:      \tmovq\t(%rax), %rax\n     b27:      \tmovl\t0x4(%rax), %eax\n     b2a:      \tcmpl\t%eax, -0x2c(%rbp)\n     b2d:      \tje\t0xb4e <find_straight+0x128>\n     b2f:      \tleaq\t(%rip), %rcx            # 0xb36 <find_straight+0x110>\n;   .rodata -> \"find_straight\"\n     b36:      \tmovl\t$0x109, %edx            # imm = 0x109\n     b3b:      \tleaq\t(%rip), %rsi            # 0xb42 <find_straight+0x11c>\n;   .rodata -> \"eval.c\"\n     b42:      \tleaq\t(%rip), %rdi            # 0xb49 <find_straight+0x123>\n;   .rodata -> \"hand->cards[i]->value == VALUE_ACE && (fs == NUM_SUITS || hand->cards[i]->suit == fs)\"\n     b49:      \tcallq\t0xb4e <find_straight+0x128>\n;   __assert_fail+-4\n     b4e:      \tnop\n     b4f:      \tmovq\t-0x28(%rbp), %rax\n     b53:      \tmovq\t(%rax), %rax\n     b56:      \tmovq\t-0x10(%rbp), %rdx\n     b5a:      \tshlq\t$0x3, %rdx\n     b5e:      \taddq\t%rdx, %rax\n     b61:      \tmovq\t(%rax), %rdx\n     b64:      \tmovq\t-0x38(%rbp), %rax\n     b68:      \tmovq\t%rdx, 0x28(%rax)\n     b6c:      \tmovq\t-0x10(%rbp), %rax\n     b70:      \taddq\t$0x1, %rax\n     b74:      \tmovq\t%rax, -0x8(%rbp)\n     b78:      \tjmp\t0xbac <find_straight+0x186>\n     b7a:      \taddq\t$0x1, -0x8(%rbp)\n     b7f:      \tmovq\t-0x28(%rbp), %rax\n     b83:      \tmovq\t0x8(%rax), %rax\n     b87:      \tcmpq\t%rax, -0x8(%rbp)\n     b8b:      \tjb\t0xbac <find_straight+0x186>\n     b8d:      \tleaq\t(%rip), %rcx            # 0xb94 <find_straight+0x16e>\n;   .rodata -> \"find_straight\"\n     b94:      \tmovl\t$0x110, %edx            # imm = 0x110\n     b99:      \tleaq\t(%rip), %rsi            # 0xba0 <find_straight+0x17a>\n;   .rodata -> \"eval.c\"\n     ba0:      \tleaq\t(%rip), %rdi            # 0xba7 <find_straight+0x181>\n;   .rodata -> \"cpind < hand->n_cards\"\n     ba7:      \tcallq\t0xbac <find_straight+0x186>\n;   __assert_fail+-4\n     bac:      \tmovq\t-0x28(%rbp), %rax\n     bb0:      \tmovq\t(%rax), %rax\n     bb3:      \tmovq\t-0x8(%rbp), %rdx\n     bb7:      \tshlq\t$0x3, %rdx\n     bbb:      \taddq\t%rdx, %rax\n     bbe:      \tmovq\t(%rax), %rax\n     bc1:      \tmovl\t(%rax), %eax\n     bc3:      \tcmpl\t$0x5, %eax\n     bc6:      \tjne\t0xb7a <find_straight+0x154>\n     bc8:      \tcmpl\t$0x4, -0x2c(%rbp)\n     bcc:      \tje\t0xbeb <find_straight+0x1c5>\n     bce:      \tmovq\t-0x28(%rbp), %rax\n     bd2:      \tmovq\t(%rax), %rax\n     bd5:      \tmovq\t-0x8(%rbp), %rdx\n     bd9:      \tshlq\t$0x3, %rdx\n     bdd:      \taddq\t%rdx, %rax\n     be0:      \tmovq\t(%rax), %rax\n     be3:      \tmovl\t0x4(%rax), %eax\n     be6:      \tcmpl\t%eax, -0x2c(%rbp)\n     be9:      \tjne\t0xb7a <find_straight+0x154>\n     beb:      \tmovq\t-0x38(%rbp), %rax\n     bef:      \tleaq\t0x8(%rax), %rdi\n     bf3:      \tmovl\t-0x2c(%rbp), %ecx\n     bf6:      \tmovq\t-0x8(%rbp), %rdx\n     bfa:      \tmovq\t-0x28(%rbp), %rax\n     bfe:      \tmovl\t$0x4, %r8d\n     c04:      \tmovq\t%rax, %rsi\n     c07:      \tcallq\t0xc0c <find_straight+0x1e6>\n;   copy_straight+-4\n     c0c:      \tmovl\t$0x1, %eax\n     c11:      \tjmp\t0xc33 <find_straight+0x20d>\n     c13:      \taddq\t$0x1, -0x10(%rbp)\n     c18:      \tmovq\t-0x28(%rbp), %rax\n     c1c:      \tmovq\t0x8(%rax), %rax\n     c20:      \tsubq\t$0x5, %rax\n     c24:      \tcmpq\t%rax, -0x10(%rbp)\n     c28:      \tjbe\t0xacd <find_straight+0xa7>\n     c2e:      \tmovl\t$0x0, %eax\n     c33:      \tleave\n     c34:      \tretq\n\n0000000000000c35 <evaluate_hand>:\n     c35:      \tendbr64\n     c39:      \tpushq\t%rbp\n     c3a:      \tmovq\t%rsp, %rbp\n     c3d:      \tpushq\t%rbx\n     c3e:      \tsubq\t$0xb8, %rsp\n     c45:      \tmovq\t%rdi, -0x88(%rbp)\n     c4c:      \tmovq\t%rsi, -0x90(%rbp)\n     c53:      \tmovq\t%fs:0x28, %rax\n     c5c:      \tmovq\t%rax, -0x18(%rbp)\n     c60:      \txorl\t%eax, %eax\n     c62:      \tmovq\t-0x90(%rbp), %rax\n     c69:      \tmovq\t%rax, %rdi\n     c6c:      \tcallq\t0xc71 <evaluate_hand+0x3c>\n;   flush_suit+-4\n     c71:      \tmovl\t%eax, -0x80(%rbp)\n     c74:      \tcmpl\t$0x4, -0x80(%rbp)\n     c78:      \tje\t0xcd8 <evaluate_hand+0xa3>\n     c7a:      \tleaq\t-0x50(%rbp), %rdx\n     c7e:      \tmovl\t-0x80(%rbp), %ecx\n     c81:      \tmovq\t-0x90(%rbp), %rax\n     c88:      \tmovl\t%ecx, %esi\n     c8a:      \tmovq\t%rax, %rdi\n     c8d:      \tcallq\t0xc92 <evaluate_hand+0x5d>\n;   find_straight+-4\n     c92:      \ttestl\t%eax, %eax\n     c94:      \tje\t0xcd8 <evaluate_hand+0xa3>\n     c96:      \tmovl\t$0x0, -0x50(%rbp)\n     c9d:      \tmovq\t-0x88(%rbp), %rax\n     ca4:      \tmovq\t-0x50(%rbp), %rcx\n     ca8:      \tmovq\t-0x48(%rbp), %rbx\n     cac:      \tmovq\t%rcx, (%rax)\n     caf:      \tmovq\t%rbx, 0x8(%rax)\n     cb3:      \tmovq\t-0x40(%rbp), %rcx\n     cb7:      \tmovq\t-0x38(%rbp), %rbx\n     cbb:      \tmovq\t%rcx, 0x10(%rax)\n     cbf:      \tmovq\t%rbx, 0x18(%rax)\n     cc3:      \tmovq\t-0x30(%rbp), %rcx\n     cc7:      \tmovq\t-0x28(%rbp), %rbx\n     ccb:      \tmovq\t%rcx, 0x20(%rax)\n     ccf:      \tmovq\t%rbx, 0x28(%rax)\n     cd3:      \tjmp\t0x119c <evaluate_hand+0x567>\n     cd8:      \tmovq\t-0x90(%rbp), %rax\n     cdf:      \tmovq\t%rax, %rdi\n     ce2:      \tcallq\t0xce7 <evaluate_hand+0xb2>\n;   get_match_counts+-4\n     ce7:      \tmovq\t%rax, -0x68(%rbp)\n     ceb:      \tmovq\t-0x90(%rbp), %rax\n     cf2:      \tmovq\t0x8(%rax), %rdx\n     cf6:      \tmovq\t-0x68(%rbp), %rax\n     cfa:      \tmovq\t%rdx, %rsi\n     cfd:      \tmovq\t%rax, %rdi\n     d00:      \tcallq\t0xd05 <evaluate_hand+0xd0>\n;   get_largest_element+-4\n     d05:      \tmovl\t%eax, -0x7c(%rbp)\n     d08:      \tcmpl\t$0x4, -0x7c(%rbp)\n     d0c:      \tjbe\t0xd2d <evaluate_hand+0xf8>\n     d0e:      \tleaq\t(%rip), %rcx            # 0xd15 <evaluate_hand+0xe0>\n;   .rodata -> \"evaluate_hand\"\n     d15:      \tmovl\t$0x128, %edx            # imm = 0x128\n     d1a:      \tleaq\t(%rip), %rsi            # 0xd21 <evaluate_hand+0xec>\n;   .rodata -> \"eval.c\"\n     d21:      \tleaq\t(%rip), %rdi            # 0xd28 <evaluate_hand+0xf3>\n;   .rodata -> \"n_of_a_kind <= 4\"\n     d28:      \tcallq\t0xd2d <evaluate_hand+0xf8>\n;   __assert_fail+-4\n     d2d:      \tmovq\t-0x90(%rbp), %rax\n     d34:      \tmovq\t0x8(%rax), %rcx\n     d38:      \tmovl\t-0x7c(%rbp), %edx\n     d3b:      \tmovq\t-0x68(%rbp), %rax\n     d3f:      \tmovq\t%rcx, %rsi\n     d42:      \tmovq\t%rax, %rdi\n     d45:      \tcallq\t0xd4a <evaluate_hand+0x115>\n;   get_match_index+-4\n     d4a:      \tmovq\t%rax, -0x60(%rbp)\n     d4e:      \tmovq\t-0x60(%rbp), %rdx\n     d52:      \tmovq\t-0x68(%rbp), %rcx\n     d56:      \tmovq\t-0x90(%rbp), %rax\n     d5d:      \tmovq\t%rcx, %rsi\n     d60:      \tmovq\t%rax, %rdi\n     d63:      \tcallq\t0xd68 <evaluate_hand+0x133>\n;   find_secondary_pair+-4\n     d68:      \tmovq\t%rax, -0x58(%rbp)\n     d6c:      \tmovq\t-0x68(%rbp), %rax\n     d70:      \tmovq\t%rax, %rdi\n     d73:      \tcallq\t0xd78 <evaluate_hand+0x143>\n;   free+-4\n     d78:      \tcmpl\t$0x4, -0x7c(%rbp)\n     d7c:      \tjne\t0xdaa <evaluate_hand+0x175>\n     d7e:      \tmovq\t-0x88(%rbp), %rax\n     d85:      \tmovq\t-0x60(%rbp), %rdx\n     d89:      \tmovq\t-0x90(%rbp), %rsi\n     d90:      \tmovq\t%rdx, %r8\n     d93:      \tmovl\t$0x1, %ecx\n     d98:      \tmovl\t$0x4, %edx\n     d9d:      \tmovq\t%rax, %rdi\n     da0:      \tcallq\t0xda5 <evaluate_hand+0x170>\n;   build_hand_from_match+-4\n     da5:      \tjmp\t0x119c <evaluate_hand+0x567>\n     daa:      \tcmpl\t$0x3, -0x7c(%rbp)\n     dae:      \tjne\t0xe9f <evaluate_hand+0x26a>\n     db4:      \tcmpq\t$0x0, -0x58(%rbp)\n     db9:      \tjs\t0xe9f <evaluate_hand+0x26a>\n     dbf:      \tleaq\t-0xc0(%rbp), %rax\n     dc6:      \tmovq\t-0x60(%rbp), %rdx\n     dca:      \tmovq\t-0x90(%rbp), %rsi\n     dd1:      \tmovq\t%rdx, %r8\n     dd4:      \tmovl\t$0x2, %ecx\n     dd9:      \tmovl\t$0x3, %edx\n     dde:      \tmovq\t%rax, %rdi\n     de1:      \tcallq\t0xde6 <evaluate_hand+0x1b1>\n;   build_hand_from_match+-4\n     de6:      \tmovq\t-0xc0(%rbp), %rax\n     ded:      \tmovq\t-0xb8(%rbp), %rdx\n     df4:      \tmovq\t%rax, -0x50(%rbp)\n     df8:      \tmovq\t%rdx, -0x48(%rbp)\n     dfc:      \tmovq\t-0xb0(%rbp), %rax\n     e03:      \tmovq\t-0xa8(%rbp), %rdx\n     e0a:      \tmovq\t%rax, -0x40(%rbp)\n     e0e:      \tmovq\t%rdx, -0x38(%rbp)\n     e12:      \tmovq\t-0xa0(%rbp), %rax\n     e19:      \tmovq\t-0x98(%rbp), %rdx\n     e20:      \tmovq\t%rax, -0x30(%rbp)\n     e24:      \tmovq\t%rdx, -0x28(%rbp)\n     e28:      \tmovq\t-0x90(%rbp), %rax\n     e2f:      \tmovq\t(%rax), %rax\n     e32:      \tmovq\t-0x58(%rbp), %rdx\n     e36:      \tshlq\t$0x3, %rdx\n     e3a:      \taddq\t%rdx, %rax\n     e3d:      \tmovq\t(%rax), %rax\n     e40:      \tmovq\t%rax, -0x30(%rbp)\n     e44:      \tmovq\t-0x90(%rbp), %rax\n     e4b:      \tmovq\t(%rax), %rax\n     e4e:      \tmovq\t-0x58(%rbp), %rdx\n     e52:      \taddq\t$0x1, %rdx\n     e56:      \tshlq\t$0x3, %rdx\n     e5a:      \taddq\t%rdx, %rax\n     e5d:      \tmovq\t(%rax), %rax\n     e60:      \tmovq\t%rax, -0x28(%rbp)\n     e64:      \tmovq\t-0x88(%rbp), %rax\n     e6b:      \tmovq\t-0x50(%rbp), %rcx\n     e6f:      \tmovq\t-0x48(%rbp), %rbx\n     e73:      \tmovq\t%rcx, (%rax)\n     e76:      \tmovq\t%rbx, 0x8(%rax)\n     e7a:      \tmovq\t-0x40(%rbp), %rcx\n     e7e:      \tmovq\t-0x38(%rbp), %rbx\n     e82:      \tmovq\t%rcx, 0x10(%rax)\n     e86:      \tmovq\t%rbx, 0x18(%rax)\n     e8a:      \tmovq\t-0x30(%rbp), %rcx\n     e8e:      \tmovq\t-0x28(%rbp), %rbx\n     e92:      \tmovq\t%rcx, 0x20(%rax)\n     e96:      \tmovq\t%rbx, 0x28(%rax)\n     e9a:      \tjmp\t0x119c <evaluate_hand+0x567>\n     e9f:      \tcmpl\t$0x4, -0x80(%rbp)\n     ea3:      \tje\t0xf63 <evaluate_hand+0x32e>\n     ea9:      \tmovl\t$0x3, -0x50(%rbp)\n     eb0:      \tmovq\t$0x0, -0x78(%rbp)\n     eb8:      \tmovq\t$0x0, -0x70(%rbp)\n     ec0:      \tjmp\t0xf14 <evaluate_hand+0x2df>\n     ec2:      \tmovq\t-0x90(%rbp), %rax\n     ec9:      \tmovq\t(%rax), %rax\n     ecc:      \tmovq\t-0x70(%rbp), %rdx\n     ed0:      \tshlq\t$0x3, %rdx\n     ed4:      \taddq\t%rdx, %rax\n     ed7:      \tmovq\t(%rax), %rax\n     eda:      \tmovl\t0x4(%rax), %eax\n     edd:      \tcmpl\t%eax, -0x80(%rbp)\n     ee0:      \tjne\t0xf0f <evaluate_hand+0x2da>\n     ee2:      \tmovq\t-0x90(%rbp), %rax\n     ee9:      \tmovq\t(%rax), %rax\n     eec:      \tmovq\t-0x70(%rbp), %rdx\n     ef0:      \tshlq\t$0x3, %rdx\n     ef4:      \taddq\t%rdx, %rax\n     ef7:      \tmovq\t(%rax), %rdx\n     efa:      \tmovq\t-0x78(%rbp), %rax\n     efe:      \tmovq\t%rdx, -0x48(%rbp,%rax,8)\n     f03:      \taddq\t$0x1, -0x78(%rbp)\n     f08:      \tcmpq\t$0x4, -0x78(%rbp)\n     f0d:      \tja\t0xf27 <evaluate_hand+0x2f2>\n     f0f:      \taddq\t$0x1, -0x70(%rbp)\n     f14:      \tmovq\t-0x90(%rbp), %rax\n     f1b:      \tmovq\t0x8(%rax), %rax\n     f1f:      \tcmpq\t%rax, -0x70(%rbp)\n     f23:      \tjb\t0xec2 <evaluate_hand+0x28d>\n     f25:      \tjmp\t0xf28 <evaluate_hand+0x2f3>\n     f27:      \tnop\n     f28:      \tmovq\t-0x88(%rbp), %rax\n     f2f:      \tmovq\t-0x50(%rbp), %rcx\n     f33:      \tmovq\t-0x48(%rbp), %rbx\n     f37:      \tmovq\t%rcx, (%rax)\n     f3a:      \tmovq\t%rbx, 0x8(%rax)\n     f3e:      \tmovq\t-0x40(%rbp), %rcx\n     f42:      \tmovq\t-0x38(%rbp), %rbx\n     f46:      \tmovq\t%rcx, 0x10(%rax)\n     f4a:      \tmovq\t%rbx, 0x18(%rax)\n     f4e:      \tmovq\t-0x30(%rbp), %rcx\n     f52:      \tmovq\t-0x28(%rbp), %rbx\n     f56:      \tmovq\t%rcx, 0x20(%rax)\n     f5a:      \tmovq\t%rbx, 0x28(%rax)\n     f5e:      \tjmp\t0x119c <evaluate_hand+0x567>\n     f63:      \tleaq\t-0x50(%rbp), %rdx\n     f67:      \tmovq\t-0x90(%rbp), %rax\n     f6e:      \tmovl\t$0x4, %esi\n     f73:      \tmovq\t%rax, %rdi\n     f76:      \tcallq\t0xf7b <evaluate_hand+0x346>\n;   find_straight+-4\n     f7b:      \ttestl\t%eax, %eax\n     f7d:      \tje\t0xfc1 <evaluate_hand+0x38c>\n     f7f:      \tmovl\t$0x4, -0x50(%rbp)\n     f86:      \tmovq\t-0x88(%rbp), %rax\n     f8d:      \tmovq\t-0x50(%rbp), %rcx\n     f91:      \tmovq\t-0x48(%rbp), %rbx\n     f95:      \tmovq\t%rcx, (%rax)\n     f98:      \tmovq\t%rbx, 0x8(%rax)\n     f9c:      \tmovq\t-0x40(%rbp), %rcx\n     fa0:      \tmovq\t-0x38(%rbp), %rbx\n     fa4:      \tmovq\t%rcx, 0x10(%rax)\n     fa8:      \tmovq\t%rbx, 0x18(%rax)\n     fac:      \tmovq\t-0x30(%rbp), %rcx\n     fb0:      \tmovq\t-0x28(%rbp), %rbx\n     fb4:      \tmovq\t%rcx, 0x20(%rax)\n     fb8:      \tmovq\t%rbx, 0x28(%rax)\n     fbc:      \tjmp\t0x119c <evaluate_hand+0x567>\n     fc1:      \tcmpl\t$0x3, -0x7c(%rbp)\n     fc5:      \tjne\t0xff3 <evaluate_hand+0x3be>\n     fc7:      \tmovq\t-0x88(%rbp), %rax\n     fce:      \tmovq\t-0x60(%rbp), %rdx\n     fd2:      \tmovq\t-0x90(%rbp), %rsi\n     fd9:      \tmovq\t%rdx, %r8\n     fdc:      \tmovl\t$0x5, %ecx\n     fe1:      \tmovl\t$0x3, %edx\n     fe6:      \tmovq\t%rax, %rdi\n     fe9:      \tcallq\t0xfee <evaluate_hand+0x3b9>\n;   build_hand_from_match+-4\n     fee:      \tjmp\t0x119c <evaluate_hand+0x567>\n     ff3:      \tcmpq\t$0x0, -0x58(%rbp)\n     ff8:      \tjs\t0x1147 <evaluate_hand+0x512>\n     ffe:      \tcmpl\t$0x2, -0x7c(%rbp)\n    1002:      \tje\t0x1023 <evaluate_hand+0x3ee>\n    1004:      \tleaq\t(%rip), %rcx            # 0x100b <evaluate_hand+0x3d6>\n;   .rodata -> \"evaluate_hand\"\n    100b:      \tmovl\t$0x14b, %edx            # imm = 0x14B\n    1010:      \tleaq\t(%rip), %rsi            # 0x1017 <evaluate_hand+0x3e2>\n;   .rodata -> \"eval.c\"\n    1017:      \tleaq\t(%rip), %rdi            # 0x101e <evaluate_hand+0x3e9>\n;   .rodata -> \"n_of_a_kind ==2\"\n    101e:      \tcallq\t0x1023 <evaluate_hand+0x3ee>\n;   __assert_fail+-4\n    1023:      \tleaq\t-0xc0(%rbp), %rax\n    102a:      \tmovq\t-0x60(%rbp), %rdx\n    102e:      \tmovq\t-0x90(%rbp), %rsi\n    1035:      \tmovq\t%rdx, %r8\n    1038:      \tmovl\t$0x6, %ecx\n    103d:      \tmovl\t$0x2, %edx\n    1042:      \tmovq\t%rax, %rdi\n    1045:      \tcallq\t0x104a <evaluate_hand+0x415>\n;   build_hand_from_match+-4\n    104a:      \tmovq\t-0xc0(%rbp), %rax\n    1051:      \tmovq\t-0xb8(%rbp), %rdx\n    1058:      \tmovq\t%rax, -0x50(%rbp)\n    105c:      \tmovq\t%rdx, -0x48(%rbp)\n    1060:      \tmovq\t-0xb0(%rbp), %rax\n    1067:      \tmovq\t-0xa8(%rbp), %rdx\n    106e:      \tmovq\t%rax, -0x40(%rbp)\n    1072:      \tmovq\t%rdx, -0x38(%rbp)\n    1076:      \tmovq\t-0xa0(%rbp), %rax\n    107d:      \tmovq\t-0x98(%rbp), %rdx\n    1084:      \tmovq\t%rax, -0x30(%rbp)\n    1088:      \tmovq\t%rdx, -0x28(%rbp)\n    108c:      \tmovq\t-0x90(%rbp), %rax\n    1093:      \tmovq\t(%rax), %rax\n    1096:      \tmovq\t-0x58(%rbp), %rdx\n    109a:      \tshlq\t$0x3, %rdx\n    109e:      \taddq\t%rdx, %rax\n    10a1:      \tmovq\t(%rax), %rax\n    10a4:      \tmovq\t%rax, -0x38(%rbp)\n    10a8:      \tmovq\t-0x90(%rbp), %rax\n    10af:      \tmovq\t(%rax), %rax\n    10b2:      \tmovq\t-0x58(%rbp), %rdx\n    10b6:      \taddq\t$0x1, %rdx\n    10ba:      \tshlq\t$0x3, %rdx\n    10be:      \taddq\t%rdx, %rax\n    10c1:      \tmovq\t(%rax), %rax\n    10c4:      \tmovq\t%rax, -0x30(%rbp)\n    10c8:      \tcmpq\t$0x0, -0x60(%rbp)\n    10cd:      \tje\t0x10e2 <evaluate_hand+0x4ad>\n    10cf:      \tmovq\t-0x90(%rbp), %rax\n    10d6:      \tmovq\t(%rax), %rax\n    10d9:      \tmovq\t(%rax), %rax\n    10dc:      \tmovq\t%rax, -0x28(%rbp)\n    10e0:      \tjmp\t0x110f <evaluate_hand+0x4da>\n    10e2:      \tcmpq\t$0x2, -0x58(%rbp)\n    10e7:      \tjle\t0x10fd <evaluate_hand+0x4c8>\n    10e9:      \tmovq\t-0x90(%rbp), %rax\n    10f0:      \tmovq\t(%rax), %rax\n    10f3:      \tmovq\t0x10(%rax), %rax\n    10f7:      \tmovq\t%rax, -0x28(%rbp)\n    10fb:      \tjmp\t0x110f <evaluate_hand+0x4da>\n    10fd:      \tmovq\t-0x90(%rbp), %rax\n    1104:      \tmovq\t(%rax), %rax\n    1107:      \tmovq\t0x20(%rax), %rax\n    110b:      \tmovq\t%rax, -0x28(%rbp)\n    110f:      \tmovq\t-0x88(%rbp), %rax\n    1116:      \tmovq\t-0x50(%rbp), %rcx\n    111a:      \tmovq\t-0x48(%rbp), %rbx\n    111e:      \tmovq\t%rcx, (%rax)\n    1121:      \tmovq\t%rbx, 0x8(%rax)\n    1125:      \tmovq\t-0x40(%rbp), %rcx\n    1129:      \tmovq\t-0x38(%rbp), %rbx\n    112d:      \tmovq\t%rcx, 0x10(%rax)\n    1131:      \tmovq\t%rbx, 0x18(%rax)\n    1135:      \tmovq\t-0x30(%rbp), %rcx\n    1139:      \tmovq\t-0x28(%rbp), %rbx\n    113d:      \tmovq\t%rcx, 0x20(%rax)\n    1141:      \tmovq\t%rbx, 0x28(%rax)\n    1145:      \tjmp\t0x119c <evaluate_hand+0x567>\n    1147:      \tcmpl\t$0x2, -0x7c(%rbp)\n    114b:      \tjne\t0x1176 <evaluate_hand+0x541>\n    114d:      \tmovq\t-0x88(%rbp), %rax\n    1154:      \tmovq\t-0x60(%rbp), %rdx\n    1158:      \tmovq\t-0x90(%rbp), %rsi\n    115f:      \tmovq\t%rdx, %r8\n    1162:      \tmovl\t$0x7, %ecx\n    1167:      \tmovl\t$0x2, %edx\n    116c:      \tmovq\t%rax, %rdi\n    116f:      \tcallq\t0x1174 <evaluate_hand+0x53f>\n;   build_hand_from_match+-4\n    1174:      \tjmp\t0x119c <evaluate_hand+0x567>\n    1176:      \tmovq\t-0x88(%rbp), %rax\n    117d:      \tmovq\t-0x90(%rbp), %rsi\n    1184:      \tmovl\t$0x0, %r8d\n    118a:      \tmovl\t$0x8, %ecx\n    118f:      \tmovl\t$0x0, %edx\n    1194:      \tmovq\t%rax, %rdi\n    1197:      \tcallq\t0x119c <evaluate_hand+0x567>\n;   build_hand_from_match+-4\n    119c:      \tmovq\t-0x18(%rbp), %rax\n    11a0:      \txorq\t%fs:0x28, %rax\n    11a9:      \tje\t0x11b0 <evaluate_hand+0x57b>\n    11ab:      \tcallq\t0x11b0 <evaluate_hand+0x57b>\n;   __stack_chk_fail+-4\n    11b0:      \tmovq\t-0x88(%rbp), %rax\n    11b7:      \taddq\t$0xb8, %rsp\n    11be:      \tpopq\t%rbx\n    11bf:      \tpopq\t%rbp\n    11c0:      \tretq"
+}

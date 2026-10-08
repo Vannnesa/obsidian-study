@@ -1,0 +1,83 @@
+{
+  "id": "c3prj2_eval",
+  "title": "Course 3 poker project: evaluate and compare hands (eval.c)",
+  "type": "compile_and_run",
+  "source": "eval.c",
+  "compileMessage": "Compiling your code",
+  "reportStyle": "running",
+  "successVerdict": "A",
+  "next": "c4prj1_deck",
+  "timeoutMs": 20000,
+  "showCompileCommands": true,
+  "build": {
+    "driver": "drivers/c3prj2_eval/test_eval_driver.c",
+    "sources": [
+      "deck.c",
+      "eval.c",
+      "cards.c"
+    ],
+    "separateCompile": true,
+    "output": "test-eval",
+    "flags": [
+      "-ggdb3",
+      "-Wall",
+      "-Werror",
+      "--pedantic",
+      "-std=gnu99",
+      "-Wno-error=non-literal-null-conversion"
+    ]
+  },
+  "tests": [
+    {
+      "label": "nothing",
+      "stdin": "As Kd 9h 7c 5s 3d 2h; Ah Qd 0h 8c 6s 4d 3h\n2c 4d 6h 8s 0c Qd Ah; 3c 5d 7h 9s Jc Kd Ah\n",
+      "expectedFile": "expected/c3prj2_eval/nothing.txt"
+    },
+    {
+      "label": "pairs",
+      "stdin": "As Ah Kd 9c 7s 5d 3h; Ks Kh Ad 9c 7s 5d 3h\nAs Ah Kd 9c 7s 5d 3h; Qs Qh Kd 9c 7s 5d 3h\n",
+      "expectedFile": "expected/c3prj2_eval/pairs.txt"
+    },
+    {
+      "label": "two pairs",
+      "stdin": "As Ah Kd Kc 5s 3d 2h; Qs Qh Jd Jc As 3d 2h\n9s 9h 8d 8c 3h Qc 0d; 9d 9c 8h 8s 3c Qd 0h\n",
+      "expectedFile": "expected/c3prj2_eval/two_pairs.txt"
+    },
+    {
+      "label": "three of a kind",
+      "stdin": "4s 4d 4h 8c Kh 0s 9d; 7s 7d 7h 8c Kh 0s 9d\nJs Jd Jh Ac 9s 5d 3h; Js Jd Jh Kc 9s 5d 3h\n",
+      "expectedFile": "expected/c3prj2_eval/three_of_a_kind.txt"
+    },
+    {
+      "label": "straights",
+      "stdin": "5h 6s 7c 8c 9d 0s Jh; 5h 6s 7c 8c 9d 4c 3s\nAs 2s 3d 4c 5h Kd Qc; 2h 3h 4h 5s 6d Kc Qd\n",
+      "expectedFile": "expected/c3prj2_eval/straights.txt"
+    },
+    {
+      "label": "flushes",
+      "stdin": "2s 5s 8s 0s 3s As Ac; 2s 5c 8h 0s 3h Ah Ad\n2h 5h 8h 0h 3h Kh Kd; 2s 5s 8s 0s 3s As Ad\n",
+      "expectedFile": "expected/c3prj2_eval/flushes.txt"
+    },
+    {
+      "label": "full houses",
+      "stdin": "As Ah 5d 5s Jd Ac 2d; Ks Kh Kd 9s 9d 2c 3d\nKs Kh 9s 9d 9h Kd 2c; As Ah 5d 5s Jd Ac 2d\n",
+      "expectedFile": "expected/c3prj2_eval/full_houses.txt"
+    },
+    {
+      "label": "four of a kind",
+      "stdin": "As Ah 5d 5s Jd Ac Ad; As Ah 5d 5s Jd Kc Ac\n4s 4d 4h 4c Kh 9s 2d; 5s 5d 5h 5c Ah 9d 2c\n",
+      "expectedFile": "expected/c3prj2_eval/four_of_a_kind.txt"
+    },
+    {
+      "label": "straight flushes",
+      "stdin": "2s 3s 4s 5s 6s 4h 0h; 2s 3s 4s 5s 7s 4h 0h\nAs 2s 3s 4s 5s Kd Qh; 9h 0h Jh Qh Kh 2c 3d\n",
+      "expectedFile": "expected/c3prj2_eval/straight_flushes.txt"
+    },
+    {
+      "label": "each type of hand ranking",
+      "stdin": "0c 6d 0s 8s 7d 6s 5c; Js 4c 0s 8s 7d 6s 5c\n5c 6c 7c 8d 9d 4c 9c; 5c 6c 7c 8d 9d 8c 9c\n0d Jd Qd 9d 8d Kd Ad; 0d Jd Qd 9d 8d 5s 2h\n0d 0s 9c 2s 3d 9d 0c; 0d 0s 9c 2s 3d 3c 0h\n4c 0d Ad Js 2s 4h 4s; 4c 0d Ad Js 2s Ah As\n2s 5c 8h Ks 3h As Ac; 2s 5c 8h Ks 3h Jh Kd\n",
+      "expectedFile": "expected/c3prj2_eval/all_rankings.txt"
+    }
+  ],
+  "notes": "Confidence: recovered -- the driver, from re/elf/c3prj2_eval__test-eval.o.md, validated against the README's worked example (its 'Hand 1:' ... 'Hand 2 wins!' block is reproduced byte-for-byte by the first case of expected/c3prj2_eval/all_rankings.txt); observed -- the report wording and the 'Overall Grade: A'; inferred -- the ten stdin inputs, since the 2024 grader's own input files were not preserved. Driver RECOVERED, not inferred: c3prj2_eval/test-eval.o survived in the assignment directory and re/elf/c3prj2_eval__test-eval.o.md documents it completely (strings, DWARF, relocation-annotated disassembly of both main @0x463 and describe_hand @0x0). drivers/c3prj2_eval/test_eval_driver.c reproduces that program line for line: 'Hand 1:'/'--------'/'Hand 2:'/'--------', ' - No flush' / ' - Flush in suit %c', ' - Straight[ flush] at index %zu', ' - The most of a kind is %d of a kind (at index %zu / value %c)', ' - Secondary pair at index %zd (value %c)' / ' - No secondary pair', \" - evaluate_hand's ranking: %s\", ' - 5 cards used for hand: ', 'Comparison : '/'--------------'/'Hand 1 wins!'|'Tie'|'Hand 2 wins!'/'============================', and the argc==1-reads-stdin behaviour. hand_from_string is the one piece that had to be re-derived: c3prj2_eval has no input.c (the grader linked its own input.o), so the parser was written from the strings/DWARF of the same function in re/elf/c2prj1_cards__input.o.md; '?n' future cards are rejected instead of dereferencing the NULL future_cards_t the original passes. Report shape: the original printed 'Testcase N: Trying hands with <category>' / ' Checking the output ' / 'Your file matched the expected output' / ' - Testcase passed' from its own harness, so this config uses reportStyle 'running' ('Running testcase N' / 'Your file matched the expected output' / 'testcaseN passed') \u2014 the middle line is verbatim, the framing differs. The original's ten input files were not preserved (only tests.txt, the student's own Course-2 cases, exists), so the ten 'stdin' blobs are INFERRED: each reproduces the category the original named, and reuses duplicate-free lines from c2prj2_testing/tests.txt. Every expected file was generated from the recorded solution by tools/re/gen_fixtures.py; the ace-low straight, ace-low straight flush, tie, two-pair kicker and 6-card flush cases are deliberate corner cases from the README. successVerdict is 'A' (observed 'Overall Grade: A')."
+}
