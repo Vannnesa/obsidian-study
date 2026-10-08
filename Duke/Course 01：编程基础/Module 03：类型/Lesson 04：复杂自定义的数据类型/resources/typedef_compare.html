@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typedef 重构对比</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 20px;
+    background: #282c34;
+    color: #abb2bf;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .code-panel {
+    flex-shrink: 0;
+  }
+
+  .code-block {
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+    white-space: pre;
+    color: #abb2bf;
+  }
+
+  /* 语法高亮颜色 */
+  .kw          { color: #c678dd; } /* 关键字：typedef, int, void */
+  .type        { color: #61afef; } /* 类型：unsigned int */
+  .custom-type { color: #56b6c2; } /* 自定义类型：rgb_t */
+  .func        { color: #61afef; } /* 函数名 */
+  .var         { color: #d19a66; } /* 变量名 */
+  .comment     { color: #5c6370; } /* 注释 */
+
+  /* 箭头与说明文字 */
+  .arrow-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .arrow-text {
+    font-size: 12px;
+    color: #e06c75;
+    text-align: center;
+    transform: rotate(-10deg);
+    white-space: nowrap;
+  }
+
+  /* 右侧被划掉的 int 和覆盖的 char */
+  .deleted-type {
+    position: relative;
+    display: inline-block;
+  }
+  .deleted-type del {
+    color: #e06c75;
+    text-decoration: line-through;
+  }
+  .overlay-char {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e06c75;
+    font-weight: bold;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- 左侧：原始代码 -->
+  <div class="code-panel">
+    <pre class="code-block"><span class="kw">typedef</span> <span class="type">unsigned int</span> <span class="custom-type">rgb_t</span>;
+
+<span class="custom-type">rgb_t</span> <span class="func">getRedForPixel</span>(<span class="kw">int</span> <span class="var">x</span>, <span class="kw">int</span> <span class="var">y</span>) {<span class="comment">...</span>}
+<span class="custom-type">rgb_t</span> <span class="func">getGreenForPixel</span>(<span class="kw">int</span> <span class="var">x</span>, <span class="kw">int</span> <span class="var">y</span>) {<span class="comment">...</span>}
+<span class="custom-type">rgb_t</span> <span class="func">getBlueForPixel</span>(<span class="kw">int</span> <span class="var">x</span>, <span class="kw">int</span> <span class="var">y</span>) {<span class="comment">...</span>}
+
+<span class="kw">int</span> <span class="func">main</span>(<span class="kw">void</span>) {
+  <span class="custom-type">rgb_t</span> <span class="var">red</span>, <span class="var">green</span>, <span class="var">blue</span>;
+
+  <span class="var">red</span> = <span class="func">getRedValue</span>();
+  <span class="var">green</span> = <span class="func">getGreenValue</span>();
+  <span class="comment">...</span>
+}</pre>
+  </div>
+
+  <!-- 中间：箭头与说明 -->
+  <div class="arrow-panel">
+    <svg width="60" height="20" viewBox="0 0 60 20">
+      <line x1="0" y1="10" x2="50" y2="10" stroke="#e06c75" stroke-width="2" />
+      <polygon points="50,5 60,10 50,15" fill="#e06c75" />
+    </svg>
+    <div class="arrow-text">更改 rgb_t 的定义</div>
+  </div>
+
+  <!-- 右侧：修改后的代码 -->
+  <div class="code-panel">
+    <pre class="code-block"><span class="kw">typedef</span> <span class="type">unsigned</span> <span class="deleted-type"><del>int</del><span class="overlay-char">char</span></span> <span class="custom-type">rgb_t</span>;
+
+<span class="comment">// 其他内容不变！</span></pre>
+  </div>
+
+</div>
+
+</body>
+</html>
