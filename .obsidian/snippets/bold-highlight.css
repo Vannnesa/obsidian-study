@@ -1,0 +1,17 @@
+/* ==========================================
+   One Light 主题（浅色模式）
+   ========================================== */
+.theme-light .markdown-preview-view strong,
+.theme-light .markdown-source-view.mod-cm6 .cm-strong {
+    color: #1be2d2 !important;       /* One Light 经典红（语法高亮色） */
+    font-weight: 900 !important;      /* 特粗，比默认的 700 更重 */
+}
+
+/* ==========================================
+   One Dark 主题（深色模式）
+   ========================================== */
+.theme-dark .markdown-preview-view strong,
+.theme-dark .markdown-source-view.mod-cm6 .cm-strong {
+    color: #61afef !important;       /* One Dark 经典红（语法高亮色） */
+    font-weight: 900 !important;      /* 特粗 */
+}

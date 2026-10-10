@@ -1,8 +1,10 @@
 {
   "theme": "obsidian",
   "enabledCssSnippets": [
+    "html_widen",
+    "mermaid-fit",
     "image_bound",
-    "html_widen"
+    "bold-highlight"
   ],
   "translucency": true,
   "cssTheme": "Minimal"

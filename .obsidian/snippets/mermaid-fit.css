@@ -1,0 +1,20 @@
+/* 1. 容器居中、隐藏溢出，彻底消除滚动条 */
+.mermaid {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important; /* 隐藏溢出，彻底没有滚动条 */
+    margin: 1.5em auto !important;
+}
+
+/* 2. SVG 等比放大，保持原始比例，不拉伸变形 */
+.mermaid svg {
+    display: block !important;
+    width: 100% !important;        /* 宽度填满容器，实现放大 */
+    height: auto !important;       /* 高度自动，保持比例，避免“伸长”变形 */
+    max-width: 100% !important;    /* 最大宽度不超出容器 */
+    max-height: 85vh !important;   /* 关键：限制最大高度不超过屏幕的85%，防止出现纵向滚动条 */
+    margin: 0 auto !important;     /* 保证居中 */
+}

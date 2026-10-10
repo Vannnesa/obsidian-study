@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>程序开发流程</title>
+    <style>
+        /* --- 浅色模式 (One Light) --- */
+        :root {
+            --bg-color: #fafafa;
+            --text-color: #383a42;
+            --arrow-color: #a0a1a7;
+            
+            --blue-bg: rgba(64, 120, 242, 0.12);
+            --blue-border: #4078f2;
+            --blue-text: #4078f2;
+            
+            --purple-bg: rgba(166, 38, 164, 0.12);
+            --purple-border: #a626a4;
+            --purple-text: #a626a4;
+            
+            --yellow-bg: rgba(193, 132, 1, 0.12);
+            --yellow-border: #c18401;
+            --yellow-text: #c18401;
+            
+            --red-bg: rgba(228, 86, 73, 0.12);
+            --red-border: #e45649;
+            --red-text: #e45649;
+            
+            --green-bg: #50a14f;
+            --green-border: #50a14f;
+            --green-text: #ffffff;
+        }
+
+        /* --- 深色模式 (One Dark) --- */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #282c34;
+                --text-color: #abb2bf;
+                --arrow-color: #5c6370;
+                
+                --blue-bg: rgba(97, 175, 239, 0.2);
+                --blue-border: #61afef;
+                --blue-text: #61afef;
+                
+                --purple-bg: rgba(198, 120, 221, 0.2);
+                --purple-border: #c678dd;
+                --purple-text: #c678dd;
+                
+                --yellow-bg: rgba(229, 192, 123, 0.2);
+                --yellow-border: #e5c07b;
+                --yellow-text: #e5c07b;
+                
+                --red-bg: rgba(224, 108, 117, 0.2);
+                --red-border: #e06c75;
+                --red-text: #e06c75;
+                
+                --green-bg: #98c379;
+                --green-border: #98c379;
+                --green-text: #282c34;
+            }
+        }
+
+        /* --- 基础布局：彻底消除滚动条，完美居中 --- */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            overflow: hidden; /* 禁止滚动条 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* --- SVG 自适应缩放，等比放大，绝不伸长 --- */
+        svg {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            max-height: 85vh; /* 限制最大高度，防止竖向溢出 */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <!-- 定义三种颜色的箭头 -->
+                <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                    <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--arrow-color)" />
+                </marker>
+                <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                    <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--blue-border)" />
+                </marker>
+                <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                    <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--green-border)" />
+                </marker>
+            </defs>
+
+            <!-- 步骤 1-4 -->
+            <rect x="20" y="30" width="160" height="60" rx="6" fill="var(--blue-bg)" stroke="var(--blue-border)" stroke-width="2" />
+            <text x="100" y="50" font-size="15" font-weight="bold" fill="var(--blue-text)" text-anchor="middle" dominant-baseline="middle">步骤 1-4：</text>
+            <text x="100" y="72" font-size="14" fill="var(--text-color)" text-anchor="middle" dominant-baseline="middle">设计算法</text>
+
+            <!-- 步骤 5 -->
+            <rect x="220" y="30" width="160" height="60" rx="6" fill="var(--purple-bg)" stroke="var(--purple-border)" stroke-width="2" />
+            <text x="300" y="50" font-size="15" font-weight="bold" fill="var(--purple-text)" text-anchor="middle" dominant-baseline="middle">步骤 5：</text>
+            <text x="300" y="72" font-size="14" fill="var(--text-color)" text-anchor="middle" dominant-baseline="middle">转换为代码</text>
+
+            <!-- 步骤 6 (菱形) -->
+            <polygon points="500,20 580,60 500,100 420,60" fill="var(--yellow-bg)" stroke="var(--yellow-border)" stroke-width="2" />
+            <text x="500" y="50" font-size="15" font-weight="bold" fill="var(--yellow-text)" text-anchor="middle" dominant-baseline="middle">步骤 6：</text>
+            <text x="500" y="72" font-size="14" fill="var(--text-color)" text-anchor="middle" dominant-baseline="middle">测试程序</text>
+
+            <!-- 成功 -->
+            <rect x="640" y="30" width="130" height="60" rx="6" fill="var(--green-bg)" stroke="var(--green-border)" stroke-width="2" />
+            <text x="705" y="62" font-size="16" font-weight="bold" fill="var(--green-text)" text-anchor="middle" dominant-baseline="middle">成功！</text>
+
+            <!-- 步骤 7 (菱形) -->
+            <polygon points="350,150 430,190 350,230 270,190" fill="var(--red-bg)" stroke="var(--red-border)" stroke-width="2" />
+            <text x="350" y="180" font-size="15" font-weight="bold" fill="var(--red-text)" text-anchor="middle" dominant-baseline="middle">步骤 7：</text>
+            <text x="350" y="202" font-size="14" fill="var(--text-color)" text-anchor="middle" dominant-baseline="middle">调试程序</text>
+
+            <!-- 连接线与箭头 -->
+            <!-- 1-4 到 5 -->
+            <line x1="180" y1="60" x2="212" y2="60" stroke="var(--arrow-color)" stroke-width="2" marker-end="url(#arrowGray)" />
+            
+            <!-- 5 到 7（实现问题） -->
+            <path d="M 300 90 Q 300 150 340 145" fill="none" stroke="var(--blue-border)" stroke-width="2" marker-end="url(#arrowBlue)" />
+            <text x="290" y="125" font-size="13" font-style="italic" fill="var(--blue-text)" text-anchor="middle" dominant-baseline="middle">实现问题</text>
+            
+            <!-- 7 到 1-4（算法问题） -->
+            <path d="M 270 190 Q 100 190 100 90" fill="none" stroke="var(--blue-border)" stroke-width="2" marker-end="url(#arrowBlue)" />
+            <text x="180" y="158" font-size="13" font-style="italic" fill="var(--blue-text)" text-anchor="middle" dominant-baseline="middle">算法问题</text>
+            
+            <!-- 6 到 7（程序不正确） -->
+            <path d="M 500 100 Q 500 200 430 190" fill="none" stroke="var(--green-border)" stroke-width="2" marker-end="url(#arrowGreen)" />
+            <text x="475" y="160" font-size="13" font-style="italic" fill="var(--green-text)" text-anchor="middle" dominant-baseline="middle">程序不正确</text>
+            
+            <!-- 6 到 成功（程序看似正确） -->
+            <line x1="580" y1="60" x2="632" y2="60" stroke="var(--green-border)" stroke-width="2" marker-end="url(#arrowGreen)" />
+            <text x="605" y="95" font-size="13" font-style="italic" fill="var(--green-text)" text-anchor="middle" dominant-baseline="middle">程序看似正确</text>
+        </svg>
+    </div>
+
+</body>
+</html>
