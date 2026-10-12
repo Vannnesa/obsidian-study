@@ -1,6 +1,7 @@
 {
   "theme": "obsidian",
   "enabledCssSnippets": [
+<<<<<<< Updated upstream
     "html_widen",
     "mermaid-fit",
     "image_bound",
@@ -8,4 +9,9 @@
   ],
   "translucency": true,
   "cssTheme": "Minimal"
+=======
+    "image_bound",
+    "invertPDF"
+  ]
+>>>>>>> Stashed changes
 }
