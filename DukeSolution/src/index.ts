@@ -35,6 +35,16 @@ import {
   shellRcFile,
   uninstallCommand,
 } from "./install.ts";
+import {
+  RebuildError,
+  allIds,
+  applyRebuild,
+  askYesNo,
+  describePlan,
+  lossyFiles,
+  planRebuild,
+  resolveId,
+} from "./rebuild.ts";
 import { strategyFor } from "./strategies/index.ts";
 import { writeAnswerDir } from "./answer.ts";
 import {
@@ -58,6 +68,7 @@ type Command =
   | "install"
   | "uninstall"
   | "doctor"
+  | "rebuild"
   | "help"
   | "version";
 
@@ -68,6 +79,9 @@ interface Args {
   id?: string;
   dir?: string;
   repair: boolean;
+  yes: boolean;
+  /** Positional argument for \`rebuild <id>\`. */
+  target2?: string;
   explain: boolean;
   quiet: boolean;
   noAnswer: boolean;
@@ -85,6 +99,7 @@ usage:
   grade status            show which assignments are done / current / locked
   grade list              list every assignment and its strategy
   grade new <id>          copy assignment <id> into the workspace, untouched
+  grade rebuild <id>      put an assignment back to its starting state
   grade check             validate every config in the package
   grade install           put \`grade\` on your PATH so it runs from anywhere
   grade uninstall         remove the installed launcher
@@ -95,6 +110,7 @@ options:
   --workspace <dir>   the workspace (default: nearest one above the cwd)
   --id <id>           which assignment (default: the cwd's name, else state)
   --dir <dir>         grade this directory instead of the resolved assignment
+  -y, --yes           skip the confirmation prompt (for rebuild)
   --repair            with \`init\`: rewrite package.json and the ./grade shim
   --explain           print the assignment's config before grading
   --quiet, -q         write grade.txt only; print nothing on success
@@ -116,6 +132,7 @@ function parseArgs(argv: string[]): Args {
   const a: Args = {
     command: "grade",
     repair: false,
+    yes: false,
     explain: false,
     quiet: false,
     noAnswer: false,
@@ -129,6 +146,7 @@ function parseArgs(argv: string[]): Args {
       case "--id": a.id = argv[++i]; break;
       case "--dir": a.dir = argv[++i]; break;
       case "--repair": a.repair = true; break;
+      case "--yes": case "-y": a.yes = true; break;
       case "--explain": a.explain = true; break;
       case "--quiet": case "-q": a.quiet = true; break;
       case "--no-answer": a.noAnswer = true; break;
@@ -145,6 +163,9 @@ function parseArgs(argv: string[]): Args {
   if (first && ["init", "status", "list", "check", "install", "uninstall", "doctor"].includes(first)) {
     a.command = first as Command;
     a.target = words[1];
+  } else if (first === "rebuild") {
+    a.command = "rebuild";
+    a.target2 = words[1];
   } else if (first === "new") {
     a.command = "init";
     a.id = words[1] ?? a.id;
@@ -194,6 +215,8 @@ async function main(): Promise<number> {
       return await doUninstall(args);
     case "doctor":
       return await doDoctor();
+    case "rebuild":
+      return await doRebuild(root, args);
     case "grade":
       return await doGrade(root, args);
   }
@@ -328,6 +351,69 @@ async function doUninstall(args: Args): Promise<number> {
   process.stdout.write(
     removed ? `Removed ${shim}\n` : `Nothing to remove at ${shim}\n`,
   );
+  return 0;
+}
+
+/**
+ * `grade rebuild <id>`.
+ *
+ * Overwrites an assignment with its starting template. Destructive by nature,
+ * so the plan is printed first and the student has to agree to it.
+ */
+async function doRebuild(root: string, args: Args): Promise<number> {
+  if (!args.target2) {
+    fail(
+      "rebuild needs an assignment.\n" +
+        "  grade rebuild 01          rebuild 01_apple\n" +
+        "  grade rebuild 05_squares  the long form works too\n" +
+        "  grade list                to see them all",
+    );
+  }
+
+  let id: string;
+  try {
+    id = resolveId(args.target2, await allIds(root));
+  } catch (err) {
+    if (err instanceof RebuildError) fail(err.message);
+    throw err;
+  }
+
+  // The workspace is wherever the student is: inside an assignment, that is its
+  // parent; at the root, it is the root itself.
+  const cwd = process.cwd();
+  const resolvedW = resolveWorkspace(args);
+  const workspace = resolvedW ?? (path.basename(cwd) === id ? path.dirname(cwd) : cwd);
+
+  let plan;
+  try {
+    plan = await planRebuild(root, id, cwd, workspace);
+  } catch (err) {
+    if (err instanceof RebuildError) fail(err.message);
+    throw err;
+  }
+
+  for (const line of describePlan(plan)) process.stdout.write(line + "\n");
+
+  const lossy = lossyFiles(plan);
+  const destructive = lossy.length > 0 || plan.removed.length > 0;
+
+  if (destructive && !args.yes) {
+    // Always ask. When stdin is empty or closed the read returns EOF, which
+    // `askYesNo` treats as "no", so the safe outcome needs no special case.
+    process.stdout.write("\n");
+    const ok = await askYesNo("Overwrite and lose those changes? (y/n) ");
+    if (!ok) return 1;
+  }
+
+  const outcome = await applyRebuild(root, plan);
+  const shown = plan.inPlace ? `${plan.id}/` : path.basename(outcome.plan.target) + "/";
+  process.stdout.write(
+    `\n${plan.exists ? "Refreshed" : "Created"} ${shown} (${outcome.written} file(s))\n`,
+  );
+  if (outcome.removed.length > 0) {
+    process.stdout.write(`Removed ${outcome.removed.join(", ")}\n`);
+  }
+  process.stdout.write(`\ncd ${outcome.plan.target}\n`);
   return 0;
 }
 

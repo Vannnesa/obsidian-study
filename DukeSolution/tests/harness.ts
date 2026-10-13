@@ -51,10 +51,17 @@ export interface RunResult {
 }
 
 /** Run the CLI against a sandbox package. */
-export async function runCli(pkg: string, args: string[], cwd: string): Promise<RunResult> {
+export async function runCli(
+  pkg: string,
+  args: string[],
+  cwd: string,
+  /** Text to feed stdin; omit for "nothing", pass "" to close it immediately. */
+  stdin?: string,
+): Promise<RunResult> {
   const proc = Bun.spawn(["bun", CLI, ...args], {
     cwd,
     env: { ...process.env, GRADE_PACKAGE: pkg },
+    stdin: stdin === undefined ? "ignore" : new TextEncoder().encode(stdin),
     stdout: "pipe",
     stderr: "pipe",
   });
