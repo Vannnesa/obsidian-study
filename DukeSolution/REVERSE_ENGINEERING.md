@@ -369,6 +369,91 @@ reports such configs as `n/a` rather than as a verification failure. This is a
 deliberate extension to the original's vocabulary, made to keep the tool's
 claims true.
 
+## 5.7 Teacher-supplied files that had to be restored to the templates
+
+The first pass at templates excluded anything binary or anything listed as a
+build product. That was too blunt: several files the course *handed to the
+student* are binaries or carry a `.o` extension, and removing them made the
+assignments impossible to follow as written.
+
+`squares_test.o` is the clearest case. `05_squares/README` says:
+
+> We have provided squares_test.o, which has a main function ... You can
+> compile your code and link it with this object file
+
+With the object absent, the documented command fails immediately:
+
+```
+$ gcc -o squares -Wall -Werror -std=gnu99 --pedantic squares.c squares_test.o
+/usr/bin/ld: cannot find squares_test.o: No such file or directory
+```
+
+Shipping the object as-is fixes the missing file but not the platform problem:
+it is a Linux x86-64 object, so the README's command still fails on macOS with
+`ld: unknown file type in 'squares_test.o'`.
+
+The template therefore carries the driver as **C source** instead —
+`data/templates/05_squares/squares_test.c`, the same reconstruction described in
+§3 — and the config declares
+
+```json
+"providedObjects": [
+  { "source": "squares_test.c", "output": "squares_test.o", "flags": ["-std=gnu99"] }
+]
+```
+
+The grader compiles that source into `squares_test.o` for the local platform,
+once when the assignment folder is created and again before grading if the
+object is missing, stale, or in a foreign format. A student on any platform can
+now paste the command from the README and have it work.
+
+Verified on macOS: the build produces `Mach-O 64-bit object arm64`, the README's
+`gcc -o squares ... squares_test.o` line compiles cleanly, and the resulting
+program matches `ans_3_5_8_2.txt`, `ans_5_2_4_6.txt` and `ans_9_2_3_4.txt`
+byte-for-byte, as well as the worked example in the README
+(`./squares 4 1 2 3`). Dropping the shipped Linux object into the folder makes
+the grader detect the format mismatch and rebuild.
+
+The object is not committed, since it is a per-platform build product of
+`squares_test.c`.
+
+The same audit found fifteen more files that the course provided or that a
+README refers to, all of them previously dropped:
+
+| assignment | restored | why |
+|---|---|---|
+| `05_squares` | `squares_test.c` | README's build command links against `squares_test.o`; the source is shipped and the object is compiled locally |
+| `06_rect` | `compare.txt` | referenced as the output to compare against |
+| `15_tests_subseq` | `Makefile` | the `next-README` build instructions rely on it |
+| `22_tests_power` | `test-power2.c` | the student's second harness, part of the submission's history |
+| `26_tests_matrix_input` | `test1/2/3/5/6.txt` | the fixtures `tests.txt` is meant to be written against |
+| `27_matrix_input` | `rotate.c` | README tells the student to reuse their earlier `rotate` |
+| `32_kvs` | `test1.c`, `test1.txt`, `blank.txt` | provided scaffolding and its edge-case input |
+| `33_counts` | `counts_backup.c` | the starting point the assignment works from |
+| `c4prj1_deck` | `test-deck.c` | "We have provided test-deck.c" |
+| `c4prj2_input` | `main.c` | the provided main |
+| `c4prj3_finish` | `answers.txt` | "expected probabilities (in provided-tests/answers.txt)" |
+
+Files deliberately left out, with the reasoning:
+
+- **Compiled executables** (`squares`, `poker`, `test-deck`, `breaker`, …) and
+  **`.o` files other than `squares_test.o`**. These are the student's own build
+  output, not course material; `Makefile`s regenerate them.
+- **`18_reverse_str/answer.txt` and `19_bits_arr/answer.txt`** are byte-identical
+  copies of the teacher's `reverse_ans.txt` and `bits_ans.txt`, which the
+  templates already carry. Keeping both would just add a duplicate.
+- **`28_fix_vg_encr/valgrind_log.txt`** is the student's own valgrind evidence
+  and it names the two leak sites, so shipping it would hand over the answer.
+  The same goes for `input.txt.enc`, the program's own output.
+- **`.counts` files under `34_put_together`** are program output, and the
+  assignment's own driver deletes them before each run precisely because stale
+  ones would make the check vacuous.
+
+A check now runs over every config and template pair: each file a config
+references (`source`, `file`, `program`, `studentTest`, `build.sources`,
+`linkObjects`, `stdinFile`, subject sources) must exist in that assignment's
+template. It reports zero gaps.
+
 ## 6. Confidence scale
 
 Every config's `notes` field labels its own provenance:

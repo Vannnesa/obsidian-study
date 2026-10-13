@@ -10,7 +10,12 @@ import { diffLines, splitLines, unifiedDiff } from "../src/diff.ts";
 import { formatTimestamp, renderGradeTxt } from "../src/output.ts";
 import { compareAssignmentIds, validateConfig } from "../src/config.ts";
 import { readFlattenedLink, normalizeFlags } from "../src/build.ts";
-import { buffersEqual, firstDifference } from "../src/runner.ts";
+import {
+  buffersEqual,
+  describeByteDifference,
+  firstDifference,
+  showBytes,
+} from "../src/runner.ts";
 import { stripComments } from "../src/strategies/source-check.ts";
 import { isSourceFile } from "../src/answer.ts";
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
@@ -244,5 +249,53 @@ describe("answer snapshot filter", () => {
     for (const name of ["squares.c", "cards.h", "README", "Makefile", "answer.txt"]) {
       expect(isSourceFile(name)).toBe(true);
     }
+  });
+});
+
+describe("invisible-character diagnostics", () => {
+  const enc = (s: string) => new TextEncoder().encode(s);
+  const apple = enc("apple\n");
+
+  test("showBytes names a UTF-8 BOM instead of hiding it", () => {
+    const withBom = new Uint8Array([0xef, 0xbb, 0xbf, ...apple]);
+    expect(showBytes(withBom)).toContain("<BOM>");
+  });
+
+  test("showBytes names a non-breaking space", () => {
+    expect(showBytes(enc("apple\u00a0\n"))).toContain("<NBSP>");
+  });
+
+  test("showBytes marks a missing final newline", () => {
+    expect(showBytes(enc("apple"))).toContain("<no final newline>");
+    expect(showBytes(apple)).not.toContain("<no final newline>");
+  });
+
+  test("showBytes makes trailing blanks and tabs visible", () => {
+    expect(showBytes(enc("apple \n"))).toContain("·");
+    expect(showBytes(enc("a\tb\n"))).toContain("\\t");
+  });
+
+  test("showBytes makes a carriage return visible", () => {
+    expect(showBytes(enc("apple\r\n"))).toContain("\\x0d");
+  });
+
+  test("the BOM case renders identically, which is why the byte diff exists", () => {
+    const withBom = new Uint8Array([0xef, 0xbb, 0xbf, ...apple]);
+    // The whole point: a plain rendering cannot distinguish these...
+    expect(showBytes(apple)).toBe("apple\n");
+    // ...so the byte-level report has to carry the answer.
+    const lines = describeByteDifference(withBom, apple);
+    expect(lines.join("\n")).toContain("differ at byte 0");
+    expect(lines.join("\n")).toContain("ef bb bf");
+    expect(lines.join("\n")).toContain("byte order mark");
+  });
+
+  test("describeByteDifference stays quiet for equal buffers", () => {
+    expect(describeByteDifference(apple, apple)).toEqual([]);
+  });
+
+  test("describeByteDifference points at a trailing difference", () => {
+    const lines = describeByteDifference(enc("apple"), apple);
+    expect(lines.join("\n")).toContain("at the end");
   });
 });

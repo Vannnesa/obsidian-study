@@ -74,6 +74,21 @@ export interface TestCase {
   hint?: string;
 }
 
+/**
+ * An object file an assignment expects to already exist, built locally from
+ * source so that a README's `gcc ... foo.o` command works on any platform.
+ */
+export interface ProvidedObject {
+  /** C source, relative to the assignment directory (from the template). */
+  source: string;
+  /** Object file to produce, relative to the assignment directory. */
+  output: string;
+  /** Compiler flags; defaults to `-std=gnu99 -Wall`. */
+  flags?: string[];
+  /** Compiler to use; defaults to the assignment's `build.compiler` or `cc`. */
+  compiler?: string;
+}
+
 /** How to turn student sources into an executable. */
 export interface BuildSpec {
   /** Compiler driver. Defaults to `cc`. */
@@ -189,6 +204,12 @@ export interface AssignmentConfig {
   /** The student's test harness, relative to the assignment dir. */
   studentTest?: string;
   subjects?: IdentifySubject[];
+
+  /**
+   * Object files the assignment's README tells the student to link against.
+   * They are compiled from source in the template, for the local platform.
+   */
+  providedObjects?: ProvidedObject[];
 
   // ---- cases --------------------------------------------------------------
   tests?: TestCase[];

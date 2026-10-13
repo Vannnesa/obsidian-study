@@ -18,7 +18,7 @@
   "reportStyle": "squares",
   "timeoutMs": 5000,
   "next": "06_rect",
-  "notes": "The original steps/args were recovered from grade.txt (144 cases). 3 extra cases from the ans_*.txt practice files are included, giving 147.",
+  "notes": "The original steps/args were recovered from grade.txt (144 cases). 3 extra cases from the ans_*.txt practice files are included, giving 147. providedObjects: the course shipped squares_test.o as a Linux x86-64 object, which cannot be linked on macOS or Windows. The template carries the driver as squares_test.c instead, and grade compiles it to squares_test.o for the local platform, so the README's gcc command works as written. The driver source is the reconstruction from REVERSE_ENGINEERING.md section 3, verified byte-identical against all three ans_*.txt files.",
   "tests": [
     {
       "args": [
@@ -1344,5 +1344,14 @@
       "expectedFile": "expected/05_squares/9_2_3_4.txt"
     }
   ],
-  "successVerdict": "PASSED"
+  "successVerdict": "PASSED",
+  "providedObjects": [
+    {
+      "source": "squares_test.c",
+      "output": "squares_test.o",
+      "flags": [
+        "-std=gnu99"
+      ]
+    }
+  ]
 }

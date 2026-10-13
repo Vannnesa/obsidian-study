@@ -40,6 +40,7 @@ import { writeAnswerDir } from "./answer.ts";
 import {
   WorkspaceError,
   advance,
+  buildProvidedObjects,
   initWorkspace,
   progress,
   readState,
@@ -394,6 +395,14 @@ async function doGrade(root: string, args: Args): Promise<number> {
 
   const startedAt = new Date();
   const lines: string[] = [];
+
+  // Safety net for a workspace created before this existed, or one where the
+  // student deleted the object: rebuild it for this platform before grading.
+  await buildProvidedObjects(assignmentDir, id, (line) => {
+    lines.push(line);
+    if (!args.quiet) process.stdout.write(line + "\n");
+  });
+
   const report = (line: string) => {
     lines.push(line);
     if (!args.quiet) process.stdout.write(line + "\n");

@@ -18,7 +18,15 @@
 
 import { existsSync } from "node:fs";
 import path from "node:path";
-import { buffersEqual, echoBytes, filesEqual, foldNewlines, runWithTimeout, showBytes } from "../runner.ts";
+import {
+  buffersEqual,
+  describeByteDifference,
+  echoBytes,
+  filesEqual,
+  foldNewlines,
+  runWithTimeout,
+  showBytes,
+} from "../runner.ts";
 import { resolveDriver } from "../paths.ts";
 import { withBuiltProgram } from "../build.ts";
 import { resolveExpected } from "../paths.ts";
@@ -190,7 +198,14 @@ export async function runCases(
           lines.push("FAILED");
         }
         const { expected } = await materialize(ctx, tc);
-        if (expected) lines.push("Expected:", showBytes(expected), "Got:", showBytes(run.stdout));
+        if (expected) {
+          const expectedShown = showBytes(expected);
+          const actualShown = showBytes(run.stdout);
+          lines.push("Expected:", expectedShown, "Got:", actualShown);
+          if (expectedShown === actualShown) {
+            lines.push(...describeByteDifference(run.stdout, expected));
+          }
+        }
         if (run.stderr.trim()) lines.push("stderr:", run.stderr.trimEnd());
         if (tc.expectedExit !== undefined && run.exitCode !== tc.expectedExit) {
           lines.push(`Your program exited with status ${run.exitCode}; expected ${tc.expectedExit}`);

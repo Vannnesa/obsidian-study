@@ -24,6 +24,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { ConfigError, compareAssignmentIds, listAssignmentIds, readConfig } from "./config.ts";
 import { STATE_DIR, STATE_FILE, isInside, packageRoot, stateFile, templateFor } from "./paths.ts";
+import { ensureProvidedObjects } from "./provided.ts";
 
 export const STATE_VERSION = 1;
 
@@ -221,7 +222,33 @@ export async function scaffoldAssignment(
 
   await mkdir(target, { recursive: true });
   await cp(template, target, { recursive: true });
+
+  // The template carries such objects as C source. Build them now so the
+  // command printed in the assignment's README works the moment the student
+  // opens the folder, rather than failing on a missing file.
+  await buildProvidedObjects(target, id);
+
   return listFiles(target);
+}
+
+/**
+ * Compile the objects an assignment declares, if its config declares any.
+ * Failures are reported and swallowed: grading uses its own copies of the
+ * drivers, so a missing object must not stop the assignment being usable.
+ */
+export async function buildProvidedObjects(
+  assignmentDir: string,
+  id: string,
+  report?: (line: string) => void,
+): Promise<void> {
+  let config;
+  try {
+    config = await readConfig(packageRoot(), id);
+  } catch {
+    return;
+  }
+  const outcome = await ensureProvidedObjects(assignmentDir, config, report);
+  for (const err of outcome.errors) report?.(`Note: ${err}`);
 }
 
 /** Remove a partially created assignment directory, used to undo a failed pass. */

@@ -15,35 +15,50 @@
     You may abstract any pieces you want out into separate functions.
     We've provided two helpers with specification we think may be helpful.
 
- 4. We have provided squares_test.o, which has a main function
-    that takes four command line arguments (size1, x_offset, y_offset, size2),
-    and calls your squares function with those arguments.
-    You can compile your code and link it with this object file
-    to make a program:
-       gcc -o squares -Wall -Werror -std=gnu99 --pedantic squares.c squares_test.o
-    Then you can run it like this:
-      ./square 4 1  2 3
-    which would call your squares function with
-      size1=4
-      x_offset=1
-      y_offset=2
-      size2=3
+ 4. Test your work.  We have provided squares_test.o, which has a main
+    function that takes four command line arguments (size1, x_offset,
+    y_offset, size2), and calls your squares function with those
+    arguments.
 
-    which should produce output that looks like this:
+    The easiest way to test is simply to run:
+
+       grade
+
+    which compiles your code against that driver, runs it on a fixed set
+    of inputs, and tells you whether every one of them produced the
+    right picture.  It writes its verdict to grade.txt.
+
+    You can also do it by hand.  Build a program like this:
+
+       gcc -o squares -Wall -Werror -std=gnu99 --pedantic squares.c squares_test.o
+
+    and then run it:
+
+       ./squares 4 1 2 3
+
+    which calls your squares function with
+
+       size1=4
+       x_offset=1
+       y_offset=2
+       size2=3
+
+    and should produce output that looks like this:
+
 ####
 #  #
 #***
 #*#*
  ***
-We have also provided 3 files which show the correct output for three inputs
-(./squares 3 5 8 2,./squares 5 2 4 6,./squares 9 2 3 4) in the files
-whose names starts with ans_ (and then has the parameter values in its name,
-separated by _s).
 
-Use "diff" like you just learned to compare your program's output
-to the correct output.
+    We have also provided 3 files which show the correct output for three
+    inputs (./squares 3 5 8 2, ./squares 5 2 4 6, ./squares 9 2 3 4) in the
+    files whose names start with ans_ (and then have the parameter values
+    in the name, separated by _s).  Use "diff" like you just learned to
+    compare your program's output to the correct output.
 
- 5. Submit your modified squares.c file (git commit/git push/grade).
+ 5. Submit your modified squares.c file:
 
+       grade
 
-
+    When it passes, your next assignment appears alongside this one.

@@ -114,6 +114,34 @@ Removing your main() and replacing it with our own to run more tests...
 Silently skipped when the source has no `main` and therefore cannot link on its
 own — the normal case for `05_squares`. Applies to `compile_and_run` only.
 
+### `providedObjects[]`
+
+Some assignments tell the student to link against an object file the course
+provided. `05_squares/README` says so:
+
+```
+gcc -o squares -Wall -Werror -std=gnu99 --pedantic squares.c squares_test.o
+```
+
+The object the course shipped is Linux x86-64, so that command only works on
+Linux. Rather than ship a binary that works on one platform, the template
+carries the driver as C source and this field has the grader compile it for
+whatever machine the student is on.
+
+| field | meaning |
+|---|---|
+| `source` | C source, relative to the assignment directory (from the template). |
+| `output` | Object file to produce, relative to the assignment directory. |
+| `flags` | Compiler flags; default `-std=gnu99 -Wall`. |
+| `compiler` | Defaults to `build.compiler`, then `$CC`, then `cc`. |
+
+The object is built when the assignment is first created, so it is already
+there when the student opens the folder, and again before grading if it is
+missing, older than its source, or in a foreign object format — the last case
+catches a workspace created before this existed, where a Linux `.o` would still
+be sitting in the directory. Build failures are reported and never block
+grading, which uses its own copies of the drivers.
+
 ### `tests[]`
 
 | field | meaning |

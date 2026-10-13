@@ -211,14 +211,128 @@ export async function readBytes(file: string, limit = DEFAULT_MAX_CAPTURE): Prom
  * Render a byte buffer as text for `grade.txt`, making trailing whitespace
  * and tabs visible so a diff is actionable.
  */
+/**
+ * Characters that render as nothing, or as an ordinary space, and therefore
+ * make an `Expected:`/`Got:` pair look identical when it is not. Each gets a
+ * name so the report says what is actually there.
+ */
+const INVISIBLE: Record<string, string> = {
+  "\uFEFF": "<BOM>",
+  "\u00A0": "<NBSP>",
+  "\u2000": "<EN-QUAD>",
+  "\u2002": "<EN-SPACE>",
+  "\u2003": "<EM-SPACE>",
+  "\u2007": "<FIGURE-SPACE>",
+  "\u200B": "<ZWSP>",
+  "\u200C": "<ZWNJ>",
+  "\u200D": "<ZWJ>",
+  "\u2028": "<LINE-SEP>",
+  "\u2029": "<PARA-SEP>",
+  "\u2060": "<WORD-JOINER>",
+  "\u3164": "<HANGUL-FILLER>",
+  "\uFFA0": "<HALFWIDTH-HANGUL>",
+};
+
+/** Make every byte-level oddity visible in a rendering. */
+export function makeVisible(text: string): string {
+  let out = "";
+  for (const ch of text) {
+    if (ch === "\t") {
+      out += "\\t";
+      continue;
+    }
+    const named = INVISIBLE[ch];
+    if (named) {
+      out += named;
+      continue;
+    }
+    const cp = ch.codePointAt(0)!;
+    if (cp === 0x7f) {
+      out += "\\x7f";
+    } else if (cp < 0x20 && ch !== "\n") {
+      out += `\\x${cp.toString(16).padStart(2, "0")}`;
+    } else if (cp > 0x7e && cp < 0xa0) {
+      out += `\\x${cp.toString(16).padStart(2, "0")}`;
+    } else {
+      out += ch;
+    }
+  }
+  return out;
+}
+
+/**
+ * Render bytes for `grade.txt`.
+ *
+ * Two jobs beyond decoding: name characters that would otherwise be invisible
+ * (a BOM, a non-breaking space), and mark trailing blanks so "apple " does not
+ * read as "apple".
+ *
+ * Without this, a file with a UTF-8 BOM produced
+ *
+ *     Expected:
+ *     apple
+ *     Got:
+ *     apple
+ *
+ * which tells the student nothing at all.
+ */
 export function showBytes(bytes: Uint8Array, limit = 4000): string {
   const slice = bytes.byteLength > limit ? bytes.subarray(0, limit) : bytes;
-  const text = new TextDecoder("utf-8", { fatal: false }).decode(slice);
-  const body = text.replace(/\t/g, "\\t").replace(/[ \t]+$/gm, (m) => "·".repeat(m.length));
+  // `ignoreBOM: true` means "leave the BOM in the output". The default strips
+  // it, which is precisely wrong here: it would silently delete the one
+  // character that explains why a file does not match.
+  const text = new TextDecoder("utf-8", { fatal: false, ignoreBOM: true }).decode(slice);
+  let body = makeVisible(text).replace(/[ ]+$/gm, (m) => "·".repeat(m.length));
+  // A file that does not end in a newline is a common mistake and is invisible.
+  if (bytes.byteLength > 0 && bytes[bytes.byteLength - 1] !== 0x0a) {
+    body += "<no final newline>";
+  }
   if (bytes.byteLength > limit) {
     return `${body}\n... (${bytes.byteLength - limit} more bytes omitted)`;
   }
   return body;
+}
+
+/**
+ * A byte-level description of where two buffers first diverge.
+ *
+ * Used when the human-readable rendering of both sides comes out identical, so
+ * that the report still says something actionable.
+ */
+export function describeByteDifference(actual: Uint8Array, expected: Uint8Array): string[] {
+  const n = Math.min(actual.byteLength, expected.byteLength);
+  let at = -1;
+  for (let i = 0; i < n; i++) {
+    if (actual[i] !== expected[i]) {
+      at = i;
+      break;
+    }
+  }
+  if (at === -1 && actual.byteLength === expected.byteLength) return [];
+
+  const hex = (b: number) => b.toString(16).padStart(2, "0");
+  const window = (buf: Uint8Array) =>
+    [...buf.subarray(0, Math.min(buf.byteLength, 12))].map(hex).join(" ");
+
+  const where = at === -1 ? "at the end" : `at byte ${at}`;
+  const lines = [
+    `The two look the same when printed, but they differ ${where}.`,
+    `Your file:  ${window(actual)}${actual.byteLength > 12 ? " ..." : ""}   (${actual.byteLength} bytes)`,
+    `Expected:   ${window(expected)}${expected.byteLength > 12 ? " ..." : ""}   (${expected.byteLength} bytes)`,
+  ];
+
+  if (actual.byteLength >= 3 && actual[0] === 0xef && actual[1] === 0xbb && actual[2] === 0xbf) {
+    lines.push(
+      "Your file starts with a UTF-8 byte order mark (BOM). The course's files do not " +
+        "use one, so it counts as content. In most editors there is a setting to save " +
+        "UTF-8 without a BOM; PyCharm calls it \"Add BOM for new UTF-8 files\".",
+    );
+  } else if (at >= 0 && actual[at] === 0x0d && expected[at] === 0x0a) {
+    lines.push("Your file has Windows line endings (CRLF) where LF was expected.");
+  } else if (at >= 0 && expected[at] === 0x0a && actual[at] === 0x20) {
+    lines.push("Your file has trailing spaces before the newline.");
+  }
+  return lines;
 }
 
 /**

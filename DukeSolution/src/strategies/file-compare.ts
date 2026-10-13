@@ -12,7 +12,12 @@
 
 import { existsSync } from "node:fs";
 import path from "node:path";
-import { buffersEqual, describeNewlineDiff, showBytes } from "../runner.ts";
+import {
+  buffersEqual,
+  describeByteDifference,
+  describeNewlineDiff,
+  showBytes,
+} from "../runner.ts";
 import { resolveExpected } from "../paths.ts";
 import type { CaseResult } from "../types.ts";
 import type { Strategy, StrategyContext } from "./index.ts";
@@ -74,7 +79,16 @@ export async function fileCompare(ctx: StrategyContext): Promise<CaseResult[]> {
       `Your file is ${actual.byteLength} bytes; the expected file is ${expected.byteLength} bytes`,
     );
   }
-  lines.push("Expected:", showBytes(expected), "Got:", showBytes(actual));
+  const expectedShown = showBytes(expected);
+  const actualShown = showBytes(actual);
+  lines.push("Expected:", expectedShown, "Got:", actualShown);
+
+  // Last resort: if the two renderings came out the same, the student is
+  // looking at two identical blocks of text. Say exactly where the bytes
+  // diverge instead of leaving them to guess.
+  if (expectedShown === actualShown) {
+    lines.push(...describeByteDifference(actual, expected));
+  }
   lines.forEach(ctx.report);
   return [{ label: config.file!, passed: false, reason: "content mismatch", lines }];
 }
